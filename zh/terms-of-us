@@ -1,0 +1,671 @@
+
+
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/favicon.ico"/>
+    <link rel="icon" type="image/png" href="/templates/custom/images/favicon_belleofx 32х32.png"/>
+            <link rel="stylesheet" href="/templates/custom/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/templates/custom/fonts/IcoMoon/icomoon.css">
+    <link rel="stylesheet" href="/templates/custom/css/old/bootstrap.css">
+    <link href="/templates/custom/css/old/styles.css?v.1.01" rel="stylesheet" type="text/css" />
+    <link href="/templates/custom/css/inner-pages.css?v.1.116" rel="stylesheet" type="text/css" />
+
+    <link rel="preload" href="/templates/custom/fonts/Effra-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/templates/custom/fonts/Effra-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="alternate" href="https://belleofx.com" hreflang="en-ae" />
+    <meta charset="utf-8" />
+	<base href="/zh/terms-of-us" />
+	<title>我们的条款</title>
+	<link href="/fa/terms-of-us" rel="alternate" hreflang="fa-IR" />
+	<link href="/es/terms-of-us" rel="alternate" hreflang="es-ES" />
+	<link href="/zh/terms-of-us" rel="alternate" hreflang="zh-TW" />
+	<link href="/fr/terms-of-us" rel="alternate" hreflang="fr-FR" />
+	<link href="/vi/terms-of-us" rel="alternate" hreflang="vi-VN" />
+	<link href="/tr/terms-of-us" rel="alternate" hreflang="tr-TR" />
+	<link href="/ar/terms-of-us" rel="alternate" hreflang="ar-AA" />
+	<link href="/terms-of-us" rel="alternate" hreflang="en-GB" />
+	<link href="/templates/custom/css/sliding-enquiry.css" rel="stylesheet" />
+	<link href="/templates/custom/css/vendor.css" rel="stylesheet" />
+	<link href="/templates/custom/css/main.css" rel="stylesheet" />
+	<link href="/templates/custom/css/custom.css?119" rel="stylesheet" />
+	<link href="/media/mod_languages/css/template.css?21b43949eb00c2dc28868a748e2b361a" rel="stylesheet" />
+	<script src="/media/jui/js/jquery.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/jui/js/bootstrap.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/system/js/caption.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script>
+jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+	</script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WXNKPTL3B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5WXNKPTL3B');
+    </script>
+    <!-- End Google tag (gtag.js) -->
+    <!-- Google Tag Manager -->
+    <script>
+
+        setTimeout(() => {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-KNGN98Q');
+        }, 8000);
+        var phone = countryCode['']
+        var country = ''
+        var phonePrefix = '123';
+        document.addEventListener('DOMContentLoaded', function() {
+            country = countryCode.find(el => el.name === "Nigeria");
+            console.log(countryCode);
+            document.getElementById("uForm__tel_1").placeholder = country.dial_code;
+        }, false);
+        document.getElementById("uForm__tel_1").onclick = (e) =>{
+            let tel = jQuery("#uForm__tel_1");
+            console.log(tel.val());
+            if(tel.val() !== '+__ ___-___-____') return
+            tel.val( country.dial_code.slice(1) ).trigger('input');
+
+        }
+
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body class="">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNGN98Q"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- <div class="preloader-dots">
+    <div></div>
+    <div></div>
+    <div></div>
+</div> -->
+<header class="header">
+    <div class="wrapper">
+        <div class="header__container">
+            <div class="header__left">
+                <button class="burger btn-transparent btn-reset" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+                    <div class="icon">
+                        <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.948 0H17.051C17.573 0 18 0.427 18 0.949V1.051C18 1.573 17.573 2 17.051 2H0.948C0.426 2 0 1.573 0 1.051V0.949C0 0.427 0.426 0 0.948 0ZM17.051 5H0.948C0.426 5 0 5.427 0 5.949V6.051C0 6.573 0.426 7 0.948 7H17.051C17.573 7 18 6.573 18 6.051V5.949C18 5.427 17.573 5 17.051 5ZM17.051 10H0.948C0.426 10 0 10.427 0 10.949V11.051C0 11.573 0.426 12 0.948 12H17.051C17.573 12 18 11.573 18 11.051V10.949C18 10.427 17.573 10 17.051 10Z" fill="url(#paint0_linear_16_9372)"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_16_9372" x1="0" y1="5.99769" x2="18.003" y2="5.99769" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#8F4DED"/>
+                            <stop offset="1" stop-color="#6D43E1"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    選單
+                </button>
+                <div class="lang_block ">
+    <div>
+                                                                            <div class="lang_block__active-btn">
+                    <span class="lang_block__btn lang_active p-10">
+                        <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                        <span class="lang_block__btn_val">ZH</span>
+                    </span>
+                </div>
+                
+        <div class="lang_block__all-lang__outer">
+            <div class="lang_block__all-lang">
+                <div class="lang_block__all__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24" fill="none">
+                        <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                    </svg>
+                </div>
+                
+                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fa/terms-of-us">
+                            <img src="/media/mod_languages/images/fa_ir.gif" alt="" />                            <span class="lang_block__btn_val">FA</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/es/terms-of-us">
+                            <img src="/media/mod_languages/images/es_es.gif" alt="" />                            <span class="lang_block__btn_val">ES</span>
+                        </a></span>
+                                                                                <span class="lang_block__active-btn lang_block__btn d-flex">
+                        <a href="/zh/terms-of-us">
+                            <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                            <span class="lang_block__btn_val">ZH</span>
+                        </a></span>
+                                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fr/terms-of-us">
+                            <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                            <span class="lang_block__btn_val">FR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/vi/terms-of-us">
+                            <img src="/media/mod_languages/images/vi_vn.gif" alt="" />                            <span class="lang_block__btn_val">VI</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/tr/terms-of-us">
+                            <img src="/media/mod_languages/images/tr_tr.gif" alt="" />                            <span class="lang_block__btn_val">TR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/ar/terms-of-us">
+                            <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                            <span class="lang_block__btn_val">AR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/en/terms-of-us">
+                            <img src="/media/mod_languages/images/en-gb.gif" alt="" />                            <span class="lang_block__btn_val">EN</span>
+                        </a></span>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+                            </div>
+            <div class="mobile-menu" data-menu>
+                <div class="mobile-menu__container">
+                    <div class="mobile-menu__content">
+                        <div class="mobile-menu__top">
+
+                            <a href="/zh/" class="logo-link">
+                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: BelleoFx icon" class="logo">
+                            </a>
+                            <button class="btn-reset btn-menu-close">
+                                <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <nav class="nav">
+                            <ul class="nav menu mod-list">
+<li class="item-411 deeper parent"><a href="/zh/" >公司</a><ul class="nav-child unstyled small"><li class="item-412"><a href="/zh/company/about" >关于 BelleoFX</a></li><li class="item-413"><a href="/zh/company/account-types" >账户类型</a></li><li class="item-414"><a href="/zh/company/careers" >职业机会</a></li><li class="item-416"><a href="/zh/company/faq" >常见问题解答</a></li><li class="item-415"><a href="/zh/company/contact-us" >联系我们</a></li></ul></li><li class="item-426 deeper parent"><a href="/zh/" >市场</a><ul class="nav-child unstyled small"><li class="item-430"><a href="/zh/markets/online-forex-trading-platform" >外汇</a></li><li class="item-431"><a href="/zh/markets/stocks" >股票</a></li><li class="item-429"><a href="/zh/markets/indices-trading-system" >指数</a></li><li class="item-427"><a href="/zh/markets/commodities" >商品</a></li></ul></li><li class="item-442 deeper parent"><a href="/zh/trading/trading-platform" >贸易</a><ul class="nav-child unstyled small"><li class="item-444"><a href="/zh/trading/trading-platform" >交易平台</a></li><li class="item-443"><a href="/zh/trading/economic-calendar" >经济日历</a></li></ul></li><li class="item-424"><a href="/zh/funding" >资金</a></li><li class="item-433 deeper parent"><a href="/zh/" >合伙</a><ul class="nav-child unstyled small"><li class="item-435"><a href="/zh/partnership/white-label" >白色标签</a></li><li class="item-434"><a href="/zh/partnership/introducing-broker-ib" >介绍经纪商 (IB)</a></li></ul></li><li class="item-437 deeper parent"><a href="#" >促销活动</a><ul class="nav-child unstyled small"><li class="item-438"><a href="/zh/promotions/100-credit-bonus" >100% 信用奖金</a></li></ul></li></ul>
+
+                            <div class="lang_block ">
+    <div>
+                                                                            <div class="lang_block__active-btn">
+                    <span class="lang_block__btn lang_active p-10">
+                        <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                        <span class="lang_block__btn_val">ZH</span>
+                    </span>
+                </div>
+                
+        <div class="lang_block__all-lang__outer">
+            <div class="lang_block__all-lang">
+                <div class="lang_block__all__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24" fill="none">
+                        <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                    </svg>
+                </div>
+                
+                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fa/terms-of-us">
+                            <img src="/media/mod_languages/images/fa_ir.gif" alt="" />                            <span class="lang_block__btn_val">FA</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/es/terms-of-us">
+                            <img src="/media/mod_languages/images/es_es.gif" alt="" />                            <span class="lang_block__btn_val">ES</span>
+                        </a></span>
+                                                                                <span class="lang_block__active-btn lang_block__btn d-flex">
+                        <a href="/zh/terms-of-us">
+                            <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                            <span class="lang_block__btn_val">ZH</span>
+                        </a></span>
+                                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fr/terms-of-us">
+                            <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                            <span class="lang_block__btn_val">FR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/vi/terms-of-us">
+                            <img src="/media/mod_languages/images/vi_vn.gif" alt="" />                            <span class="lang_block__btn_val">VI</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/tr/terms-of-us">
+                            <img src="/media/mod_languages/images/tr_tr.gif" alt="" />                            <span class="lang_block__btn_val">TR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/ar/terms-of-us">
+                            <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                            <span class="lang_block__btn_val">AR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/en/terms-of-us">
+                            <img src="/media/mod_languages/images/en-gb.gif" alt="" />                            <span class="lang_block__btn_val">EN</span>
+                        </a></span>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+                        </nav>
+                        <div class="header__right">
+                            <a href="https://pa.belleofx.com/zh/signup" class="btn-reset btn-main btn-main--white">
+                                立即加入                            </a>
+                            <a href="/zh/demo" class="btn-reset btn-main btn-main--black">
+                                嘗試模擬帳戶                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="/zh/" class="logo-link">
+                                               
+                <img src="/templates/custom/images/icon/logo.svg" alt="logo: BelleoFx icon" class="logo">
+                <img src="/templates/custom/images/icon/logo-icon.svg" alt="logo: BelleoFx icon" class="logo logo--mob">
+            </a>
+            <nav class="nav">
+                <ul class="nav menu mod-list">
+<li class="item-411 deeper parent"><a href="/zh/" >公司</a><ul class="nav-child unstyled small"><li class="item-412"><a href="/zh/company/about" >关于 BelleoFX</a></li><li class="item-413"><a href="/zh/company/account-types" >账户类型</a></li><li class="item-414"><a href="/zh/company/careers" >职业机会</a></li><li class="item-416"><a href="/zh/company/faq" >常见问题解答</a></li><li class="item-415"><a href="/zh/company/contact-us" >联系我们</a></li></ul></li><li class="item-426 deeper parent"><a href="/zh/" >市场</a><ul class="nav-child unstyled small"><li class="item-430"><a href="/zh/markets/online-forex-trading-platform" >外汇</a></li><li class="item-431"><a href="/zh/markets/stocks" >股票</a></li><li class="item-429"><a href="/zh/markets/indices-trading-system" >指数</a></li><li class="item-427"><a href="/zh/markets/commodities" >商品</a></li></ul></li><li class="item-442 deeper parent"><a href="/zh/trading/trading-platform" >贸易</a><ul class="nav-child unstyled small"><li class="item-444"><a href="/zh/trading/trading-platform" >交易平台</a></li><li class="item-443"><a href="/zh/trading/economic-calendar" >经济日历</a></li></ul></li><li class="item-424"><a href="/zh/funding" >资金</a></li><li class="item-433 deeper parent"><a href="/zh/" >合伙</a><ul class="nav-child unstyled small"><li class="item-435"><a href="/zh/partnership/white-label" >白色标签</a></li><li class="item-434"><a href="/zh/partnership/introducing-broker-ib" >介绍经纪商 (IB)</a></li></ul></li><li class="item-437 deeper parent"><a href="#" >促销活动</a><ul class="nav-child unstyled small"><li class="item-438"><a href="/zh/promotions/100-credit-bonus" >100% 信用奖金</a></li></ul></li></ul>
+
+            </nav>
+            <div class="header__right">
+                <a href="https://pa.belleofx.com/en/login" class="btn-reset btn-transparent">
+                    登入                </a>
+                <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">
+                    註冊                </a>
+                                <div class="lang_block ">
+    <div>
+                                                                            <div class="lang_block__active-btn">
+                    <span class="lang_block__btn lang_active p-10">
+                        <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                        <span class="lang_block__btn_val">ZH</span>
+                    </span>
+                </div>
+                
+        <div class="lang_block__all-lang__outer">
+            <div class="lang_block__all-lang">
+                <div class="lang_block__all__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24" fill="none">
+                        <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                    </svg>
+                </div>
+                
+                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fa/terms-of-us">
+                            <img src="/media/mod_languages/images/fa_ir.gif" alt="" />                            <span class="lang_block__btn_val">FA</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/es/terms-of-us">
+                            <img src="/media/mod_languages/images/es_es.gif" alt="" />                            <span class="lang_block__btn_val">ES</span>
+                        </a></span>
+                                                                                <span class="lang_block__active-btn lang_block__btn d-flex">
+                        <a href="/zh/terms-of-us">
+                            <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                            <span class="lang_block__btn_val">ZH</span>
+                        </a></span>
+                                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fr/terms-of-us">
+                            <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                            <span class="lang_block__btn_val">FR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/vi/terms-of-us">
+                            <img src="/media/mod_languages/images/vi_vn.gif" alt="" />                            <span class="lang_block__btn_val">VI</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/tr/terms-of-us">
+                            <img src="/media/mod_languages/images/tr_tr.gif" alt="" />                            <span class="lang_block__btn_val">TR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/ar/terms-of-us">
+                            <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                            <span class="lang_block__btn_val">AR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/en/terms-of-us">
+                            <img src="/media/mod_languages/images/en-gb.gif" alt="" />                            <span class="lang_block__btn_val">EN</span>
+                        </a></span>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="zh-TW" />
+			<div class="page-contacts page-bonus mt100 page-policy"><div class="intro" style="background-image:url(/images/contacts/bg-contacts.jpg)"><div class="wrapper"><h1 class="title mb0">我们的条款</h1></div></div><div class="terms-section address-section"><div class="wrapper"><p>本页（连同其中提到的文件）告诉您使用我们网站（我们的网站）的使用条款，无论您是作为访客还是注册用户。在开始使用本网站之前，请仔细阅读这些使用条款。使用我们的网站（以下简称“网站”），即表示您接受这些使用条款、隐私政策和 Cookie 政策、通知、免责声明以及网站上包含的由我们发布或授权的任何其他条款和条件或其他声明（统称为条款）。使用本网站即表示您同意遵守这些条款。如果您不同意这些使用条款，请不要使用我们的网站。</p><div class="title grad">关于我们的信息</div><p>BelleoFX（Belleo Markets 的交易名称）受毛里求斯共和国金融服务委员会监管，拥有投资交易商许可证 GB21027167，注册办事处位于Level 6, Ken Lee Building, 20 Edith Cavell St, Port Louis, Mauritius。</p><div class="title grad">访问我们的网站</div><p>允许临时访问我们的网站，我们保留撤回或修改我们在网站上提供的服务的权利，恕不另行通知（见下文）。如果我们的网站因任何原因在任何时间或任何期间不可用，我们将不承担任何责任。<br><br>有时，我们可能会限制向我们注册的用户访问我们网站的某些部分或整个网站。<br><br>如果您选择或向您提供用户识别码、密码或任何其他信息作为我们安全程序的一部分，您必须将此类信息视为机密，并且不得将其透露给任何第三方。如果我们认为您未能遵守本使用条款的任何规定，我们有权随时禁用任何用户识别码或密码，无论是您选择的还是我们分配的，并且用户将相应地被告知。<br><br>此外，如果我们认为存在不合理使用、安全或未经授权访问的担忧，或者您违反了任何这些条款，我们保留随时拒绝或终止您对本网站的全部或部分访问的权利；或在不事先通知您的情况下阻止或暂停您的帐户、删除您的默认设置或其中的一部分。</p><div class="title grad">使用我们的网站时，您必须遵守以下规定</div><ul><li>您有责任做出一切必要的安排，以便您访问我们的网站。您还有责任确保所有通过您的互联网连接访问我们网站的人都了解并遵守这些条款。</li><li>我们是我们网站及其上发布的材料的所有知识产权的所有者或被许可人。这些作品受到世界各地版权法和条约的保护。所有类似权限一律保留。</li><li>您可以打印一份副本，也可以从我们的网站下载任何页面的摘录供您个人参考，并且您可以提请组织内其他人注意我们网站上发布的材料。</li><li>您不得以任何方式修改您打印或下载的任何材料的纸质或数字副本，并且不得将任何插图、照片、视频或音频序列或任何图形与任何随附文本分开使用。</li><li>我们（以及任何已确定的贡献者）作为我们网站上材料的作者的地位必须始终得到承认。</li><li>未经我们或我们的许可方许可，您不得将我们网站上的材料的任何部分用于商业目的。</li><li>如果您违反这些使用条款打印、复制或下载我们网站的任何部分，您使用我们网站的权利将立即终止，并且您必须根据我们的选择返还或销毁您制作的材料的任何副本。</li><li>您不得以任何违反任何适用的当地、国家或国际法律或法规的方式使用我们的网站来传输或促使发送任何未经请求或未经授权的广告或促销材料或任何其他形式的招揽。 o 您不得以任何非法或欺诈方式或具有任何非法或欺诈目的或效果的方式使用我们的网站。</li><li>传输或促使发送任何未经请求或未经授权的广告或促销材料或任何其他形式的类似招揽。</li><li>故意传输任何数据、发送或上传包含病毒、特洛伊木马、蠕虫、定时炸弹、击键记录器、间谍软件、广告软件或任何其他有害程序或旨在对任何计算机软件的操作产生不利影响的类似计算机代码的任何材料，或硬件。</li></ul><div class="title grad">对发布信息的依赖</div><p>我们网站上发布的评论和其他材料并不构成值得信赖的建议。因此，我们不承担因我们网站的任何访问者或任何可能被告知其任何内容的人对此类材料的依赖而产生的所有责任和义务。</p><div class="title grad">我们的网站定期更改</div><p>我们的目标是定期更新我们的网站，并可能随时更改内容。如果有需要，我们可能会暂停访问我们的网站，或无限期关闭它。<br><br>我们网站上的任何材料、内容或法律文件在任何给定时间都可能过时，我们没有义务更新此类材料。</p><div class="title grad">我们的责任</div><p>我们网站上显示的材料对其准确性不提供任何保证、条件或保证。在法律允许的范围内，我们、我们公司集团的其他成员以及与我们相关的第三方特此明确排除：<br><br>成文法、普通法或衡平法可能暗示的所有条件、保证和其他条款。<br><br>任何用户因与我们的网站有关或与使用、无法使用或使用我们的网站、与其链接的任何网站以及发布的任何材料有关的任何直接、间接或后果性损失或损害而承担的任何责任对其承担的责任，包括但不限于：</p><ul><li>收入或收入损失；</li><li>业务损失；</li><li>利润或合同损失；</li><li>预期储蓄损失；</li><li>数据丢失；</li><li>商誉损失；</li><li>浪费管理或办公时间；以及任何类型的任何其他损失或损害，无论是由侵权行为（包括疏忽）、违约还是其他原因造成的，即使是可预见的，前提是此条件不应阻止对您的有形财产损失或损害提出索赔或任何其他未排除在上述任何类别之外的直接财务损失索赔。</li></ul><p>这并不影响我们因疏忽而造成的死亡或人身伤害的责任，也不影响我们对欺诈性失实陈述或对基本事项的失实陈述的责任，也不影响根据适用法律不能排除或限制的任何其他责任。</p><div class="title grad">有关您和您访问我们网站的信息</div><p>我们根据我们的隐私政策处理有关您的信息。您对我们网站的使用须遵守我们的隐私政策和 Cookie 政策。请注意，当您访问和/或使用我们的网站和/或通过我们的网站提供的任何其他服务时，我们可能会收集和/或以其他方式处理您的个人数据。我们的网站也使用 cookie。<br>因此，您应该查阅我们的隐私政策和 Cookie 政策，其中我们更详细地描述了我们如何收集和/或处理您的个人数据以及您的数据保护权利。<br>通过使用我们的网站，您承认我们公司将出于我们的隐私政策中所述的目的收集、使用和/或以其他方式处理您的个人数据，并且您特此保证您提供的所有个人数据都是准确和有效的。</p><div class="title grad">通过我们的网站完成的交易</div><p>通过我们的网站或因您访问而形成的商品、服务或信息供应合同将受我们与您签订的帐户协议的单独条款和条件的约束。</p><div class="title grad">将材料上传到我们的网站</div><p>每当您使用允许您将材料上传到我们网站或联系我们网站的其他用户的功能时，您都必须遵守我们的内容标准。您保证任何此类贡献均符合这些标准，并且您将赔偿我们因违反该保证而造成的任何损失。</p><div class="title grad">对我们网站的贡献不得：</div><ul><li>包含任何诽谤任何人的材料。</li><li>包含任何淫秽、攻击性、仇恨或煽动性的材料。</li><li>宣传露骨的色情内容。</li><li>宣扬暴力。</li><li>提倡基于种族、性别、宗教、国籍、残疾、性取向或年龄的歧视。</li><li>侵犯任何其他人的任何版权、数据库权或商标。</li><li>可能会欺骗任何人。</li><li>违反对第三方承担的任何法律义务，例如合同义务或保密义务。</li><li>促进任何非法活动。</li><li>威胁、辱骂或侵犯他人隐私，或造成烦恼、不便或不必要的焦虑。</li><li>可能会骚扰、不安、尴尬、惊慌或惹恼任何其他人。</li><li>用于冒充任何人，或歪曲您的身份或与任何人的关系。</li><li>给人的印象是它们来自我们，如果事实并非如此。</li><li>提倡、促进或协助任何非法行为，例如（仅作为示例）侵犯版权或滥用计算机。</li></ul><p>您上传到我们网站的任何材料都将被视为非机密和非专有，我们有权出于任何目的使用、复制、分发和向第三方披露任何此类材料。我们还有权向任何声称您在我们网站上发布或上传的任何材料构成对其知识产权或隐私权的侵犯的第三方披露您的身份。<br><br>此外，我们保留调查投诉和/或举报的违反本条款的行为的权利，并保留采取我们自行认为适当的任何行动的权利，包括但不包括<br><br>仅限于向适当的执法部门报告任何可疑的非法活动<br><br>官员、监管机构或其他方（如适用），并向他们披露与用户个人资料、电子邮件和 IP 地址、使用历史记录、发布的材料和流量信息等相关的任何必要或适当的信息。<br><br>对于您或我们网站的任何其他用户发布的任何材料的内容或准确性，我们不承担任何责任，也不对任何第三方负责。<br><br>如果我们认为您在我们网站上发布的任何材料或帖子不符合我们可接受的使用政策中规定的内容标准，我们有权删除此类材料。</p><div class="title grad">互动服务</div><p>我们可能会不时在我们的网站上提供互动服务（互动服务）。<br><br>在我们确实提供任何互动服务的情况下，我们将向您提供明确的信息，说明所提供的服务类型、是否经过审核以及使用何种形式的审核（包括是人工审核还是技术审核）。我们将尽最大努力评估用户（特别是儿童）在使用我们网站上提供的任何互动服务时可能面临的来自第三方的风险，并且我们将根据每种情况决定是否适当对这些内容进行审核。根据这些风险提供相关服务（包括使用何种审核方式）。但是，我们没有义务监督、监控或调节我们在网站上提供的任何互动服务，并且我们明确排除因用户违反我们的内容标准而使用任何互动服务而造成的任何损失或损害的责任，无论服务是否经过审核。<br><br>未成年人使用我们的任何互动服务均需征得其父母或监护人的同意。我们建议允许孩子使用互动服务的家长与孩子就在线安全问题进行沟通，这一点很重要，因为适度并不是万无一失的。使用任何互动服务的未成年人应了解其潜在风险。公司禁止向 18 岁以下的未成年人提供服务。如果我们对互动服务进行审核，我们通常会为您提供在出现问题或困难时联系审核人的方法。</p><div class="title grad">病毒、黑客攻击和其他犯罪行为</div><p>您不得通过故意引入病毒、木马、蠕虫、逻辑炸弹或其他恶意或技术有害的材料来滥用我们的网站。您不得试图未经授权访问我们的网站、存储我们网站的服务器或连接到我们网站的任何服务器、计算机或数据库。您不得通过拒绝服务攻击或分布式拒绝服务攻击来攻击我们的网站。<br><br>如果违反此规定，您将构成《网络犯罪公约》规定的刑事犯罪。我们将向相关执法机构报告任何此类违规行为，并与这些机构合作，向他们披露您的身份。如果发生此类违规行为，您使用我们网站的权利将立即终止。<br><br>对于由于您使用我们的网站或服务而可能感染您的计算机设备、计算机程序、数据或其他专有材料的分布式拒绝服务攻击、病毒或其他技术上有害的材料所造成的任何损失或损害，我们不承担任何责任您下载其上或与其链接的任何网站上发布的任何材料。</p><div class="title grad">暂停和终止</div><p>我们将酌情确定您对我们网站的使用是否违反了这些条款。当发生违反本政策的行为时，我们可以采取我们认为适当的行动。<br><br>不遵守这些条款构成重大违约，并可能导致我们采取以下全部或任何行动：</p><ul><li>立即、暂时或永久撤销您使用我们网站的权利。</li><li>立即、暂时或永久删除您上传到我们网站的任何帖子或材料。</li><li>向您发出警告</li><li>对您提起法律诉讼，要求您赔偿因违约而产生的所有费用（包括但不限于合理的行政和法律费用）。</li><li>对您采取进一步的法律行动。</li><li>我们合理认为有必要向执法机构披露此类信息。</li></ul><p>我们不承担因违反这些条款而采取的行动的责任。本政策中描述的回应不受限制，我们可能会采取我们合理认为适当的任何其他行动。</p><div class="title grad">链接到我们的网站</div><p>您可以链接到我们的主页，前提是您以公平合法的方式这样做，并且不会损害我们的声誉或利用它，但您不得以暗示任何形式关联的方式建立链接、我们方面不存在的批准或认可。<br><br>您不得以任何方式与我们的品牌名称 BelleoFX 或我们公司的法定名称（例如 Belleo Markets 或 BelleoFX 品牌集团公司的任何其他名称）建立链接。<br><br>客户不得使用和提及我们的品牌名称、公司名称、员工或管理团队名称，以便在任何网站或社交媒体帐户上以任何形式的内容撰写评论。<br><br>您不得从不属于您所有的任何网站建立链接。<br><br>我们的网站不得在任何其他网站上构建，您也不得创建指向我们网站除主页以外的任何部分的链接。我们保留撤销链接许可的权利，恕不另行通知。<br><br>您所链接的网站必须在所有方面均符合将材料上传到我们网站的上述部分中规定的标准。<br><br>如果您希望使用我们网站上除上述内容之外的任何材料，请将您的请求发送至<a href="mailto:support@belleofx.com" target="_blank">support@belleofx.com</a></p><div class="title grad">从我们的网站链接</div><p>如果我们的网站包含第三方提供的其他网站和资源的链接，这些链接仅供您参考。我们无法控制这些网站或资源的内容，并且对其或因使用它们而可能产生的任何损失或损害不承担任何责任。有关第三方提供的其他网站或资源的链接的任何投诉或询问应直接向第三方提出。本公司不承担代表用户联系其他网站或第三方资源提供商的责任。公司不负责此类第三方网站的处理活动，也不负责将用户重定向至此类第三方的隐私声明和相关政策。</p><div class="title grad">商标和知识产权</div><p>除非另有说明，Belleo Markets 以商品名 BelleoFX 运营，是显示本网站的页面和屏幕、其中的信息和材料及其安排的版权所有者。 Belleo Markets 拥有本网站中包含和/或出现的各种商品名称和商标的专有权或使用许可或任何其他许可。</p><div class="title grad">变化</div><p>我们可能随时通过修改此页面来修改这些使用条款。您应该不时查看此页面，以了解我们所做的任何更改，因为它们对您具有约束力。这些使用条款中包含的一些规定也可能被我们网站其他地方发布的规定或通知所取代。</p><div class="title grad">您的担忧</div><p>如果您对我们网站上出现的材料有任何疑问，请联系<a href="mailto:support@belleofx.com" target="_blank">support@belleofx.com</a><br><br>通过访问<a href="/www.belleofx.com">www.BelleoFX.com</a>网站及其链接的任何页面<a href="https://pa.belleofx.com/en/login" target="_blank">(https://pa.belleofx.com/en/login)</a>等，我同意受上述条款和条件的约束。</p></div></div></div> 	</div>
+
+</main>
+
+<section class="section above-footer">
+  <div class="wrapper">
+    <a href="/" class="logo-link">
+      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: BelleoFx icon" class="logo"> -->
+      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: BelleoFx icon" class="logo"> -->
+      <img src="/../images/icon/logo-white.svg" alt="logo: BelleoFx icon" class="logo">
+    </a>
+    <div class="above-footer__container">
+      <div class="item-contacts">
+        <div class="contacts">
+          <h4 class="item-contacts__title">
+              聯絡我們
+          </h4>
+          <a href="tel:+97145417900" class="phone-link">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.10139 5.73954C5.62511 6.83033 6.33904 7.85266 7.24319 8.75681C8.14734 9.66096 9.16967 10.3749 10.2605 10.8986C10.3543 10.9437 10.4012 10.9662 10.4606 10.9835C10.6715 11.045 10.9306 11.0008 11.1092 10.8729C11.1595 10.8369 11.2025 10.7939 11.2885 10.7079C11.5516 10.4448 11.6831 10.3133 11.8154 10.2273C12.3142 9.90295 12.9572 9.90295 13.456 10.2273C13.5883 10.3133 13.7198 10.4448 13.9829 10.7079L14.1295 10.8545C14.5294 11.2544 14.7294 11.4543 14.838 11.6691C15.054 12.0961 15.054 12.6005 14.838 13.0276C14.7294 13.2423 14.5294 13.4423 14.1295 13.8421L14.0109 13.9608C13.6124 14.3593 13.4131 14.5585 13.1422 14.7107C12.8416 14.8796 12.3747 15.001 12.0299 15C11.7192 14.9991 11.5068 14.9388 11.0821 14.8182C8.79956 14.1704 6.64573 12.948 4.84885 11.1511C3.05197 9.35427 1.82961 7.20044 1.18176 4.91791C1.06121 4.49318 1.00093 4.28082 1.00001 3.97009C0.99898 3.62529 1.1204 3.15839 1.28927 2.85778C1.44145 2.58686 1.64072 2.3876 2.03924 1.98908L2.15785 1.87046C2.55775 1.47057 2.75769 1.27062 2.97243 1.16201C3.39951 0.945997 3.90386 0.945997 4.33093 1.16201C4.54567 1.27062 4.74562 1.47057 5.14551 1.87046L5.29214 2.0171C5.55521 2.28016 5.68674 2.4117 5.77274 2.54396C6.09705 3.04277 6.09705 3.68581 5.77274 4.18461C5.68674 4.31688 5.55521 4.44842 5.29214 4.71148C5.20613 4.7975 5.16312 4.84051 5.12712 4.89078C4.99919 5.06944 4.95502 5.32848 5.01651 5.53944C5.03382 5.5988 5.05634 5.64571 5.10139 5.73954Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg> 
+            <span class="dir-ltr">+971 4 541 7900</span>
+          </a>
+          <a href="email:support@belleofx.com" class="email-link">
+            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.625 11.5L10.6429 7M6.35714 7L1.37503 11.5M1 3.25L7.12369 7.53658C7.61957 7.8837 7.86751 8.05726 8.1372 8.12448C8.37542 8.18386 8.62458 8.18386 8.8628 8.12448C9.13249 8.05726 9.38043 7.8837 9.87631 7.53658L16 3.25M4.6 13H12.4C13.6601 13 14.2902 13 14.7715 12.7548C15.1948 12.539 15.539 12.1948 15.7548 11.7715C16 11.2902 16 10.6601 16 9.4V4.6C16 3.33988 16 2.70982 15.7548 2.22852C15.539 1.80516 15.1948 1.46095 14.7715 1.24524C14.2902 1 13.6601 1 12.4 1H4.6C3.33988 1 2.70982 1 2.22852 1.24524C1.80516 1.46095 1.46095 1.80516 1.24524 2.22852C1 2.70982 1 3.33988 1 4.6V9.4C1 10.6601 1 11.2902 1.24524 11.7715C1.46095 12.1948 1.80516 12.539 2.22852 12.7548C2.70982 13 3.33988 13 4.6 13Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            support@belleofx.com
+          </a>
+          <p class="address">
+            <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.5 9.4C8.84619 9.4 9.9375 8.32548 9.9375 7C9.9375 5.67452 8.84619 4.6 7.5 4.6C6.15381 4.6 5.0625 5.67452 5.0625 7C5.0625 8.32548 6.15381 9.4 7.5 9.4Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.5 17C9.125 13.8 14 11.7346 14 7.4C14 3.86538 11.0899 1 7.5 1C3.91015 1 1 3.86538 1 7.4C1 11.7346 5.875 13.8 7.5 17Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+              阿聯酋迪拜謝赫扎耶德路第一貿易中心 Burj Al Salam 辦公室 3501          </p>
+        </div>
+        <div class="follows">
+          <h4 class="item-contacts__title">
+              關注我們          </h4>
+          
+
+<div class="custom"  >
+	<div class="socials">
+  <a href="https://www.facebook.com/belleofx/" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#facebook"></use>
+    </svg>
+  </a>
+  <!--<a href="https://www.quora.com/profile/BelleoFX-1?q=belleo58" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#quora"></use>
+    </svg>
+  </a>-->
+  <a href="https://www.instagram.com/belleo_fx/?hl=en" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#instagram"></use>
+    </svg>
+  </a>
+  <a href="https://www.linkedin.com/company/belleofx" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#linkedin"></use>
+    </svg>
+  </a>
+  
+  <a href="https://twitter.com/Belleofx1" target="_blank" class="socials__link">
+        <svg class="icon">
+      <use xlink:href="/images/sprite.svg#twitter"></use>
+    </svg>
+  </a>
+  
+  <a href="https://www.youtube.com/@belleofx" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#youtube"></use>
+    </svg>
+  </a>
+</div></div>
+
+        </div>
+      </div>
+      <div class="item-menu">
+        <nav class="nav">
+            <ul class="nav menu mod-list">
+<li class="item-411 deeper parent"><a href="/zh/" >公司</a><ul class="nav-child unstyled small"><li class="item-412"><a href="/zh/company/about" >关于 BelleoFX</a></li><li class="item-413"><a href="/zh/company/account-types" >账户类型</a></li><li class="item-414"><a href="/zh/company/careers" >职业机会</a></li><li class="item-416"><a href="/zh/company/faq" >常见问题解答</a></li><li class="item-415"><a href="/zh/company/contact-us" >联系我们</a></li></ul></li><li class="item-426 deeper parent"><a href="/zh/" >市场</a><ul class="nav-child unstyled small"><li class="item-430"><a href="/zh/markets/online-forex-trading-platform" >外汇</a></li><li class="item-431"><a href="/zh/markets/stocks" >股票</a></li><li class="item-429"><a href="/zh/markets/indices-trading-system" >指数</a></li><li class="item-427"><a href="/zh/markets/commodities" >商品</a></li></ul></li><li class="item-442 deeper parent"><a href="/zh/trading/trading-platform" >贸易</a><ul class="nav-child unstyled small"><li class="item-444"><a href="/zh/trading/trading-platform" >交易平台</a></li><li class="item-443"><a href="/zh/trading/economic-calendar" >经济日历</a></li></ul></li><li class="item-424"><a href="/zh/funding" >资金</a></li><li class="item-433 deeper parent"><a href="/zh/" >合伙</a><ul class="nav-child unstyled small"><li class="item-435"><a href="/zh/partnership/white-label" >白色标签</a></li><li class="item-434"><a href="/zh/partnership/introducing-broker-ib" >介绍经纪商 (IB)</a></li></ul></li><li class="item-437 deeper parent"><a href="#" >促销活动</a><ul class="nav-child unstyled small"><li class="item-438"><a href="/zh/promotions/100-credit-bonus" >100% 信用奖金</a></li></ul></li></ul>
+  
+        </nav>
+      </div>
+      <div class="item-description">
+                <p class="text">
+            BelleoFX 是 Belleo Markets（毛里求斯）、BelleoFX（聖文森特和格林納丁斯）和 Belleo Markets - Rep.Office（阿聯酋）的品牌名稱。<br><br>
+                                       Belleo Markets (MU) 在毛里求斯共和國註冊成立，註冊號碼為 186405 GBC。 公司作為投資交易商（經紀商）受毛里求斯金融服務委員會（FSC）監管，牌照號GB21027167。<br><br>
+                                       BelleoFX (SVG) 經聖文森特和格林納丁斯金融服務管理局 (FSA) 註冊為國際商業公司，註冊號碼為 2584 LLC 2022。<br><br>
+                                       Belleo Markets - 代表處（阿聯酋）是外國公司（Belleo Markets Mauritius）的分支機構，由DET註冊和監管，許可證號為1074850。<br><br>
+                                       BelleoFX 不與來自 OFAC 制裁國家和 FATF 黑名單國家的客戶合作。        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__container">
+            <nav class="nav">
+              <ul>
+                <li>
+                  <a href="/zh/privacy-policy">
+                      隱私權政策                  </a>
+                </li>
+                <li>
+                  <a href="/zh/cookies-policy">
+                      Cookie 政策                  </a>
+                </li>
+                <li>
+                  <a href="/zh/aml-ctf-policy">
+                      AML 和 CTF 政策                  </a>
+                </li>
+                <li>
+                  <!-- <a href="/files/risk_warning_mu_belleofx.pdf">Risk Warning</a> -->
+                  <a href="/zh/risk-warning">
+                      風險警告                  </a>
+                </li>
+                <li>
+                  <a href="/zh/terms-of-us">
+                      使用條款                  </a>
+                </li>
+                <li>
+                    <a href="/zh/complaints-handling-procedure">
+                        投訴處理程序                    </a>
+                </li>
+                <li><a href="/zh/deposit-and-refund-policy">
+                        存取款政策                    </a></li>
+
+              </ul>
+            </nav>
+            <strong class="copyright">
+                © 2020-2023                BelleoFX | 保留所有權利            </strong>
+        </div>
+    </div>
+</footer>
+<button type="button" class="btn-reset scroll-top d-none">
+    <svg class="icon" width="26" height="14" viewBox="0 0 26 14" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.1252 13.3616L25.6917 1.79513C26.1028 1.38402 26.1028 0.719456 25.6917 0.308338C25.2805 -0.102779 24.616 -0.102779 24.2049 0.308338L13.3818 11.1314L2.55882 0.308337C2.14771 -0.102781 1.48314 -0.102781 1.07203 0.308337C0.866987 0.513378 0.763924 0.782544 0.763924 1.05176C0.763924 1.32093 0.866987 1.59014 1.07203 1.79518L12.6385 13.3616C13.0495 13.7727 13.7141 13.7727 14.1252 13.3616Z" fill="white"/>
+    </svg>
+</button>
+<!-- Подключение скриптов в конце документа -->
+<script type="text/javascript" src="https://www.tradays.com/c/js/widgets/calendar/widget.js?12"></script>
+<script src="/templates/custom/js/old/bootstrap.js"></script>
+<script src="/templates/custom/js/jquery.maskedinput.min.js"></script>
+<script src="/templates/custom/uForm/js/script.js"></script>
+<script src="/templates/custom/js/main.js" defer></script>
+<script src="/templates/custom/js/swiper.min.js"></script>
+<script src="/templates/custom/js/custom.js?v.121" defer></script>
+<!-- <script defer src='https://www.google.com/recaptcha/api.js'></script> -->
+
+<script>
+    function downloadJSAtOnload(scriptPaths) {
+        scriptPaths.forEach(path => {
+            let element = document.createElement("script");
+            element.src = path;
+            document.body.append(element);
+        });
+    }
+    setTimeout(() => {
+        downloadJSAtOnload([
+            'https://www.google.com/recaptcha/api.js'
+        ]);
+    }, 10000);
+</script>
+<!--    <div id="system-message-container">
+	</div>
+-->
+
+
+    <!--Start of Tawk.to Script-->
+    <!-- <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5ee9f6959e5f69442290bdbe/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script> -->
+    <!--End of Tawk.to Script-->
+
+    <!-- <div id="wmn-fx" >
+        <div class="wmn-wrap">
+            <div class="wmn-widget" style="background-color:#ffffff;">
+                <a href="https://wa.me/+447426074110?text=We are live and ready to chat with you now. Say something to start a Support chat." target="_blank">
+                    <svg fill="#4fce50"  viewBox="0 0 90 90" width="32" height="32"><path d="M90,43.841c0,24.213-19.779,43.841-44.182,43.841c-7.747,0-15.025-1.98-21.357-5.455L0,90l7.975-23.522   c-4.023-6.606-6.34-14.354-6.34-22.637C1.635,19.628,21.416,0,45.818,0C70.223,0,90,19.628,90,43.841z M45.818,6.982   c-20.484,0-37.146,16.535-37.146,36.859c0,8.065,2.629,15.534,7.076,21.61L11.107,79.14l14.275-4.537   c5.865,3.851,12.891,6.097,20.437,6.097c20.481,0,37.146-16.533,37.146-36.857S66.301,6.982,45.818,6.982z M68.129,53.938   c-0.273-0.447-0.994-0.717-2.076-1.254c-1.084-0.537-6.41-3.138-7.4-3.495c-0.993-0.358-1.717-0.538-2.438,0.537   c-0.721,1.076-2.797,3.495-3.43,4.212c-0.632,0.719-1.263,0.809-2.347,0.271c-1.082-0.537-4.571-1.673-8.708-5.333   c-3.219-2.848-5.393-6.364-6.025-7.441c-0.631-1.075-0.066-1.656,0.475-2.191c0.488-0.482,1.084-1.255,1.625-1.882   c0.543-0.628,0.723-1.075,1.082-1.793c0.363-0.717,0.182-1.344-0.09-1.883c-0.27-0.537-2.438-5.825-3.34-7.977   c-0.902-2.15-1.803-1.792-2.436-1.792c-0.631,0-1.354-0.09-2.076-0.09c-0.722,0-1.896,0.269-2.889,1.344   c-0.992,1.076-3.789,3.676-3.789,8.963c0,5.288,3.879,10.397,4.422,11.113c0.541,0.716,7.49,11.92,18.5,16.223   C58.2,65.771,58.2,64.336,60.186,64.156c1.984-0.179,6.406-2.599,7.312-5.107C68.398,56.537,68.398,54.386,68.129,53.938z"></path></svg>
+                    <span class="notification">1</span>
+                </a>
+            </div>
+        </div>
+    </div> -->
+    <!--Start of Tawk.to Script (0.7.1)-->
+    <!-- <script id="tawk-script" type="text/javascript">
+        setTimeout(() => {
+            var Tawk_API = Tawk_API || {};
+            var Tawk_LoadStart=new Date();
+            (function(){
+                var s1 = document.createElement( 'script' ),s0=document.getElementsByTagName( 'script' )[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/5ee9f6959e5f69442290bdbe/default';
+                s1.charset = 'UTF-8';
+                s1.setAttribute( 'crossorigin','*' );
+                s0.parentNode.insertBefore( s1, s0 );
+            })();
+        }, 8000);
+    </script> -->
+    <!--End of Tawk.to Script (0.7.1)-->
+    <!-- Start of belleofx Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of belleofx Zendesk Widget script -->
+
+    <div class="sliding-enquiry"><div class="enquiry-wrap">
+        </div>
+        <style type="text/css">.error{border:1px solid red !important; }.valid{border:1px solid green !important; }input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none; margin: 0;}</style>
+        <div class="enquiry-content">
+            <div class="enquiry-content-pad">
+                <div>
+                    <p class="equirydescription">請填寫下面的表格，我們的團隊將與您聯繫。</p>
+                    <hr/>
+                    <div id="enquiryform" style="">
+                        <form action="" id="sliding-form" name="sliding-form" method="post" style="margin: 0 0 0em;">
+                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@belleofx.com"/>
+                            <ul>
+                                <li>
+                                    <input type="text" name="name"  id="name" placeholder="名稱" class="textbox_popup" value="">
+                                </li>
+                                <li>
+                                    <input type="text" name="email"  id="email" placeholder="電子郵件" class="textbox_popup" value="">
+                                </li>
+                                <li>
+                                    <input type="text" name="number" minlength="10"  id="number" placeholder="手機號碼" class="textbox_popup" value="">
+                                </li>
+                                <li>
+            <textarea name="message" id="message"  placeholder="訊息" class="textbox_popup textareacustom" value="">
+            </textarea>
+                                </li>
+                                <li>
+                                    <p>
+                                        您是現有客戶嗎？                                    </p>
+                                    <div class="radiobtns">
+                                        <label>
+                                            <input type="radio" name="customer">
+                                            <span>是</span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="customer">
+                                            <span>否</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="slidingcaptcha">
+                                    <img src="/templates/custom/captcha/CaptchaSecurityImages.php?width=100&height=40&characters=5&code=5x8tcb" height="40px;" width="100px;" />
+                                </li>
+                                <li class="slidingcaptchaans">
+                                    <input type="text" name="captcha"  id="captcha" value=""
+                                           Placeholder="驗證碼" class="textbox_popup"/>
+                                </li>
+                                <li>
+                                    <input type="button" name="submit" id="submit" class="button1_submit buttoncustomsubmit" style=""
+                                           value="立即詢問"/>
+                                </li>
+                            </ul>
+                        </form>
+                        <hr/>
+                    </div>
+                    <div id="enquirymsg" style="text-align:center;display:none;">
+                        <div style="clear">&nbsp;</div>
+                        <div style="clear">&nbsp;</div>
+                        <div style="clear">&nbsp;</div>
+                        <div style="font-size: 15px;">您的訊息已成功提交。</div>
+                        <div style="clear">&nbsp;</div>
+                        <div style="clear">&nbsp;</div>
+                        <h3>技術支援</h3>
+                        <div style="clear">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="graph-modal">
+        <div class="graph-modal__container modal-subscribe" role="dialog" aria-modal="true" data-graph-target="modalCallback">
+            <div class="graph-modal__content">
+                <div class="graph-modal__image">
+                    <!-- <picture>
+                        <source srcset="/images/modal/ok_icon.avif" type="image/avif">
+                        <source srcset="/images/modal/ok_icon.webp" type="image/webp"> -->
+                    <img loading="lazy" src="/images/modal/ok_icon.png" class="image" width="" height="" alt="Thank you!">
+                    <!-- </picture> -->
+                </div>
+                <h4 class="graph-modal__title">
+                    謝謝！                </h4>
+                <p class="graph-modal__text">
+                    我們的經理將與您聯絡！                </p>
+                <button class="btn-reset btn-main btn-main--black graph-modal__close" aria-label="close">
+                    太好了！謝謝！                </button>
+            </div>
+        </div>
+        <div class="graph-modal__container modal-callback" role="dialog" aria-modal="true" data-graph-target="modalSubscribe">
+            <div class="graph-modal__content">
+                <div class="graph-modal__image">
+                    <!-- <picture>
+                        <source srcset="/images/modal/grt_icon.avif" type="image/avif">
+                        <source srcset="/images/modal/grt_icon.webp" type="image/webp"> -->
+                    <img loading="lazy" src="/images/modal/grt_icon.png" class="image" width="" height="" alt="Great!">
+                    <!-- </picture> -->
+                </div>
+                <h4 class="graph-modal__title">
+                    太棒了！                </h4>
+                <p class="graph-modal__text">
+                    現在您將了解最新消息！                </p>
+                <button class="btn-reset btn-main btn-main--black graph-modal__close" aria-label="Закрыть модальное окно">
+                    好的，謝謝！                </button>
+            </div>
+        </div>
+        <div class="graph-modal__container modal-cv" role="dialog" aria-modal="true" data-graph-target="modalCV">
+            <div class="graph-modal__content">
+                <div class="graph-modal__image">
+                    <img loading="lazy" src="/images/modal/grt_icon.png" class="image" width="" height="" alt="Great!">
+                </div>
+                <h4 class="graph-modal__title">
+                    是的，你做到了！                </h4>
+                <p class="graph-modal__text">
+                    感謝您的申請。我們的團隊將對其進行審核並聯繫
+                                                                 如果我們有空缺職位，請聯絡您。 祝你有美好的一天！                </p>
+                <button class="btn-reset btn-main btn-main--black graph-modal__close" aria-label="Закрыть модальное окно">
+                    確定                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="disclaimer-popup">
+        <b> 免责声明：</b>
+        此页面已使用 Google Translation Cloud 进行翻译。对于自动翻译过程中可能出现的任何错误或遗漏，我们深表歉意。    </div>
+</body>
+</html>

@@ -1,0 +1,673 @@
+
+
+
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/favicon.ico"/>
+    <link rel="icon" type="image/png" href="/templates/custom/images/favicon_belleofx 32х32.png"/>
+            <link rel="stylesheet" href="/templates/custom/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/templates/custom/fonts/IcoMoon/icomoon.css">
+    <link rel="stylesheet" href="/templates/custom/css/old/bootstrap.css">
+    <link href="/templates/custom/css/old/styles.css?v.1.01" rel="stylesheet" type="text/css" />
+    <link href="/templates/custom/css/inner-pages.css?v.1.116" rel="stylesheet" type="text/css" />
+
+    <link rel="preload" href="/templates/custom/fonts/Effra-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/templates/custom/fonts/Effra-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="alternate" href="https://belleofx.com" hreflang="en-ae" />
+    <meta charset="utf-8" />
+	<base href="/fr/privacy-policy" />
+	<meta name="keywords" content="Politique de confidentialité de BelleoFX, sécurité des données" />
+	<meta name="description" content="Chez BelleoFX, nous respectons absolument votre vie privée et veillons à ce que les données que vous partagez avec nous soient entièrement sécurisées." />
+	<title>BelleoFX	Privacy	Policy	|	You	are	fully	secure	with	us</title>
+	<link href="/fa/privacy-policy" rel="alternate" hreflang="fa-IR" />
+	<link href="/es/privacy-policy" rel="alternate" hreflang="es-ES" />
+	<link href="/zh/privacy-policy" rel="alternate" hreflang="zh-TW" />
+	<link href="/fr/privacy-policy" rel="alternate" hreflang="fr-FR" />
+	<link href="/vi/privacy-policy" rel="alternate" hreflang="vi-VN" />
+	<link href="/tr/privacy-policy" rel="alternate" hreflang="tr-TR" />
+	<link href="/ar/privacy-policy" rel="alternate" hreflang="ar-AA" />
+	<link href="/privacy-policy" rel="alternate" hreflang="en-GB" />
+	<link href="/templates/custom/css/sliding-enquiry.css" rel="stylesheet" />
+	<link href="/templates/custom/css/vendor.css" rel="stylesheet" />
+	<link href="/templates/custom/css/main.css" rel="stylesheet" />
+	<link href="/templates/custom/css/custom.css?119" rel="stylesheet" />
+	<link href="/media/mod_languages/css/template.css?21b43949eb00c2dc28868a748e2b361a" rel="stylesheet" />
+	<script src="/media/jui/js/jquery.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/jui/js/bootstrap.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/system/js/caption.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script>
+jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+	</script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WXNKPTL3B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5WXNKPTL3B');
+    </script>
+    <!-- End Google tag (gtag.js) -->
+    <!-- Google Tag Manager -->
+    <script>
+
+        setTimeout(() => {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-KNGN98Q');
+        }, 8000);
+        var phone = countryCode['']
+        var country = ''
+        var phonePrefix = '123';
+        document.addEventListener('DOMContentLoaded', function() {
+            country = countryCode.find(el => el.name === "Nigeria");
+            console.log(countryCode);
+            document.getElementById("uForm__tel_1").placeholder = country.dial_code;
+        }, false);
+        document.getElementById("uForm__tel_1").onclick = (e) =>{
+            let tel = jQuery("#uForm__tel_1");
+            console.log(tel.val());
+            if(tel.val() !== '+__ ___-___-____') return
+            tel.val( country.dial_code.slice(1) ).trigger('input');
+
+        }
+
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body class="">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNGN98Q"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- <div class="preloader-dots">
+    <div></div>
+    <div></div>
+    <div></div>
+</div> -->
+<header class="header">
+    <div class="wrapper">
+        <div class="header__container">
+            <div class="header__left">
+                <button class="burger btn-transparent btn-reset" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+                    <div class="icon">
+                        <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.948 0H17.051C17.573 0 18 0.427 18 0.949V1.051C18 1.573 17.573 2 17.051 2H0.948C0.426 2 0 1.573 0 1.051V0.949C0 0.427 0.426 0 0.948 0ZM17.051 5H0.948C0.426 5 0 5.427 0 5.949V6.051C0 6.573 0.426 7 0.948 7H17.051C17.573 7 18 6.573 18 6.051V5.949C18 5.427 17.573 5 17.051 5ZM17.051 10H0.948C0.426 10 0 10.427 0 10.949V11.051C0 11.573 0.426 12 0.948 12H17.051C17.573 12 18 11.573 18 11.051V10.949C18 10.427 17.573 10 17.051 10Z" fill="url(#paint0_linear_16_9372)"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_16_9372" x1="0" y1="5.99769" x2="18.003" y2="5.99769" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#8F4DED"/>
+                            <stop offset="1" stop-color="#6D43E1"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    Menu
+                </button>
+                <div class="lang_block ">
+    <div>
+                                                                                                <div class="lang_block__active-btn">
+                    <span class="lang_block__btn lang_active p-10">
+                        <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                        <span class="lang_block__btn_val">FR</span>
+                    </span>
+                </div>
+                
+        <div class="lang_block__all-lang__outer">
+            <div class="lang_block__all-lang">
+                <div class="lang_block__all__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24" fill="none">
+                        <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                    </svg>
+                </div>
+                
+                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fa/privacy-policy">
+                            <img src="/media/mod_languages/images/fa_ir.gif" alt="" />                            <span class="lang_block__btn_val">FA</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/es/privacy-policy">
+                            <img src="/media/mod_languages/images/es_es.gif" alt="" />                            <span class="lang_block__btn_val">ES</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/zh/privacy-policy">
+                            <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                            <span class="lang_block__btn_val">ZH</span>
+                        </a></span>
+                                                                                <span class="lang_block__active-btn lang_block__btn d-flex">
+                        <a href="/fr/privacy-policy">
+                            <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                            <span class="lang_block__btn_val">FR</span>
+                        </a></span>
+                                                                            <span class="lang_block__btn d-flex">
+                        <a href="/vi/privacy-policy">
+                            <img src="/media/mod_languages/images/vi_vn.gif" alt="" />                            <span class="lang_block__btn_val">VI</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/tr/privacy-policy">
+                            <img src="/media/mod_languages/images/tr_tr.gif" alt="" />                            <span class="lang_block__btn_val">TR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/ar/privacy-policy">
+                            <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                            <span class="lang_block__btn_val">AR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/en/privacy-policy">
+                            <img src="/media/mod_languages/images/en-gb.gif" alt="" />                            <span class="lang_block__btn_val">EN</span>
+                        </a></span>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+                            </div>
+            <div class="mobile-menu" data-menu>
+                <div class="mobile-menu__container">
+                    <div class="mobile-menu__content">
+                        <div class="mobile-menu__top">
+
+                            <a href="/fr/" class="logo-link">
+                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: BelleoFx icon" class="logo">
+                            </a>
+                            <button class="btn-reset btn-menu-close">
+                                <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <nav class="nav">
+                            <ul class="nav menu mod-list">
+<li class="item-226 deeper parent"><a href="/fr/" >Entreprise</a><ul class="nav-child unstyled small"><li class="item-227"><a href="/fr/company/about" >À propos de BelleoFX</a></li><li class="item-228"><a href="/fr/company/account-types" >Types de comptes</a></li><li class="item-229"><a href="/fr/company/careers" >Carrières</a></li><li class="item-231"><a href="/fr/company/faq" >FAQ</a></li><li class="item-230"><a href="/fr/company/contact-us" >Contactez-nous</a></li></ul></li><li class="item-242 deeper parent"><a href="/fr/" >Marchés</a><ul class="nav-child unstyled small"><li class="item-246"><a href="/fr/markets/online-forex-trading-platform" >Forex</a></li><li class="item-247"><a href="/fr/markets/stocks" >Actions</a></li><li class="item-245"><a href="/fr/markets/indices-trading-system" >Indices</a></li><li class="item-243"><a href="/fr/markets/commodities" >Matières premières</a></li></ul></li><li class="item-258 deeper parent"><a href="/fr/trading/trading-platform" >Commerce</a><ul class="nav-child unstyled small"><li class="item-260"><a href="/fr/trading/trading-platform" >Plateforme échanges</a></li><li class="item-259"><a href="/fr/trading/economic-calendar" >Calendrier économique</a></li></ul></li><li class="item-239"><a href="/fr/funding" >Financement</a></li><li class="item-249 deeper parent"><a href="/fr/" >Partenariat</a><ul class="nav-child unstyled small"><li class="item-251"><a href="/fr/partnership/white-label" >Marque blanche</a></li><li class="item-250"><a href="/fr/partnership/introducing-broker-ib" >Courtier introducteur (IB)</a></li></ul></li><li class="item-253 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-254"><a href="/fr/promotions/100-credit-bonus" >100 % de bonus de crédit</a></li></ul></li></ul>
+
+                            <div class="lang_block ">
+    <div>
+                                                                                                <div class="lang_block__active-btn">
+                    <span class="lang_block__btn lang_active p-10">
+                        <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                        <span class="lang_block__btn_val">FR</span>
+                    </span>
+                </div>
+                
+        <div class="lang_block__all-lang__outer">
+            <div class="lang_block__all-lang">
+                <div class="lang_block__all__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24" fill="none">
+                        <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                    </svg>
+                </div>
+                
+                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fa/privacy-policy">
+                            <img src="/media/mod_languages/images/fa_ir.gif" alt="" />                            <span class="lang_block__btn_val">FA</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/es/privacy-policy">
+                            <img src="/media/mod_languages/images/es_es.gif" alt="" />                            <span class="lang_block__btn_val">ES</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/zh/privacy-policy">
+                            <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                            <span class="lang_block__btn_val">ZH</span>
+                        </a></span>
+                                                                                <span class="lang_block__active-btn lang_block__btn d-flex">
+                        <a href="/fr/privacy-policy">
+                            <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                            <span class="lang_block__btn_val">FR</span>
+                        </a></span>
+                                                                            <span class="lang_block__btn d-flex">
+                        <a href="/vi/privacy-policy">
+                            <img src="/media/mod_languages/images/vi_vn.gif" alt="" />                            <span class="lang_block__btn_val">VI</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/tr/privacy-policy">
+                            <img src="/media/mod_languages/images/tr_tr.gif" alt="" />                            <span class="lang_block__btn_val">TR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/ar/privacy-policy">
+                            <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                            <span class="lang_block__btn_val">AR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/en/privacy-policy">
+                            <img src="/media/mod_languages/images/en-gb.gif" alt="" />                            <span class="lang_block__btn_val">EN</span>
+                        </a></span>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+                        </nav>
+                        <div class="header__right">
+                            <a href="https://pa.belleofx.com/fr/signup" class="btn-reset btn-main btn-main--white">
+                                Join Now                            </a>
+                            <a href="/fr/demo" class="btn-reset btn-main btn-main--black">
+                                Try Demo Account                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="/fr/" class="logo-link">
+                                               
+                <img src="/templates/custom/images/icon/logo.svg" alt="logo: BelleoFx icon" class="logo">
+                <img src="/templates/custom/images/icon/logo-icon.svg" alt="logo: BelleoFx icon" class="logo logo--mob">
+            </a>
+            <nav class="nav">
+                <ul class="nav menu mod-list">
+<li class="item-226 deeper parent"><a href="/fr/" >Entreprise</a><ul class="nav-child unstyled small"><li class="item-227"><a href="/fr/company/about" >À propos de BelleoFX</a></li><li class="item-228"><a href="/fr/company/account-types" >Types de comptes</a></li><li class="item-229"><a href="/fr/company/careers" >Carrières</a></li><li class="item-231"><a href="/fr/company/faq" >FAQ</a></li><li class="item-230"><a href="/fr/company/contact-us" >Contactez-nous</a></li></ul></li><li class="item-242 deeper parent"><a href="/fr/" >Marchés</a><ul class="nav-child unstyled small"><li class="item-246"><a href="/fr/markets/online-forex-trading-platform" >Forex</a></li><li class="item-247"><a href="/fr/markets/stocks" >Actions</a></li><li class="item-245"><a href="/fr/markets/indices-trading-system" >Indices</a></li><li class="item-243"><a href="/fr/markets/commodities" >Matières premières</a></li></ul></li><li class="item-258 deeper parent"><a href="/fr/trading/trading-platform" >Commerce</a><ul class="nav-child unstyled small"><li class="item-260"><a href="/fr/trading/trading-platform" >Plateforme échanges</a></li><li class="item-259"><a href="/fr/trading/economic-calendar" >Calendrier économique</a></li></ul></li><li class="item-239"><a href="/fr/funding" >Financement</a></li><li class="item-249 deeper parent"><a href="/fr/" >Partenariat</a><ul class="nav-child unstyled small"><li class="item-251"><a href="/fr/partnership/white-label" >Marque blanche</a></li><li class="item-250"><a href="/fr/partnership/introducing-broker-ib" >Courtier introducteur (IB)</a></li></ul></li><li class="item-253 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-254"><a href="/fr/promotions/100-credit-bonus" >100 % de bonus de crédit</a></li></ul></li></ul>
+
+            </nav>
+            <div class="header__right">
+                <a href="https://pa.belleofx.com/en/login" class="btn-reset btn-transparent">
+                    Login                </a>
+                <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">
+                    Register                </a>
+                                <div class="lang_block ">
+    <div>
+                                                                                                <div class="lang_block__active-btn">
+                    <span class="lang_block__btn lang_active p-10">
+                        <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                        <span class="lang_block__btn_val">FR</span>
+                    </span>
+                </div>
+                
+        <div class="lang_block__all-lang__outer">
+            <div class="lang_block__all-lang">
+                <div class="lang_block__all__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24" fill="none">
+                        <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                    </svg>
+                </div>
+                
+                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fa/privacy-policy">
+                            <img src="/media/mod_languages/images/fa_ir.gif" alt="" />                            <span class="lang_block__btn_val">FA</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/es/privacy-policy">
+                            <img src="/media/mod_languages/images/es_es.gif" alt="" />                            <span class="lang_block__btn_val">ES</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/zh/privacy-policy">
+                            <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                            <span class="lang_block__btn_val">ZH</span>
+                        </a></span>
+                                                                                <span class="lang_block__active-btn lang_block__btn d-flex">
+                        <a href="/fr/privacy-policy">
+                            <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                            <span class="lang_block__btn_val">FR</span>
+                        </a></span>
+                                                                            <span class="lang_block__btn d-flex">
+                        <a href="/vi/privacy-policy">
+                            <img src="/media/mod_languages/images/vi_vn.gif" alt="" />                            <span class="lang_block__btn_val">VI</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/tr/privacy-policy">
+                            <img src="/media/mod_languages/images/tr_tr.gif" alt="" />                            <span class="lang_block__btn_val">TR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/ar/privacy-policy">
+                            <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                            <span class="lang_block__btn_val">AR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/en/privacy-policy">
+                            <img src="/media/mod_languages/images/en-gb.gif" alt="" />                            <span class="lang_block__btn_val">EN</span>
+                        </a></span>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="fr-FR" />
+			<div class="page-contacts page-bonus mt100 page-policy"><div class="intro" style="background-image:url(/images/contacts/bg-contacts.jpg)"><div class="wrapper"><h1 class="title mb0"> politique de confidentialité</h1></div></div><div class="terms-section address-section"><div class="wrapper"><p> Dans le cadre de nos opérations commerciales quotidiennes, nous devons collecter des informations personnelles auprès de nos clients et clients potentiels afin de leur fournir nos produits et services et garantir que nous pouvons répondre à leurs besoins lors de la fourniture de ces produits et services ainsi que lorsque nous leur fournissons les informations respectives.</p><div class="title grad"> Introduction</div><p> Votre vie privée est de la plus haute importance pour nous et notre politique est de sauvegarder et de respecter la confidentialité des informations et la vie privée des individus. Cette politique de confidentialité définit comment Belleofx Global Limited (la « Société » ou « Belleofx Global ») collecte, utilise et gère vos informations personnelles que nous recevons de vous ou d&#39;un tiers dans le cadre de notre fourniture de services à vous ou que nous collectons auprès de votre utilisation de nos services et/ou de notre site Web (c&#39;est-à-dire www, belleofx.com) et/ou de tout autre site Web et application connexe, y compris, entre autres, l&#39;espace membre de la société. La Politique de Confidentialité vous informe également de vos droits concernant le traitement de vos informations personnelles.<br><br> Notre politique de confidentialité est révisée régulièrement pour garantir que toutes les nouvelles obligations et technologies, les changements dans nos opérations et pratiques commerciales sont pris en compte, ainsi que pour rester au courant de l&#39;évolution de l&#39;environnement réglementaire. Toutes les informations personnelles que nous détenons seront régies par notre politique de confidentialité la plus récente.<br><br> Veuillez noter que si vous êtes un employé actuel et/ou ancien de la Société, un candidat à un emploi, un entrepreneur de la Société ou un fournisseur de services tiers, vos informations personnelles seront utilisées dans le cadre de votre contrat de travail ou de votre relation contractuelle. .</p><div class="title grad"> Qui sommes nous?</div><p> Cette politique de confidentialité s&#39;applique aux activités de traitement effectuées par Belleofx Global sur les données personnelles de ses clients/clients potentiels, des visiteurs du site Web et des employés. Cette politique de confidentialité ne s&#39;applique pas aux sites Web exploités par d&#39;autres organisations et/ou d&#39;autres tiers.</p><ul><li> Belleofx Global Limited est agréée et réglementée par l&#39;International Financial Services Commission (« IFSC ») sous le numéro de licence 60/354/TS/20, dont le siège social est situé 305, Griffith Corporate Center PO Box 1510, Beachmont, Kingstown St. Vincent et les Grenadines</li><li> Belleofx Global Limited fait partie du groupe Belleofx. Chaque entité du Groupe Belleofx possède sa propre Politique de Confidentialité distincte. Ces entités exploitent leurs propres sites Web et, à ce titre, si vous souhaitez en savoir plus sur la manière dont ces entités traitent vos données personnelles, veuillez vous référer à leurs déclarations de confidentialité correspondantes qui peuvent être trouvées sur leurs sites Web spécifiques.</li><li> La Société respecte la vie privée de tous les utilisateurs qui accèdent à son (ses) site(s) Web et s&#39;engage donc à prendre toutes les mesures raisonnables pour protéger tous les clients, candidats et visiteurs du site Web existants ou potentiels.</li><li> La Société conserve les données personnelles de tous ses clients/clients potentiels conformément aux lois et réglementations applicables en matière de protection des données.</li></ul><p> Nous avons mis en place les mesures et procédures techniques et organisationnelles nécessaires et appropriées pour garantir que vos informations restent sécurisées à tout moment. Nous formons et sensibilisons régulièrement tous nos employés à l’importance de conserver, de protéger et de respecter vos informations personnelles et votre vie privée. Nous prenons très au sérieux les violations de la vie privée des individus et imposerons des mesures disciplinaires appropriées, y compris le licenciement si nécessaire. Les informations personnelles que vous nous fournissez lors de votre inscription en tant qu&#39;utilisateur du(des) site(s) de la Société et/ou de ses services sont classées comme informations enregistrées, qui sont protégées de plusieurs manières différentes. Vous pouvez accéder à vos informations enregistrées après vous être connecté à l&#39;espace membre en saisissant un nom d&#39;utilisateur et un mot de passe que vous sélectionnez. Il est de votre responsabilité de vous assurer que votre mot de passe n&#39;est connu que de vous et qu&#39;il n&#39;est divulgué à personne d&#39;autre. Les informations enregistrées sont stockées en toute sécurité dans un endroit sûr et seul le personnel autorisé y a accès via un nom d&#39;utilisateur et un mot de passe. Toutes les informations personnelles sont transférées à la Société via une connexion SSL sécurisée de 128 bits et toutes les mesures nécessaires sont donc prises pour empêcher des parties non autorisées de consulter ces informations. Les informations personnelles fournies à la Société qui ne sont pas classées comme informations enregistrées sont également conservées dans un endroit sûr et accessibles au personnel autorisé uniquement via un nom d&#39;utilisateur et un mot de passe.</p><div class="title grad"> Informations personnelles que nous collectons</div><p> Afin d&#39;ouvrir un compte chez nous, vous devez d&#39;abord remplir et nous soumettre un formulaire de demande en complétant les informations requises. En remplissant ce formulaire de candidature, vous êtes invité à divulguer des informations personnelles afin de permettre à la Société d&#39;évaluer votre candidature et de se conformer aux règles et réglementations en vigueur. Les informations que vous fournissez peuvent également être utilisées par la Société pour vous informer sur ses services.</p><p> Les informations que nous pouvons recueillir auprès de vous comprennent les suivantes :</p><ul><li> nom complet, adresse résidentielle et coordonnées (par exemple, adresse e-mail, numéro de téléphone, fax, etc.) ;</li><li> des informations sur vos revenus et votre patrimoine, y compris des détails sur vos sources de fonds, vos actifs et passifs, vos informations sur votre compte bancaire, vos relevés commerciaux, vos informations FATCA et CRS et vos états financiers ;</li><li> Détails de la profession et de l&#39;emploi.</li><li> les informations de vérification, qui comprennent les informations nécessaires pour vérifier votre identité, telles qu&#39;un passeport ou un permis de conduire (les exemples incluent également les informations générales que nous recevons à votre sujet à partir de dossiers publics ou d&#39;autres entités non affiliées à nous) ; en outre, nous pouvons collecter d&#39;autres informations identifiables telles que des numéros d&#39;identification et/ou des numéros de passeport/d&#39;enregistrement fiscal ;</li></ul><p> Nous obtenons ces informations de plusieurs manières par le biais de votre utilisation de nos services, notamment via l&#39;un de nos sites Web, applications, applications d&#39;ouverture de compte, nos formulaires d&#39;inscription à la démo, les formulaires d&#39;inscription aux webinaires, l&#39;abonnement aux mises à jour d&#39;actualités et à partir des informations fournies dans le cours des communications continues du service client. Nous pouvons également collecter ces informations vous concernant auprès de tiers, par exemple via des sources accessibles au public. Nous conservons également des enregistrements de votre comportement commercial, y compris des enregistrements concernant les éléments suivants :.</p><p> Nous conservons également des enregistrements de votre comportement de trading, y compris un enregistrement de :</p><ul><li> les produits que vous échangez avec nous et leurs performances ;</li><li> des données historiques sur les transactions et les investissements que vous avez effectués, y compris le montant investi ;</li><li> votre préférence pour certains types de produits et services.</li></ul><div class="title grad"> À qui pouvons-nous divulguer des informations personnelles ?</div><p> Nous pouvons demander volontairement d&#39;autres informations personnelles de temps à autre (par exemple, par le biais d&#39;études de marché ou d&#39;enquêtes). Si vous choisissez de ne pas fournir les informations dont nous avons besoin pour répondre à votre demande d&#39;un produit ou d&#39;un service spécifique, nous ne serons peut-être pas en mesure de vous fournir le produit ou le service demandé. Nous pouvons enregistrer toutes les communications, électroniques, téléphoniques, en personne ou autrement, que nous avons avec vous en relation avec les services que nous vous fournissons et notre relation commerciale avec vous. Ces enregistrements seront notre propriété exclusive et constitueront la preuve des communications entre nous. Ces conversations téléphoniques peuvent être enregistrées sans l&#39;utilisation d&#39;une tonalité d&#39;avertissement ou de tout autre avis supplémentaire. De plus, si vous visitez l&#39;un de nos bureaux ou locaux, nous pouvons disposer d&#39;un système de vidéosurveillance qui enregistrera votre image.</p><ul><li> Nous traitons les données personnelles afin de fournir nos services et produits, ainsi que les informations concernant nos produits et services sur la base de la relation contractuelle avec nos clients (c&#39;est-à-dire afin d&#39;exécuter nos obligations contractuelles). En outre, le traitement des données personnelles a lieu pour pouvoir mener à bien les procédures d&#39;intégration/d&#39;acceptation de nos clients.</li><li> Il existe un certain nombre d&#39;obligations légales émanant des lois pertinentes auxquelles nous sommes soumis ainsi que des exigences légales (par exemple, les lois anti-blanchiment d&#39;argent, les lois sur les services financiers, les lois sur les sociétés, les lois sur la confidentialité et les lois fiscales). Il existe également diverses autorités de contrôle dont nous sommes soumis aux lois et réglementations (par exemple l&#39;IFSC). Ces obligations et exigences nous imposent des activités de traitement des données personnelles nécessaires aux vérifications de crédit, à la vérification de l&#39;identité, au traitement des paiements, au respect des décisions de justice, à la législation fiscale ou à d&#39;autres obligations de déclaration et aux contrôles anti-blanchiment d&#39;argent.</li><li> Nous traitons les données personnelles de manière à sauvegarder les intérêts légitimes poursuivis par nous ou par un tiers. Un intérêt légitime se produit lorsque nous avons une raison professionnelle ou commerciale d&#39;utiliser vos informations. Malgré cela, cela ne doit pas aller injustement à l’encontre de ce qui est juste et meilleur pour vous. Des exemples de telles activités de traitement sont les suivants :</li><li> Notre stockage et notre utilisation de vos données personnelles sont basés sur votre consentement (autre que pour les raisons décrites ou implicites dans cette politique lorsque votre consentement n&#39;est pas requis). Vous pouvez révoquer votre consentement à tout moment ; cependant, tout traitement de données personnelles antérieur à la réception de votre révocation ne sera pas affecté.</li><li> Pour évaluer la pertinence de nos services/produits pour les clients</li><li> Pour vous fournir des produits et services, ou des informations sur nos produits et services, et pour examiner vos besoins continus</li><li> Pour nous aider à améliorer nos produits et services, y compris le service client, et à développer et commercialiser de nouveaux produits et services.</li><li> Nous pouvons de temps à autre utiliser les informations personnelles que vous nous fournissez dans le cadre de votre utilisation des services et/ou dans le cadre d&#39;enquêtes auprès des clients pour nous aider à améliorer nos produits et services. Il est dans notre intérêt légitime d&#39;utiliser vos informations personnelles de cette manière pour tenter de garantir les normes les plus élevées lors de la fourniture de nos produits et services et pour continuer à être un leader du marché dans le secteur des services financiers.</li></ul><p> Nous pouvons être amenés à utiliser vos informations personnelles pour nous conformer aux lois et réglementations applicables, aux ordonnances des tribunaux ou à toute autre procédure judiciaire, ou aux exigences de toute autorité de régulation applicable. Nous le faisons non seulement pour respecter nos obligations légales, mais aussi parce que cela peut également être dans notre intérêt légitime de le faire.<br><br> De temps en temps, nous pouvons vous envoyer des sondages dans le cadre de notre processus de commentaires des clients. Il est dans notre intérêt légitime de demander de tels commentaires pour essayer de garantir que nous fournissons nos services et produits selon les normes les plus élevées. Cependant, nous pouvons également, de temps à autre, vous demander de participer à d&#39;autres enquêtes et si vous acceptez de participer à d&#39;autres enquêtes, nous comptons sur votre consentement pour utiliser les informations personnelles que nous collectons dans le cadre de cette enquête. Toutes les réponses à toute enquête que nous envoyons, que ce soit pour recueillir les commentaires des clients ou autrement, seront regroupées et dépersonnalisées avant que les résultats de l&#39;enquête ne soient partagés avec des tiers.</p><div class="title grad"> Quand et comment obtenons-nous votre consentement ?</div><p> Nous pouvons traiter vos données personnelles pour une ou plusieurs bases légales de traitement (« Base légale ») en fonction de la finalité spécifique pour laquelle nous utilisons vos données.</p><ul><li> Nous pouvons traiter vos données personnelles pour une ou plusieurs bases légales de traitement (« Base légale ») en fonction de la finalité spécifique pour laquelle nous utilisons vos données.</li><li> Être conforme aux exigences légales et réglementaires</li><li> Pour poursuivre nos intérêts légitimes.</li><p> Lorsque notre utilisation de vos informations personnelles ne relève pas de l’une de ces trois bases légales, nous avons besoin de votre consentement. Ce consentement doit être librement donné par vous et vous avez le droit de retirer votre consentement à tout moment en nous contactant en utilisant les coordonnées indiquées dans le présent avis de confidentialité ou en vous désinscrivant des listes de diffusion.</p></ul><div class="title grad"> Transferts en dehors de l’Espace économique européen (EEE)</div><p> Nous pouvons transférer vos informations personnelles en dehors de l&#39;Espace économique européen à d&#39;autres sociétés du groupe Belleofx ainsi qu&#39;à des prestataires de services (c&#39;est-à-dire des processeurs) qui sont engagés en notre nom. Dans la mesure où nous transférons vos informations en dehors de l&#39;EEE, nous veillerons à ce que le transfert soit licite et à ce que les sous-traitants des pays tiers soient tenus de se conformer aux lois européennes sur la protection des données ou aux lois d&#39;autres pays qui sont comparables et de fournir des garanties appropriées en relation avec au transfert de vos données conformément à l&#39;article 46 du RGPD. Si nous effectuons des transferts vers des sous-traitants aux États-Unis, nous pouvons dans certains cas nous appuyer sur des clauses contractuelles types applicables, des règles d&#39;entreprise contraignantes, le bouclier de protection des données UE-États-Unis ou tout autre équivalent applicable. dispositions.<br><br> Compte tenu de ce qui précède, vos informations personnelles peuvent être traitées par le personnel du Groupe Belleofx opérant en dehors de l&#39;EEE qui travaille pour nous, une autre entité du Groupe Belleofx ou pour l&#39;un de nos prestataires de services. Ce personnel peut être, entre autres, engagé dans le traitement de vos demandes, le traitement de vos informations de paiement et la fourniture de services d&#39;assistance. En soumettant vos données personnelles, vous acceptez ce transfert, ce stockage et ce traitement. La Société prendra toutes les mesures raisonnablement nécessaires pour garantir que vos données sont traitées de manière sécurisée et conformément à la présente Politique de confidentialité. .</p><div class="title grad"> Biscuits</div><p> Les cookies Internet sont de petits éléments de données envoyés depuis notre(nos) site(s) Internet à votre navigateur et stockés sur le disque dur de votre ordinateur lorsque vous utilisez notre(nos) site(s) Internet, et ils peuvent inclure un numéro d&#39;identification unique. Le but de la collecte de ces informations est de vous offrir une expérience plus pertinente et efficace sur notre (nos) site(s) Internet, y compris la présentation de nos pages Web en fonction de vos besoins ou préférences.<br><br> Les cookies sont fréquemment utilisés sur de nombreux sites Web sur Internet, et vous pouvez choisir si et comment un cookie sera accepté en modifiant vos préférences et options dans votre navigateur. Vous ne pourrez peut-être pas accéder à certaines parties de nos sites Web si vous choisissez de désactiver l&#39;acceptation des cookies dans votre navigateur, en particulier dans l&#39;espace membre de la Société et d&#39;autres parties sécurisées de nos sites Web. Nous vous recommandons donc d&#39;activer l&#39;acceptation des cookies afin de bénéficier de tous nos services en ligne.<br><br> En outre, nous utilisons des cookies pour les fonctionnalités de remarketing afin de nous permettre de contacter les utilisateurs qui ont déjà visité notre (nos) site(s) Web et ont manifesté un intérêt pour nos produits et services. Périodiquement, nous pouvons faire appel à des fournisseurs tiers, tels que Google et AdRoll, pour vous afficher nos publicités sur Internet, en fonction de votre utilisation antérieure de nos sites Web. Vous pouvez refuser cette utilisation particulière des cookies à tout moment en visitant la page Paramètres des annonces de Google et la page de désinscription de DoubleClick ou lors de la mise à jour ultérieure de ces fonctionnalités.<br><br> Si vous souhaitez une copie de ces arrangements, veuillez nous contacter en utilisant les coordonnées ci-dessous.</p><div class="title grad"> Avertissement légal</div><p> La Société peut divulguer vos informations personnellement identifiables comme l&#39;exigent les règles et réglementations et lorsqu&#39;elle estime que la divulgation est nécessaire pour protéger nos droits et/ou pour se conformer à toute procédure, ordonnance du tribunal, procédure judiciaire signifiée ou conformément à une décision gouvernementale, intergouvernementale ou autre. organismes de réglementation. La Société ne sera pas responsable de l&#39;utilisation abusive ou de la perte d&#39;informations personnelles ou autres sur le(s) site(s) Web de la Société auxquels la Société n&#39;a pas accès ou sur lesquels elle n&#39;a pas de contrôle. La Société ne sera pas responsable de l&#39;utilisation illégale ou non autorisée de vos informations personnelles en raison d&#39;une mauvaise utilisation ou d&#39;un mauvais placement de vos mots de passe, d&#39;une intervention négligente ou malveillante et/ou autrement de votre part ou en raison de vos actes ou omissions ou d&#39;une personne autorisée par vous (que ce soit l&#39;autorisation est autorisée ou non par les termes de notre relation juridique avec vous).</p><div class="title grad"> Modifications de cette politique de confidentialité</div><p> La Société peut divulguer vos informations personnellement identifiables comme l&#39;exigent les règles et réglementations et lorsqu&#39;elle estime que la divulgation est nécessaire pour protéger nos droits et/ou pour se conformer à toute procédure, ordonnance du tribunal, procédure judiciaire signifiée ou conformément à une décision gouvernementale, intergouvernementale ou autre. organismes de réglementation. La Société ne sera pas responsable de l&#39;utilisation abusive ou de la perte d&#39;informations personnelles ou autres sur le(s) site(s) Web de la Société auxquels la Société n&#39;a pas accès ou sur lesquels elle n&#39;a pas de contrôle. La Société ne sera pas responsable de l&#39;utilisation illégale ou non autorisée de vos informations personnelles en raison d&#39;une mauvaise utilisation ou d&#39;un mauvais placement de vos mots de passe, d&#39;une intervention négligente ou malveillante et/ou autrement de votre part ou en raison de vos actes ou omissions ou d&#39;une personne autorisée par vous (que ce soit l&#39;autorisation est autorisée ou non par les termes de notre relation juridique avec vous).</p><div class="title grad"> Si vous avez une plainte</div><p> Si vous avez des inquiétudes concernant un aspect quelconque de nos pratiques de confidentialité, vous pouvez soumettre une plainte. Cette mesure sera prise rapidement. Pour déposer une plainte, veuillez nous contacter par e-mail à plaintes@belleofx.com.</p></div></div></div> {ID de module de chargement 100} 	</div>
+
+</main>
+
+<section class="section above-footer">
+  <div class="wrapper">
+    <a href="/" class="logo-link">
+      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: BelleoFx icon" class="logo"> -->
+      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: BelleoFx icon" class="logo"> -->
+      <img src="/../images/icon/logo-white.svg" alt="logo: BelleoFx icon" class="logo">
+    </a>
+    <div class="above-footer__container">
+      <div class="item-contacts">
+        <div class="contacts">
+          <h4 class="item-contacts__title">
+              Contact us
+          </h4>
+          <a href="tel:+97145417900" class="phone-link">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.10139 5.73954C5.62511 6.83033 6.33904 7.85266 7.24319 8.75681C8.14734 9.66096 9.16967 10.3749 10.2605 10.8986C10.3543 10.9437 10.4012 10.9662 10.4606 10.9835C10.6715 11.045 10.9306 11.0008 11.1092 10.8729C11.1595 10.8369 11.2025 10.7939 11.2885 10.7079C11.5516 10.4448 11.6831 10.3133 11.8154 10.2273C12.3142 9.90295 12.9572 9.90295 13.456 10.2273C13.5883 10.3133 13.7198 10.4448 13.9829 10.7079L14.1295 10.8545C14.5294 11.2544 14.7294 11.4543 14.838 11.6691C15.054 12.0961 15.054 12.6005 14.838 13.0276C14.7294 13.2423 14.5294 13.4423 14.1295 13.8421L14.0109 13.9608C13.6124 14.3593 13.4131 14.5585 13.1422 14.7107C12.8416 14.8796 12.3747 15.001 12.0299 15C11.7192 14.9991 11.5068 14.9388 11.0821 14.8182C8.79956 14.1704 6.64573 12.948 4.84885 11.1511C3.05197 9.35427 1.82961 7.20044 1.18176 4.91791C1.06121 4.49318 1.00093 4.28082 1.00001 3.97009C0.99898 3.62529 1.1204 3.15839 1.28927 2.85778C1.44145 2.58686 1.64072 2.3876 2.03924 1.98908L2.15785 1.87046C2.55775 1.47057 2.75769 1.27062 2.97243 1.16201C3.39951 0.945997 3.90386 0.945997 4.33093 1.16201C4.54567 1.27062 4.74562 1.47057 5.14551 1.87046L5.29214 2.0171C5.55521 2.28016 5.68674 2.4117 5.77274 2.54396C6.09705 3.04277 6.09705 3.68581 5.77274 4.18461C5.68674 4.31688 5.55521 4.44842 5.29214 4.71148C5.20613 4.7975 5.16312 4.84051 5.12712 4.89078C4.99919 5.06944 4.95502 5.32848 5.01651 5.53944C5.03382 5.5988 5.05634 5.64571 5.10139 5.73954Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg> 
+            <span class="dir-ltr">+971 4 541 7900</span>
+          </a>
+          <a href="email:support@belleofx.com" class="email-link">
+            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.625 11.5L10.6429 7M6.35714 7L1.37503 11.5M1 3.25L7.12369 7.53658C7.61957 7.8837 7.86751 8.05726 8.1372 8.12448C8.37542 8.18386 8.62458 8.18386 8.8628 8.12448C9.13249 8.05726 9.38043 7.8837 9.87631 7.53658L16 3.25M4.6 13H12.4C13.6601 13 14.2902 13 14.7715 12.7548C15.1948 12.539 15.539 12.1948 15.7548 11.7715C16 11.2902 16 10.6601 16 9.4V4.6C16 3.33988 16 2.70982 15.7548 2.22852C15.539 1.80516 15.1948 1.46095 14.7715 1.24524C14.2902 1 13.6601 1 12.4 1H4.6C3.33988 1 2.70982 1 2.22852 1.24524C1.80516 1.46095 1.46095 1.80516 1.24524 2.22852C1 2.70982 1 3.33988 1 4.6V9.4C1 10.6601 1 11.2902 1.24524 11.7715C1.46095 12.1948 1.80516 12.539 2.22852 12.7548C2.70982 13 3.33988 13 4.6 13Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            support@belleofx.com
+          </a>
+          <p class="address">
+            <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.5 9.4C8.84619 9.4 9.9375 8.32548 9.9375 7C9.9375 5.67452 8.84619 4.6 7.5 4.6C6.15381 4.6 5.0625 5.67452 5.0625 7C5.0625 8.32548 6.15381 9.4 7.5 9.4Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.5 17C9.125 13.8 14 11.7346 14 7.4C14 3.86538 11.0899 1 7.5 1C3.91015 1 1 3.86538 1 7.4C1 11.7346 5.875 13.8 7.5 17Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+              Office 3501, Burj Al Salam, Trade Center First, Sheikh Zayed Road, Dubai, UAE          </p>
+        </div>
+        <div class="follows">
+          <h4 class="item-contacts__title">
+              Follow us          </h4>
+          
+
+<div class="custom"  >
+	<div class="socials">
+  <a href="https://www.facebook.com/belleofx/" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#facebook"></use>
+    </svg>
+  </a>
+  <!--<a href="https://www.quora.com/profile/BelleoFX-1?q=belleo58" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#quora"></use>
+    </svg>
+  </a>-->
+  <a href="https://www.instagram.com/belleo_fx/?hl=en" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#instagram"></use>
+    </svg>
+  </a>
+  <a href="https://www.linkedin.com/company/belleofx" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#linkedin"></use>
+    </svg>
+  </a>
+  
+  <a href="https://twitter.com/Belleofx1" target="_blank" class="socials__link">
+        <svg class="icon">
+      <use xlink:href="/images/sprite.svg#twitter"></use>
+    </svg>
+  </a>
+  
+  <a href="https://www.youtube.com/@belleofx" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#youtube"></use>
+    </svg>
+  </a>
+</div></div>
+
+        </div>
+      </div>
+      <div class="item-menu">
+        <nav class="nav">
+            <ul class="nav menu mod-list">
+<li class="item-226 deeper parent"><a href="/fr/" >Entreprise</a><ul class="nav-child unstyled small"><li class="item-227"><a href="/fr/company/about" >À propos de BelleoFX</a></li><li class="item-228"><a href="/fr/company/account-types" >Types de comptes</a></li><li class="item-229"><a href="/fr/company/careers" >Carrières</a></li><li class="item-231"><a href="/fr/company/faq" >FAQ</a></li><li class="item-230"><a href="/fr/company/contact-us" >Contactez-nous</a></li></ul></li><li class="item-242 deeper parent"><a href="/fr/" >Marchés</a><ul class="nav-child unstyled small"><li class="item-246"><a href="/fr/markets/online-forex-trading-platform" >Forex</a></li><li class="item-247"><a href="/fr/markets/stocks" >Actions</a></li><li class="item-245"><a href="/fr/markets/indices-trading-system" >Indices</a></li><li class="item-243"><a href="/fr/markets/commodities" >Matières premières</a></li></ul></li><li class="item-258 deeper parent"><a href="/fr/trading/trading-platform" >Commerce</a><ul class="nav-child unstyled small"><li class="item-260"><a href="/fr/trading/trading-platform" >Plateforme échanges</a></li><li class="item-259"><a href="/fr/trading/economic-calendar" >Calendrier économique</a></li></ul></li><li class="item-239"><a href="/fr/funding" >Financement</a></li><li class="item-249 deeper parent"><a href="/fr/" >Partenariat</a><ul class="nav-child unstyled small"><li class="item-251"><a href="/fr/partnership/white-label" >Marque blanche</a></li><li class="item-250"><a href="/fr/partnership/introducing-broker-ib" >Courtier introducteur (IB)</a></li></ul></li><li class="item-253 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-254"><a href="/fr/promotions/100-credit-bonus" >100 % de bonus de crédit</a></li></ul></li></ul>
+  
+        </nav>
+      </div>
+      <div class="item-description">
+                <p class="text">
+            BelleoFX is a brand name of Belleo Markets (Mauritius), BelleoFX (St. Vincent and The Grenadines) and Belleo Markets - Rep.Office (UAE).<br><br>
+                                       Belleo Markets (MU) incorporated in the Republic of Mauritius with registration number 186405 GBC. Company is regulated by the Financial Services Commission (FSC) of Mauritius as an Investment Dealer (Broker), with a license number GB21027167.<br><br>
+                                       BelleoFX (SVG) is registered by Financial Services Authority (FSA) of St. Vincent & The Grenadines as an International Business Company with registration number 2584 LLC 2022.<br><br>
+                                       Belleo Markets - Rep. Office (UAE) is a branch of foreign company (Belleo Markets Mauritius), registered and regulated by DET with a license number 1074850.<br><br>
+                                       BelleoFX doesn't work with clients from OFAC sanctioned and FATF blacklisted countries.        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__container">
+            <nav class="nav">
+              <ul>
+                <li>
+                  <a href="/fr/privacy-policy">
+                      Privacy Policy                  </a>
+                </li>
+                <li>
+                  <a href="/fr/cookies-policy">
+                      Cookie Policy                  </a>
+                </li>
+                <li>
+                  <a href="/fr/aml-ctf-policy">
+                      AML & CTF Policy                  </a>
+                </li>
+                <li>
+                  <!-- <a href="/files/risk_warning_mu_belleofx.pdf">Risk Warning</a> -->
+                  <a href="/fr/risk-warning">
+                      Risk Warning                  </a>
+                </li>
+                <li>
+                  <a href="/fr/terms-of-us">
+                      Terms of Use                  </a>
+                </li>
+                <li>
+                    <a href="/fr/complaints-handling-procedure">
+                        Complaints Handling Procedure                    </a>
+                </li>
+                <li><a href="/fr/deposit-and-refund-policy">
+                        Deposit and Withdrawal Policy                    </a></li>
+
+              </ul>
+            </nav>
+            <strong class="copyright">
+                © 2020-2023                BelleoFX | All Rights Reserved            </strong>
+        </div>
+    </div>
+</footer>
+<button type="button" class="btn-reset scroll-top d-none">
+    <svg class="icon" width="26" height="14" viewBox="0 0 26 14" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.1252 13.3616L25.6917 1.79513C26.1028 1.38402 26.1028 0.719456 25.6917 0.308338C25.2805 -0.102779 24.616 -0.102779 24.2049 0.308338L13.3818 11.1314L2.55882 0.308337C2.14771 -0.102781 1.48314 -0.102781 1.07203 0.308337C0.866987 0.513378 0.763924 0.782544 0.763924 1.05176C0.763924 1.32093 0.866987 1.59014 1.07203 1.79518L12.6385 13.3616C13.0495 13.7727 13.7141 13.7727 14.1252 13.3616Z" fill="white"/>
+    </svg>
+</button>
+<!-- Подключение скриптов в конце документа -->
+<script type="text/javascript" src="https://www.tradays.com/c/js/widgets/calendar/widget.js?12"></script>
+<script src="/templates/custom/js/old/bootstrap.js"></script>
+<script src="/templates/custom/js/jquery.maskedinput.min.js"></script>
+<script src="/templates/custom/uForm/js/script.js"></script>
+<script src="/templates/custom/js/main.js" defer></script>
+<script src="/templates/custom/js/swiper.min.js"></script>
+<script src="/templates/custom/js/custom.js?v.121" defer></script>
+<!-- <script defer src='https://www.google.com/recaptcha/api.js'></script> -->
+
+<script>
+    function downloadJSAtOnload(scriptPaths) {
+        scriptPaths.forEach(path => {
+            let element = document.createElement("script");
+            element.src = path;
+            document.body.append(element);
+        });
+    }
+    setTimeout(() => {
+        downloadJSAtOnload([
+            'https://www.google.com/recaptcha/api.js'
+        ]);
+    }, 10000);
+</script>
+<!--    <div id="system-message-container">
+	</div>
+-->
+
+
+    <!--Start of Tawk.to Script-->
+    <!-- <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5ee9f6959e5f69442290bdbe/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script> -->
+    <!--End of Tawk.to Script-->
+
+    <!-- <div id="wmn-fx" >
+        <div class="wmn-wrap">
+            <div class="wmn-widget" style="background-color:#ffffff;">
+                <a href="https://wa.me/+447426074110?text=We are live and ready to chat with you now. Say something to start a Support chat." target="_blank">
+                    <svg fill="#4fce50"  viewBox="0 0 90 90" width="32" height="32"><path d="M90,43.841c0,24.213-19.779,43.841-44.182,43.841c-7.747,0-15.025-1.98-21.357-5.455L0,90l7.975-23.522   c-4.023-6.606-6.34-14.354-6.34-22.637C1.635,19.628,21.416,0,45.818,0C70.223,0,90,19.628,90,43.841z M45.818,6.982   c-20.484,0-37.146,16.535-37.146,36.859c0,8.065,2.629,15.534,7.076,21.61L11.107,79.14l14.275-4.537   c5.865,3.851,12.891,6.097,20.437,6.097c20.481,0,37.146-16.533,37.146-36.857S66.301,6.982,45.818,6.982z M68.129,53.938   c-0.273-0.447-0.994-0.717-2.076-1.254c-1.084-0.537-6.41-3.138-7.4-3.495c-0.993-0.358-1.717-0.538-2.438,0.537   c-0.721,1.076-2.797,3.495-3.43,4.212c-0.632,0.719-1.263,0.809-2.347,0.271c-1.082-0.537-4.571-1.673-8.708-5.333   c-3.219-2.848-5.393-6.364-6.025-7.441c-0.631-1.075-0.066-1.656,0.475-2.191c0.488-0.482,1.084-1.255,1.625-1.882   c0.543-0.628,0.723-1.075,1.082-1.793c0.363-0.717,0.182-1.344-0.09-1.883c-0.27-0.537-2.438-5.825-3.34-7.977   c-0.902-2.15-1.803-1.792-2.436-1.792c-0.631,0-1.354-0.09-2.076-0.09c-0.722,0-1.896,0.269-2.889,1.344   c-0.992,1.076-3.789,3.676-3.789,8.963c0,5.288,3.879,10.397,4.422,11.113c0.541,0.716,7.49,11.92,18.5,16.223   C58.2,65.771,58.2,64.336,60.186,64.156c1.984-0.179,6.406-2.599,7.312-5.107C68.398,56.537,68.398,54.386,68.129,53.938z"></path></svg>
+                    <span class="notification">1</span>
+                </a>
+            </div>
+        </div>
+    </div> -->
+    <!--Start of Tawk.to Script (0.7.1)-->
+    <!-- <script id="tawk-script" type="text/javascript">
+        setTimeout(() => {
+            var Tawk_API = Tawk_API || {};
+            var Tawk_LoadStart=new Date();
+            (function(){
+                var s1 = document.createElement( 'script' ),s0=document.getElementsByTagName( 'script' )[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/5ee9f6959e5f69442290bdbe/default';
+                s1.charset = 'UTF-8';
+                s1.setAttribute( 'crossorigin','*' );
+                s0.parentNode.insertBefore( s1, s0 );
+            })();
+        }, 8000);
+    </script> -->
+    <!--End of Tawk.to Script (0.7.1)-->
+    <!-- Start of belleofx Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of belleofx Zendesk Widget script -->
+
+    <div class="sliding-enquiry"><div class="enquiry-wrap">
+        </div>
+        <style type="text/css">.error{border:1px solid red !important; }.valid{border:1px solid green !important; }input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none; margin: 0;}</style>
+        <div class="enquiry-content">
+            <div class="enquiry-content-pad">
+                <div>
+                    <p class="equirydescription">Please fill up the form below and our team will get in touch you.</p>
+                    <hr/>
+                    <div id="enquiryform" style="">
+                        <form action="" id="sliding-form" name="sliding-form" method="post" style="margin: 0 0 0em;">
+                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@belleofx.com"/>
+                            <ul>
+                                <li>
+                                    <input type="text" name="name"  id="name" placeholder="Name" class="textbox_popup" value="">
+                                </li>
+                                <li>
+                                    <input type="text" name="email"  id="email" placeholder="Email" class="textbox_popup" value="">
+                                </li>
+                                <li>
+                                    <input type="text" name="number" minlength="10"  id="number" placeholder="Mobile No." class="textbox_popup" value="">
+                                </li>
+                                <li>
+            <textarea name="message" id="message"  placeholder="Message" class="textbox_popup textareacustom" value="">
+            </textarea>
+                                </li>
+                                <li>
+                                    <p>
+                                        Are u an Existing Customer?                                    </p>
+                                    <div class="radiobtns">
+                                        <label>
+                                            <input type="radio" name="customer">
+                                            <span>Yes</span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="customer">
+                                            <span>No</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="slidingcaptcha">
+                                    <img src="/templates/custom/captcha/CaptchaSecurityImages.php?width=100&height=40&characters=5&code=5mvtxq" height="40px;" width="100px;" />
+                                </li>
+                                <li class="slidingcaptchaans">
+                                    <input type="text" name="captcha"  id="captcha" value=""
+                                           Placeholder="Captcha" class="textbox_popup"/>
+                                </li>
+                                <li>
+                                    <input type="button" name="submit" id="submit" class="button1_submit buttoncustomsubmit" style=""
+                                           value="Enquiry Now"/>
+                                </li>
+                            </ul>
+                        </form>
+                        <hr/>
+                    </div>
+                    <div id="enquirymsg" style="text-align:center;display:none;">
+                        <div style="clear">&nbsp;</div>
+                        <div style="clear">&nbsp;</div>
+                        <div style="clear">&nbsp;</div>
+                        <div style="font-size: 15px;">Your Message Submitted Successfully.</div>
+                        <div style="clear">&nbsp;</div>
+                        <div style="clear">&nbsp;</div>
+                        <h3>Powered By</h3>
+                        <div style="clear">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="graph-modal">
+        <div class="graph-modal__container modal-subscribe" role="dialog" aria-modal="true" data-graph-target="modalCallback">
+            <div class="graph-modal__content">
+                <div class="graph-modal__image">
+                    <!-- <picture>
+                        <source srcset="/images/modal/ok_icon.avif" type="image/avif">
+                        <source srcset="/images/modal/ok_icon.webp" type="image/webp"> -->
+                    <img loading="lazy" src="/images/modal/ok_icon.png" class="image" width="" height="" alt="Thank you!">
+                    <!-- </picture> -->
+                </div>
+                <h4 class="graph-modal__title">
+                    Thank you!                </h4>
+                <p class="graph-modal__text">
+                    Our manager will contact you!                </p>
+                <button class="btn-reset btn-main btn-main--black graph-modal__close" aria-label="close">
+                    Great! Thanx!                </button>
+            </div>
+        </div>
+        <div class="graph-modal__container modal-callback" role="dialog" aria-modal="true" data-graph-target="modalSubscribe">
+            <div class="graph-modal__content">
+                <div class="graph-modal__image">
+                    <!-- <picture>
+                        <source srcset="/images/modal/grt_icon.avif" type="image/avif">
+                        <source srcset="/images/modal/grt_icon.webp" type="image/webp"> -->
+                    <img loading="lazy" src="/images/modal/grt_icon.png" class="image" width="" height="" alt="Great!">
+                    <!-- </picture> -->
+                </div>
+                <h4 class="graph-modal__title">
+                    Great!                </h4>
+                <p class="graph-modal__text">
+                     Now you will be aware of the latest news!                </p>
+                <button class="btn-reset btn-main btn-main--black graph-modal__close" aria-label="Закрыть модальное окно">
+                    Ok, Thanx!                </button>
+            </div>
+        </div>
+        <div class="graph-modal__container modal-cv" role="dialog" aria-modal="true" data-graph-target="modalCV">
+            <div class="graph-modal__content">
+                <div class="graph-modal__image">
+                    <img loading="lazy" src="/images/modal/grt_icon.png" class="image" width="" height="" alt="Great!">
+                </div>
+                <h4 class="graph-modal__title">
+                    Yes, you did it!                </h4>
+                <p class="graph-modal__text">
+                    Thanks you for your application. Our team will review it and contact
+                                                                 you if we have a vacancy for you. Have a great day ahead!                </p>
+                <button class="btn-reset btn-main btn-main--black graph-modal__close" aria-label="Закрыть модальное окно">
+                    Ok                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="disclaimer-popup">
+        <b> Disclaimer:</b>
+        This page has been translated using Google Translation Cloud. We apologize for any errors or omissions that may have occurred during the automated translation.    </div>
+</body>
+</html>

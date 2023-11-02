@@ -1,0 +1,671 @@
+
+
+
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/favicon.ico"/>
+    <link rel="icon" type="image/png" href="/templates/custom/images/favicon_belleofx 32х32.png"/>
+            <link rel="stylesheet" href="/templates/custom/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/templates/custom/fonts/IcoMoon/icomoon.css">
+    <link rel="stylesheet" href="/templates/custom/css/old/bootstrap.css">
+    <link href="/templates/custom/css/old/styles.css?v.1.01" rel="stylesheet" type="text/css" />
+    <link href="/templates/custom/css/inner-pages.css?v.1.116" rel="stylesheet" type="text/css" />
+
+    <link rel="preload" href="/templates/custom/fonts/Effra-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/templates/custom/fonts/Effra-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="alternate" href="https://belleofx.com" hreflang="en-ae" />
+    <meta charset="utf-8" />
+	<base href="/fr/aml-ctf-policy" />
+	<title>Politique AML et CTF</title>
+	<link href="/fa/aml-ctf-policy" rel="alternate" hreflang="fa-IR" />
+	<link href="/es/aml-ctf-policy" rel="alternate" hreflang="es-ES" />
+	<link href="/zh/aml-ctf-policy" rel="alternate" hreflang="zh-TW" />
+	<link href="/fr/aml-ctf-policy" rel="alternate" hreflang="fr-FR" />
+	<link href="/vi/aml-ctf-policy" rel="alternate" hreflang="vi-VN" />
+	<link href="/tr/aml-ctf-policy" rel="alternate" hreflang="tr-TR" />
+	<link href="/ar/aml-ctf-policy" rel="alternate" hreflang="ar-AA" />
+	<link href="/aml-ctf-policy" rel="alternate" hreflang="en-GB" />
+	<link href="/templates/custom/css/sliding-enquiry.css" rel="stylesheet" />
+	<link href="/templates/custom/css/vendor.css" rel="stylesheet" />
+	<link href="/templates/custom/css/main.css" rel="stylesheet" />
+	<link href="/templates/custom/css/custom.css?119" rel="stylesheet" />
+	<link href="/media/mod_languages/css/template.css?21b43949eb00c2dc28868a748e2b361a" rel="stylesheet" />
+	<script src="/media/jui/js/jquery.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/jui/js/bootstrap.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/system/js/caption.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script>
+jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+	</script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WXNKPTL3B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5WXNKPTL3B');
+    </script>
+    <!-- End Google tag (gtag.js) -->
+    <!-- Google Tag Manager -->
+    <script>
+
+        setTimeout(() => {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-KNGN98Q');
+        }, 8000);
+        var phone = countryCode['']
+        var country = ''
+        var phonePrefix = '123';
+        document.addEventListener('DOMContentLoaded', function() {
+            country = countryCode.find(el => el.name === "Nigeria");
+            console.log(countryCode);
+            document.getElementById("uForm__tel_1").placeholder = country.dial_code;
+        }, false);
+        document.getElementById("uForm__tel_1").onclick = (e) =>{
+            let tel = jQuery("#uForm__tel_1");
+            console.log(tel.val());
+            if(tel.val() !== '+__ ___-___-____') return
+            tel.val( country.dial_code.slice(1) ).trigger('input');
+
+        }
+
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body class="">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNGN98Q"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- <div class="preloader-dots">
+    <div></div>
+    <div></div>
+    <div></div>
+</div> -->
+<header class="header">
+    <div class="wrapper">
+        <div class="header__container">
+            <div class="header__left">
+                <button class="burger btn-transparent btn-reset" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+                    <div class="icon">
+                        <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.948 0H17.051C17.573 0 18 0.427 18 0.949V1.051C18 1.573 17.573 2 17.051 2H0.948C0.426 2 0 1.573 0 1.051V0.949C0 0.427 0.426 0 0.948 0ZM17.051 5H0.948C0.426 5 0 5.427 0 5.949V6.051C0 6.573 0.426 7 0.948 7H17.051C17.573 7 18 6.573 18 6.051V5.949C18 5.427 17.573 5 17.051 5ZM17.051 10H0.948C0.426 10 0 10.427 0 10.949V11.051C0 11.573 0.426 12 0.948 12H17.051C17.573 12 18 11.573 18 11.051V10.949C18 10.427 17.573 10 17.051 10Z" fill="url(#paint0_linear_16_9372)"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_16_9372" x1="0" y1="5.99769" x2="18.003" y2="5.99769" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#8F4DED"/>
+                            <stop offset="1" stop-color="#6D43E1"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    Menu
+                </button>
+                <div class="lang_block ">
+    <div>
+                                                                                                <div class="lang_block__active-btn">
+                    <span class="lang_block__btn lang_active p-10">
+                        <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                        <span class="lang_block__btn_val">FR</span>
+                    </span>
+                </div>
+                
+        <div class="lang_block__all-lang__outer">
+            <div class="lang_block__all-lang">
+                <div class="lang_block__all__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24" fill="none">
+                        <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                    </svg>
+                </div>
+                
+                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fa/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/fa_ir.gif" alt="" />                            <span class="lang_block__btn_val">FA</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/es/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/es_es.gif" alt="" />                            <span class="lang_block__btn_val">ES</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/zh/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                            <span class="lang_block__btn_val">ZH</span>
+                        </a></span>
+                                                                                <span class="lang_block__active-btn lang_block__btn d-flex">
+                        <a href="/fr/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                            <span class="lang_block__btn_val">FR</span>
+                        </a></span>
+                                                                            <span class="lang_block__btn d-flex">
+                        <a href="/vi/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/vi_vn.gif" alt="" />                            <span class="lang_block__btn_val">VI</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/tr/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/tr_tr.gif" alt="" />                            <span class="lang_block__btn_val">TR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/ar/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                            <span class="lang_block__btn_val">AR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/en/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/en-gb.gif" alt="" />                            <span class="lang_block__btn_val">EN</span>
+                        </a></span>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+                            </div>
+            <div class="mobile-menu" data-menu>
+                <div class="mobile-menu__container">
+                    <div class="mobile-menu__content">
+                        <div class="mobile-menu__top">
+
+                            <a href="/fr/" class="logo-link">
+                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: BelleoFx icon" class="logo">
+                            </a>
+                            <button class="btn-reset btn-menu-close">
+                                <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <nav class="nav">
+                            <ul class="nav menu mod-list">
+<li class="item-226 deeper parent"><a href="/fr/" >Entreprise</a><ul class="nav-child unstyled small"><li class="item-227"><a href="/fr/company/about" >À propos de BelleoFX</a></li><li class="item-228"><a href="/fr/company/account-types" >Types de comptes</a></li><li class="item-229"><a href="/fr/company/careers" >Carrières</a></li><li class="item-231"><a href="/fr/company/faq" >FAQ</a></li><li class="item-230"><a href="/fr/company/contact-us" >Contactez-nous</a></li></ul></li><li class="item-242 deeper parent"><a href="/fr/" >Marchés</a><ul class="nav-child unstyled small"><li class="item-246"><a href="/fr/markets/online-forex-trading-platform" >Forex</a></li><li class="item-247"><a href="/fr/markets/stocks" >Actions</a></li><li class="item-245"><a href="/fr/markets/indices-trading-system" >Indices</a></li><li class="item-243"><a href="/fr/markets/commodities" >Matières premières</a></li></ul></li><li class="item-258 deeper parent"><a href="/fr/trading/trading-platform" >Commerce</a><ul class="nav-child unstyled small"><li class="item-260"><a href="/fr/trading/trading-platform" >Plateforme échanges</a></li><li class="item-259"><a href="/fr/trading/economic-calendar" >Calendrier économique</a></li></ul></li><li class="item-239"><a href="/fr/funding" >Financement</a></li><li class="item-249 deeper parent"><a href="/fr/" >Partenariat</a><ul class="nav-child unstyled small"><li class="item-251"><a href="/fr/partnership/white-label" >Marque blanche</a></li><li class="item-250"><a href="/fr/partnership/introducing-broker-ib" >Courtier introducteur (IB)</a></li></ul></li><li class="item-253 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-254"><a href="/fr/promotions/100-credit-bonus" >100 % de bonus de crédit</a></li></ul></li></ul>
+
+                            <div class="lang_block ">
+    <div>
+                                                                                                <div class="lang_block__active-btn">
+                    <span class="lang_block__btn lang_active p-10">
+                        <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                        <span class="lang_block__btn_val">FR</span>
+                    </span>
+                </div>
+                
+        <div class="lang_block__all-lang__outer">
+            <div class="lang_block__all-lang">
+                <div class="lang_block__all__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24" fill="none">
+                        <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                    </svg>
+                </div>
+                
+                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fa/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/fa_ir.gif" alt="" />                            <span class="lang_block__btn_val">FA</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/es/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/es_es.gif" alt="" />                            <span class="lang_block__btn_val">ES</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/zh/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                            <span class="lang_block__btn_val">ZH</span>
+                        </a></span>
+                                                                                <span class="lang_block__active-btn lang_block__btn d-flex">
+                        <a href="/fr/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                            <span class="lang_block__btn_val">FR</span>
+                        </a></span>
+                                                                            <span class="lang_block__btn d-flex">
+                        <a href="/vi/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/vi_vn.gif" alt="" />                            <span class="lang_block__btn_val">VI</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/tr/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/tr_tr.gif" alt="" />                            <span class="lang_block__btn_val">TR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/ar/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                            <span class="lang_block__btn_val">AR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/en/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/en-gb.gif" alt="" />                            <span class="lang_block__btn_val">EN</span>
+                        </a></span>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+                        </nav>
+                        <div class="header__right">
+                            <a href="https://pa.belleofx.com/fr/signup" class="btn-reset btn-main btn-main--white">
+                                Join Now                            </a>
+                            <a href="/fr/demo" class="btn-reset btn-main btn-main--black">
+                                Try Demo Account                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="/fr/" class="logo-link">
+                                               
+                <img src="/templates/custom/images/icon/logo.svg" alt="logo: BelleoFx icon" class="logo">
+                <img src="/templates/custom/images/icon/logo-icon.svg" alt="logo: BelleoFx icon" class="logo logo--mob">
+            </a>
+            <nav class="nav">
+                <ul class="nav menu mod-list">
+<li class="item-226 deeper parent"><a href="/fr/" >Entreprise</a><ul class="nav-child unstyled small"><li class="item-227"><a href="/fr/company/about" >À propos de BelleoFX</a></li><li class="item-228"><a href="/fr/company/account-types" >Types de comptes</a></li><li class="item-229"><a href="/fr/company/careers" >Carrières</a></li><li class="item-231"><a href="/fr/company/faq" >FAQ</a></li><li class="item-230"><a href="/fr/company/contact-us" >Contactez-nous</a></li></ul></li><li class="item-242 deeper parent"><a href="/fr/" >Marchés</a><ul class="nav-child unstyled small"><li class="item-246"><a href="/fr/markets/online-forex-trading-platform" >Forex</a></li><li class="item-247"><a href="/fr/markets/stocks" >Actions</a></li><li class="item-245"><a href="/fr/markets/indices-trading-system" >Indices</a></li><li class="item-243"><a href="/fr/markets/commodities" >Matières premières</a></li></ul></li><li class="item-258 deeper parent"><a href="/fr/trading/trading-platform" >Commerce</a><ul class="nav-child unstyled small"><li class="item-260"><a href="/fr/trading/trading-platform" >Plateforme échanges</a></li><li class="item-259"><a href="/fr/trading/economic-calendar" >Calendrier économique</a></li></ul></li><li class="item-239"><a href="/fr/funding" >Financement</a></li><li class="item-249 deeper parent"><a href="/fr/" >Partenariat</a><ul class="nav-child unstyled small"><li class="item-251"><a href="/fr/partnership/white-label" >Marque blanche</a></li><li class="item-250"><a href="/fr/partnership/introducing-broker-ib" >Courtier introducteur (IB)</a></li></ul></li><li class="item-253 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-254"><a href="/fr/promotions/100-credit-bonus" >100 % de bonus de crédit</a></li></ul></li></ul>
+
+            </nav>
+            <div class="header__right">
+                <a href="https://pa.belleofx.com/en/login" class="btn-reset btn-transparent">
+                    Login                </a>
+                <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">
+                    Register                </a>
+                                <div class="lang_block ">
+    <div>
+                                                                                                <div class="lang_block__active-btn">
+                    <span class="lang_block__btn lang_active p-10">
+                        <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                        <span class="lang_block__btn_val">FR</span>
+                    </span>
+                </div>
+                
+        <div class="lang_block__all-lang__outer">
+            <div class="lang_block__all-lang">
+                <div class="lang_block__all__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24" fill="none">
+                        <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                    </svg>
+                </div>
+                
+                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fa/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/fa_ir.gif" alt="" />                            <span class="lang_block__btn_val">FA</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/es/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/es_es.gif" alt="" />                            <span class="lang_block__btn_val">ES</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/zh/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                            <span class="lang_block__btn_val">ZH</span>
+                        </a></span>
+                                                                                <span class="lang_block__active-btn lang_block__btn d-flex">
+                        <a href="/fr/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                            <span class="lang_block__btn_val">FR</span>
+                        </a></span>
+                                                                            <span class="lang_block__btn d-flex">
+                        <a href="/vi/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/vi_vn.gif" alt="" />                            <span class="lang_block__btn_val">VI</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/tr/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/tr_tr.gif" alt="" />                            <span class="lang_block__btn_val">TR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/ar/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                            <span class="lang_block__btn_val">AR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/en/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/en-gb.gif" alt="" />                            <span class="lang_block__btn_val">EN</span>
+                        </a></span>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="fr-FR" />
+			<div class="page-contacts page-bonus mt100 page-policy"><div class="intro" style="background-image:url(/images/contacts/bg-contacts.jpg)"><div class="wrapper"><h1 class="title mb0"> Politique AML et CTF </h1></div></div><div class="terms-section address-section"><div class="wrapper"><div class="title grad">1. Objectif</div><p> Le but de cette politique AML &amp; CTF est de garantir que BelleoFX et son personnel sont en mesure de se conformer à toutes les exigences légales et réglementaires pertinentes en matière de prévention du blanchiment d&#39;argent et de la criminalité financière.<br><br> La politique vise à encourager le personnel à réfléchir aux risques potentiels de criminalité financière dans l&#39;exercice de leurs fonctions et à être pleinement conscient des procédures internes de l&#39;entreprise pour dissuader l&#39;utilisation potentielle de BelleoFX à des fins de criminalité financière.<br><br> Leur utilisation dans le cadre de la criminalité financière implique pour les entreprises des risques de réputation, juridiques et réglementaires. Cette politique soutient le code de conduite de BelleoFX qui met l&#39;accent à la fois sur la réputation de l&#39;entreprise et sur l&#39;importance du respect de toutes les lois, règles et réglementations applicables dans chaque juridiction dans laquelle elle exerce ses activités.<br><br> Cette politique est approuvée et approuvée par le conseil d&#39;administration de BelleoFX. Il sera révisé au moins une fois par an, conformément à l&#39;évaluation annuelle des risques et aux exigences du Groupe, afin de garantir qu&#39;il continue de favoriser une gestion efficace des risques de criminalité financière.<br><br> Cette politique doit être lue conjointement avec :<br><br> <b>A.</b> Les procédures BelleoFX KYC et Due Diligence<br> <b>B.</b> Les procédures d&#39;intégration de BelleoFX et d&#39;évaluation des risques client (y compris les PEP et les sanctions)<br> <b>C.</b> Les procédures de surveillance de la conformité de BelleoFX</p><div class="title grad"> 2. Lutte contre le blanchiment d&#39;argent (AML) – les exigences</div><p> À l’échelle mondiale, il existe une obligation de longue date de mettre en place des procédures efficaces pour détecter et prévenir le blanchiment d’argent. Plus précisément, BelleoFX est enregistrée Belleo Markets (MU) constituée en République de Maurice sous le numéro d&#39;enregistrement 186405 GBC. La société est réglementée par la Commission des services financiers (FSC) de Maurice en tant que courtier en investissements (courtier), avec un numéro de licence GB21027167. BelleoFX (SVG) est enregistrée auprès de la Financial Services Authority (FSA) de Saint-Vincent-et-les Grenadines en tant que société commerciale internationale sous le numéro d&#39;enregistrement 26000 BC 2020. L&#39;entreprise doit adopter des politiques et procédures AML appropriées. BelleoFX s&#39;engage à respecter toutes les normes mondiales et la législation applicable et a mis en œuvre les politiques et procédures mentionnées dans le document pour garantir que nous sommes en mesure de détecter et de prévenir le blanchiment d&#39;argent par l&#39;intermédiaire de la société.</p><div class="title grad"> 2.1 Qu&#39;est-ce que le blanchiment d&#39;argent ?</div><p> Le blanchiment d&#39;argent est le processus par lequel les criminels tentent de dissimuler les véritables origines et/ou la propriété des produits ou des avantages d&#39;une activité criminelle. Le but du processus est de parvenir à une situation dans laquelle le produit de leurs activités semble légitime ; leur permettant d&#39;éviter les poursuites, les condamnations et la confiscation des fonds criminels. Les institutions financières sont utilisées à des fins de blanchiment d&#39;argent et les employés du secteur doivent donc être conscients des exigences réglementaires imposées à la fois à l&#39;entreprise pour laquelle ils travaillent et à eux-mêmes en tant qu&#39;individus.</p><div class="title grad"> 2.2 Les étapes du blanchiment d&#39;argent</div><p> Le blanchiment d’argent est traditionnellement décrit comme comportant seulement trois étapes fondamentales, mais il est important de se rappeler que ces étapes ne se produisent pas nécessairement dans tous les cas. De plus, les frontières entre eux peuvent être floues ou se chevaucher. Le blanchiment d’argent prend de nombreuses formes et le modèle classique du blanchiment d’argent ne s’applique pas toujours. Par exemple, une personne peut tirer profit des délits acquisitifs (tels que le vol, la fraude ou l’évasion fiscale) tout en tombant sous le coup de la définition du blanchiment d’argent. Néanmoins, les 3 étapes classiques du blanchiment sont brièvement décrites ci-dessous :<br><br> <b>Placement :</b> introduction physique d’espèces ou d’autres produits dans le système financier – par exemple, en déposant des espèces sur un compte bancaire. <b>Superposition :</b> processus consistant à déplacer les produits à travers un certain nombre de transactions financières (parfois complexes), de manière à rendre la piste d&#39;audit plus difficile à retracer.<br><br> <b>Les exemples comprennent:</b><br><br> vendre un investissement et réinvestir dans un autre ; déplacer l&#39;argent entre différentes institutions ou juridictions ; et la création de véhicules tels que des sociétés et des fiducies afin de modifier la propriété apparente des actifs.<br><br> C&#39;est au stade de la superposition que BelleoFX est le plus exposé.<br><br> <b>Intégration :</b> c&#39;est le moment où les fonds ont été suffisamment éloignés de leur origine pour avoir acquis une apparence de légitimité et où l&#39;argent est intégré dans l&#39;économie.</p><div class="title grad"> 2.3 Activité suspecte</div><p> C&#39;est au stade de la superposition que BelleoFX est le plus à risque, même si les employés doivent être vigilants face à tout comportement suspect de la part des clients. Par exemple:</p><ul><li> essayer d&#39;effectuer des paiements en espèces sur leur compte</li><li> verser de l&#39;argent sur le compte uniquement pour le retirer ultérieurement sans aucune activité de trading</li><li> effectuer des dépôts qui dépassent le montant dont ils ont déclaré disposer pour le trading sur leurs formulaires de demande</li><li> Acheminement des fonds via des comptes tiers</li><li> Négocier sans égard aux coûts des transactions ;</li><li> Utilisation intensive de comptes à l’étranger ou utilisation excessive de structures d’entreprise complexes</li><li> Fonds en paiement d’une transaction provenant d’une source inhabituelle</li><li> Un client fait preuve d&#39;un niveau inhabituel de souci du secret, notamment en ce qui concerne son identité, son type d&#39;activité ou la source de ses actifs.</li><li> Une entreprise cliente manque de connaissances générales sur son propre secteur</li><li> Un client n&#39;est pas concerné par les risques, les commissions ou autres coûts associés au trading</li><li> Un client semble agir en tant qu&#39;agent d&#39;une autre entité ou d&#39;un autre individu, mais reste évasif sur l&#39;identité de l&#39;autre entité ou de l&#39;autre individu (sauf dans les situations impliquant l&#39;identité des participations dans un véhicule de placement collectif)</li><li> Un client est originaire ou possède des comptes dans un pays identifié comme étant un paradis pour le secret bancaire, le blanchiment d&#39;argent ou la production de stupéfiants.</li><li> Un client s&#39;engage dans une activité électronique étendue, soudaine ou inexpliquée (en particulier des virements électroniques impliquant des pays dotés de lois sur le secret bancaire)</li><li> Un client effectue un dépôt de fonds suivi d&#39;une demande que l&#39;argent soit viré ou transféré à un tiers ou à une autre entreprise, sans aucun objectif commercial apparent.</li><li> des modèles de trading qui ne correspondent pas à ceux déterminés dans la section Expérience de trading de leurs formulaires de candidature</li></ul><p> Tout soupçon doit être signalé à Momin Shaikh, le responsable de la conformité. Il est de son devoir en tant que responsable des rapports AML/CTF de BelleoFX d&#39;enquêter sur tous les soupçons et de décider s&#39;il convient de transmettre les détails aux agences externes et aux régulateurs, le cas échéant.</p><div class="title grad"> 2.4 Ouverture de compte client et diligence raisonnable</div><p> Disposer d&#39;informations suffisantes sur un client est un outil inestimable dans la lutte contre la criminalité financière et, en cas de problème, peut protéger les entreprises individuelles contre les risques de réputation et financiers. La diligence raisonnable à l&#39;égard de la clientèle consiste à connaître l&#39;objet et la nature de la relation commerciale, à identifier le client et à vérifier son identité sur la base de documents et/ou de données provenant d&#39;une source fiable. Toutes les personnes physiques et morales seront identifiées et vérifiées dans le cadre du processus d&#39;intégration.<br><br> BelleoFX a adopté une approche basée sur le risque et les facteurs importants qui ont été pris en compte incluent les activités entreprises ainsi que les canaux de livraison pertinents, la clientèle et la situation géographique des clients.<br><br> En plus des problèmes AML, BelleoFX doit également vérifier les clients par rapport aux bases de données PEP et Sanction, cela sera effectué en utilisant des systèmes en ligne pertinents au stade de l&#39;intégration. Tout incident doit être immédiatement signalé au service Conformité.</p><div class="title grad"> 2.5 Formation</div><p> L&#39;entreprise doit s&#39;assurer que les systèmes et contrôles incluent une formation appropriée pour ses employés en matière de blanchiment d&#39;argent.<br><br> Chez BelleoFX, tous les nouveaux arrivants doivent assister à une présentation d&#39;introduction sur la criminalité financière fournie par le service de conformité. En outre, des formations de recyclage régulières sont proposées aux employés en poste, généralement sous la forme de tests informatisés. Une formation ad hoc aura lieu chaque fois que le service de conformité le jugera nécessaire et des mises à jour seront fournies au personnel par le service de conformité.</p><div class="title grad"> 2.6 Tenue de dossiers</div><p> Les cabinets doivent conserver une copie des preuves de l&#39;identité de chaque client (ou des informations indiquant où une copie de ces preuves peut être trouvée) ou, lorsque ni l&#39;une ni l&#39;autre n&#39;est possible, des informations qui permettront au cabinet de revérifier l&#39;identité du client. Ces documents doivent être conservés pendant cinq ans à compter de la date à laquelle le client cesse d&#39;être client ou à compter de la date de sa dernière transaction s&#39;il n&#39;y a pas de rupture formelle de la relation. Des enregistrements doivent également être conservés pour chaque transaction effectuée dans le cadre des affaires pour chaque client ; ceux-ci doivent être conservés pendant cinq ans à compter de la date à laquelle toutes les activités liées à cette transaction ont été achevées.<br><br> Les enregistrements de toute formation sur la criminalité financière dispensée aux employés doivent également être conservés. Ceux-ci sont stockés en copie électronique auprès de Compliance.</p><div class="title grad"> 3. Financement du terrorisme</div><div class="title grad"> 3.1 Qu&#39;est-ce que le terrorisme ?</div><p> Le terrorisme est défini comme « le recours ou la menace d&#39;une action... destinée à influencer le gouvernement ou à intimider le public... ou le recours ou la menace faite dans le but de faire avancer une cause politique, religieuse ou idéologique » :</p><ul><li> Violence contre une personne</li><li> Dommages à la propriété</li><li> Risque grave pour la santé ou la sécurité publique</li><li> Interférence avec un système électronique</li></ul><div class="title grad"> 3.2 Comment cela s’applique-t-il aux institutions financières ?</div><p> Ce qui concerne les institutions financières, ce sont les « biens terroristes » et le blanchiment de ces biens. Il est défini comme :</p><ul><li> Argent ou autres biens susceptibles d’être utilisés à des fins terroristes</li><li> Produits de la commission d&#39;actes de terrorisme</li><li> Produits des actes commis à des fins de terrorisme</li></ul><div class="title grad"> 3.3 Financement du terrorisme et blanchiment d’argent</div><p> Il peut exister des similitudes considérables entre le mouvement des biens terroristes et le blanchiment des biens criminels : certains groupes terroristes sont connus pour avoir des liens bien établis avec des activités criminelles organisées. Il existe cependant deux différences majeures entre les biens terroristes et les biens criminels :</p><ul><li> Souvent, seules de petites sommes sont nécessaires pour commettre des actes terroristes individuels, augmentant ainsi la difficulté de localiser les biens terroristes.</li><li> Les terroristes peuvent être financés à partir de revenus légitimement obtenus, y compris de dons caritatifs, et il est extrêmement difficile d&#39;identifier le stade auquel les fonds légitimes deviennent la propriété des terroristes.</li></ul><p> Les organisations terroristes peuvent toutefois avoir besoin de financements et de biens immobiliers assez importants pour approvisionner leurs infrastructures. Ils contrôlent souvent des biens et des fonds provenant de diverses sources et emploient des techniques modernes pour gérer ces fonds et les déplacer entre juridictions.<br><br> Dans la lutte contre le financement du terrorisme, l&#39;obligation de BelleoFX est de signaler toute activité suspecte aux autorités. Cela soutient les objectifs des services répressifs en matière de financement du terrorisme en autorisant le gel des biens lorsqu&#39;il existe des motifs raisonnables de soupçonner que ces biens pourraient être utilisés pour financer une activité terroriste.</p><div class="title grad"> 4. Fraude</div><div class="title grad"> 4.1 Introduction à la fraude</div><p> <b>La fraude est définie comme :</b><br> « Toute tentative, réussie ou non, d&#39;obtenir un gain injuste ou illégal par une fausse déclaration délibérée de faits importants, ou par l&#39;omission délibérée de ces faits. »<br><br> Cette définition large inclut la fraude commise par des clients contre BelleoFX, par des employés de BelleoFX contre l&#39;entreprise ou contre des clients, ou la fraude commise par des tiers contre des clients ou l&#39;entreprise.<br><br> BelleoFX fournit ses services financiers via Internet, sans contact face à face avec les clients. Sa clientèle s’étend dans de nombreux pays, ce qui augmente la complexité des menaces d’usurpation d’identité et d’usurpation d’identité. Une grande partie des clients résident dans des juridictions à haut risque* où les réglementations antifraude ne sont pas solides.<br><br> Cependant, comme l&#39;entreprise ne fournit pas de services bancaires généraux ni de facilités de crédit, elle ne constitue pas une cible aussi attrayante pour les criminels organisés impliqués dans des fraudes que pourraient l&#39;être les institutions bancaires ou de prêt.</p><div class="title grad"> 4.2 Prévention de la fraude</div><p> Il existe diverses garanties en place pour empêcher la fraude de se produire chez BelleoFX. Ceux-ci inclus:<br><br> <b>Code de conduite :</b> une copie du code est incluse dans les packs d&#39;intégration BelleoFX de tous les nouveaux employés. Les employés sont pleinement conscients que des mesures disciplinaires peuvent être prises s’ils n’agissent pas « honnêtement, équitablement et avec intégrité lorsqu’ils traitent avec des clients, des contreparties et des collègues ». Le Code indique clairement que la réputation de l&#39;entreprise est de la plus haute importance et que de saines pratiques commerciales et de marché doivent être maintenues à tout moment.<br><br> <b>Prise en charge du client :</b> les normes de prise en charge par le client concernent le traitement de la documentation particulière obtenue et l&#39;identification du risque de fraude au cours du processus de prise en charge. Des normes minimales de vérification d&#39;identité doivent être respectées pour toutes les nouvelles demandes et ne seront pas acceptées de la part de clients potentiels qui représentent un risque inacceptable de criminalité financière.<br><br> <b>Authentification client :</b> des normes d&#39;authentification client existent pour protéger les clients authentiques contre la fraude par usurpation d&#39;identité. Les instructions des clients ne seront pas suivies d&#39;effet tant que les procédures d&#39;authentification n&#39;auront pas été terminées avec succès et les tentatives d&#39;authentification infructueuses répétées seront signalées au Conformité comme suspectes et, dans la plupart des cas, la demande sera rejetée.<br><br> <b>Processus de paiement :</b> les normes de processus de paiement protègent l&#39;intégrité des paiements afin de contribuer à prévenir la fraude externe ou interne. Sensibilisation et formation : les normes de sensibilisation et de formation contribuent à intégrer une culture de sensibilisation aux risques et à fournir des compétences spécialisées au personnel clé impliqué dans les processus de contrôle. La formation de sensibilisation à la fraude fait partie de la formation d&#39;initiation à la lutte contre le blanchiment d&#39;argent dispensée par Compliance et une formation complémentaire plus approfondie sur la fraude sera dispensée régulièrement pour les postes clés.</p><div class="title grad"> 4.3 Détection/signalement de fraude</div><p> Des procédures sont également en place pour détecter et signaler toute activité frauduleuse qui aurait pu se produire malgré les garanties susmentionnées. Ceux-ci inclus:<br><br> <b>Rapports internes</b><br><br> Si un employé de l’entreprise soupçonne qu’une fraude a eu lieu ou pourrait se produire, il doit signaler ses soupçons au responsable des déclarations LBC/FT. Une fois cela fait, ils ont rempli leur obligation légale et il appartient au responsable du reporting LBC/FT de décider si le signalement doit être déclaré à l&#39;extérieur.<br><br></p><div class="title grad"> 5. Lutte contre la corruption</div><div class="title grad"> 5.1 Définition</div><p> « La corruption est l’offre d’argent, de services ou d’autres objets de valeur afin d’inciter quelqu’un à faire quelque chose en retour. La corruption est la corruption. La corruption consiste à agir de manière malhonnête en échange d&#39;argent ou de gain personnel. Il s’agit d’un abus illégal d’une position officielle au détriment de ceux qui sont servis. »</p><div class="title grad"> 5.2 Procédures pour lutter contre la corruption</div><p> Les procédures suivantes sont en place chez BelleoFX pour lutter contre les pots-de-vin et la corruption :<br><br> <b>(1)</b> Une politique de dénonciation qui permet aux employés de signaler toute préoccupation de manière anonyme<br><br> <b>(2)</b> Une politique en matière de cadeaux et d&#39;incitations. À l’heure actuelle, tous les employés doivent simplement suivre les instructions ci-dessous.<br><br> « Si un employé reçoit un cadeau ou un divertissement de la part d&#39;un client, il doit en informer le service Conformité dans les plus brefs délais. Ils évalueront si cela peut raisonnablement être considéré comme créant une obligation commerciale pour le donateur, le bénéficiaire ou un tiers.<br><br> Les dépenses d&#39;accueil restent légitimes en vertu de la nouvelle loi à condition qu&#39;elles soient appropriées et proportionnées.<br><br> (3) Les politiques sont revues périodiquement par le département Conformité.<br> (4) Formation de tout le personnel relative à la lutte contre la corruption et les pots-de-vin<br> (5) Des contrôles de sanctions et de personnes politiquement exposées (PPE) sont effectués pour chaque nouveau client, car une approche basée sur les risques n&#39;est pas appropriée ici. Une PPE est une personne qui, à un moment quelconque au cours de l&#39;année précédente, s&#39;est vu confier une fonction publique importante ou qui est un membre immédiat de sa famille ou un proche associé connu. Tous les candidats identifiés comme PEP doivent être transmis au service Conformité et au siège du groupe pour approbation.</p><div class="title grad"> 6. Abus de marché</div><div class="title grad"> 6.1 Introduction</div><p> L’abus de marché fait référence au « comportement » (action ou inaction) d’une personne agissant seule ou en groupe, qui se produit en relation avec des investissements éligibles négociés ou admis à la négociation sur un marché prescrit. Il existe 7 types de comportements abusifs.<br><br> Bien que BelleoFX propose uniquement des instruments d&#39;investissement de gré à gré et non des produits négociés en bourse, l&#39;acte d&#39;abus de marché couvre également tout produit pertinent d&#39;un investissement négocié dans l&#39;un des éléments ci-dessus. Comme les prix de BelleoFX sont dérivés des mouvements du marché sous-jacent, les CFD sont soumis au régime des abus de marché.</p><div class="title grad"> 6.2 Les 7 types d&#39;abus de marché</div><p> <b>Opération d&#39;initié</b> - lorsqu&#39;un initié effectue ou tente d&#39;effectuer une opération sur un investissement éligible ou connexe sur la base d&#39;informations privilégiées.<br><br> <b>Divulgation inappropriée</b> – lorsqu&#39;un initié divulgue des informations privilégiées à une autre personne, autrement que dans le cadre de l&#39;exercice approprié de son emploi.<br><br> <b>Utilisation abusive d&#39;informations</b> - lorsque le comportement est basé sur des informations qui ne sont pas généralement disponibles mais qui sont pertinentes et qu&#39;un « utilisateur régulier du marché » considérerait comme un manquement aux normes raisonnables. (Il est possible d’utiliser à mauvais escient des informations qui ne sont pas nécessairement des informations privilégiées).<br><br> <b>Manipulation de transactions</b> – lorsque le comportement consiste à passer des transactions ou des ordres, autrement que conformément aux pratiques acceptées du marché, qui donnent une impression fausse ou trompeuse de la demande/offre/prix/valorisations.<br><br> <b>Dispositifs de manipulation</b> – lorsque le comportement consiste à passer des transactions ou des commandes qui utilisent des dispositifs fictifs ou d&#39;autres formes de tromperie.<br><br> <b>Diffusion</b> - lorsque le comportement consiste à diffuser des informations susceptibles de donner une impression fausse ou trompeuse d&#39;un investissement par une personne qui savait que les informations étaient fausses/trompeuses.<br><br> <b>Distorsion</b> - lorsque le comportement donne à l&#39;utilisateur régulier une impression fausse ou trompeuse de la demande/de l&#39;offre/du prix/de la valeur ou lorsqu&#39;il serait considéré comme un manquement au respect des normes de comportement attendues par une personne occupant son poste.</p><div class="title grad"> 6.3 Indications de transactions suspectes</div><p> <b>1.</b> Un client ouvre un compte et donne immédiatement l&#39;ordre d&#39;effectuer une transaction importante sur un titre particulier, surtout si le client insiste pour que l&#39;ordre soit exécuté en très urgence.<br><br> <b>2.</b> Une transaction ne correspond pas du tout au comportement d&#39;investissement antérieur du client, par exemple le type de titre, le montant investi, la taille de l&#39;ordre.<br><br> <b>3.</b> Il y a des transactions inhabituelles sur les actions d&#39;une société avant l&#39;annonce d&#39;informations sensibles sur les prix concernant la société.<br><br> <b>4.</b> La transaction sur le compte propre d&#39;un employé est chronométrée juste avant les transactions des clients et les ordres associés sur le même instrument financier.<br><br> <b>5.</b> Un ordre, en raison de sa taille par rapport au marché de ce titre, aura clairement un impact significatif sur l&#39;offre ou la demande, ou sur le prix ou la valeur du titre.<br> Cette liste n&#39;est pas exhaustive; il fournit simplement quelques exemples de ce qui constitue une activité suspecte.</p><div class="title grad"> 6.4 Déclaration de transactions suspectes</div><p> Comme pour tout autre type d’activité suspecte, il est très important que tout soupçon lié à un abus de marché soit signalé sans délai au responsable des déclarations LBC/FT (ou à un autre membre de la Conformité).</p><div class="title grad"> 7. Responsabilités</div><div class="title grad"> 7.1 Haute direction</div><p> Cette politique est approuvée et approuvée par le Conseil, qui examine et approuve également l&#39;évaluation annuelle des risques. Les problèmes de LBC sont signalés sur une base trimestrielle au comité des risques.</p><div class="title grad"> 7.2 Le Responsable des déclarations LBC/FT</div><p> BelleoFX a désigné un employé senior comme bureau de reporting AML/CTF<br><br> Le responsable des déclarations LBC/FT doit<br><br></p><ul><li> Fournir au conseil d&#39;administration un rapport annuel sur les systèmes et contrôles de l&#39;entreprise en place pour prévenir le blanchiment d&#39;argent.</li><li> Fournir au Conseil d&#39;administration une « évaluation annuelle des risques de blanchiment d&#39;argent ». Ceci fournit un aperçu des principaux risques de LBC et de criminalité financière posés à BelleoFX et de la manière dont ils sont gérés.</li><li> Recevoir des rapports de suspicion internes concernant la LBC, le financement du terrorisme ou la criminalité financière</li><li> Enquêter et examiner ces rapports, en utilisant toutes les informations dont il dispose, pour déterminer s&#39;il estime qu&#39;ils peuvent être bien fondés.</li><li> Communiquer les détails de ceux qu&#39;il estime fondés aux agences externes et aux régulateurs si nécessaire, y compris la Cellule de renseignement financier</li></ul><div class="title grad"> 7.3 Surveillance continue</div><p> En ce qui concerne l&#39;utilisation de BelleoFX dans le cadre de délits financiers, le service Conformité entreprend divers programmes de surveillance pour empêcher autant que possible cette utilisation.<br><br> Cela comprend le prélèvement d&#39;un échantillon hebdomadaire des comptes clients ouverts et une vérification quotidienne des fonds versés sur les comptes clients au-delà des seuils de qualification pour tout élément suspect.<br><br> Le département existe également pour fournir des conseils et des orientations aux entreprises. De plus amples détails sur la surveillance continue sont inclus dans les procédures de surveillance de la conformité de BelleoFX.<br><br> BelleoFX n&#39;accepte aucun dépôt de tiers d&#39;aucune sorte.<br> BelleoFX associe chaque dépôt au nom de compte enregistré pour ce client. BelleoFX se réserve le droit de refuser le traitement d&#39;une transaction à tout moment où elle estime que la transaction est liée de quelque manière que ce soit au blanchiment d&#39;argent ou à une activité criminelle. Conformément au droit international, BelleoFX n&#39;est pas obligé d&#39;informer le client si une activité suspecte est signalée aux organismes réglementaires ou juridiques correspondants.</p><div class="title grad"> 8 Déclaration</div><p> Vous devez signer la déclaration ci-dessous, indiquant que vous avez lu et accepté de vous conformer aux politiques et procédures de BelleoFX pour prévenir le blanchiment d&#39;argent, le financement du terrorisme et la criminalité financière. Veuillez le retourner à la Conformité.</p></div></div></div> 	</div>
+
+</main>
+
+<section class="section above-footer">
+  <div class="wrapper">
+    <a href="/" class="logo-link">
+      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: BelleoFx icon" class="logo"> -->
+      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: BelleoFx icon" class="logo"> -->
+      <img src="/../images/icon/logo-white.svg" alt="logo: BelleoFx icon" class="logo">
+    </a>
+    <div class="above-footer__container">
+      <div class="item-contacts">
+        <div class="contacts">
+          <h4 class="item-contacts__title">
+              Contact us
+          </h4>
+          <a href="tel:+97145417900" class="phone-link">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.10139 5.73954C5.62511 6.83033 6.33904 7.85266 7.24319 8.75681C8.14734 9.66096 9.16967 10.3749 10.2605 10.8986C10.3543 10.9437 10.4012 10.9662 10.4606 10.9835C10.6715 11.045 10.9306 11.0008 11.1092 10.8729C11.1595 10.8369 11.2025 10.7939 11.2885 10.7079C11.5516 10.4448 11.6831 10.3133 11.8154 10.2273C12.3142 9.90295 12.9572 9.90295 13.456 10.2273C13.5883 10.3133 13.7198 10.4448 13.9829 10.7079L14.1295 10.8545C14.5294 11.2544 14.7294 11.4543 14.838 11.6691C15.054 12.0961 15.054 12.6005 14.838 13.0276C14.7294 13.2423 14.5294 13.4423 14.1295 13.8421L14.0109 13.9608C13.6124 14.3593 13.4131 14.5585 13.1422 14.7107C12.8416 14.8796 12.3747 15.001 12.0299 15C11.7192 14.9991 11.5068 14.9388 11.0821 14.8182C8.79956 14.1704 6.64573 12.948 4.84885 11.1511C3.05197 9.35427 1.82961 7.20044 1.18176 4.91791C1.06121 4.49318 1.00093 4.28082 1.00001 3.97009C0.99898 3.62529 1.1204 3.15839 1.28927 2.85778C1.44145 2.58686 1.64072 2.3876 2.03924 1.98908L2.15785 1.87046C2.55775 1.47057 2.75769 1.27062 2.97243 1.16201C3.39951 0.945997 3.90386 0.945997 4.33093 1.16201C4.54567 1.27062 4.74562 1.47057 5.14551 1.87046L5.29214 2.0171C5.55521 2.28016 5.68674 2.4117 5.77274 2.54396C6.09705 3.04277 6.09705 3.68581 5.77274 4.18461C5.68674 4.31688 5.55521 4.44842 5.29214 4.71148C5.20613 4.7975 5.16312 4.84051 5.12712 4.89078C4.99919 5.06944 4.95502 5.32848 5.01651 5.53944C5.03382 5.5988 5.05634 5.64571 5.10139 5.73954Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg> 
+            <span class="dir-ltr">+971 4 541 7900</span>
+          </a>
+          <a href="email:support@belleofx.com" class="email-link">
+            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.625 11.5L10.6429 7M6.35714 7L1.37503 11.5M1 3.25L7.12369 7.53658C7.61957 7.8837 7.86751 8.05726 8.1372 8.12448C8.37542 8.18386 8.62458 8.18386 8.8628 8.12448C9.13249 8.05726 9.38043 7.8837 9.87631 7.53658L16 3.25M4.6 13H12.4C13.6601 13 14.2902 13 14.7715 12.7548C15.1948 12.539 15.539 12.1948 15.7548 11.7715C16 11.2902 16 10.6601 16 9.4V4.6C16 3.33988 16 2.70982 15.7548 2.22852C15.539 1.80516 15.1948 1.46095 14.7715 1.24524C14.2902 1 13.6601 1 12.4 1H4.6C3.33988 1 2.70982 1 2.22852 1.24524C1.80516 1.46095 1.46095 1.80516 1.24524 2.22852C1 2.70982 1 3.33988 1 4.6V9.4C1 10.6601 1 11.2902 1.24524 11.7715C1.46095 12.1948 1.80516 12.539 2.22852 12.7548C2.70982 13 3.33988 13 4.6 13Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            support@belleofx.com
+          </a>
+          <p class="address">
+            <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.5 9.4C8.84619 9.4 9.9375 8.32548 9.9375 7C9.9375 5.67452 8.84619 4.6 7.5 4.6C6.15381 4.6 5.0625 5.67452 5.0625 7C5.0625 8.32548 6.15381 9.4 7.5 9.4Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.5 17C9.125 13.8 14 11.7346 14 7.4C14 3.86538 11.0899 1 7.5 1C3.91015 1 1 3.86538 1 7.4C1 11.7346 5.875 13.8 7.5 17Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+              Office 3501, Burj Al Salam, Trade Center First, Sheikh Zayed Road, Dubai, UAE          </p>
+        </div>
+        <div class="follows">
+          <h4 class="item-contacts__title">
+              Follow us          </h4>
+          
+
+<div class="custom"  >
+	<div class="socials">
+  <a href="https://www.facebook.com/belleofx/" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#facebook"></use>
+    </svg>
+  </a>
+  <!--<a href="https://www.quora.com/profile/BelleoFX-1?q=belleo58" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#quora"></use>
+    </svg>
+  </a>-->
+  <a href="https://www.instagram.com/belleo_fx/?hl=en" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#instagram"></use>
+    </svg>
+  </a>
+  <a href="https://www.linkedin.com/company/belleofx" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#linkedin"></use>
+    </svg>
+  </a>
+  
+  <a href="https://twitter.com/Belleofx1" target="_blank" class="socials__link">
+        <svg class="icon">
+      <use xlink:href="/images/sprite.svg#twitter"></use>
+    </svg>
+  </a>
+  
+  <a href="https://www.youtube.com/@belleofx" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#youtube"></use>
+    </svg>
+  </a>
+</div></div>
+
+        </div>
+      </div>
+      <div class="item-menu">
+        <nav class="nav">
+            <ul class="nav menu mod-list">
+<li class="item-226 deeper parent"><a href="/fr/" >Entreprise</a><ul class="nav-child unstyled small"><li class="item-227"><a href="/fr/company/about" >À propos de BelleoFX</a></li><li class="item-228"><a href="/fr/company/account-types" >Types de comptes</a></li><li class="item-229"><a href="/fr/company/careers" >Carrières</a></li><li class="item-231"><a href="/fr/company/faq" >FAQ</a></li><li class="item-230"><a href="/fr/company/contact-us" >Contactez-nous</a></li></ul></li><li class="item-242 deeper parent"><a href="/fr/" >Marchés</a><ul class="nav-child unstyled small"><li class="item-246"><a href="/fr/markets/online-forex-trading-platform" >Forex</a></li><li class="item-247"><a href="/fr/markets/stocks" >Actions</a></li><li class="item-245"><a href="/fr/markets/indices-trading-system" >Indices</a></li><li class="item-243"><a href="/fr/markets/commodities" >Matières premières</a></li></ul></li><li class="item-258 deeper parent"><a href="/fr/trading/trading-platform" >Commerce</a><ul class="nav-child unstyled small"><li class="item-260"><a href="/fr/trading/trading-platform" >Plateforme échanges</a></li><li class="item-259"><a href="/fr/trading/economic-calendar" >Calendrier économique</a></li></ul></li><li class="item-239"><a href="/fr/funding" >Financement</a></li><li class="item-249 deeper parent"><a href="/fr/" >Partenariat</a><ul class="nav-child unstyled small"><li class="item-251"><a href="/fr/partnership/white-label" >Marque blanche</a></li><li class="item-250"><a href="/fr/partnership/introducing-broker-ib" >Courtier introducteur (IB)</a></li></ul></li><li class="item-253 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-254"><a href="/fr/promotions/100-credit-bonus" >100 % de bonus de crédit</a></li></ul></li></ul>
+  
+        </nav>
+      </div>
+      <div class="item-description">
+                <p class="text">
+            BelleoFX is a brand name of Belleo Markets (Mauritius), BelleoFX (St. Vincent and The Grenadines) and Belleo Markets - Rep.Office (UAE).<br><br>
+                                       Belleo Markets (MU) incorporated in the Republic of Mauritius with registration number 186405 GBC. Company is regulated by the Financial Services Commission (FSC) of Mauritius as an Investment Dealer (Broker), with a license number GB21027167.<br><br>
+                                       BelleoFX (SVG) is registered by Financial Services Authority (FSA) of St. Vincent & The Grenadines as an International Business Company with registration number 2584 LLC 2022.<br><br>
+                                       Belleo Markets - Rep. Office (UAE) is a branch of foreign company (Belleo Markets Mauritius), registered and regulated by DET with a license number 1074850.<br><br>
+                                       BelleoFX doesn't work with clients from OFAC sanctioned and FATF blacklisted countries.        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__container">
+            <nav class="nav">
+              <ul>
+                <li>
+                  <a href="/fr/privacy-policy">
+                      Privacy Policy                  </a>
+                </li>
+                <li>
+                  <a href="/fr/cookies-policy">
+                      Cookie Policy                  </a>
+                </li>
+                <li>
+                  <a href="/fr/aml-ctf-policy">
+                      AML & CTF Policy                  </a>
+                </li>
+                <li>
+                  <!-- <a href="/files/risk_warning_mu_belleofx.pdf">Risk Warning</a> -->
+                  <a href="/fr/risk-warning">
+                      Risk Warning                  </a>
+                </li>
+                <li>
+                  <a href="/fr/terms-of-us">
+                      Terms of Use                  </a>
+                </li>
+                <li>
+                    <a href="/fr/complaints-handling-procedure">
+                        Complaints Handling Procedure                    </a>
+                </li>
+                <li><a href="/fr/deposit-and-refund-policy">
+                        Deposit and Withdrawal Policy                    </a></li>
+
+              </ul>
+            </nav>
+            <strong class="copyright">
+                © 2020-2023                BelleoFX | All Rights Reserved            </strong>
+        </div>
+    </div>
+</footer>
+<button type="button" class="btn-reset scroll-top d-none">
+    <svg class="icon" width="26" height="14" viewBox="0 0 26 14" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.1252 13.3616L25.6917 1.79513C26.1028 1.38402 26.1028 0.719456 25.6917 0.308338C25.2805 -0.102779 24.616 -0.102779 24.2049 0.308338L13.3818 11.1314L2.55882 0.308337C2.14771 -0.102781 1.48314 -0.102781 1.07203 0.308337C0.866987 0.513378 0.763924 0.782544 0.763924 1.05176C0.763924 1.32093 0.866987 1.59014 1.07203 1.79518L12.6385 13.3616C13.0495 13.7727 13.7141 13.7727 14.1252 13.3616Z" fill="white"/>
+    </svg>
+</button>
+<!-- Подключение скриптов в конце документа -->
+<script type="text/javascript" src="https://www.tradays.com/c/js/widgets/calendar/widget.js?12"></script>
+<script src="/templates/custom/js/old/bootstrap.js"></script>
+<script src="/templates/custom/js/jquery.maskedinput.min.js"></script>
+<script src="/templates/custom/uForm/js/script.js"></script>
+<script src="/templates/custom/js/main.js" defer></script>
+<script src="/templates/custom/js/swiper.min.js"></script>
+<script src="/templates/custom/js/custom.js?v.121" defer></script>
+<!-- <script defer src='https://www.google.com/recaptcha/api.js'></script> -->
+
+<script>
+    function downloadJSAtOnload(scriptPaths) {
+        scriptPaths.forEach(path => {
+            let element = document.createElement("script");
+            element.src = path;
+            document.body.append(element);
+        });
+    }
+    setTimeout(() => {
+        downloadJSAtOnload([
+            'https://www.google.com/recaptcha/api.js'
+        ]);
+    }, 10000);
+</script>
+<!--    <div id="system-message-container">
+	</div>
+-->
+
+
+    <!--Start of Tawk.to Script-->
+    <!-- <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5ee9f6959e5f69442290bdbe/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script> -->
+    <!--End of Tawk.to Script-->
+
+    <!-- <div id="wmn-fx" >
+        <div class="wmn-wrap">
+            <div class="wmn-widget" style="background-color:#ffffff;">
+                <a href="https://wa.me/+447426074110?text=We are live and ready to chat with you now. Say something to start a Support chat." target="_blank">
+                    <svg fill="#4fce50"  viewBox="0 0 90 90" width="32" height="32"><path d="M90,43.841c0,24.213-19.779,43.841-44.182,43.841c-7.747,0-15.025-1.98-21.357-5.455L0,90l7.975-23.522   c-4.023-6.606-6.34-14.354-6.34-22.637C1.635,19.628,21.416,0,45.818,0C70.223,0,90,19.628,90,43.841z M45.818,6.982   c-20.484,0-37.146,16.535-37.146,36.859c0,8.065,2.629,15.534,7.076,21.61L11.107,79.14l14.275-4.537   c5.865,3.851,12.891,6.097,20.437,6.097c20.481,0,37.146-16.533,37.146-36.857S66.301,6.982,45.818,6.982z M68.129,53.938   c-0.273-0.447-0.994-0.717-2.076-1.254c-1.084-0.537-6.41-3.138-7.4-3.495c-0.993-0.358-1.717-0.538-2.438,0.537   c-0.721,1.076-2.797,3.495-3.43,4.212c-0.632,0.719-1.263,0.809-2.347,0.271c-1.082-0.537-4.571-1.673-8.708-5.333   c-3.219-2.848-5.393-6.364-6.025-7.441c-0.631-1.075-0.066-1.656,0.475-2.191c0.488-0.482,1.084-1.255,1.625-1.882   c0.543-0.628,0.723-1.075,1.082-1.793c0.363-0.717,0.182-1.344-0.09-1.883c-0.27-0.537-2.438-5.825-3.34-7.977   c-0.902-2.15-1.803-1.792-2.436-1.792c-0.631,0-1.354-0.09-2.076-0.09c-0.722,0-1.896,0.269-2.889,1.344   c-0.992,1.076-3.789,3.676-3.789,8.963c0,5.288,3.879,10.397,4.422,11.113c0.541,0.716,7.49,11.92,18.5,16.223   C58.2,65.771,58.2,64.336,60.186,64.156c1.984-0.179,6.406-2.599,7.312-5.107C68.398,56.537,68.398,54.386,68.129,53.938z"></path></svg>
+                    <span class="notification">1</span>
+                </a>
+            </div>
+        </div>
+    </div> -->
+    <!--Start of Tawk.to Script (0.7.1)-->
+    <!-- <script id="tawk-script" type="text/javascript">
+        setTimeout(() => {
+            var Tawk_API = Tawk_API || {};
+            var Tawk_LoadStart=new Date();
+            (function(){
+                var s1 = document.createElement( 'script' ),s0=document.getElementsByTagName( 'script' )[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/5ee9f6959e5f69442290bdbe/default';
+                s1.charset = 'UTF-8';
+                s1.setAttribute( 'crossorigin','*' );
+                s0.parentNode.insertBefore( s1, s0 );
+            })();
+        }, 8000);
+    </script> -->
+    <!--End of Tawk.to Script (0.7.1)-->
+    <!-- Start of belleofx Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of belleofx Zendesk Widget script -->
+
+    <div class="sliding-enquiry"><div class="enquiry-wrap">
+        </div>
+        <style type="text/css">.error{border:1px solid red !important; }.valid{border:1px solid green !important; }input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none; margin: 0;}</style>
+        <div class="enquiry-content">
+            <div class="enquiry-content-pad">
+                <div>
+                    <p class="equirydescription">Please fill up the form below and our team will get in touch you.</p>
+                    <hr/>
+                    <div id="enquiryform" style="">
+                        <form action="" id="sliding-form" name="sliding-form" method="post" style="margin: 0 0 0em;">
+                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@belleofx.com"/>
+                            <ul>
+                                <li>
+                                    <input type="text" name="name"  id="name" placeholder="Name" class="textbox_popup" value="">
+                                </li>
+                                <li>
+                                    <input type="text" name="email"  id="email" placeholder="Email" class="textbox_popup" value="">
+                                </li>
+                                <li>
+                                    <input type="text" name="number" minlength="10"  id="number" placeholder="Mobile No." class="textbox_popup" value="">
+                                </li>
+                                <li>
+            <textarea name="message" id="message"  placeholder="Message" class="textbox_popup textareacustom" value="">
+            </textarea>
+                                </li>
+                                <li>
+                                    <p>
+                                        Are u an Existing Customer?                                    </p>
+                                    <div class="radiobtns">
+                                        <label>
+                                            <input type="radio" name="customer">
+                                            <span>Yes</span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="customer">
+                                            <span>No</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="slidingcaptcha">
+                                    <img src="/templates/custom/captcha/CaptchaSecurityImages.php?width=100&height=40&characters=5&code=g5k2xk" height="40px;" width="100px;" />
+                                </li>
+                                <li class="slidingcaptchaans">
+                                    <input type="text" name="captcha"  id="captcha" value=""
+                                           Placeholder="Captcha" class="textbox_popup"/>
+                                </li>
+                                <li>
+                                    <input type="button" name="submit" id="submit" class="button1_submit buttoncustomsubmit" style=""
+                                           value="Enquiry Now"/>
+                                </li>
+                            </ul>
+                        </form>
+                        <hr/>
+                    </div>
+                    <div id="enquirymsg" style="text-align:center;display:none;">
+                        <div style="clear">&nbsp;</div>
+                        <div style="clear">&nbsp;</div>
+                        <div style="clear">&nbsp;</div>
+                        <div style="font-size: 15px;">Your Message Submitted Successfully.</div>
+                        <div style="clear">&nbsp;</div>
+                        <div style="clear">&nbsp;</div>
+                        <h3>Powered By</h3>
+                        <div style="clear">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="graph-modal">
+        <div class="graph-modal__container modal-subscribe" role="dialog" aria-modal="true" data-graph-target="modalCallback">
+            <div class="graph-modal__content">
+                <div class="graph-modal__image">
+                    <!-- <picture>
+                        <source srcset="/images/modal/ok_icon.avif" type="image/avif">
+                        <source srcset="/images/modal/ok_icon.webp" type="image/webp"> -->
+                    <img loading="lazy" src="/images/modal/ok_icon.png" class="image" width="" height="" alt="Thank you!">
+                    <!-- </picture> -->
+                </div>
+                <h4 class="graph-modal__title">
+                    Thank you!                </h4>
+                <p class="graph-modal__text">
+                    Our manager will contact you!                </p>
+                <button class="btn-reset btn-main btn-main--black graph-modal__close" aria-label="close">
+                    Great! Thanx!                </button>
+            </div>
+        </div>
+        <div class="graph-modal__container modal-callback" role="dialog" aria-modal="true" data-graph-target="modalSubscribe">
+            <div class="graph-modal__content">
+                <div class="graph-modal__image">
+                    <!-- <picture>
+                        <source srcset="/images/modal/grt_icon.avif" type="image/avif">
+                        <source srcset="/images/modal/grt_icon.webp" type="image/webp"> -->
+                    <img loading="lazy" src="/images/modal/grt_icon.png" class="image" width="" height="" alt="Great!">
+                    <!-- </picture> -->
+                </div>
+                <h4 class="graph-modal__title">
+                    Great!                </h4>
+                <p class="graph-modal__text">
+                     Now you will be aware of the latest news!                </p>
+                <button class="btn-reset btn-main btn-main--black graph-modal__close" aria-label="Закрыть модальное окно">
+                    Ok, Thanx!                </button>
+            </div>
+        </div>
+        <div class="graph-modal__container modal-cv" role="dialog" aria-modal="true" data-graph-target="modalCV">
+            <div class="graph-modal__content">
+                <div class="graph-modal__image">
+                    <img loading="lazy" src="/images/modal/grt_icon.png" class="image" width="" height="" alt="Great!">
+                </div>
+                <h4 class="graph-modal__title">
+                    Yes, you did it!                </h4>
+                <p class="graph-modal__text">
+                    Thanks you for your application. Our team will review it and contact
+                                                                 you if we have a vacancy for you. Have a great day ahead!                </p>
+                <button class="btn-reset btn-main btn-main--black graph-modal__close" aria-label="Закрыть модальное окно">
+                    Ok                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="disclaimer-popup">
+        <b> Disclaimer:</b>
+        This page has been translated using Google Translation Cloud. We apologize for any errors or omissions that may have occurred during the automated translation.    </div>
+</body>
+</html>

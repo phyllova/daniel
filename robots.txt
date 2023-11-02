@@ -1,0 +1,36 @@
+
+User-agent: *
+
+Disallow: /administrator/
+Disallow: /bin/
+Disallow: /cache/
+Disallow: /media/
+Disallow: /cli/
+Disallow: /components/
+Disallow: /includes/
+Disallow: /installation/
+Disallow: /language/
+Disallow: /layouts/
+Disallow: /libraries/
+Disallow: /logs/
+Disallow: /modules/
+Disallow: /plugins/
+Disallow: /tmp/
+Disallow: /images/
+Disallow: /templates/
+Disallow: /*add?category_id
+Disallow: /*delete?number_id
+Disallow: /*blog?format
+Disallow: /*=feed
+Disallow: /uncategorised/
+Disallow: /component/
+Disallow: /*print=
+Disallow: /*index.php
+Disallow: /*?tp=1
+Allow: /components/*.js
+Allow: /components/*.css
+Allow: /components/*.gif
+Allow: /modules/*.js
+Allow: /modules/*.css
+
+Sitemap: /sitemap.xml

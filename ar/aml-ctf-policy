@@ -1,0 +1,672 @@
+
+
+
+<!DOCTYPE html>
+<html lang="ar-aa">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/favicon.ico"/>
+    <link rel="icon" type="image/png" href="/templates/custom/images/favicon_belleofx 32х32.png"/>
+            <link rel="stylesheet" href="/templates/custom/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/templates/custom/fonts/IcoMoon/icomoon.css">
+    <link rel="stylesheet" href="/templates/custom/css/old/bootstrap.css">
+    <link href="/templates/custom/css/old/styles.css?v.1.01" rel="stylesheet" type="text/css" />
+    <link href="/templates/custom/css/inner-pages.css?v.1.116" rel="stylesheet" type="text/css" />
+
+    <link rel="preload" href="/templates/custom/fonts/Effra-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/templates/custom/fonts/Effra-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="alternate" href="https://belleofx.com" hreflang="en-ae" />
+    <meta charset="utf-8" />
+	<base href="/ar/aml-ctf-policy" />
+	<title>سياسة مكافحة غسل الأموال وتمويل الإرهاب</title>
+	<link href="/fa/aml-ctf-policy" rel="alternate" hreflang="fa-IR" />
+	<link href="/es/aml-ctf-policy" rel="alternate" hreflang="es-ES" />
+	<link href="/zh/aml-ctf-policy" rel="alternate" hreflang="zh-TW" />
+	<link href="/fr/aml-ctf-policy" rel="alternate" hreflang="fr-FR" />
+	<link href="/vi/aml-ctf-policy" rel="alternate" hreflang="vi-VN" />
+	<link href="/tr/aml-ctf-policy" rel="alternate" hreflang="tr-TR" />
+	<link href="/ar/aml-ctf-policy" rel="alternate" hreflang="ar-AA" />
+	<link href="/aml-ctf-policy" rel="alternate" hreflang="en-GB" />
+	<link href="/templates/custom/css/sliding-enquiry.css" rel="stylesheet" />
+	<link href="/templates/custom/css/vendor.css" rel="stylesheet" />
+	<link href="/templates/custom/css/main.css" rel="stylesheet" />
+	<link href="/templates/custom/css/custom.css?119" rel="stylesheet" />
+	<link href="/templates/custom/css/rtl-direction.css?1" rel="stylesheet" />
+	<link href="/media/mod_languages/css/template.css?21b43949eb00c2dc28868a748e2b361a" rel="stylesheet" />
+	<script src="/media/jui/js/jquery.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/jui/js/bootstrap.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script src="/media/system/js/caption.js?21b43949eb00c2dc28868a748e2b361a"></script>
+	<script>
+jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+	</script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WXNKPTL3B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5WXNKPTL3B');
+    </script>
+    <!-- End Google tag (gtag.js) -->
+    <!-- Google Tag Manager -->
+    <script>
+
+        setTimeout(() => {
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-KNGN98Q');
+        }, 8000);
+        var phone = countryCode['']
+        var country = ''
+        var phonePrefix = '123';
+        document.addEventListener('DOMContentLoaded', function() {
+            country = countryCode.find(el => el.name === "Nigeria");
+            console.log(countryCode);
+            document.getElementById("uForm__tel_1").placeholder = country.dial_code;
+        }, false);
+        document.getElementById("uForm__tel_1").onclick = (e) =>{
+            let tel = jQuery("#uForm__tel_1");
+            console.log(tel.val());
+            if(tel.val() !== '+__ ___-___-____') return
+            tel.val( country.dial_code.slice(1) ).trigger('input');
+
+        }
+
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body class="">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNGN98Q"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- <div class="preloader-dots">
+    <div></div>
+    <div></div>
+    <div></div>
+</div> -->
+<header class="header">
+    <div class="wrapper">
+        <div class="header__container">
+            <div class="header__left">
+                <button class="burger btn-transparent btn-reset" aria-label="Открыть меню" aria-expanded="false"  data-burger>
+                    <div class="icon">
+                        <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.948 0H17.051C17.573 0 18 0.427 18 0.949V1.051C18 1.573 17.573 2 17.051 2H0.948C0.426 2 0 1.573 0 1.051V0.949C0 0.427 0.426 0 0.948 0ZM17.051 5H0.948C0.426 5 0 5.427 0 5.949V6.051C0 6.573 0.426 7 0.948 7H17.051C17.573 7 18 6.573 18 6.051V5.949C18 5.427 17.573 5 17.051 5ZM17.051 10H0.948C0.426 10 0 10.427 0 10.949V11.051C0 11.573 0.426 12 0.948 12H17.051C17.573 12 18 11.573 18 11.051V10.949C18 10.427 17.573 10 17.051 10Z" fill="url(#paint0_linear_16_9372)"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_16_9372" x1="0" y1="5.99769" x2="18.003" y2="5.99769" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#8F4DED"/>
+                            <stop offset="1" stop-color="#6D43E1"/>
+                            </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    القائمة
+                </button>
+                <div class="lang_block ">
+    <div>
+                                                                                                                                                            <div class="lang_block__active-btn">
+                    <span class="lang_block__btn lang_active p-10">
+                        <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                        <span class="lang_block__btn_val">AR</span>
+                    </span>
+                </div>
+                
+        <div class="lang_block__all-lang__outer">
+            <div class="lang_block__all-lang">
+                <div class="lang_block__all__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24" fill="none">
+                        <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                    </svg>
+                </div>
+                
+                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fa/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/fa_ir.gif" alt="" />                            <span class="lang_block__btn_val">FA</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/es/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/es_es.gif" alt="" />                            <span class="lang_block__btn_val">ES</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/zh/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                            <span class="lang_block__btn_val">ZH</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/fr/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                            <span class="lang_block__btn_val">FR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/vi/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/vi_vn.gif" alt="" />                            <span class="lang_block__btn_val">VI</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/tr/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/tr_tr.gif" alt="" />                            <span class="lang_block__btn_val">TR</span>
+                        </a></span>
+                                                                                <span class="lang_block__active-btn lang_block__btn d-flex">
+                        <a href="/ar/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                            <span class="lang_block__btn_val">AR</span>
+                        </a></span>
+                                                                            <span class="lang_block__btn d-flex">
+                        <a href="/en/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/en-gb.gif" alt="" />                            <span class="lang_block__btn_val">EN</span>
+                        </a></span>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+                            </div>
+            <div class="mobile-menu" data-menu>
+                <div class="mobile-menu__container">
+                    <div class="mobile-menu__content">
+                        <div class="mobile-menu__top">
+
+                            <a href="/ar/" class="logo-link">
+                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: BelleoFx icon" class="logo">
+                            </a>
+                            <button class="btn-reset btn-menu-close">
+                                <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <nav class="nav">
+                            <ul class="nav menu mod-list">
+<li class="item-199 deeper parent"><a href="/ar/" >شركة</a><ul class="nav-child unstyled small"><li class="item-200"><a href="/ar/company/about" >حول بيليوفكس</a></li><li class="item-201"><a href="/ar/company/account-types" >أنواع الحسابات</a></li><li class="item-202"><a href="/ar/company/careers" >وظائف</a></li><li class="item-204"><a href="/ar/company/faq" >الأسئلة الشائعة</a></li><li class="item-203"><a href="/ar/company/contact-us" >اتصل بنا</a></li></ul></li><li class="item-190 deeper parent"><a href="/ar/" >الأسواق</a><ul class="nav-child unstyled small"><li class="item-194"><a href="/ar/markets/online-forex-trading-platform" >الفوركس</a></li><li class="item-195"><a href="/ar/markets/stocks" >مخازن</a></li><li class="item-193"><a href="/ar/markets/indices-trading-system" >المؤشرات</a></li><li class="item-191"><a href="/ar/markets/commodities" >السلع</a></li></ul></li><li class="item-221 deeper parent"><a href="/ar/trading/trading-platform" >تجارة</a><ul class="nav-child unstyled small"><li class="item-223"><a href="/ar/trading/trading-platform" >منصة التداول</a></li><li class="item-222"><a href="/ar/trading/economic-calendar" >التقويم الاقتصادي</a></li></ul></li><li class="item-196"><a href="/ar/funding" >التمويل</a></li><li class="item-197 deeper parent"><a href="/ar/" >شراكة</a><ul class="nav-child unstyled small"><li class="item-214"><a href="/ar/partnership/white-label" >البطاقة البيضاء</a></li><li class="item-213"><a href="/ar/partnership/introducing-broker-ib" >الوسيط المعرف (IB)</a></li></ul></li><li class="item-216 deeper parent"><a href="#" >الترقيات</a><ul class="nav-child unstyled small"><li class="item-217"><a href="/ar/promotions/100-credit-bonus" >مكافأة ائتمانية بنسبة 100%</a></li></ul></li></ul>
+
+                            <div class="lang_block ">
+    <div>
+                                                                                                                                                            <div class="lang_block__active-btn">
+                    <span class="lang_block__btn lang_active p-10">
+                        <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                        <span class="lang_block__btn_val">AR</span>
+                    </span>
+                </div>
+                
+        <div class="lang_block__all-lang__outer">
+            <div class="lang_block__all-lang">
+                <div class="lang_block__all__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24" fill="none">
+                        <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                    </svg>
+                </div>
+                
+                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fa/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/fa_ir.gif" alt="" />                            <span class="lang_block__btn_val">FA</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/es/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/es_es.gif" alt="" />                            <span class="lang_block__btn_val">ES</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/zh/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                            <span class="lang_block__btn_val">ZH</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/fr/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                            <span class="lang_block__btn_val">FR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/vi/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/vi_vn.gif" alt="" />                            <span class="lang_block__btn_val">VI</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/tr/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/tr_tr.gif" alt="" />                            <span class="lang_block__btn_val">TR</span>
+                        </a></span>
+                                                                                <span class="lang_block__active-btn lang_block__btn d-flex">
+                        <a href="/ar/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                            <span class="lang_block__btn_val">AR</span>
+                        </a></span>
+                                                                            <span class="lang_block__btn d-flex">
+                        <a href="/en/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/en-gb.gif" alt="" />                            <span class="lang_block__btn_val">EN</span>
+                        </a></span>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+                        </nav>
+                        <div class="header__right">
+                            <a href="https://pa.belleofx.com/ar/signup" class="btn-reset btn-main btn-main--white">
+                                انضم الآن                            </a>
+                            <a href="/ar/demo" class="btn-reset btn-main btn-main--black">
+                                جرب الحساب التجريبي                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="/ar/" class="logo-link">
+                                               
+                <img src="/templates/custom/images/icon/logo.svg" alt="logo: BelleoFx icon" class="logo">
+                <img src="/templates/custom/images/icon/logo-icon.svg" alt="logo: BelleoFx icon" class="logo logo--mob">
+            </a>
+            <nav class="nav">
+                <ul class="nav menu mod-list">
+<li class="item-199 deeper parent"><a href="/ar/" >شركة</a><ul class="nav-child unstyled small"><li class="item-200"><a href="/ar/company/about" >حول بيليوفكس</a></li><li class="item-201"><a href="/ar/company/account-types" >أنواع الحسابات</a></li><li class="item-202"><a href="/ar/company/careers" >وظائف</a></li><li class="item-204"><a href="/ar/company/faq" >الأسئلة الشائعة</a></li><li class="item-203"><a href="/ar/company/contact-us" >اتصل بنا</a></li></ul></li><li class="item-190 deeper parent"><a href="/ar/" >الأسواق</a><ul class="nav-child unstyled small"><li class="item-194"><a href="/ar/markets/online-forex-trading-platform" >الفوركس</a></li><li class="item-195"><a href="/ar/markets/stocks" >مخازن</a></li><li class="item-193"><a href="/ar/markets/indices-trading-system" >المؤشرات</a></li><li class="item-191"><a href="/ar/markets/commodities" >السلع</a></li></ul></li><li class="item-221 deeper parent"><a href="/ar/trading/trading-platform" >تجارة</a><ul class="nav-child unstyled small"><li class="item-223"><a href="/ar/trading/trading-platform" >منصة التداول</a></li><li class="item-222"><a href="/ar/trading/economic-calendar" >التقويم الاقتصادي</a></li></ul></li><li class="item-196"><a href="/ar/funding" >التمويل</a></li><li class="item-197 deeper parent"><a href="/ar/" >شراكة</a><ul class="nav-child unstyled small"><li class="item-214"><a href="/ar/partnership/white-label" >البطاقة البيضاء</a></li><li class="item-213"><a href="/ar/partnership/introducing-broker-ib" >الوسيط المعرف (IB)</a></li></ul></li><li class="item-216 deeper parent"><a href="#" >الترقيات</a><ul class="nav-child unstyled small"><li class="item-217"><a href="/ar/promotions/100-credit-bonus" >مكافأة ائتمانية بنسبة 100%</a></li></ul></li></ul>
+
+            </nav>
+            <div class="header__right">
+                <a href="https://pa.belleofx.com/en/login" class="btn-reset btn-transparent">
+                    تسجيل الدخول                </a>
+                <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">
+                    التسجيل                </a>
+                                <div class="lang_block ">
+    <div>
+                                                                                                                                                            <div class="lang_block__active-btn">
+                    <span class="lang_block__btn lang_active p-10">
+                        <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                        <span class="lang_block__btn_val">AR</span>
+                    </span>
+                </div>
+                
+        <div class="lang_block__all-lang__outer">
+            <div class="lang_block__all-lang">
+                <div class="lang_block__all__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24" fill="none">
+                        <path d="M25.3125 10.2869H5.29875L11.4244 2.81332C11.7108 2.46327 11.8486 2.01197 11.8075 1.55871C11.7663 1.10545 11.5496 0.687351 11.205 0.396397C10.8604 0.105443 10.4161 -0.0345367 9.96988 0.00725335C9.52366 0.0490434 9.11206 0.26918 8.82562 0.619234L0.388125 10.904C0.331359 10.9858 0.280596 11.0718 0.23625 11.1611C0.23625 11.2469 0.23625 11.2983 0.118125 11.384C0.0416368 11.5805 0.00158814 11.7897 0 12.0011C0.00158814 12.2124 0.0416368 12.4216 0.118125 12.6182C0.118125 12.7039 0.118125 12.7553 0.23625 12.841C0.280596 12.9304 0.331359 13.0163 0.388125 13.0981L8.82562 23.3829C8.98429 23.5764 9.18297 23.732 9.40755 23.8387C9.63213 23.9453 9.87709 24.0004 10.125 24C10.5193 24.0008 10.9014 23.8613 11.205 23.6057C11.3759 23.4618 11.5171 23.2851 11.6207 23.0857C11.7242 22.8862 11.788 22.668 11.8083 22.4435C11.8287 22.219 11.8053 21.9926 11.7394 21.7773C11.6735 21.562 11.5665 21.362 11.4244 21.1888L5.29875 13.7152H25.3125C25.7601 13.7152 26.1893 13.5346 26.5057 13.2131C26.8222 12.8917 27 12.4557 27 12.0011C27 11.5465 26.8222 11.1105 26.5057 10.789C26.1893 10.4675 25.7601 10.2869 25.3125 10.2869Z" fill="white"/>
+                    </svg>
+                </div>
+                
+                                                            <span class="lang_block__btn d-flex">
+                        <a href="/fa/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/fa_ir.gif" alt="" />                            <span class="lang_block__btn_val">FA</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/es/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/es_es.gif" alt="" />                            <span class="lang_block__btn_val">ES</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/zh/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/zh_tw.gif" alt="" />                            <span class="lang_block__btn_val">ZH</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/fr/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/fr_fr.gif" alt="" />                            <span class="lang_block__btn_val">FR</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/vi/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/vi_vn.gif" alt="" />                            <span class="lang_block__btn_val">VI</span>
+                        </a></span>
+                                                                                <span class="lang_block__btn d-flex">
+                        <a href="/tr/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/tr_tr.gif" alt="" />                            <span class="lang_block__btn_val">TR</span>
+                        </a></span>
+                                                                                <span class="lang_block__active-btn lang_block__btn d-flex">
+                        <a href="/ar/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/ar_aa.gif" alt="" />                            <span class="lang_block__btn_val">AR</span>
+                        </a></span>
+                                                                            <span class="lang_block__btn d-flex">
+                        <a href="/en/aml-ctf-policy">
+                            <img src="/media/mod_languages/images/en-gb.gif" alt="" />                            <span class="lang_block__btn_val">EN</span>
+                        </a></span>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="ar-AA" />
+			<div class="page-contacts page-bonus mt100 page-policy" ><div class="intro" style="background-image:url(/images/contacts/bg-contacts.jpg);text-align:right;direction:rtl"><div class="wrapper" ><h1 class="title mb0" > سياسة مكافحة غسل الأموال وتمويل الإرهاب </h1></div></div><div class="terms-section address-section" ><div class="wrapper" ><div class="title grad" >1. الغرض</div><p > الغرض من سياسة مكافحة غسل الأموال وتمويل الإرهاب هذه هو ضمان قدرة BelleoFX وموظفيها على الالتزام بجميع المتطلبات القانونية والتنظيمية ذات الصلة بمنع غسيل الأموال والجرائم المالية.<br><br> تهدف السياسة إلى تشجيع الموظفين على التفكير في مخاطر الجرائم المالية المحتملة أثناء قيامهم بواجباتهم وأن يكونوا على دراية كاملة بالإجراءات الداخلية للشركة لردع الاستخدام المحتمل لـ BelleoFX في الجرائم المالية.<br><br> إن الاستخدام فيما يتعلق بالجرائم المالية يعرض الشركات لمخاطر تتعلق بالسمعة والقانونية والتنظيمية. تدعم هذه السياسة مدونة قواعد السلوك الخاصة بشركة BelleoFX والتي تركز على سمعة الشركة وأهمية الالتزام بجميع القوانين والقواعد واللوائح المعمول بها في كل ولاية قضائية تمارس فيها أعمالها.<br><br> تمت الموافقة على هذه السياسة والمصادقة عليها من قبل مجلس إدارة BelleoFX. وستتم مراجعتها سنويًا على الأقل، بما يتماشى مع تقييم المخاطر السنوي ومتطلبات المجموعة، لضمان استمرارها في قيادة الإدارة الفعالة لمخاطر الجرائم المالية.<br><br> وينبغي قراءة هذه السياسة بالتزامن مع:<br><br> <b>أ.</b> إجراءات اعرف عميلك لدى BelleoFX وإجراءات العناية الواجبة<br> <b>ب.</b> إجراءات الانضمام إلى شركة BelleoFX وتقييم مخاطر العملاء (بما في ذلك الأشخاص السياسيين السياسيين والعقوبات)<br> <b>ج.</b> إجراءات مراقبة الامتثال الخاصة بـ BelleoFX</p><div class="title grad" > 2. مكافحة غسل الأموال (AML) – المتطلبات</div><p > على الصعيد العالمي، كان هناك التزام طويل الأمد بوضع إجراءات فعالة لكشف ومنع غسيل الأموال. وعلى وجه التحديد، فإن شركة BelleoFX مسجلة لدى شركة Belleo Markets (MU) والتي تم تأسيسها في جمهورية موريشيوس برقم التسجيل 186405 GBC. تخضع الشركة للتنظيم من قبل لجنة الخدمات المالية (FSC) في موريشيوس باعتبارها تاجر استثمار (وسيط)، برقم ترخيص GB21027167. تم تسجيل BelleoFX (SVG) من قبل هيئة الخدمات المالية (FSA) في سانت فنسنت وجزر غرينادين كشركة أعمال دولية برقم تسجيل 26000 BC 2020. شركة تتبنى سياسات وإجراءات مناسبة لمكافحة غسيل الأموال. تلتزم BelleoFX باتباع جميع المعايير العالمية والتشريعات المعمول بها وقد نفذت السياسات والإجراءات المشار إليها في الوثيقة لضمان قدرتنا على اكتشاف ومنع عمليات غسيل الأموال التي تحدث من خلال الشركة.</p><div class="title grad" > 2.1 ما هو غسيل الأموال؟</div><p > غسيل الأموال هو العملية التي يحاول المجرمون من خلالها إخفاء الأصول الحقيقية و/أو ملكية عائدات أو فوائد النشاط الإجرامي. والهدف من هذه العملية هو تحقيق وضع تبدو فيه عائدات أنشطتهم مشروعة؛ لتمكينهم من تجنب الملاحقة القضائية والإدانة ومصادرة الأموال الإجرامية. تُستخدم المؤسسات المالية لغرض غسل الأموال، وبالتالي يجب أن يكون الموظفون داخل القطاع على دراية بالمتطلبات التنظيمية المفروضة على الشركة التي يعملون بها وعلى أنفسهم كأفراد.</p><div class="title grad" > 2.2 مراحل غسل الأموال</div><p > يوصف غسيل الأموال تقليديا بأنه يتكون من ثلاث مراحل أساسية فقط ولكن من المهم أن نتذكر أن هذه المراحل لا تحدث بالضرورة في كل حالة. كما أن الحدود بينهما قد تكون غير واضحة أو متداخلة. يتخذ غسيل الأموال أشكالًا عديدة، ولا ينطبق نموذج غسيل الأموال الكلاسيكي دائمًا. على سبيل المثال، قد يتعامل شخص ما مع فوائد جرائم الاستحواذ (مثل السرقة أو الاحتيال أو التهرب الضريبي) ولا يزال يتم القبض عليه من خلال تعريف غسيل الأموال. ومع ذلك، فإن المراحل الكلاسيكية الثلاثة لغسل الأموال موضحة بإيجاز أدناه:<br><br> <b>الإيداع:</b> الإدخال الفعلي للنقد أو العائدات الأخرى في النظام المالي - على سبيل المثال، عن طريق إيداع النقد في حساب مصرفي. <b>الطبقات:</b> عملية نقل العائدات من خلال عدد من المعاملات المالية (المعقدة في بعض الأحيان)، وذلك لجعل تتبع مسار التدقيق أكثر صعوبة.<br><br> <b>الامثله تشمل:</b><br><br> بيع استثمار وإعادة الاستثمار في آخر؛ نقل الأموال بين المؤسسات أو السلطات القضائية المختلفة؛ وإنشاء مؤسسات مثل الشركات والصناديق الاستئمانية لتغيير الملكية الظاهرة للأصول.<br><br> في مرحلة الطبقات تكون BelleoFX أكثر تعرضًا.<br><br> <b>التكامل:</b> هو النقطة التي يتم فيها إبعاد الأموال عن مصدرها بدرجة كافية لتحقيق مظهر الشرعية ودمج الأموال في الاقتصاد.</p><div class="title grad" > 2.3 النشاط المشبوه</div><p > في مرحلة الطبقات تكون BelleoFX أكثر عرضة للخطر على الرغم من أنه يجب على الموظفين توخي الحذر من أي سلوك مشبوه من قبل العملاء. على سبيل المثال:</p><ul ><li > يحاولون إجراء دفعات نقدية في حساباتهم</li><li > دفع الأموال إلى الحساب فقط للسحب في وقت لاحق دون أي نشاط تداول</li><li > القيام بإيداعات تتجاوز المبلغ الذي ذكروا أنه متاح للتداول في نماذج الطلبات الخاصة بهم</li><li > توجيه الأموال من خلال حسابات الطرف الثالث</li><li > التداول دون النظر إلى تكاليف المعاملات؛</li><li > الاستخدام المكثف للحسابات الخارجية أو الاستخدام المفرط لهياكل الشركات المعقدة</li><li > الأموال المدفوعة لمعاملة تصل من مصدر غير عادي</li><li > يظهر العميل مستوى غير معتاد من الاهتمام بالسرية، خاصة فيما يتعلق بهوية العميل أو نوع العمل أو مصدر الأصول</li><li > يفتقر عميل الشركة إلى المعرفة العامة بالصناعة الخاصة به</li><li > لا يهتم العميل بالمخاطر أو العمولات أو التكاليف الأخرى المرتبطة بالتداول</li><li > يبدو أن العميل يتصرف كوكيل لكيان أو فرد آخر ولكنه يتهرب بشأن هوية الكيان أو الفرد الآخر (باستثناء الحالات التي تنطوي على هوية مصالح الملكية في أداة استثمار جماعية)</li><li > أن يكون العميل من أو لديه حسابات في دولة تم تحديدها على أنها ملاذ للسرية المصرفية أو غسيل الأموال أو إنتاج المخدرات</li><li > اشتراك العميل في نشاط تحويلي واسع النطاق أو مفاجئ أو غير مبرر (خاصة التحويلات البنكية التي تشمل البلدان التي تطبق قوانين السرية المصرفية)</li><li > يقوم العميل بإيداع أموال متبوعًا بطلب تحويل الأموال أو تحويلها إلى طرف ثالث، أو إلى شركة أخرى، دون أي غرض تجاري واضح</li><li > أنماط التداول التي لا تتناسب مع تلك التي تم التحقق منها من خلال قسم الخبرة التجارية في نماذج الطلبات الخاصة بهم</li></ul><p > ويجب الإبلاغ عن أي شكوك إلى مؤمن شيخ، رئيس قسم الالتزام. ومن واجبه كمسؤول الإبلاغ عن مكافحة غسل الأموال وتمويل الإرهاب في BelleoFX التحقيق في جميع الشكوك وتحديد ما إذا كان سيتم تصعيد التفاصيل إلى الوكالات الخارجية والجهات التنظيمية حيثما ينطبق ذلك.</p><div class="title grad" > 2.4 فتح حساب العميل والعناية الواجبة</div><p > يعد الحصول على معلومات كافية عن العميل أداة لا تقدر بثمن في مكافحة الجرائم المالية، وعندما يحدث خطأ ما يمكن أن يحمي الشركات الفردية من مخاطر السمعة والمخاطر المالية. تعني العناية الواجبة تجاه العملاء معرفة الغرض المقصود وطبيعة علاقة العمل وتحديد هوية العميل والتحقق من هويته على أساس المستندات و/أو البيانات من مصدر موثوق. سيتم تحديد جميع الأشخاص الطبيعيين والكيانات القانونية والتحقق منهم كجزء من عملية الانضمام.<br><br> لقد تبنت BelleoFX منهجًا قائمًا على المخاطر والعوامل المهمة التي تم أخذها في الاعتبار تشمل الأعمال التي يتم تنفيذها جنبًا إلى جنب مع قنوات التسليم ذات الصلة وقاعدة العملاء والموقع الجغرافي للعملاء.<br><br> بالإضافة إلى مشكلات مكافحة غسيل الأموال، يجب على BelleoFX أيضًا التحقق من العملاء مقابل قواعد بيانات PEP وSanction، وسيتم تنفيذ ذلك باستخدام الأنظمة ذات الصلة عبر الإنترنت في مرحلة الانضمام. وينبغي إحالة أية نتائج إلى قسم الامتثال على الفور.</p><div class="title grad" > 2.5 التدريب</div><p > يجب على الشركة التأكد من أن الأنظمة والضوابط تتضمن التدريب المناسب لموظفيها فيما يتعلق بغسل الأموال.<br><br> في BelleoFX، يُطلب من جميع المبتدئين الجدد حضور عرض تقديمي تمهيدي عن الجرائم المالية يقدمه قسم الامتثال. بالإضافة إلى ذلك، يتم توفير تدريب تجديدي منتظم للموظفين الحاليين، عادةً في شكل اختبار يعتمد على الكمبيوتر. سيتم إجراء تدريب مخصص عندما ترى إدارة الامتثال ذلك ضروريًا ويتم توفير التحديثات للموظفين من قبل إدارة الامتثال.</p><div class="title grad" > 2.6 حفظ السجلات</div><p > يجب على الشركات الاحتفاظ بنسخة من الأدلة التي تثبت هوية كل عميل (أو المعلومات المتعلقة بمكان العثور على نسخة من تلك الأدلة) أو عندما لا يكون أي منهما ممكنًا عمليًا، المعلومات التي ستمكن الشركة من إعادة التحقق من هوية العميل. يجب الاحتفاظ بهذه المستندات لمدة خمس سنوات بعد التاريخ الذي يتوقف فيه العميل عن كونه عميلاً أو من تاريخ آخر معاملة له إذا لم يكن هناك إنهاء رسمي للعلاقة. وينبغي أيضًا الاحتفاظ بسجلات لكل معاملة يتم تنفيذها أثناء العمل لكل عميل؛ ويجب الاحتفاظ بها لمدة خمس سنوات من تاريخ اكتمال جميع الأنشطة المتعلقة بتلك المعاملة.<br><br> ويجب أيضًا الاحتفاظ بسجلات أي تدريب على الجرائم المالية يتم تقديمه للموظفين. يتم تخزينها في نسخة إلكترونية مع الامتثال.</p><div class="title grad" > 3. تمويل الإرهاب</div><div class="title grad" > 3.1 ما هو الإرهاب؟</div><p > الإرهاب هو &quot;الاستخدام أو التهديد بعمل... يهدف إلى التأثير على الحكومة أو تخويف الجمهور.... أو الاستخدام أو التهديد بغرض تعزيز قضية سياسية أو دينية أو أيديولوجية&quot; حيث يوجد:</p><ul ><li > العنف ضد الشخص</li><li > الأضرار التي لحقت بالممتلكات</li><li > خطر جسيم على الصحة العامة أو السلامة</li><li > التداخل مع النظام الإلكتروني</li></ul><div class="title grad" > 3.2 كيف ينطبق ذلك على المؤسسات المالية؟</div><p > وارتباطها بالمؤسسات المالية هو &quot;الممتلكات الإرهابية&quot; وغسل هذه الممتلكات. يتم تعريفه على النحو التالي:</p><ul ><li > الأموال أو الممتلكات الأخرى التي من المحتمل أن تستخدم في الإرهاب</li><li > عائدات ارتكاب الأعمال الإرهابية</li><li > عائدات الأعمال المرتكبة لأغراض الإرهاب</li></ul><div class="title grad" > 3.3 تمويل الإرهاب مقابل غسيل الأموال</div><p > يمكن أن تكون هناك أوجه تشابه كبيرة بين حركة ممتلكات الإرهابيين وغسل الممتلكات الإجرامية: فمن المعروف أن بعض الجماعات الإرهابية لها روابط راسخة مع النشاط الإجرامي المنظم. ومع ذلك، هناك اختلافان رئيسيان بين الممتلكات الإرهابية والممتلكات الإجرامية:</p><ul ><li > وفي كثير من الأحيان لا يلزم سوى مبالغ صغيرة لارتكاب أعمال إرهابية فردية، مما يزيد من صعوبة تعقب ممتلكات الإرهابيين</li><li > يمكن تمويل الإرهابيين من دخل تم الحصول عليه بطريقة مشروعة، بما في ذلك التبرعات الخيرية، ومن الصعب للغاية تحديد المرحلة التي تصبح فيها الأموال المشروعة ممتلكات إرهابية</li></ul><p > ومع ذلك، يمكن للمنظمات الإرهابية أن تحتاج إلى قدر كبير من التمويل والممتلكات لتوفير الموارد اللازمة لبنيتها التحتية. غالبًا ما يسيطرون على الممتلكات والأموال من مجموعة متنوعة من المصادر ويستخدمون تقنيات حديثة لإدارة هذه الأموال ونقلها بين الولايات القضائية.<br><br> في مكافحة تمويل الإرهاب، فإن التزام BelleoFX هو الإبلاغ عن أي نشاط مشبوه إلى السلطات. وهذا يدعم أهداف وكالات إنفاذ القانون فيما يتعلق بتمويل الإرهاب من خلال السماح بتجميد الممتلكات عندما تكون هناك أسباب معقولة للاشتباه في إمكانية استخدام هذه الممتلكات لتمويل النشاط الإرهابي.</p><div class="title grad" > 4. الاحتيال</div><div class="title grad" > 4.1 مقدمة إلى الاحتيال</div><p > <b>يتم تعريف الاحتيال على النحو التالي:</b><br> &quot;أي محاولة، سواء كانت ناجحة أم لا، للحصول على مكاسب غير عادلة أو غير قانونية من خلال التحريف المتعمد للحقائق المادية، أو الإغفال المتعمد لهذه الحقائق.&quot;<br><br> يتضمن هذا التعريف الواسع الاحتيال الذي يرتكبه العملاء ضد BelleoFX، أو الاحتيال الذي يرتكبه موظفو BelleoFX ضد الشركة أو ضد العملاء، أو الاحتيال الذي يرتكبه أطراف ثالثة ضد العملاء أو الشركة.<br><br> تقدم BelleoFX خدماتها المالية عبر الإنترنت، دون أي اتصال مباشر مع العملاء. وتمتد قاعدة عملائها عبر العديد من البلدان، وهذا يزيد من تعقيد عمليات الاحتيال في الهوية وتهديدات انتحال الشخصية. تتواجد نسبة كبيرة من العملاء في مناطق قضائية عالية المخاطر* حيث لا تكون لوائح مكافحة الاحتيال قوية.<br><br> ومع ذلك، نظرًا لأن الشركة لا تقدم خدمات مصرفية عامة وتسهيلات ائتمانية، فهي ليست هدفًا جذابًا للمجرمين المنظمين المتورطين في الاحتيال مثل المؤسسات المصرفية أو القائمة على القروض.</p><div class="title grad" > 4.2 منع الاحتيال</div><p > هناك العديد من الضمانات المعمول بها لمنع حدوث الاحتيال في BelleoFX. وتشمل هذه:<br><br> <b>قواعد السلوك:</b> يتم تضمين نسخة من القواعد في جميع حزم BelleoFX التعريفية للموظفين الجدد. يتم توعية الموظفين تمامًا بأنه قد يتم اتخاذ إجراءات تأديبية إذا فشلوا في التصرف &quot;بأمانة ونزاهة ونزاهة عند التعامل مع العملاء والعملاء والأطراف المقابلة والزملاء&quot;. توضح المدونة أن سمعة الشركة ذات أهمية قصوى وأنه يجب الحفاظ على الممارسات التجارية والسوقية السليمة في جميع الأوقات.<br><br> <b>قبول العميل:</b> يأخذ العميل المعايير المتعلقة بمعالجة وثائق معينة تم الحصول عليها وتحديد مخاطر الاحتيال أثناء عملية الاستلام. يجب استيفاء الحد الأدنى من معايير التحقق من الهوية لجميع الطلبات الجديدة ولن يتم قبولها من العملاء المحتملين الذين يمثلون خطرًا غير مقبول للجرائم المالية.<br><br> <b>مصادقة العميل:</b> توجد معايير مصادقة العميل لحماية العملاء الحقيقيين من الاحتيال بانتحال الشخصية. لن يتم التصرف بناءً على تعليمات العملاء حتى يتم إكمال إجراءات المصادقة بنجاح وسيتم تصعيد محاولات المصادقة الفاشلة المتكررة إلى الامتثال باعتبارها مشبوهة وفي معظم الظروف سيتم رفض الطلب.<br><br> <b>عمليات الدفع:</b> تعمل معايير عملية الدفع على حماية سلامة المدفوعات للمساعدة في منع الاحتيال الخارجي أو الداخلي. التوعية والتدريب: تساعد معايير التوعية والتدريب على ترسيخ ثقافة الوعي بالمخاطر وتوفير المهارات المتخصصة للموظفين الرئيسيين المشاركين في عمليات الرقابة. يشكل التدريب على التوعية بالاحتيال جزءًا من التدريب التعريفي لمكافحة غسل الأموال الذي يقدمه قسم الامتثال، علاوة على ذلك، سيتم توفير تدريب أكثر تعمقًا بشأن الاحتيال بشكل منتظم للأدوار الرئيسية.</p><div class="title grad" > 4.3 كشف/الإبلاغ عن الاحتيال</div><p > كما تم وضع إجراءات للكشف عن أي نشاط احتيالي قد يحدث على الرغم من الضمانات المذكورة أعلاه والإبلاغ عنه. وتشمل هذه:<br><br> <b>التقارير الداخلية</b><br><br> إذا كان لدى أي موظف داخل الشركة شكوك بحدوث احتيال أو احتمال حدوثه، فيجب عليه الإبلاغ عن شكوكه إلى مسؤول الإبلاغ عن مكافحة غسل الأموال وتمويل الإرهاب. وبمجرد قيامهم بذلك، يكونون قد استوفوا التزامهم القانوني، وسيكون على مسؤول الإبلاغ عن مكافحة غسل الأموال وتمويل الإرهاب أن يقرر ما إذا كان يجب الإبلاغ عن التقرير خارجيًا.<br><br></p><div class="title grad" > 5. مكافحة الرشوة والفساد</div><div class="title grad" > 5.1 التعريف</div><p > &quot;الرشوة هي عرض أموال أو خدمات أو أشياء أخرى ذات قيمة من أجل حث شخص ما على القيام بشيء ما في المقابل. الرشوة هي الفساد. الفساد هو التصرف بطريقة غير شريفة مقابل المال أو المكاسب الشخصية. إنه إساءة استخدام غير قانونية لمنصب رسمي لصالح من يتم خدمتهم”.</p><div class="title grad" > 5.2 إجراءات مكافحة الرشوة</div><p > يتم تطبيق الإجراءات التالية في BelleoFX لمكافحة الرشوة والفساد:<br><br> <b>(1)</b> سياسة الإبلاغ عن المخالفات التي تسمح للموظفين بالإبلاغ عن أي مخاوف دون الكشف عن هويتهم<br><br> <b>(2)</b> سياسة الهدايا والحوافز. في الوقت الحاضر، يجب على جميع الموظفين ببساطة اتباع التعليمات الموضحة أدناه.<br><br> &quot;إذا تلقى الموظف هدية أو وسيلة ترفيه من العميل، فيجب الكشف عنها لقسم الامتثال في أقرب وقت ممكن. وسوف يقومون بتقييم ما إذا كان من الممكن اعتبار ذلك بشكل معقول بمثابة إنشاء التزام تجاري على المانح أو المتلقي أو طرف ثالث.<br><br> تظل نفقات الضيافة مشروعة بموجب القانون الجديد بشرط أن تكون مناسبة ومتناسبة.<br><br> (3) تتم مراجعة السياسات بشكل دوري من خلال قسم الامتثال<br> (4) تدريب جميع الموظفين فيما يتعلق بمكافحة الفساد والرشوة<br> (5) يتم إجراء عمليات التحقق من العقوبات والأشخاص المعرضين سياسيًا لكل عميل جديد نظرًا لأن النهج القائم على المخاطر غير مناسب هنا. الشخص السياسي الذي تم تكليفه، في أي وقت من العام السابق، بوظيفة عامة بارزة أو هو فرد مباشر في عائلته أو شريك مقرب معروف. يجب تصعيد جميع المتقدمين الذين تم تحديدهم على أنهم أشخاص سياسيين محتملين إلى قسم الامتثال والمقر الرئيسي للمجموعة للموافقة عليهم.</p><div class="title grad" > 6. إساءة استخدام السوق</div><div class="title grad" > 6.1 مقدمة</div><p > تتعلق إساءة استخدام السوق بـ &quot;السلوك&quot; (الفعل أو التقاعس) من جانب شخص يتصرف بمفرده أو ضمن طرف موسيقي، والذي يحدث فيما يتعلق بالاستثمارات المؤهلة المتداولة في سوق محددة أو المقبولة للتداول فيها. هناك 7 أنواع من السلوك المسيء.<br><br> على الرغم من أن BelleoFX تقدم فقط أدوات الاستثمار خارج البورصة وليس المنتجات المتداولة في البورصة، فإن فعل إساءة استخدام السوق يغطي أيضًا أي منتج ذي صلة باستثمار يتم تداوله في أي مما سبق. وبما أن أسعار BelleoFX مستمدة من التحركات في السوق الأساسية، فإن عقود الفروقات تقع ضمن نظام إساءة استخدام السوق.</p><div class="title grad" > 6.2 الأنواع السبعة لإساءة استخدام السوق</div><p > <b>التعامل من الداخل</b> - حيث يتعامل أحد الأشخاص من الداخل أو يحاول التعامل في استثمار مؤهل أو ذي صلة على أساس معلومات داخلية.<br><br> <b>الإفصاح غير المناسب</b> - عندما يكشف أحد المطلعين عن معلومات داخلية لشخص آخر، بخلاف الممارسة السليمة لوظيفته.<br><br> <b>إساءة استخدام المعلومات</b> - حيث يعتمد السلوك على معلومات غير متاحة بشكل عام ولكنها ذات صلة وقد يعتبرها &quot;مستخدم السوق العادي&quot; إخفاقًا في مراعاة المعايير المعقولة. (من الممكن إساءة استخدام المعلومات التي ليست بالضرورة معلومات داخلية).<br><br> <b>التلاعب بالمعاملات</b> - حيث يتكون السلوك من تقديم معاملات أو أوامر، بخلاف ما يتوافق مع ممارسات السوق المقبولة، مما يعطي انطباعًا خاطئًا أو مضللاً عن الطلب/العرض/الأسعار/التقييمات.<br><br> <b>أجهزة التلاعب</b> - حيث يتكون السلوك من إجراء معاملات أو أوامر تستخدم أجهزة وهمية أو أشكال أخرى من الخداع.<br><br> <b>النشر</b> - حيث يتكون السلوك من نشر المعلومات، والتي من المحتمل أن تعطي انطباعًا خاطئًا أو مضللاً عن الاستثمار من قبل شخص كان يعلم أن المعلومات كانت خاطئة/مضللة.<br><br> <b>التشويه</b> - حيث يعطي السلوك للمستخدم العادي انطباعًا خاطئًا أو مضللاً عن الطلب/العرض/السعر/القيمة أو عندما يعتبر فشلًا في مراعاة معايير السلوك المتوقعة من قبل شخص في منصبه</p><div class="title grad" > 6.3 مؤشرات المعاملات المشبوهة</div><p > <b>1.</b> يقوم العميل بفتح حساب ويعطي الأمر على الفور لإجراء صفقة هامة على ورقة مالية معينة، خاصة إذا كان العميل مصرا على تنفيذ الأمر بشكل عاجل للغاية.<br><br> <b>2.</b> المعاملة لا تتماشى بشكل كبير مع السلوك الاستثماري السابق للعميل، مثل نوع الضمان والمبلغ المستثمر وحجم الطلب<br><br> <b>3.</b> هناك تداول غير عادي في أسهم الشركة قبل الإعلان عن معلومات حساسة تتعلق بالأسعار تتعلق بالشركة<br><br> <b>4.</b> يتم تحديد توقيت معاملة الحساب الخاص بالموظف قبل معاملات العملاء والأوامر ذات الصلة في نفس الأداة المالية<br><br> <b>5.</b> من الواضح أن الأمر، نظرًا لحجمه بالنسبة لسوق تلك الورقة المالية، سيكون له تأثير كبير على العرض أو الطلب أو سعر أو قيمة الورقة المالية.<br> هذه القائمة ليست شاملة؛ إنه يقدم فقط بعض الأمثلة لما يشكل نشاطًا مشبوهًا.</p><div class="title grad" > 6.4 الإبلاغ عن المعاملات المشبوهة</div><p > كما هو الحال مع أي نوع آخر من الأنشطة المشبوهة، من المهم جدًا الإبلاغ عن أي شكوك تتعلق بإساءة استخدام السوق إلى مسؤول الإبلاغ عن مكافحة غسل الأموال وتمويل الإرهاب (أو أي عضو آخر في قسم الامتثال) دون تأخير.</p><div class="title grad" > 7. المسؤوليات</div><div class="title grad" > 7.1 الإدارة العليا</div><p > تمت الموافقة على هذه السياسة والمصادقة عليها من قبل مجلس الإدارة، الذي يقوم أيضًا بمراجعة واعتماد التقييم السنوي للمخاطر، ويتم الإبلاغ عن مشكلات مكافحة غسل الأموال على أساس ربع سنوي إلى لجنة المخاطر.</p><div class="title grad" > 7.2 مسؤول الإبلاغ عن مكافحة غسل الأموال وتمويل الإرهاب</div><p > قامت شركة BelleoFX بتعيين أحد كبار الموظفين كمكتب للإبلاغ عن مكافحة غسل الأموال وتمويل الإرهاب<br><br> يجب على مسؤول الإبلاغ عن مكافحة غسل الأموال وتمويل الإرهاب<br><br></p><ul ><li > تزويد مجلس الإدارة بتقرير سنوي عن الأنظمة والضوابط المتبعة في الشركة لمنع غسل الأموال</li><li > تزويد مجلس الإدارة بـ &quot;تقييم مخاطر مكافحة غسل الأموال&quot; السنوي. يوفر هذا ملخصًا للمخاطر الرئيسية لمكافحة غسيل الأموال والجرائم المالية التي تواجه BelleoFX وكيفية إدارتها</li><li > تلقي تقارير الاشتباه الداخلي المتعلقة بمكافحة غسل الأموال أو تمويل الإرهاب أو الجرائم المالية</li><li > التحقيق في هذه التقارير والنظر فيها، باستخدام جميع المعلومات المتاحة له، لتحديد ما إذا كان يعتقد أنها قد تكون قائمة على أسس سليمة</li><li > قم بتوصيل تفاصيل الأشخاص الذين يعتقد أنهم مؤسسون بشكل جيد إلى الوكالات الخارجية والجهات التنظيمية حسب الضرورة، بما في ذلك وحدة الاستخبارات المالية</li></ul><div class="title grad" > 7.3 المراقبة المستمرة</div><p > فيما يتعلق باستخدام BelleoFX فيما يتعلق بالجرائم المالية، يقوم قسم الامتثال بتنفيذ مجموعة متنوعة من برامج المراقبة لمنع ذلك إلى أقصى حد ممكن.<br><br> يتضمن ذلك أخذ عينة أسبوعية من حسابات العملاء التي تم فتحها وفحص يومي للأموال المدفوعة في حسابات العملاء فوق الحدود المؤهلة لأي شيء مشبوه.<br><br> القسم موجود أيضًا لتقديم المشورة والتوجيه للأعمال. تم تضمين المزيد من التفاصيل حول المراقبة المستمرة في إجراءات مراقبة الامتثال الخاصة بـ BelleoFX<br><br> لا تقبل BelleoFX ودائع الطرف الثالث من أي نوع.<br> تقوم BelleoFX بمطابقة كل إيداع مع اسم الحساب المسجل لهذا العميل. تحتفظ BelleoFX بالحق في رفض معالجة المعاملة في أي مرحلة تعتقد فيها أن المعاملة مرتبطة بأي شكل من الأشكال بغسل الأموال أو النشاط الإجرامي. وفقًا للقانون الدولي، فإن BelleoFX غير ملزمة بإبلاغ العميل إذا تم الإبلاغ عن أي نشاط مشبوه إلى أي هيئات تنظيمية أو قانونية مقابلة.</p><div class="title grad" > 8 إعلان</div><p > يجب عليك التوقيع على الإقرار أدناه، الذي يشير إلى أنك قرأت ووافقت على الالتزام بالسياسات والإجراءات في BelleoFX لمنع غسيل الأموال وتمويل الإرهاب والجرائم المالية. يرجى إعادة هذا إلى الامتثال.</p></div></div></div> 	</div>
+
+</main>
+
+<section class="section above-footer">
+  <div class="wrapper">
+    <a href="/" class="logo-link">
+      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: BelleoFx icon" class="logo"> -->
+      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: BelleoFx icon" class="logo"> -->
+      <img src="/../images/icon/logo-white.svg" alt="logo: BelleoFx icon" class="logo">
+    </a>
+    <div class="above-footer__container">
+      <div class="item-contacts">
+        <div class="contacts">
+          <h4 class="item-contacts__title">
+              اتصل بنا
+          </h4>
+          <a href="tel:+97145417900" class="phone-link">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.10139 5.73954C5.62511 6.83033 6.33904 7.85266 7.24319 8.75681C8.14734 9.66096 9.16967 10.3749 10.2605 10.8986C10.3543 10.9437 10.4012 10.9662 10.4606 10.9835C10.6715 11.045 10.9306 11.0008 11.1092 10.8729C11.1595 10.8369 11.2025 10.7939 11.2885 10.7079C11.5516 10.4448 11.6831 10.3133 11.8154 10.2273C12.3142 9.90295 12.9572 9.90295 13.456 10.2273C13.5883 10.3133 13.7198 10.4448 13.9829 10.7079L14.1295 10.8545C14.5294 11.2544 14.7294 11.4543 14.838 11.6691C15.054 12.0961 15.054 12.6005 14.838 13.0276C14.7294 13.2423 14.5294 13.4423 14.1295 13.8421L14.0109 13.9608C13.6124 14.3593 13.4131 14.5585 13.1422 14.7107C12.8416 14.8796 12.3747 15.001 12.0299 15C11.7192 14.9991 11.5068 14.9388 11.0821 14.8182C8.79956 14.1704 6.64573 12.948 4.84885 11.1511C3.05197 9.35427 1.82961 7.20044 1.18176 4.91791C1.06121 4.49318 1.00093 4.28082 1.00001 3.97009C0.99898 3.62529 1.1204 3.15839 1.28927 2.85778C1.44145 2.58686 1.64072 2.3876 2.03924 1.98908L2.15785 1.87046C2.55775 1.47057 2.75769 1.27062 2.97243 1.16201C3.39951 0.945997 3.90386 0.945997 4.33093 1.16201C4.54567 1.27062 4.74562 1.47057 5.14551 1.87046L5.29214 2.0171C5.55521 2.28016 5.68674 2.4117 5.77274 2.54396C6.09705 3.04277 6.09705 3.68581 5.77274 4.18461C5.68674 4.31688 5.55521 4.44842 5.29214 4.71148C5.20613 4.7975 5.16312 4.84051 5.12712 4.89078C4.99919 5.06944 4.95502 5.32848 5.01651 5.53944C5.03382 5.5988 5.05634 5.64571 5.10139 5.73954Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg> 
+            <span class="dir-ltr">+971 4 541 7900</span>
+          </a>
+          <a href="email:support@belleofx.com" class="email-link">
+            <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.625 11.5L10.6429 7M6.35714 7L1.37503 11.5M1 3.25L7.12369 7.53658C7.61957 7.8837 7.86751 8.05726 8.1372 8.12448C8.37542 8.18386 8.62458 8.18386 8.8628 8.12448C9.13249 8.05726 9.38043 7.8837 9.87631 7.53658L16 3.25M4.6 13H12.4C13.6601 13 14.2902 13 14.7715 12.7548C15.1948 12.539 15.539 12.1948 15.7548 11.7715C16 11.2902 16 10.6601 16 9.4V4.6C16 3.33988 16 2.70982 15.7548 2.22852C15.539 1.80516 15.1948 1.46095 14.7715 1.24524C14.2902 1 13.6601 1 12.4 1H4.6C3.33988 1 2.70982 1 2.22852 1.24524C1.80516 1.46095 1.46095 1.80516 1.24524 2.22852C1 2.70982 1 3.33988 1 4.6V9.4C1 10.6601 1 11.2902 1.24524 11.7715C1.46095 12.1948 1.80516 12.539 2.22852 12.7548C2.70982 13 3.33988 13 4.6 13Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            support@belleofx.com
+          </a>
+          <p class="address">
+            <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.5 9.4C8.84619 9.4 9.9375 8.32548 9.9375 7C9.9375 5.67452 8.84619 4.6 7.5 4.6C6.15381 4.6 5.0625 5.67452 5.0625 7C5.0625 8.32548 6.15381 9.4 7.5 9.4Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.5 17C9.125 13.8 14 11.7346 14 7.4C14 3.86538 11.0899 1 7.5 1C3.91015 1 1 3.86538 1 7.4C1 11.7346 5.875 13.8 7.5 17Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+              مكتب 3501، برج السلام، المركز التجاري الأول، طريق الشيخ زايد، دبي، الإمارات العربية المتحدة          </p>
+        </div>
+        <div class="follows">
+          <h4 class="item-contacts__title">
+              تابعنا          </h4>
+          
+
+<div class="custom"  >
+	<div class="socials">
+  <a href="https://www.facebook.com/belleofx/" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#facebook"></use>
+    </svg>
+  </a>
+  <!--<a href="https://www.quora.com/profile/BelleoFX-1?q=belleo58" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#quora"></use>
+    </svg>
+  </a>-->
+  <a href="https://www.instagram.com/belleo_fx/?hl=en" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#instagram"></use>
+    </svg>
+  </a>
+  <a href="https://www.linkedin.com/company/belleofx" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#linkedin"></use>
+    </svg>
+  </a>
+  
+  <a href="https://twitter.com/Belleofx1" target="_blank" class="socials__link">
+        <svg class="icon">
+      <use xlink:href="/images/sprite.svg#twitter"></use>
+    </svg>
+  </a>
+  
+  <a href="https://www.youtube.com/@belleofx" target="_blank" class="socials__link">
+    <svg class="icon">
+      <use xlink:href="/images/sprite.svg#youtube"></use>
+    </svg>
+  </a>
+</div></div>
+
+        </div>
+      </div>
+      <div class="item-menu">
+        <nav class="nav">
+            <ul class="nav menu mod-list">
+<li class="item-199 deeper parent"><a href="/ar/" >شركة</a><ul class="nav-child unstyled small"><li class="item-200"><a href="/ar/company/about" >حول بيليوفكس</a></li><li class="item-201"><a href="/ar/company/account-types" >أنواع الحسابات</a></li><li class="item-202"><a href="/ar/company/careers" >وظائف</a></li><li class="item-204"><a href="/ar/company/faq" >الأسئلة الشائعة</a></li><li class="item-203"><a href="/ar/company/contact-us" >اتصل بنا</a></li></ul></li><li class="item-190 deeper parent"><a href="/ar/" >الأسواق</a><ul class="nav-child unstyled small"><li class="item-194"><a href="/ar/markets/online-forex-trading-platform" >الفوركس</a></li><li class="item-195"><a href="/ar/markets/stocks" >مخازن</a></li><li class="item-193"><a href="/ar/markets/indices-trading-system" >المؤشرات</a></li><li class="item-191"><a href="/ar/markets/commodities" >السلع</a></li></ul></li><li class="item-221 deeper parent"><a href="/ar/trading/trading-platform" >تجارة</a><ul class="nav-child unstyled small"><li class="item-223"><a href="/ar/trading/trading-platform" >منصة التداول</a></li><li class="item-222"><a href="/ar/trading/economic-calendar" >التقويم الاقتصادي</a></li></ul></li><li class="item-196"><a href="/ar/funding" >التمويل</a></li><li class="item-197 deeper parent"><a href="/ar/" >شراكة</a><ul class="nav-child unstyled small"><li class="item-214"><a href="/ar/partnership/white-label" >البطاقة البيضاء</a></li><li class="item-213"><a href="/ar/partnership/introducing-broker-ib" >الوسيط المعرف (IB)</a></li></ul></li><li class="item-216 deeper parent"><a href="#" >الترقيات</a><ul class="nav-child unstyled small"><li class="item-217"><a href="/ar/promotions/100-credit-bonus" >مكافأة ائتمانية بنسبة 100%</a></li></ul></li></ul>
+  
+        </nav>
+      </div>
+      <div class="item-description">
+                <p class="text">
+            BelleoFX هو اسم تجاري لشركة Belleo Markets (موريشيوس)، وBelleoFX (سانت فنسنت وجزر غرينادين) وBelleo Markets - Rep.Office (الإمارات العربية المتحدة).<br><br>
+                                       تأسست شركة Belleo Markets (MU) في جمهورية موريشيوس برقم التسجيل 186405 GBC. تخضع الشركة للتنظيم من قبل لجنة الخدمات المالية (FSC) في موريشيوس باعتبارها تاجر استثمار (وسيط)، برقم ترخيص GB21027167.<br><br>
+                                       تم تسجيل BelleoFX (SVG) من قبل هيئة الخدمات المالية (FSA) في سانت فنسنت وجزر غرينادين كشركة أعمال دولية برقم تسجيل 2584 LLC 2022.<br><br>
+                                       Belleo Markets - المكتب التمثيلي (الإمارات العربية المتحدة) هو فرع لشركة أجنبية (Belleo Markets Mauritius)، مسجلة ومنظمة من قبل DET برقم ترخيص 1074850.<br><br>
+                                       لا تعمل BelleoFX مع العملاء من الدول الخاضعة لعقوبات OFAC والدول المدرجة في القائمة السوداء لمجموعة العمل المالي.        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__container">
+            <nav class="nav">
+              <ul>
+                <li>
+                  <a href="/ar/privacy-policy">
+                      سياسة الخصوصية                  </a>
+                </li>
+                <li>
+                  <a href="/ar/cookies-policy">
+                      سياسة ملفات تعريف الارتباط                  </a>
+                </li>
+                <li>
+                  <a href="/ar/aml-ctf-policy">
+                      سياسة AML وCTF                  </a>
+                </li>
+                <li>
+                  <!-- <a href="/files/risk_warning_mu_belleofx.pdf">Risk Warning</a> -->
+                  <a href="/ar/risk-warning">
+                      تحذير من المخاطر                  </a>
+                </li>
+                <li>
+                  <a href="/ar/terms-of-us">
+                      شروط الاستخدام                  </a>
+                </li>
+                <li>
+                    <a href="/ar/complaints-handling-procedure">
+                        إجراءات التعامل مع الشكاوى                    </a>
+                </li>
+                <li><a href="/ar/deposit-and-refund-policy">
+                        سياسة الإيداع والسحب                    </a></li>
+
+              </ul>
+            </nav>
+            <strong class="copyright">
+                © 2020-2023                BelleoFX | جميع الحقوق محفوظة            </strong>
+        </div>
+    </div>
+</footer>
+<button type="button" class="btn-reset scroll-top d-none">
+    <svg class="icon" width="26" height="14" viewBox="0 0 26 14" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.1252 13.3616L25.6917 1.79513C26.1028 1.38402 26.1028 0.719456 25.6917 0.308338C25.2805 -0.102779 24.616 -0.102779 24.2049 0.308338L13.3818 11.1314L2.55882 0.308337C2.14771 -0.102781 1.48314 -0.102781 1.07203 0.308337C0.866987 0.513378 0.763924 0.782544 0.763924 1.05176C0.763924 1.32093 0.866987 1.59014 1.07203 1.79518L12.6385 13.3616C13.0495 13.7727 13.7141 13.7727 14.1252 13.3616Z" fill="white"/>
+    </svg>
+</button>
+<!-- Подключение скриптов в конце документа -->
+<script type="text/javascript" src="https://www.tradays.com/c/js/widgets/calendar/widget.js?12"></script>
+<script src="/templates/custom/js/old/bootstrap.js"></script>
+<script src="/templates/custom/js/jquery.maskedinput.min.js"></script>
+<script src="/templates/custom/uForm/js/script.js"></script>
+<script src="/templates/custom/js/main.js" defer></script>
+<script src="/templates/custom/js/swiper.min.js"></script>
+<script src="/templates/custom/js/custom.js?v.121" defer></script>
+<!-- <script defer src='https://www.google.com/recaptcha/api.js'></script> -->
+
+<script>
+    function downloadJSAtOnload(scriptPaths) {
+        scriptPaths.forEach(path => {
+            let element = document.createElement("script");
+            element.src = path;
+            document.body.append(element);
+        });
+    }
+    setTimeout(() => {
+        downloadJSAtOnload([
+            'https://www.google.com/recaptcha/api.js'
+        ]);
+    }, 10000);
+</script>
+<!--    <div id="system-message-container">
+	</div>
+-->
+
+
+    <!--Start of Tawk.to Script-->
+    <!-- <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5ee9f6959e5f69442290bdbe/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script> -->
+    <!--End of Tawk.to Script-->
+
+    <!-- <div id="wmn-fx" >
+        <div class="wmn-wrap">
+            <div class="wmn-widget" style="background-color:#ffffff;">
+                <a href="https://wa.me/+447426074110?text=We are live and ready to chat with you now. Say something to start a Support chat." target="_blank">
+                    <svg fill="#4fce50"  viewBox="0 0 90 90" width="32" height="32"><path d="M90,43.841c0,24.213-19.779,43.841-44.182,43.841c-7.747,0-15.025-1.98-21.357-5.455L0,90l7.975-23.522   c-4.023-6.606-6.34-14.354-6.34-22.637C1.635,19.628,21.416,0,45.818,0C70.223,0,90,19.628,90,43.841z M45.818,6.982   c-20.484,0-37.146,16.535-37.146,36.859c0,8.065,2.629,15.534,7.076,21.61L11.107,79.14l14.275-4.537   c5.865,3.851,12.891,6.097,20.437,6.097c20.481,0,37.146-16.533,37.146-36.857S66.301,6.982,45.818,6.982z M68.129,53.938   c-0.273-0.447-0.994-0.717-2.076-1.254c-1.084-0.537-6.41-3.138-7.4-3.495c-0.993-0.358-1.717-0.538-2.438,0.537   c-0.721,1.076-2.797,3.495-3.43,4.212c-0.632,0.719-1.263,0.809-2.347,0.271c-1.082-0.537-4.571-1.673-8.708-5.333   c-3.219-2.848-5.393-6.364-6.025-7.441c-0.631-1.075-0.066-1.656,0.475-2.191c0.488-0.482,1.084-1.255,1.625-1.882   c0.543-0.628,0.723-1.075,1.082-1.793c0.363-0.717,0.182-1.344-0.09-1.883c-0.27-0.537-2.438-5.825-3.34-7.977   c-0.902-2.15-1.803-1.792-2.436-1.792c-0.631,0-1.354-0.09-2.076-0.09c-0.722,0-1.896,0.269-2.889,1.344   c-0.992,1.076-3.789,3.676-3.789,8.963c0,5.288,3.879,10.397,4.422,11.113c0.541,0.716,7.49,11.92,18.5,16.223   C58.2,65.771,58.2,64.336,60.186,64.156c1.984-0.179,6.406-2.599,7.312-5.107C68.398,56.537,68.398,54.386,68.129,53.938z"></path></svg>
+                    <span class="notification">1</span>
+                </a>
+            </div>
+        </div>
+    </div> -->
+    <!--Start of Tawk.to Script (0.7.1)-->
+    <!-- <script id="tawk-script" type="text/javascript">
+        setTimeout(() => {
+            var Tawk_API = Tawk_API || {};
+            var Tawk_LoadStart=new Date();
+            (function(){
+                var s1 = document.createElement( 'script' ),s0=document.getElementsByTagName( 'script' )[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/5ee9f6959e5f69442290bdbe/default';
+                s1.charset = 'UTF-8';
+                s1.setAttribute( 'crossorigin','*' );
+                s0.parentNode.insertBefore( s1, s0 );
+            })();
+        }, 8000);
+    </script> -->
+    <!--End of Tawk.to Script (0.7.1)-->
+    <!-- Start of belleofx Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of belleofx Zendesk Widget script -->
+
+    <div class="sliding-enquiry"><div class="enquiry-wrap">
+        </div>
+        <style type="text/css">.error{border:1px solid red !important; }.valid{border:1px solid green !important; }input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none; margin: 0;}</style>
+        <div class="enquiry-content">
+            <div class="enquiry-content-pad">
+                <div>
+                    <p class="equirydescription">يرجى ملء النموذج أدناه وسيتواصل معك فريقنا.</p>
+                    <hr/>
+                    <div id="enquiryform" style="">
+                        <form action="" id="sliding-form" name="sliding-form" method="post" style="margin: 0 0 0em;">
+                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@belleofx.com"/>
+                            <ul>
+                                <li>
+                                    <input type="text" name="name"  id="name" placeholder="الاسم" class="textbox_popup" value="">
+                                </li>
+                                <li>
+                                    <input type="text" name="email"  id="email" placeholder="البريد الإلكتروني" class="textbox_popup" value="">
+                                </li>
+                                <li>
+                                    <input type="text" name="number" minlength="10"  id="number" placeholder="رقم الجوال." class="textbox_popup" value="">
+                                </li>
+                                <li>
+            <textarea name="message" id="message"  placeholder="الرسالة" class="textbox_popup textareacustom" value="">
+            </textarea>
+                                </li>
+                                <li>
+                                    <p>
+                                        هل أنت عميل حالي؟                                    </p>
+                                    <div class="radiobtns">
+                                        <label>
+                                            <input type="radio" name="customer">
+                                            <span>نعم</span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="customer">
+                                            <span>لا</span>
+                                        </label>
+                                    </div>
+                                </li>
+                                <li class="slidingcaptcha">
+                                    <img src="/templates/custom/captcha/CaptchaSecurityImages.php?width=100&height=40&characters=5&code=6n4pw7" height="40px;" width="100px;" />
+                                </li>
+                                <li class="slidingcaptchaans">
+                                    <input type="text" name="captcha"  id="captcha" value=""
+                                           Placeholder="Captcha" class="textbox_popup"/>
+                                </li>
+                                <li>
+                                    <input type="button" name="submit" id="submit" class="button1_submit buttoncustomsubmit" style=""
+                                           value="استفسر الآن"/>
+                                </li>
+                            </ul>
+                        </form>
+                        <hr/>
+                    </div>
+                    <div id="enquirymsg" style="text-align:center;display:none;">
+                        <div style="clear">&nbsp;</div>
+                        <div style="clear">&nbsp;</div>
+                        <div style="clear">&nbsp;</div>
+                        <div style="font-size: 15px;">تم إرسال رسالتك بنجاح.</div>
+                        <div style="clear">&nbsp;</div>
+                        <div style="clear">&nbsp;</div>
+                        <h3>مدعوم من</h3>
+                        <div style="clear">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="graph-modal">
+        <div class="graph-modal__container modal-subscribe" role="dialog" aria-modal="true" data-graph-target="modalCallback">
+            <div class="graph-modal__content">
+                <div class="graph-modal__image">
+                    <!-- <picture>
+                        <source srcset="/images/modal/ok_icon.avif" type="image/avif">
+                        <source srcset="/images/modal/ok_icon.webp" type="image/webp"> -->
+                    <img loading="lazy" src="/images/modal/ok_icon.png" class="image" width="" height="" alt="Thank you!">
+                    <!-- </picture> -->
+                </div>
+                <h4 class="graph-modal__title">
+                    شكرًا لك!                </h4>
+                <p class="graph-modal__text">
+                    سيتصل بك مديرنا!                </p>
+                <button class="btn-reset btn-main btn-main--black graph-modal__close" aria-label="close">
+                    رائع! شكرًا لك!                </button>
+            </div>
+        </div>
+        <div class="graph-modal__container modal-callback" role="dialog" aria-modal="true" data-graph-target="modalSubscribe">
+            <div class="graph-modal__content">
+                <div class="graph-modal__image">
+                    <!-- <picture>
+                        <source srcset="/images/modal/grt_icon.avif" type="image/avif">
+                        <source srcset="/images/modal/grt_icon.webp" type="image/webp"> -->
+                    <img loading="lazy" src="/images/modal/grt_icon.png" class="image" width="" height="" alt="Great!">
+                    <!-- </picture> -->
+                </div>
+                <h4 class="graph-modal__title">
+                    رائع!                </h4>
+                <p class="graph-modal__text">
+                     الآن سوف تكون على علم بآخر الأخبار!                </p>
+                <button class="btn-reset btn-main btn-main--black graph-modal__close" aria-label="Закрыть модальное окно">
+                    حسنًا، شكرًا لك!                </button>
+            </div>
+        </div>
+        <div class="graph-modal__container modal-cv" role="dialog" aria-modal="true" data-graph-target="modalCV">
+            <div class="graph-modal__content">
+                <div class="graph-modal__image">
+                    <img loading="lazy" src="/images/modal/grt_icon.png" class="image" width="" height="" alt="Great!">
+                </div>
+                <h4 class="graph-modal__title">
+                    نعم، لقد فعلتها!                </h4>
+                <p class="graph-modal__text">
+                    شكرًا لك على طلبك. سيقوم فريقنا بمراجعته والاتصال بك
+                                                                 لك إذا كان لدينا شاغر بالنسبة لك. أتمنى لك يومًا عظيمًا في المستقبل!                </p>
+                <button class="btn-reset btn-main btn-main--black graph-modal__close" aria-label="Закрыть модальное окно">
+                    موافق                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="disclaimer-popup">
+        <b> إخلاء المسؤولية:</b>
+        تمت ترجمة هذه الصفحة باستخدام Google Translation Cloud. نعتذر عن أي أخطاء أو سهو قد يحدث أثناء الترجمة الآلية.    </div>
+</body>
+</html>
