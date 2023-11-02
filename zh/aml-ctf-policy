@@ -15,7 +15,7 @@
 
     <link rel="preload" href="/templates/custom/fonts/Effra-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/templates/custom/fonts/Effra-Bold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="alternate" href="https://belleofx.com" hreflang="en-ae" />
+    <link rel="alternate" href="https://tradewithzerah.com" hreflang="en-ae" />
     <meta charset="utf-8" />
 	<base href="/zh/aml-ctf-policy" />
 	<title>反洗钱和反恐怖融资政策</title>
@@ -37,57 +37,14 @@
 	<script src="/media/jui/js/jquery-migrate.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/jui/js/bootstrap.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/system/js/caption.js?21b43949eb00c2dc28868a748e2b361a"></script>
-	<script>
-jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
-jQuery(window).on('load',  function() {
-				new JCaption('img.caption');
-			});
-	</script>
+	
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WXNKPTL3B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-5WXNKPTL3B');
-    </script>
-    <!-- End Google tag (gtag.js) -->
-    <!-- Google Tag Manager -->
-    <script>
 
-        setTimeout(() => {
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-KNGN98Q');
-        }, 8000);
-        var phone = countryCode['']
-        var country = ''
-        var phonePrefix = '123';
-        document.addEventListener('DOMContentLoaded', function() {
-            country = countryCode.find(el => el.name === "Nigeria");
-            console.log(countryCode);
-            document.getElementById("uForm__tel_1").placeholder = country.dial_code;
-        }, false);
-        document.getElementById("uForm__tel_1").onclick = (e) =>{
-            let tel = jQuery("#uForm__tel_1");
-            console.log(tel.val());
-            if(tel.val() !== '+__ ___-___-____') return
-            tel.val( country.dial_code.slice(1) ).trigger('input');
-
-        }
-
-    </script>
-    <!-- End Google Tag Manager -->
+    
 </head>
 
 <body class="">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNGN98Q"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <!-- <div class="preloader-dots">
     <div></div>
     <div></div>
@@ -174,7 +131,7 @@ jQuery(window).on('load',  function() {
                         <div class="mobile-menu__top">
 
                             <a href="/zh/" class="logo-link">
-                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: BelleoFx icon" class="logo">
+                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: ZerahFX icon" class="logo">
                             </a>
                             <button class="btn-reset btn-menu-close">
                                 <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -184,7 +141,7 @@ jQuery(window).on('load',  function() {
                         </div>
                         <nav class="nav">
                             <ul class="nav menu mod-list">
-<li class="item-411 deeper parent"><a href="/zh/" >公司</a><ul class="nav-child unstyled small"><li class="item-412"><a href="/zh/company/about" >关于 BelleoFX</a></li><li class="item-413"><a href="/zh/company/account-types" >账户类型</a></li><li class="item-414"><a href="/zh/company/careers" >职业机会</a></li><li class="item-416"><a href="/zh/company/faq" >常见问题解答</a></li><li class="item-415"><a href="/zh/company/contact-us" >联系我们</a></li></ul></li><li class="item-426 deeper parent"><a href="/zh/" >市场</a><ul class="nav-child unstyled small"><li class="item-430"><a href="/zh/markets/online-forex-trading-platform" >外汇</a></li><li class="item-431"><a href="/zh/markets/stocks" >股票</a></li><li class="item-429"><a href="/zh/markets/indices-trading-system" >指数</a></li><li class="item-427"><a href="/zh/markets/commodities" >商品</a></li></ul></li><li class="item-442 deeper parent"><a href="/zh/trading/trading-platform" >贸易</a><ul class="nav-child unstyled small"><li class="item-444"><a href="/zh/trading/trading-platform" >交易平台</a></li><li class="item-443"><a href="/zh/trading/economic-calendar" >经济日历</a></li></ul></li><li class="item-424"><a href="/zh/funding" >资金</a></li><li class="item-433 deeper parent"><a href="/zh/" >合伙</a><ul class="nav-child unstyled small"><li class="item-435"><a href="/zh/partnership/white-label" >白色标签</a></li><li class="item-434"><a href="/zh/partnership/introducing-broker-ib" >介绍经纪商 (IB)</a></li></ul></li><li class="item-437 deeper parent"><a href="#" >促销活动</a><ul class="nav-child unstyled small"><li class="item-438"><a href="/zh/promotions/100-credit-bonus" >100% 信用奖金</a></li></ul></li></ul>
+<li class="item-411 deeper parent"><a href="/zh/" >公司</a><ul class="nav-child unstyled small"><li class="item-412"><a href="/zh/company/about" >关于 ZerahFX</a></li><li class="item-413"><a href="/zh/company/account-types" >账户类型</a></li><li class="item-414"><a href="/zh/company/careers" >职业机会</a></li><li class="item-416"><a href="/zh/company/faq" >常见问题解答</a></li><li class="item-415"><a href="/zh/company/contact-us" >联系我们</a></li></ul></li><li class="item-426 deeper parent"><a href="/zh/" >市场</a><ul class="nav-child unstyled small"><li class="item-430"><a href="/zh/markets/online-forex-trading-platform" >外汇</a></li><li class="item-431"><a href="/zh/markets/stocks" >股票</a></li><li class="item-429"><a href="/zh/markets/indices-trading-system" >指数</a></li><li class="item-427"><a href="/zh/markets/commodities" >商品</a></li></ul></li><li class="item-442 deeper parent"><a href="/zh/trading/trading-platform" >贸易</a><ul class="nav-child unstyled small"><li class="item-444"><a href="/zh/trading/trading-platform" >交易平台</a></li><li class="item-443"><a href="/zh/trading/economic-calendar" >经济日历</a></li></ul></li><li class="item-424"><a href="/zh/funding" >资金</a></li><li class="item-433 deeper parent"><a href="/zh/" >合伙</a><ul class="nav-child unstyled small"><li class="item-435"><a href="/zh/partnership/white-label" >白色标签</a></li><li class="item-434"><a href="/zh/partnership/introducing-broker-ib" >介绍经纪商 (IB)</a></li></ul></li><li class="item-437 deeper parent"><a href="#" >促销活动</a><ul class="nav-child unstyled small"><li class="item-438"><a href="/zh/promotions/100-credit-bonus" >100% 信用奖金</a></li></ul></li></ul>
 
                             <div class="lang_block ">
     <div>
@@ -244,7 +201,7 @@ jQuery(window).on('load',  function() {
 
                         </nav>
                         <div class="header__right">
-                            <a href="https://pa.belleofx.com/zh/signup" class="btn-reset btn-main btn-main--white">
+                            <a href="https://pa.tradewithzerah.com/zh/signup" class="btn-reset btn-main btn-main--white">
                                 立即加入                            </a>
                             <a href="/zh/demo" class="btn-reset btn-main btn-main--black">
                                 嘗試模擬帳戶                            </a>
@@ -254,18 +211,18 @@ jQuery(window).on('load',  function() {
             </div>
             <a href="/zh/" class="logo-link">
                                                
-                <img src="/templates/custom/images/icon/logo.svg" alt="logo: BelleoFx icon" class="logo">
-                <img src="/templates/custom/images/icon/logo-icon.svg" alt="logo: BelleoFx icon" class="logo logo--mob">
+                <img src="/templates/custom/images/icon/logo.png" alt="logo: ZerahFX icon" class="logo">
+                <img src="/templates/custom/images/icon/logo-icon.png" alt="logo: ZerahFX icon" class="logo logo--mob">
             </a>
             <nav class="nav">
                 <ul class="nav menu mod-list">
-<li class="item-411 deeper parent"><a href="/zh/" >公司</a><ul class="nav-child unstyled small"><li class="item-412"><a href="/zh/company/about" >关于 BelleoFX</a></li><li class="item-413"><a href="/zh/company/account-types" >账户类型</a></li><li class="item-414"><a href="/zh/company/careers" >职业机会</a></li><li class="item-416"><a href="/zh/company/faq" >常见问题解答</a></li><li class="item-415"><a href="/zh/company/contact-us" >联系我们</a></li></ul></li><li class="item-426 deeper parent"><a href="/zh/" >市场</a><ul class="nav-child unstyled small"><li class="item-430"><a href="/zh/markets/online-forex-trading-platform" >外汇</a></li><li class="item-431"><a href="/zh/markets/stocks" >股票</a></li><li class="item-429"><a href="/zh/markets/indices-trading-system" >指数</a></li><li class="item-427"><a href="/zh/markets/commodities" >商品</a></li></ul></li><li class="item-442 deeper parent"><a href="/zh/trading/trading-platform" >贸易</a><ul class="nav-child unstyled small"><li class="item-444"><a href="/zh/trading/trading-platform" >交易平台</a></li><li class="item-443"><a href="/zh/trading/economic-calendar" >经济日历</a></li></ul></li><li class="item-424"><a href="/zh/funding" >资金</a></li><li class="item-433 deeper parent"><a href="/zh/" >合伙</a><ul class="nav-child unstyled small"><li class="item-435"><a href="/zh/partnership/white-label" >白色标签</a></li><li class="item-434"><a href="/zh/partnership/introducing-broker-ib" >介绍经纪商 (IB)</a></li></ul></li><li class="item-437 deeper parent"><a href="#" >促销活动</a><ul class="nav-child unstyled small"><li class="item-438"><a href="/zh/promotions/100-credit-bonus" >100% 信用奖金</a></li></ul></li></ul>
+<li class="item-411 deeper parent"><a href="/zh/" >公司</a><ul class="nav-child unstyled small"><li class="item-412"><a href="/zh/company/about" >关于 ZerahFX</a></li><li class="item-413"><a href="/zh/company/account-types" >账户类型</a></li><li class="item-414"><a href="/zh/company/careers" >职业机会</a></li><li class="item-416"><a href="/zh/company/faq" >常见问题解答</a></li><li class="item-415"><a href="/zh/company/contact-us" >联系我们</a></li></ul></li><li class="item-426 deeper parent"><a href="/zh/" >市场</a><ul class="nav-child unstyled small"><li class="item-430"><a href="/zh/markets/online-forex-trading-platform" >外汇</a></li><li class="item-431"><a href="/zh/markets/stocks" >股票</a></li><li class="item-429"><a href="/zh/markets/indices-trading-system" >指数</a></li><li class="item-427"><a href="/zh/markets/commodities" >商品</a></li></ul></li><li class="item-442 deeper parent"><a href="/zh/trading/trading-platform" >贸易</a><ul class="nav-child unstyled small"><li class="item-444"><a href="/zh/trading/trading-platform" >交易平台</a></li><li class="item-443"><a href="/zh/trading/economic-calendar" >经济日历</a></li></ul></li><li class="item-424"><a href="/zh/funding" >资金</a></li><li class="item-433 deeper parent"><a href="/zh/" >合伙</a><ul class="nav-child unstyled small"><li class="item-435"><a href="/zh/partnership/white-label" >白色标签</a></li><li class="item-434"><a href="/zh/partnership/introducing-broker-ib" >介绍经纪商 (IB)</a></li></ul></li><li class="item-437 deeper parent"><a href="#" >促销活动</a><ul class="nav-child unstyled small"><li class="item-438"><a href="/zh/promotions/100-credit-bonus" >100% 信用奖金</a></li></ul></li></ul>
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.belleofx.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
                     登入                </a>
-                <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
                     註冊                </a>
                                 <div class="lang_block ">
     <div>
@@ -330,16 +287,16 @@ jQuery(window).on('load',  function() {
 <main class="main">
     <div class="item-page" itemscope itemtype="https://schema.org/Article">
 	<meta itemprop="inLanguage" content="zh-TW" />
-			<div class="page-contacts page-bonus mt100 page-policy"><div class="intro" style="background-image:url(/images/contacts/bg-contacts.jpg)"><div class="wrapper"><h1 class="title mb0">反洗钱和反恐怖融资政策</h1></div></div><div class="terms-section address-section"><div class="wrapper"><div class="title grad">1。目的</div><p>本反洗钱和反恐怖融资政策的目的是确保 BelleoFX 及其员工能够遵守与预防洗钱和金融犯罪相关的所有法律和监管要求。<br><br>该政策旨在鼓励员工在履行职责时考虑潜在的金融犯罪风险，并充分了解公司的内部程序，以阻止可能使用 BelleoFX 进行金融犯罪的行为。<br><br>与金融犯罪相关的使用会使公司面临声誉、法律和监管风险。本政策支持 BelleoFX 的行为准则，该准则强调公司的声誉以及遵守其开展业务的每个司法管辖区的所有适用法律、规则和法规的重要性。<br><br>本政策由 BelleoFX 董事会批准和认可。将根据年度风险评估和集团要求至少每年进行一次审查，以确保其继续推动有效的金融犯罪风险管理。<br><br>本政策应与以下内容一起阅读：<br><br> <b>A.</b> BelleoFX KYC 和尽职调查程序<br><b>B.</b> BelleoFX 入职和客户风险评估程序（包括 PEP 和制裁）<br> <b>C.</b> BelleoFX 合规监控程序</p><div class="title grad">2. 反洗钱 (AML) – 要求</div><p>在全球范围内，制定有效的程序来发现和防止洗钱活动一直是一项长期义务。具体来说，BelleoFX 是在毛里求斯共和国注册成立的 Belleo Markets (MU)，注册号为 186405 GBC。公司作为投资交易商（经纪商）受毛里求斯金融服务委员会（FSC）监管，牌照号GB21027167。 BelleoFX (SVG) 是由圣文森特和格林纳丁斯金融服务管理局 (FSA) 注册的国际商业公司，注册号为 26000 BC 2020。公司采取适当的反洗钱政策和程序。 BelleoFX 致力于遵循所有全球标准和适用立法，并实施了文件中提到的政策和程序，以确保我们能够发现和防止通过公司发生的洗钱活动。</p><div class="title grad"> 2.1 什么是洗钱？</div><p>洗钱是犯罪分子试图隐瞒犯罪活动收益或利益的真实来源和/或所有权的过程。该过程的目的是实现其活动收益看似合法的情况；使他们能够避免被起诉、定罪和没收犯罪资金。金融机构被用于洗钱目的，因此该行业的员工必须了解对其工作的公司及其个人的监管要求。</p><div class="title grad"> 2.2 洗钱的阶段</div><p>洗钱传统上被描述为只有 3 个基本阶段，但重要的是要记住，这些阶段并不一定在所有情况下都会发生。此外，它们之间的界限可能模糊或重叠。洗钱有多种形式，经典的洗钱模式并不总是适用。例如，某人可能利用贪婪犯罪（例如盗窃、欺诈或逃税）获得利益，但仍然符合洗钱定义。尽管如此，下面简要概述了洗钱的 3 个经典阶段：<br><br><b>安置：</b>将现金或其他收益实际引入金融系统——例如，将现金存入银行账户。<b>分层：</b>通过一系列（有时是复杂的）金融交易转移收益的过程，以使审计线索更难以追溯。<br><br><b>示例包括：</b><br><br>出售一项投资并再投资于另一项投资；在不同机构或司法管辖区之间转移资金；设立公司、信托等载体，改变资产的表面所有权。<br><br> BelleoFX 在分层阶段最为暴露。<br><br><b>整合：</b>是指资金与其来源足够远，以实现合法性的表现，并且资金融入经济的时间点</p><div class="title grad">2.3 可疑活动</div><p>尽管员工应该对客户的任何可疑行为保持警惕，但正是在分层阶段，BelleoFX 面临的风险最大。例如：</p><ul><li>尝试将现金支付到他们的帐户中</li><li>向账户存钱只是为了在以后提取，没有任何交易活动</li><li>存款金额超过他们在申请表上声明的可用于交易的金额</li><li>通过第三方账户转移资金</li><li>不考虑交易成本的交易；</li><li>大量使用海外账户或过度使用复杂的公司结构</li><li>来自异常来源的交易支付资金</li><li>客户对保密表现出异常的关注，特别是在客户的身份、业务类型或资产来源方面</li><li>企业客户缺乏对自己行业的一般了解</li><li>客户不关心与交易相关的风险、佣金或其他成本</li><li>客户看似担任另一实体或个人的代理人，但对另一实体或个人的身份避而不谈（涉及集体投资工具所有权权益身份的情况除外）</li><li>客户来自被认定为银行保密、洗钱或毒品生产避风港的国家或在该国家/地区拥有账户</li><li>客户进行广泛、突然或无法解释的电汇活动（尤其是涉及有银行保密法的国家/地区的电汇活动）</li><li>客户存入资金，然后请求将资金电汇或转移给第三方或另一家公司，没有任何明显的商业目的</li><li>交易模式不符合申请表交易经验部分确定的交易模式</li></ul><p>任何怀疑都必须报告给合规主管 Momin Shaikh。作为 BelleoFX 的 AML/CTF 报告官，他有责任调查所有怀疑并决定是否将详细信息上报给适用的外部机构和监管机构。</p><div class="title grad"> 2.4 客户账户开立和尽职调查</div><p>拥有足够的客户信息是打击金融犯罪的宝贵工具，当出现问题时可以保护个别公司免受声誉和财务风险。客户尽职调查意味着找出业务关系的预期目的和性质，并根据可靠来源的文件和/或数据识别客户并验证其身份。作为入职流程的一部分，所有自然人和法人实体都将被识别和验证。<br><br> BelleoFX 采用基于风险的方法，考虑的重要因素包括所开展的业务以及相关交付渠道、客户群和客户的地理位置。<br><br>除了反洗钱问题外，BelleoFX 还必须根据 PEP 和制裁数据库检查客户，这将在入职阶段使用相关在线系统来执行。任何点击都应立即提交给合规部。</p><div class="title grad"> 2.5 培训</div><p>公司必须确保系统和控制措施包括对其员工进行与洗钱相关的适当培训。<br><br>在 BelleoFX，所有新员工都必须参加合规部门提供的金融犯罪介绍会。此外，还为现有员工提供定期进修培训，通常以计算机测试的形式进行。只要合规部门认为有必要，就会进行临时培训，并由合规部门向员工提供最新信息。</p><div class="title grad"> 2.6 记录保存</div><p>公司必须保留每个客户身份证据的副本（或有关在哪里可以找到该证据副本的信息），或者在这些都不可行的情况下，保留使公司能够重新验证客户身份的信息。这些文件必须自客户不再是客户之日起保存五年，或者如果没有正式终止关系，则自最后一次交易之日起保存。还应保存每个客户在业务过程中进行的每笔交易的记录；这些必须自该交易的所有活动完成之日起保留五年。<br><br>还必须保留向员工提供的任何金融犯罪培训的记录。这些内容均以软拷贝形式存储并符合合规性要求。</p><div class="title grad"> 3. 恐怖主义融资</div><div class="title grad">3.1 什么是恐怖主义？</div><p>恐怖主义是“使用或威胁采取行动……旨在影响政府或恐吓公众……或为推进政治、宗教或意识形态事业而使用或威胁”，其中：</p><ul><li>对人的暴力</li><li>财产损失</li><li>对公共健康或安全构成严重风险</li><li>对电子系统的干扰</li></ul><div class="title grad">3.2 它如何适用于金融机构？</div><p>与金融机构相关的是“恐怖分子财产”和此类财产的洗钱活动。它定义为：</p><ul><li>可能用于恐怖主义的金钱或其他财产</li><li>实施恐怖主义行为的收益</li><li>为恐怖主义目的而实施的行为的收益</li></ul><div class="title grad">3.3 恐怖主义融资与洗钱</div><p>恐怖分子财产的转移和犯罪财产的洗钱之间可能存在相当大的相似之处：众所周知，一些恐怖组织与有组织的犯罪活动有着密切的联系。然而，恐怖分子财产和犯罪财产之间有两个主要区别：</p><ul><li>实施个人恐怖行为往往只需要少量资金，从而增加了追踪恐怖分子财产的难度</li><li>恐怖分子可以通过合法获得的收入（包括慈善捐款）获得资助，并且很难确定合法资金在哪个阶段成为恐怖分子的财产</li></ul><p>然而，恐怖组织可能需要大量资金和财产来为其基础设施提供资源。他们通常控制各种来源的财产和资金，并采用现代技术来管理这些资金，并在司法管辖区之间转移它们。<br><br>在打击恐怖主义融资方面，BelleoFX 的义务是向当局报告任何可疑活动。这支持了执法机构在资助恐怖主义方面的目标，即在有合理理由怀疑财产可能被用来资助恐怖主义活动的情况下允许冻结财产。</p><div class="title grad"> 4. 欺诈</div><div class="title grad">4.1 欺诈简介</div><p><b>欺诈定义为：</b><br> “通过故意歪曲重要事实或故意遗漏此类事实来获取不公平或非法利益的任何企图，无论成功与否。”<br><br>这一广泛的定义包括客户针对 BelleoFX 实施的欺诈、BelleoFX 员工针对公司或客户实施的欺诈、或第三方针对客户或企业实施的欺诈。<br><br> BelleoFX 通过互联网提供金融服务，无需与客户面对面接触。其客户群遍布许多国家，这增加了身份欺诈和冒充威胁的复杂性。很大一部分客户居住在反欺诈法规不健全的高风险司法管辖区*。<br><br>然而，由于该公司不提供一般银行服务和信贷便利，因此对于涉及欺诈的有组织犯罪分子来说，它不像银行或贷款机构那样有吸引力。</p><div class="title grad"> 4.2 预防欺诈</div><p>BelleoFX 采取了各种保护措施来防止欺诈发生。这些包括：<br><br><b>行为准则：</b>该准则的副本包含在所有新员工 BelleoFX 入职包中。员工充分意识到，如果他们在与客户、顾客、交易对手和同事打交道时未能“诚实、公平和正直”，可能会受到纪律处分。该准则明确规定，公司的声誉至关重要，必须始终保持良好的商业和市场惯例。<br><br><b>客户接受：</b>客户接受标准涉及对所获得的特定文件的处理以及接受过程中欺诈风险的识别。所有新申请都必须满足身份验证的最低标准，并且不会接受存在不可接受的金融犯罪风险的潜在客户。<br><br><b>客户身份验证：</b>客户身份验证标准的存在是为了保护真正的客户免受假冒欺诈。在成功完成身份验证程序之前，不会对客户的指示采取行动，并且重复失败的身份验证尝试将被升级为可疑的合规部门，并且在大多数情况下，申请将被拒绝。<br><br><b>支付流程：</b>支付流程标准保护支付的完整性，以帮助防止外部或内部欺诈。 意识和培训：意识和培训标准有助于嵌入风险意识文化，并为参与控制流程的关键员工提供专业技能。欺诈意识培训是合规部提供的反洗钱入职培训的一部分，此外，还将定期为关键角色提供更深入的欺诈培训。</p><div class="title grad"> 4.3 欺诈检测/报告</div><p>尽管有上述保障措施，但还制定了程序来检测和报告可能发生的任何欺诈活动。这些包括：<br><br><b>内部报告</b><br><br>如果公司内的任何员工怀疑已经发生或可能发生欺诈，他们必须向 AML/CTF 报告官员报告他们的怀疑。一旦他们这样做了，他们就履行了法律义务，由反洗钱/反恐怖主义融资报告官员决定是否需要向外部报告该报告。<br><br></p><div class="title grad"> 5. 反贿赂和反腐败</div><div class="title grad">5.1 定义</div><p>“贿赂是指提供金钱、服务或其他有价值的物品，以诱使某人做某事作为回报。贿赂就是腐败。腐败是为了换取金钱或个人利益而采取不诚实的行为。这是非法滥用官方职位，损害任职者的利益。”</p><div class="title grad"> 5.2 打击贿赂的程序</div><p>BelleoFX 制定了以下程序来打击贿赂和腐败：<br><br> <b>(1)</b>允许员工匿名报告任何疑虑的举报政策<br><br><b>(2)</b>礼品和诱导政策。目前，所有员工只需遵循以下说明即可。<br><br> “如果员工收到客户的礼物或招待，必须尽快向合规部门披露。他们将评估是否可以合理地视为对捐赠者、接受者或第三方产生商业义务。”<br><br>根据新法案，招待支出仍然是合法的，只要其适当且相称。<br><br> (3) 合规部门定期审查政策<br>（四）对全体员工进行反腐败、反贿赂培训<br>(5) 对每个新客户进行制裁和政治人物 (PEP) 检查，因为基于风险的方法在此不合适。 PEP 是指在上一年的任何时间被委托担任重要公共职能的人，或者是其家庭的直系成员或已知的亲密伙伴。所有被认定为 PEP 的申请人必须上报至合规部和集团总部以获得批准。</p><div class="title grad"> 6. 市场滥用</div><div class="title grad">6.1 简介</div><p>市场滥用是指单独或一致行动的人的“行为”（作为或不作为），这种行为与在规定市场上交易或获准在规定市场上交易的合格投资有关。虐待行为有 7 种类型。<br><br>尽管 BelleoFX 仅提供场外投资工具而非交易所交易产品，但市场滥用行为还涵盖上述任何投资交易的任何相关产品。由于 BelleoFX 的价格源自基础市场的变动，因此差价合约受到市场滥用制度的影响。</p><div class="title grad"> 6.2 七种市场滥用类型</div><p><b>内幕交易</b>——内幕人士根据内幕信息进行或试图进行合格或相关投资的交易。<br><br><b>不当披露</b>——内部人员在正常履行职责的情况下向他人披露内幕信息。<br><br><b>信息滥用</b>——行为基于一般不可用但相关的信息，“常规市场用户”会认为未能遵守合理标准。 （有可能滥用不一定是内幕信息的信息）。<br><br><b>操纵交易</b>- 行为包括不按照公认的市场惯例进行交易或下订单，这会给需求/供应/价格/估值带来错误或误导性的印象。<br><br><b>操纵设备</b>- 行为包括使用虚构设备或其他形式的欺骗进行交易或下订单。<br><br><b>传播</b>——这种行为包括传播信息，这可能会给明知该信息是虚假/误导性信息的人带来错误或误导性的投资印象。<br><br><b>扭曲</b>- 行为给普通用户带来错误或误导性的需求/供应/价格/价值印象，或者被视为未能遵守其职位所期望的行为标准</p><div class="title grad">6.3 可疑交易的迹象</div><p><b>1.</b>客户开设账户并立即发出指令以进行特定证券的重大交易，特别是如果客户坚持非常紧急地执行指令。<br><br> <b>2.</b>交易与客户之前的投资行为明显不一致，例如证券类型、投资金额、订单大小<br><br><b>3、</b>公司股票在公司股价敏感信息公告前存在异常交易情况<br><br><b>4.</b>员工自己的账户交易时间恰好早于客户的交易及同一金融工具的相关订单<br><br><b>5.</b>由于其相对于该证券市场的规模，订单显然会对证券的供应或需求、价格或价值产生重大影响<br>此列表并不详尽；它只是提供了一些构成可疑活动的示例。</p><div class="title grad"> 6.4 可疑交易报告</div><p>与任何其他类型的可疑活动一样，立即向 AML/CTF 报告官（或其他合规成员）报告与市场滥用相关的任何怀疑非常重要。</p><div class="title grad">七、职责</div><div class="title grad">7.1 高级管理人员</div><p>本政策由董事会批准和认可，董事会还审查和批准年度风险评估，反洗钱问题每季度向风险委员会报告。</p><div class="title grad"> 7.2 AML/CTF 报告官</div><p>BelleoFX 已指定一名高级员工担任 AML/CTF 报告办公室<br><br>AML/CTF 报告官员必须<br><br></p><ul><li>向董事会提供有关公司防止洗钱的系统和控制措施的年度报告</li><li>向董事会提供年度“反洗钱风险评估”。这概述了 BelleoFX 面临的主要反洗钱和金融犯罪风险以及如何管理这些风险</li><li>接收有关反洗钱、恐怖主义融资或金融犯罪的内部可疑报告</li><li>使用他掌握的所有信息调查并考虑这些报告，以确定他是否认为这些报告有充分根据</li><li>必要时向外部机构和监管机构（包括金融情报部门）传达他认为有充分依据的详细信息</li></ul><div class="title grad">7.3 持续监控</div><p>对于 BelleoFX 被用于与金融犯罪有关的情况，合规部门采取了各种监控计划，以尽可能地防止这种情况发生。<br><br>这包括每周对已开立的客户账户进行抽样，以及每日检查支付给客户账户的资金是否超过合格阈值，以发现任何可疑情况。<br><br>该部门还为企业提供建议和指导。 BelleoFX 合规监控程序中包含持续监控的更多详细信息<br><br>BelleoFX 不接受任何类型的第三方存款。<br> BelleoFX 将每笔存款与该客户存档的账户名称进行匹配。 BelleoFX 保留在其认为交易以任何方式与洗钱或犯罪活动有关的任何阶段拒绝处理交易的权利。根据国际法，如果向任何相应监管或法律机构报告可疑活动，BelleoFX 没有义务通知客户。</p><div class="title grad"> 8 声明</div><p>您必须签署以下声明，表明您已阅读并同意遵守 BelleoFX 防止洗钱、恐怖主义融资和金融犯罪的政策和程序。请将其返回给合规部。</p></div></div></div> 	</div>
+			<div class="page-contacts page-bonus mt100 page-policy"><div class="intro" style="background-image:url(/images/contacts/bg-contacts.jpg)"><div class="wrapper"><h1 class="title mb0">反洗钱和反恐怖融资政策</h1></div></div><div class="terms-section address-section"><div class="wrapper"><div class="title grad">1。目的</div><p>本反洗钱和反恐怖融资政策的目的是确保 ZerahFX 及其员工能够遵守与预防洗钱和金融犯罪相关的所有法律和监管要求。<br><br>该政策旨在鼓励员工在履行职责时考虑潜在的金融犯罪风险，并充分了解公司的内部程序，以阻止可能使用 ZerahFX 进行金融犯罪的行为。<br><br>与金融犯罪相关的使用会使公司面临声誉、法律和监管风险。本政策支持 ZerahFX 的行为准则，该准则强调公司的声誉以及遵守其开展业务的每个司法管辖区的所有适用法律、规则和法规的重要性。<br><br>本政策由 ZerahFX 董事会批准和认可。将根据年度风险评估和集团要求至少每年进行一次审查，以确保其继续推动有效的金融犯罪风险管理。<br><br>本政策应与以下内容一起阅读：<br><br> <b>A.</b> ZerahFX KYC 和尽职调查程序<br><b>B.</b> ZerahFX 入职和客户风险评估程序（包括 PEP 和制裁）<br> <b>C.</b> ZerahFX 合规监控程序</p><div class="title grad">2. 反洗钱 (AML) – 要求</div><p>在全球范围内，制定有效的程序来发现和防止洗钱活动一直是一项长期义务。具体来说，ZerahFX 是在毛里求斯共和国注册成立的 Zerah Markets (MU)，注册号为 186405 GBC。公司作为投资交易商（经纪商）受毛里求斯金融服务委员会（FSC）监管，牌照号GB21027167。 ZerahFX (SVG) 是由圣文森特和格林纳丁斯金融服务管理局 (FSA) 注册的国际商业公司，注册号为 26000 BC 2020。公司采取适当的反洗钱政策和程序。 ZerahFX 致力于遵循所有全球标准和适用立法，并实施了文件中提到的政策和程序，以确保我们能够发现和防止通过公司发生的洗钱活动。</p><div class="title grad"> 2.1 什么是洗钱？</div><p>洗钱是犯罪分子试图隐瞒犯罪活动收益或利益的真实来源和/或所有权的过程。该过程的目的是实现其活动收益看似合法的情况；使他们能够避免被起诉、定罪和没收犯罪资金。金融机构被用于洗钱目的，因此该行业的员工必须了解对其工作的公司及其个人的监管要求。</p><div class="title grad"> 2.2 洗钱的阶段</div><p>洗钱传统上被描述为只有 3 个基本阶段，但重要的是要记住，这些阶段并不一定在所有情况下都会发生。此外，它们之间的界限可能模糊或重叠。洗钱有多种形式，经典的洗钱模式并不总是适用。例如，某人可能利用贪婪犯罪（例如盗窃、欺诈或逃税）获得利益，但仍然符合洗钱定义。尽管如此，下面简要概述了洗钱的 3 个经典阶段：<br><br><b>安置：</b>将现金或其他收益实际引入金融系统——例如，将现金存入银行账户。<b>分层：</b>通过一系列（有时是复杂的）金融交易转移收益的过程，以使审计线索更难以追溯。<br><br><b>示例包括：</b><br><br>出售一项投资并再投资于另一项投资；在不同机构或司法管辖区之间转移资金；设立公司、信托等载体，改变资产的表面所有权。<br><br> ZerahFX 在分层阶段最为暴露。<br><br><b>整合：</b>是指资金与其来源足够远，以实现合法性的表现，并且资金融入经济的时间点</p><div class="title grad">2.3 可疑活动</div><p>尽管员工应该对客户的任何可疑行为保持警惕，但正是在分层阶段，ZerahFX 面临的风险最大。例如：</p><ul><li>尝试将现金支付到他们的帐户中</li><li>向账户存钱只是为了在以后提取，没有任何交易活动</li><li>存款金额超过他们在申请表上声明的可用于交易的金额</li><li>通过第三方账户转移资金</li><li>不考虑交易成本的交易；</li><li>大量使用海外账户或过度使用复杂的公司结构</li><li>来自异常来源的交易支付资金</li><li>客户对保密表现出异常的关注，特别是在客户的身份、业务类型或资产来源方面</li><li>企业客户缺乏对自己行业的一般了解</li><li>客户不关心与交易相关的风险、佣金或其他成本</li><li>客户看似担任另一实体或个人的代理人，但对另一实体或个人的身份避而不谈（涉及集体投资工具所有权权益身份的情况除外）</li><li>客户来自被认定为银行保密、洗钱或毒品生产避风港的国家或在该国家/地区拥有账户</li><li>客户进行广泛、突然或无法解释的电汇活动（尤其是涉及有银行保密法的国家/地区的电汇活动）</li><li>客户存入资金，然后请求将资金电汇或转移给第三方或另一家公司，没有任何明显的商业目的</li><li>交易模式不符合申请表交易经验部分确定的交易模式</li></ul><p>任何怀疑都必须报告给合规主管 Momin Shaikh。作为 ZerahFX 的 AML/CTF 报告官，他有责任调查所有怀疑并决定是否将详细信息上报给适用的外部机构和监管机构。</p><div class="title grad"> 2.4 客户账户开立和尽职调查</div><p>拥有足够的客户信息是打击金融犯罪的宝贵工具，当出现问题时可以保护个别公司免受声誉和财务风险。客户尽职调查意味着找出业务关系的预期目的和性质，并根据可靠来源的文件和/或数据识别客户并验证其身份。作为入职流程的一部分，所有自然人和法人实体都将被识别和验证。<br><br> ZerahFX 采用基于风险的方法，考虑的重要因素包括所开展的业务以及相关交付渠道、客户群和客户的地理位置。<br><br>除了反洗钱问题外，ZerahFX 还必须根据 PEP 和制裁数据库检查客户，这将在入职阶段使用相关在线系统来执行。任何点击都应立即提交给合规部。</p><div class="title grad"> 2.5 培训</div><p>公司必须确保系统和控制措施包括对其员工进行与洗钱相关的适当培训。<br><br>在 ZerahFX，所有新员工都必须参加合规部门提供的金融犯罪介绍会。此外，还为现有员工提供定期进修培训，通常以计算机测试的形式进行。只要合规部门认为有必要，就会进行临时培训，并由合规部门向员工提供最新信息。</p><div class="title grad"> 2.6 记录保存</div><p>公司必须保留每个客户身份证据的副本（或有关在哪里可以找到该证据副本的信息），或者在这些都不可行的情况下，保留使公司能够重新验证客户身份的信息。这些文件必须自客户不再是客户之日起保存五年，或者如果没有正式终止关系，则自最后一次交易之日起保存。还应保存每个客户在业务过程中进行的每笔交易的记录；这些必须自该交易的所有活动完成之日起保留五年。<br><br>还必须保留向员工提供的任何金融犯罪培训的记录。这些内容均以软拷贝形式存储并符合合规性要求。</p><div class="title grad"> 3. 恐怖主义融资</div><div class="title grad">3.1 什么是恐怖主义？</div><p>恐怖主义是“使用或威胁采取行动……旨在影响政府或恐吓公众……或为推进政治、宗教或意识形态事业而使用或威胁”，其中：</p><ul><li>对人的暴力</li><li>财产损失</li><li>对公共健康或安全构成严重风险</li><li>对电子系统的干扰</li></ul><div class="title grad">3.2 它如何适用于金融机构？</div><p>与金融机构相关的是“恐怖分子财产”和此类财产的洗钱活动。它定义为：</p><ul><li>可能用于恐怖主义的金钱或其他财产</li><li>实施恐怖主义行为的收益</li><li>为恐怖主义目的而实施的行为的收益</li></ul><div class="title grad">3.3 恐怖主义融资与洗钱</div><p>恐怖分子财产的转移和犯罪财产的洗钱之间可能存在相当大的相似之处：众所周知，一些恐怖组织与有组织的犯罪活动有着密切的联系。然而，恐怖分子财产和犯罪财产之间有两个主要区别：</p><ul><li>实施个人恐怖行为往往只需要少量资金，从而增加了追踪恐怖分子财产的难度</li><li>恐怖分子可以通过合法获得的收入（包括慈善捐款）获得资助，并且很难确定合法资金在哪个阶段成为恐怖分子的财产</li></ul><p>然而，恐怖组织可能需要大量资金和财产来为其基础设施提供资源。他们通常控制各种来源的财产和资金，并采用现代技术来管理这些资金，并在司法管辖区之间转移它们。<br><br>在打击恐怖主义融资方面，ZerahFX 的义务是向当局报告任何可疑活动。这支持了执法机构在资助恐怖主义方面的目标，即在有合理理由怀疑财产可能被用来资助恐怖主义活动的情况下允许冻结财产。</p><div class="title grad"> 4. 欺诈</div><div class="title grad">4.1 欺诈简介</div><p><b>欺诈定义为：</b><br> “通过故意歪曲重要事实或故意遗漏此类事实来获取不公平或非法利益的任何企图，无论成功与否。”<br><br>这一广泛的定义包括客户针对 ZerahFX 实施的欺诈、ZerahFX 员工针对公司或客户实施的欺诈、或第三方针对客户或企业实施的欺诈。<br><br> ZerahFX 通过互联网提供金融服务，无需与客户面对面接触。其客户群遍布许多国家，这增加了身份欺诈和冒充威胁的复杂性。很大一部分客户居住在反欺诈法规不健全的高风险司法管辖区*。<br><br>然而，由于该公司不提供一般银行服务和信贷便利，因此对于涉及欺诈的有组织犯罪分子来说，它不像银行或贷款机构那样有吸引力。</p><div class="title grad"> 4.2 预防欺诈</div><p>ZerahFX 采取了各种保护措施来防止欺诈发生。这些包括：<br><br><b>行为准则：</b>该准则的副本包含在所有新员工 ZerahFX 入职包中。员工充分意识到，如果他们在与客户、顾客、交易对手和同事打交道时未能“诚实、公平和正直”，可能会受到纪律处分。该准则明确规定，公司的声誉至关重要，必须始终保持良好的商业和市场惯例。<br><br><b>客户接受：</b>客户接受标准涉及对所获得的特定文件的处理以及接受过程中欺诈风险的识别。所有新申请都必须满足身份验证的最低标准，并且不会接受存在不可接受的金融犯罪风险的潜在客户。<br><br><b>客户身份验证：</b>客户身份验证标准的存在是为了保护真正的客户免受假冒欺诈。在成功完成身份验证程序之前，不会对客户的指示采取行动，并且重复失败的身份验证尝试将被升级为可疑的合规部门，并且在大多数情况下，申请将被拒绝。<br><br><b>支付流程：</b>支付流程标准保护支付的完整性，以帮助防止外部或内部欺诈。 意识和培训：意识和培训标准有助于嵌入风险意识文化，并为参与控制流程的关键员工提供专业技能。欺诈意识培训是合规部提供的反洗钱入职培训的一部分，此外，还将定期为关键角色提供更深入的欺诈培训。</p><div class="title grad"> 4.3 欺诈检测/报告</div><p>尽管有上述保障措施，但还制定了程序来检测和报告可能发生的任何欺诈活动。这些包括：<br><br><b>内部报告</b><br><br>如果公司内的任何员工怀疑已经发生或可能发生欺诈，他们必须向 AML/CTF 报告官员报告他们的怀疑。一旦他们这样做了，他们就履行了法律义务，由反洗钱/反恐怖主义融资报告官员决定是否需要向外部报告该报告。<br><br></p><div class="title grad"> 5. 反贿赂和反腐败</div><div class="title grad">5.1 定义</div><p>“贿赂是指提供金钱、服务或其他有价值的物品，以诱使某人做某事作为回报。贿赂就是腐败。腐败是为了换取金钱或个人利益而采取不诚实的行为。这是非法滥用官方职位，损害任职者的利益。”</p><div class="title grad"> 5.2 打击贿赂的程序</div><p>ZerahFX 制定了以下程序来打击贿赂和腐败：<br><br> <b>(1)</b>允许员工匿名报告任何疑虑的举报政策<br><br><b>(2)</b>礼品和诱导政策。目前，所有员工只需遵循以下说明即可。<br><br> “如果员工收到客户的礼物或招待，必须尽快向合规部门披露。他们将评估是否可以合理地视为对捐赠者、接受者或第三方产生商业义务。”<br><br>根据新法案，招待支出仍然是合法的，只要其适当且相称。<br><br> (3) 合规部门定期审查政策<br>（四）对全体员工进行反腐败、反贿赂培训<br>(5) 对每个新客户进行制裁和政治人物 (PEP) 检查，因为基于风险的方法在此不合适。 PEP 是指在上一年的任何时间被委托担任重要公共职能的人，或者是其家庭的直系成员或已知的亲密伙伴。所有被认定为 PEP 的申请人必须上报至合规部和集团总部以获得批准。</p><div class="title grad"> 6. 市场滥用</div><div class="title grad">6.1 简介</div><p>市场滥用是指单独或一致行动的人的“行为”（作为或不作为），这种行为与在规定市场上交易或获准在规定市场上交易的合格投资有关。虐待行为有 7 种类型。<br><br>尽管 ZerahFX 仅提供场外投资工具而非交易所交易产品，但市场滥用行为还涵盖上述任何投资交易的任何相关产品。由于 ZerahFX 的价格源自基础市场的变动，因此差价合约受到市场滥用制度的影响。</p><div class="title grad"> 6.2 七种市场滥用类型</div><p><b>内幕交易</b>——内幕人士根据内幕信息进行或试图进行合格或相关投资的交易。<br><br><b>不当披露</b>——内部人员在正常履行职责的情况下向他人披露内幕信息。<br><br><b>信息滥用</b>——行为基于一般不可用但相关的信息，“常规市场用户”会认为未能遵守合理标准。 （有可能滥用不一定是内幕信息的信息）。<br><br><b>操纵交易</b>- 行为包括不按照公认的市场惯例进行交易或下订单，这会给需求/供应/价格/估值带来错误或误导性的印象。<br><br><b>操纵设备</b>- 行为包括使用虚构设备或其他形式的欺骗进行交易或下订单。<br><br><b>传播</b>——这种行为包括传播信息，这可能会给明知该信息是虚假/误导性信息的人带来错误或误导性的投资印象。<br><br><b>扭曲</b>- 行为给普通用户带来错误或误导性的需求/供应/价格/价值印象，或者被视为未能遵守其职位所期望的行为标准</p><div class="title grad">6.3 可疑交易的迹象</div><p><b>1.</b>客户开设账户并立即发出指令以进行特定证券的重大交易，特别是如果客户坚持非常紧急地执行指令。<br><br> <b>2.</b>交易与客户之前的投资行为明显不一致，例如证券类型、投资金额、订单大小<br><br><b>3、</b>公司股票在公司股价敏感信息公告前存在异常交易情况<br><br><b>4.</b>员工自己的账户交易时间恰好早于客户的交易及同一金融工具的相关订单<br><br><b>5.</b>由于其相对于该证券市场的规模，订单显然会对证券的供应或需求、价格或价值产生重大影响<br>此列表并不详尽；它只是提供了一些构成可疑活动的示例。</p><div class="title grad"> 6.4 可疑交易报告</div><p>与任何其他类型的可疑活动一样，立即向 AML/CTF 报告官（或其他合规成员）报告与市场滥用相关的任何怀疑非常重要。</p><div class="title grad">七、职责</div><div class="title grad">7.1 高级管理人员</div><p>本政策由董事会批准和认可，董事会还审查和批准年度风险评估，反洗钱问题每季度向风险委员会报告。</p><div class="title grad"> 7.2 AML/CTF 报告官</div><p>ZerahFX 已指定一名高级员工担任 AML/CTF 报告办公室<br><br>AML/CTF 报告官员必须<br><br></p><ul><li>向董事会提供有关公司防止洗钱的系统和控制措施的年度报告</li><li>向董事会提供年度“反洗钱风险评估”。这概述了 ZerahFX 面临的主要反洗钱和金融犯罪风险以及如何管理这些风险</li><li>接收有关反洗钱、恐怖主义融资或金融犯罪的内部可疑报告</li><li>使用他掌握的所有信息调查并考虑这些报告，以确定他是否认为这些报告有充分根据</li><li>必要时向外部机构和监管机构（包括金融情报部门）传达他认为有充分依据的详细信息</li></ul><div class="title grad">7.3 持续监控</div><p>对于 ZerahFX 被用于与金融犯罪有关的情况，合规部门采取了各种监控计划，以尽可能地防止这种情况发生。<br><br>这包括每周对已开立的客户账户进行抽样，以及每日检查支付给客户账户的资金是否超过合格阈值，以发现任何可疑情况。<br><br>该部门还为企业提供建议和指导。 ZerahFX 合规监控程序中包含持续监控的更多详细信息<br><br>ZerahFX 不接受任何类型的第三方存款。<br> ZerahFX 将每笔存款与该客户存档的账户名称进行匹配。 ZerahFX 保留在其认为交易以任何方式与洗钱或犯罪活动有关的任何阶段拒绝处理交易的权利。根据国际法，如果向任何相应监管或法律机构报告可疑活动，ZerahFX 没有义务通知客户。</p><div class="title grad"> 8 声明</div><p>您必须签署以下声明，表明您已阅读并同意遵守 ZerahFX 防止洗钱、恐怖主义融资和金融犯罪的政策和程序。请将其返回给合规部。</p></div></div></div> 	</div>
 
 </main>
 
 <section class="section above-footer">
   <div class="wrapper">
     <a href="/" class="logo-link">
-      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <img src="/../images/icon/logo-white.svg" alt="logo: BelleoFx icon" class="logo">
+      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <img src="/../images/icon/logo-white.png" alt="logo: ZerahFX icon" class="logo">
     </a>
     <div class="above-footer__container">
       <div class="item-contacts">
@@ -353,11 +310,11 @@ jQuery(window).on('load',  function() {
             </svg> 
             <span class="dir-ltr">+971 4 541 7900</span>
           </a>
-          <a href="email:support@belleofx.com" class="email-link">
+          <a href="email:support@tradewithzerah.com" class="email-link">
             <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.625 11.5L10.6429 7M6.35714 7L1.37503 11.5M1 3.25L7.12369 7.53658C7.61957 7.8837 7.86751 8.05726 8.1372 8.12448C8.37542 8.18386 8.62458 8.18386 8.8628 8.12448C9.13249 8.05726 9.38043 7.8837 9.87631 7.53658L16 3.25M4.6 13H12.4C13.6601 13 14.2902 13 14.7715 12.7548C15.1948 12.539 15.539 12.1948 15.7548 11.7715C16 11.2902 16 10.6601 16 9.4V4.6C16 3.33988 16 2.70982 15.7548 2.22852C15.539 1.80516 15.1948 1.46095 14.7715 1.24524C14.2902 1 13.6601 1 12.4 1H4.6C3.33988 1 2.70982 1 2.22852 1.24524C1.80516 1.46095 1.46095 1.80516 1.24524 2.22852C1 2.70982 1 3.33988 1 4.6V9.4C1 10.6601 1 11.2902 1.24524 11.7715C1.46095 12.1948 1.80516 12.539 2.22852 12.7548C2.70982 13 3.33988 13 4.6 13Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            support@belleofx.com
+            support@tradewithzerah.com
           </a>
           <p class="address">
             <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -373,34 +330,34 @@ jQuery(window).on('load',  function() {
 
 <div class="custom"  >
 	<div class="socials">
-  <a href="https://www.facebook.com/belleofx/" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#facebook"></use>
     </svg>
   </a>
-  <!--<a href="https://www.quora.com/profile/BelleoFX-1?q=belleo58" target="_blank" class="socials__link">
+  <!--<a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#quora"></use>
     </svg>
   </a>-->
-  <a href="https://www.instagram.com/belleo_fx/?hl=en" target="_blank" class="socials__link">
+  <a href="https://instagram.com/zerah_fx?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#instagram"></use>
     </svg>
   </a>
-  <a href="https://www.linkedin.com/company/belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#linkedin"></use>
     </svg>
   </a>
   
-  <a href="https://twitter.com/Belleofx1" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
         <svg class="icon">
       <use xlink:href="/images/sprite.svg#twitter"></use>
     </svg>
   </a>
   
-  <a href="https://www.youtube.com/@belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#youtube"></use>
     </svg>
@@ -412,17 +369,17 @@ jQuery(window).on('load',  function() {
       <div class="item-menu">
         <nav class="nav">
             <ul class="nav menu mod-list">
-<li class="item-411 deeper parent"><a href="/zh/" >公司</a><ul class="nav-child unstyled small"><li class="item-412"><a href="/zh/company/about" >关于 BelleoFX</a></li><li class="item-413"><a href="/zh/company/account-types" >账户类型</a></li><li class="item-414"><a href="/zh/company/careers" >职业机会</a></li><li class="item-416"><a href="/zh/company/faq" >常见问题解答</a></li><li class="item-415"><a href="/zh/company/contact-us" >联系我们</a></li></ul></li><li class="item-426 deeper parent"><a href="/zh/" >市场</a><ul class="nav-child unstyled small"><li class="item-430"><a href="/zh/markets/online-forex-trading-platform" >外汇</a></li><li class="item-431"><a href="/zh/markets/stocks" >股票</a></li><li class="item-429"><a href="/zh/markets/indices-trading-system" >指数</a></li><li class="item-427"><a href="/zh/markets/commodities" >商品</a></li></ul></li><li class="item-442 deeper parent"><a href="/zh/trading/trading-platform" >贸易</a><ul class="nav-child unstyled small"><li class="item-444"><a href="/zh/trading/trading-platform" >交易平台</a></li><li class="item-443"><a href="/zh/trading/economic-calendar" >经济日历</a></li></ul></li><li class="item-424"><a href="/zh/funding" >资金</a></li><li class="item-433 deeper parent"><a href="/zh/" >合伙</a><ul class="nav-child unstyled small"><li class="item-435"><a href="/zh/partnership/white-label" >白色标签</a></li><li class="item-434"><a href="/zh/partnership/introducing-broker-ib" >介绍经纪商 (IB)</a></li></ul></li><li class="item-437 deeper parent"><a href="#" >促销活动</a><ul class="nav-child unstyled small"><li class="item-438"><a href="/zh/promotions/100-credit-bonus" >100% 信用奖金</a></li></ul></li></ul>
+<li class="item-411 deeper parent"><a href="/zh/" >公司</a><ul class="nav-child unstyled small"><li class="item-412"><a href="/zh/company/about" >关于 ZerahFX</a></li><li class="item-413"><a href="/zh/company/account-types" >账户类型</a></li><li class="item-414"><a href="/zh/company/careers" >职业机会</a></li><li class="item-416"><a href="/zh/company/faq" >常见问题解答</a></li><li class="item-415"><a href="/zh/company/contact-us" >联系我们</a></li></ul></li><li class="item-426 deeper parent"><a href="/zh/" >市场</a><ul class="nav-child unstyled small"><li class="item-430"><a href="/zh/markets/online-forex-trading-platform" >外汇</a></li><li class="item-431"><a href="/zh/markets/stocks" >股票</a></li><li class="item-429"><a href="/zh/markets/indices-trading-system" >指数</a></li><li class="item-427"><a href="/zh/markets/commodities" >商品</a></li></ul></li><li class="item-442 deeper parent"><a href="/zh/trading/trading-platform" >贸易</a><ul class="nav-child unstyled small"><li class="item-444"><a href="/zh/trading/trading-platform" >交易平台</a></li><li class="item-443"><a href="/zh/trading/economic-calendar" >经济日历</a></li></ul></li><li class="item-424"><a href="/zh/funding" >资金</a></li><li class="item-433 deeper parent"><a href="/zh/" >合伙</a><ul class="nav-child unstyled small"><li class="item-435"><a href="/zh/partnership/white-label" >白色标签</a></li><li class="item-434"><a href="/zh/partnership/introducing-broker-ib" >介绍经纪商 (IB)</a></li></ul></li><li class="item-437 deeper parent"><a href="#" >促销活动</a><ul class="nav-child unstyled small"><li class="item-438"><a href="/zh/promotions/100-credit-bonus" >100% 信用奖金</a></li></ul></li></ul>
   
         </nav>
       </div>
       <div class="item-description">
                 <p class="text">
-            BelleoFX 是 Belleo Markets（毛里求斯）、BelleoFX（聖文森特和格林納丁斯）和 Belleo Markets - Rep.Office（阿聯酋）的品牌名稱。<br><br>
-                                       Belleo Markets (MU) 在毛里求斯共和國註冊成立，註冊號碼為 186405 GBC。 公司作為投資交易商（經紀商）受毛里求斯金融服務委員會（FSC）監管，牌照號GB21027167。<br><br>
-                                       BelleoFX (SVG) 經聖文森特和格林納丁斯金融服務管理局 (FSA) 註冊為國際商業公司，註冊號碼為 2584 LLC 2022。<br><br>
-                                       Belleo Markets - 代表處（阿聯酋）是外國公司（Belleo Markets Mauritius）的分支機構，由DET註冊和監管，許可證號為1074850。<br><br>
-                                       BelleoFX 不與來自 OFAC 制裁國家和 FATF 黑名單國家的客戶合作。        </p>
+            ZerahFX 是 Zerah Markets（毛里求斯）、ZerahFX（聖文森特和格林納丁斯）和 Zerah Markets - Rep.Office（阿聯酋）的品牌名稱。<br><br>
+                                       Zerah Markets (MU) 在毛里求斯共和國註冊成立，註冊號碼為 186405 GBC。 公司作為投資交易商（經紀商）受毛里求斯金融服務委員會（FSC）監管，牌照號GB21027167。<br><br>
+                                       ZerahFX (SVG) 經聖文森特和格林納丁斯金融服務管理局 (FSA) 註冊為國際商業公司，註冊號碼為 2584 LLC 2022。<br><br>
+                                       Zerah Markets - 代表處（阿聯酋）是外國公司（Zerah Markets Mauritius）的分支機構，由DET註冊和監管，許可證號為1074850。<br><br>
+                                       ZerahFX 不與來自 OFAC 制裁國家和 FATF 黑名單國家的客戶合作。        </p>
       </div>
     </div>
   </div>
@@ -463,7 +420,7 @@ jQuery(window).on('load',  function() {
               </ul>
             </nav>
             <strong class="copyright">
-                © 2020-2023                BelleoFX | 保留所有權利            </strong>
+                © 2020-2023                ZerahFX | 保留所有權利            </strong>
         </div>
     </div>
 </footer>
@@ -541,7 +498,7 @@ jQuery(window).on('load',  function() {
         }, 8000);
     </script> -->
     <!--End of Tawk.to Script (0.7.1)-->
-    <!-- Start of belleofx Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of belleofx Zendesk Widget script -->
+    <!-- Start of ZerahFX Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of ZerahFX Zendesk Widget script -->
 
     <div class="sliding-enquiry"><div class="enquiry-wrap">
         </div>
@@ -553,7 +510,7 @@ jQuery(window).on('load',  function() {
                     <hr/>
                     <div id="enquiryform" style="">
                         <form action="" id="sliding-form" name="sliding-form" method="post" style="margin: 0 0 0em;">
-                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@belleofx.com"/>
+                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@tradewithzerah.com"/>
                             <ul>
                                 <li>
                                     <input type="text" name="name"  id="name" placeholder="名稱" class="textbox_popup" value="">

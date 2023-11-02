@@ -15,7 +15,7 @@
 
     <link rel="preload" href="/templates/custom/fonts/Effra-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/templates/custom/fonts/Effra-Bold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="alternate" href="https://belleofx.com" hreflang="en-ae" />
+    <link rel="alternate" href="https://tradewithzerah.com" hreflang="en-ae" />
     <meta charset="utf-8" />
 	<base href="/es/promotions/100-credit-bonus" />
 	<title>Bono de crédito del 100%</title>
@@ -37,57 +37,14 @@
 	<script src="/media/jui/js/jquery-migrate.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/jui/js/bootstrap.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/system/js/caption.js?21b43949eb00c2dc28868a748e2b361a"></script>
-	<script>
-jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
-jQuery(window).on('load',  function() {
-				new JCaption('img.caption');
-			});
-	</script>
+	
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WXNKPTL3B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-5WXNKPTL3B');
-    </script>
-    <!-- End Google tag (gtag.js) -->
-    <!-- Google Tag Manager -->
-    <script>
 
-        setTimeout(() => {
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-KNGN98Q');
-        }, 8000);
-        var phone = countryCode['']
-        var country = ''
-        var phonePrefix = '123';
-        document.addEventListener('DOMContentLoaded', function() {
-            country = countryCode.find(el => el.name === "Nigeria");
-            console.log(countryCode);
-            document.getElementById("uForm__tel_1").placeholder = country.dial_code;
-        }, false);
-        document.getElementById("uForm__tel_1").onclick = (e) =>{
-            let tel = jQuery("#uForm__tel_1");
-            console.log(tel.val());
-            if(tel.val() !== '+__ ___-___-____') return
-            tel.val( country.dial_code.slice(1) ).trigger('input');
-
-        }
-
-    </script>
-    <!-- End Google Tag Manager -->
+    
 </head>
 
 <body class="">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNGN98Q"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <!-- <div class="preloader-dots">
     <div></div>
     <div></div>
@@ -174,7 +131,7 @@ jQuery(window).on('load',  function() {
                         <div class="mobile-menu__top">
 
                             <a href="/es/" class="logo-link">
-                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: BelleoFx icon" class="logo">
+                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: ZerahFX icon" class="logo">
                             </a>
                             <button class="btn-reset btn-menu-close">
                                 <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -184,7 +141,7 @@ jQuery(window).on('load',  function() {
                         </div>
                         <nav class="nav">
                             <ul class="nav menu mod-list">
-<li class="item-263 deeper parent"><a href="/es/" >Compañía</a><ul class="nav-child unstyled small"><li class="item-264"><a href="/es/company/about" >Acerca de BelleoFX</a></li><li class="item-265"><a href="/es/company/account-types" >Tipos de cuentas</a></li><li class="item-266"><a href="/es/company/careers" >Carreras</a></li><li class="item-268"><a href="/es/company/faq" >Preguntas frecuentes</a></li><li class="item-267"><a href="/es/company/contact-us" >Contáctenos</a></li></ul></li><li class="item-279 deeper parent"><a href="/es/" >Mercados</a><ul class="nav-child unstyled small"><li class="item-283"><a href="/es/markets/online-forex-trading-platform" >Forex</a></li><li class="item-284"><a href="/es/markets/stocks" >Cepo</a></li><li class="item-282"><a href="/es/markets/indices-trading-system" >Índices</a></li><li class="item-280"><a href="/es/markets/commodities" >Materias primas</a></li></ul></li><li class="item-295 deeper parent"><a href="/es/trading/trading-platform" >Comercio</a><ul class="nav-child unstyled small"><li class="item-297"><a href="/es/trading/trading-platform" >Plataforma de negocios</a></li><li class="item-296"><a href="/es/trading/economic-calendar" >Calendario económico</a></li></ul></li><li class="item-276"><a href="/es/funding" >Fondos</a></li><li class="item-286 deeper parent"><a href="/es/" >Camaradería</a><ul class="nav-child unstyled small"><li class="item-288"><a href="/es/partnership/white-label" >Etiqueta blanca</a></li><li class="item-287"><a href="/es/partnership/introducing-broker-ib" >Corredor Introductor (IB)</a></li></ul></li><li class="item-290 active deeper parent"><a href="#" >Promociones</a><ul class="nav-child unstyled small"><li class="item-291 current active"><a href="/es/promotions/100-credit-bonus" >Bono de crédito del 100%</a></li></ul></li></ul>
+<li class="item-263 deeper parent"><a href="/es/" >Compañía</a><ul class="nav-child unstyled small"><li class="item-264"><a href="/es/company/about" >Acerca de ZerahFX</a></li><li class="item-265"><a href="/es/company/account-types" >Tipos de cuentas</a></li><li class="item-266"><a href="/es/company/careers" >Carreras</a></li><li class="item-268"><a href="/es/company/faq" >Preguntas frecuentes</a></li><li class="item-267"><a href="/es/company/contact-us" >Contáctenos</a></li></ul></li><li class="item-279 deeper parent"><a href="/es/" >Mercados</a><ul class="nav-child unstyled small"><li class="item-283"><a href="/es/markets/online-forex-trading-platform" >Forex</a></li><li class="item-284"><a href="/es/markets/stocks" >Cepo</a></li><li class="item-282"><a href="/es/markets/indices-trading-system" >Índices</a></li><li class="item-280"><a href="/es/markets/commodities" >Materias primas</a></li></ul></li><li class="item-295 deeper parent"><a href="/es/trading/trading-platform" >Comercio</a><ul class="nav-child unstyled small"><li class="item-297"><a href="/es/trading/trading-platform" >Plataforma de negocios</a></li><li class="item-296"><a href="/es/trading/economic-calendar" >Calendario económico</a></li></ul></li><li class="item-276"><a href="/es/funding" >Fondos</a></li><li class="item-286 deeper parent"><a href="/es/" >Camaradería</a><ul class="nav-child unstyled small"><li class="item-288"><a href="/es/partnership/white-label" >Etiqueta blanca</a></li><li class="item-287"><a href="/es/partnership/introducing-broker-ib" >Corredor Introductor (IB)</a></li></ul></li><li class="item-290 active deeper parent"><a href="#" >Promociones</a><ul class="nav-child unstyled small"><li class="item-291 current active"><a href="/es/promotions/100-credit-bonus" >Bono de crédito del 100%</a></li></ul></li></ul>
 
                             <div class="lang_block ">
     <div>
@@ -244,7 +201,7 @@ jQuery(window).on('load',  function() {
 
                         </nav>
                         <div class="header__right">
-                            <a href="https://pa.belleofx.com/es/signup" class="btn-reset btn-main btn-main--white">
+                            <a href="https://pa.tradewithzerah.com/es/signup" class="btn-reset btn-main btn-main--white">
                                 Únete ahora                            </a>
                             <a href="/es/demo" class="btn-reset btn-main btn-main--black">
                                 Pruebe la cuenta de demostración                            </a>
@@ -254,18 +211,18 @@ jQuery(window).on('load',  function() {
             </div>
             <a href="/es/" class="logo-link">
                                                
-                <img src="/templates/custom/images/icon/logo.svg" alt="logo: BelleoFx icon" class="logo">
-                <img src="/templates/custom/images/icon/logo-icon.svg" alt="logo: BelleoFx icon" class="logo logo--mob">
+                <img src="/templates/custom/images/icon/logo.png" alt="logo: ZerahFX icon" class="logo">
+                <img src="/templates/custom/images/icon/logo-icon.png" alt="logo: ZerahFX icon" class="logo logo--mob">
             </a>
             <nav class="nav">
                 <ul class="nav menu mod-list">
-<li class="item-263 deeper parent"><a href="/es/" >Compañía</a><ul class="nav-child unstyled small"><li class="item-264"><a href="/es/company/about" >Acerca de BelleoFX</a></li><li class="item-265"><a href="/es/company/account-types" >Tipos de cuentas</a></li><li class="item-266"><a href="/es/company/careers" >Carreras</a></li><li class="item-268"><a href="/es/company/faq" >Preguntas frecuentes</a></li><li class="item-267"><a href="/es/company/contact-us" >Contáctenos</a></li></ul></li><li class="item-279 deeper parent"><a href="/es/" >Mercados</a><ul class="nav-child unstyled small"><li class="item-283"><a href="/es/markets/online-forex-trading-platform" >Forex</a></li><li class="item-284"><a href="/es/markets/stocks" >Cepo</a></li><li class="item-282"><a href="/es/markets/indices-trading-system" >Índices</a></li><li class="item-280"><a href="/es/markets/commodities" >Materias primas</a></li></ul></li><li class="item-295 deeper parent"><a href="/es/trading/trading-platform" >Comercio</a><ul class="nav-child unstyled small"><li class="item-297"><a href="/es/trading/trading-platform" >Plataforma de negocios</a></li><li class="item-296"><a href="/es/trading/economic-calendar" >Calendario económico</a></li></ul></li><li class="item-276"><a href="/es/funding" >Fondos</a></li><li class="item-286 deeper parent"><a href="/es/" >Camaradería</a><ul class="nav-child unstyled small"><li class="item-288"><a href="/es/partnership/white-label" >Etiqueta blanca</a></li><li class="item-287"><a href="/es/partnership/introducing-broker-ib" >Corredor Introductor (IB)</a></li></ul></li><li class="item-290 active deeper parent"><a href="#" >Promociones</a><ul class="nav-child unstyled small"><li class="item-291 current active"><a href="/es/promotions/100-credit-bonus" >Bono de crédito del 100%</a></li></ul></li></ul>
+<li class="item-263 deeper parent"><a href="/es/" >Compañía</a><ul class="nav-child unstyled small"><li class="item-264"><a href="/es/company/about" >Acerca de ZerahFX</a></li><li class="item-265"><a href="/es/company/account-types" >Tipos de cuentas</a></li><li class="item-266"><a href="/es/company/careers" >Carreras</a></li><li class="item-268"><a href="/es/company/faq" >Preguntas frecuentes</a></li><li class="item-267"><a href="/es/company/contact-us" >Contáctenos</a></li></ul></li><li class="item-279 deeper parent"><a href="/es/" >Mercados</a><ul class="nav-child unstyled small"><li class="item-283"><a href="/es/markets/online-forex-trading-platform" >Forex</a></li><li class="item-284"><a href="/es/markets/stocks" >Cepo</a></li><li class="item-282"><a href="/es/markets/indices-trading-system" >Índices</a></li><li class="item-280"><a href="/es/markets/commodities" >Materias primas</a></li></ul></li><li class="item-295 deeper parent"><a href="/es/trading/trading-platform" >Comercio</a><ul class="nav-child unstyled small"><li class="item-297"><a href="/es/trading/trading-platform" >Plataforma de negocios</a></li><li class="item-296"><a href="/es/trading/economic-calendar" >Calendario económico</a></li></ul></li><li class="item-276"><a href="/es/funding" >Fondos</a></li><li class="item-286 deeper parent"><a href="/es/" >Camaradería</a><ul class="nav-child unstyled small"><li class="item-288"><a href="/es/partnership/white-label" >Etiqueta blanca</a></li><li class="item-287"><a href="/es/partnership/introducing-broker-ib" >Corredor Introductor (IB)</a></li></ul></li><li class="item-290 active deeper parent"><a href="#" >Promociones</a><ul class="nav-child unstyled small"><li class="item-291 current active"><a href="/es/promotions/100-credit-bonus" >Bono de crédito del 100%</a></li></ul></li></ul>
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.belleofx.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
                     Iniciar sesión                </a>
-                <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
                     Registrarse                </a>
                                 <div class="lang_block ">
     <div>
@@ -330,16 +287,16 @@ jQuery(window).on('load',  function() {
 <main class="main">
     <div class="item-page" itemscope itemtype="https://schema.org/Article">
 	<meta itemprop="inLanguage" content="es-ES" />
-			<div class="page-contacts page-bonus mt100"><div class="intro" style="background-image:url(/images/contacts/bg-contacts.jpg)"><div class="wrapper"><h1 class="title mb0"> Bono de crédito del 100% </h1></div></div><div class="terms-section address-section"><div class="wrapper"><div class="title centered"> Términos y condiciones</div><p> BelleoFX (en adelante, la “Compañía”) ofrece el bono de crédito del 100 % para sus clientes (en adelante, Clientes). Esta oferta está disponible para Clientes que abran una cuenta de bonificación real en Belleo Markets (San Vicente y las Granadinas), según los siguientes términos.</p><ol class="terms-list credit"><li class="ttl"> Introducción<ol><li> El Bono de Crédito del 100% (en adelante, el “Programa de Bonificación”) está disponible para todos los Clientes de la Compañía que hayan cumplido los Criterios de este Programa de Bonificación.</li><li> Por la presente, el Cliente reconoce, confirma y acepta estar legalmente vinculado por los Términos y condiciones establecidos en este Programa de bonificación y/o cualquier otro Acuerdo legalmente vinculante entre él y la Compañía.</li><li> Los clientes pueden aumentar su apalancamiento al recibir créditos de bonificación del 100 % por cada depósito calificado que realicen en una cuenta aprobada.</li></ol></li><li class="ttl"> Términos y condiciones<ol><li> El programa de bonificación se puede aplicar únicamente a la cuenta de bonificación.</li><li> Prevalecerá el apalancamiento de la Cuenta subyacente.</li><li> El Plan de bonificación se aplicará automáticamente al depósito mínimo inicial del Cliente de 500 USD o más y a los depósitos posteriores de 500 USD o más en la cuenta comercial real a la que se aplicó el Plan de bonificación.<br> Por ejemplo: si un Cliente deposita 1000 USD en una cuenta real aprobada a la que se ha aplicado el Plan de bonificación, se acreditará en la cuenta un crédito de bonificación del 100% de 1000 USD, duplicando efectivamente el capital del Cliente.</li><li> El Plan de bonificación se puede aplicar a transferencias internas a la cuenta comercial real a la que se ha aplicado el Plan de bonificación.</li><li> El Programa de bonificación se puede aplicar a una (1) Cuenta por Cliente y por dirección IP únicamente. Si un Cliente ya ha aplicado el Programa de bonificación a una Cuenta real, no se podrá abrir ninguna otra Cuenta bajo ninguna circunstancia con este Programa de bonificación.</li><li> El importe máximo acumulativo del crédito del Programa de bonificación que puede obtener un Cliente es de 25 000 USD.</li><li> El crédito del Plan de bonificación se puede utilizar para aumentar el apalancamiento de un Cliente, pero no se puede perder.</li><li> En el caso de que un cliente deposite más de USD 25.000, podrá mantener un bono de crédito de USD 25.000.</li><li> El programa de bonificación tiene fines comerciales y puede retirarse según la cláusula 2.14.</li><li> No hay alerta de llamada de margen mientras se aplica el programa de bonificación.</li><li> Los clientes no pueden cambiar entre los programas de bonificación ofrecidos por la Compañía. Si ya no desea utilizar una cuenta comercial con bonificación, envíe un correo electrónico a support@belleofx.com solicitando archivar la cuenta de bonificación.</li><li> El bono de crédito del 100% se depositará en la cuenta comercial del cliente dentro de las 24 horas posteriores a la aprobación y acreditación del depósito real en la cuenta comercial.</li><li> Se permiten asesores expertos (EA), sin embargo, deben cumplir con las políticas de la Compañía.</li><li> El bono se puede retirar si:<ul><li> Dentro de los 2 meses siguientes a la fecha de acreditación del bono, el cliente completó el 20% del monto del bono en lotes de divisas FX y materias primas.</li><li> O bien, dentro de 1 mes a partir de la fecha de acreditación del bono, el cliente completó el 10% del monto del bono en lotes de divisas y materias primas FX.</li></ul> <b>Ejemplo:</b><br> El cliente recibió un bono de 1000$. Dentro de 1 mes tiene que completar el 10% del monto del bono en lotes, que son 100 lotes. O dentro de los 2 meses tiene que completar el monto del 20% en lotes, que son 200 lotes.</li><li> El nivel de Stop Out es del 30%. Margin Call está al 50% del nivel de margen.</li></ol></li><li class="ttl"> Términos operativos<ol><li> Cualquier retiro realizado desde la Cuenta del Cliente resultará en una reducción del Programa de Bonificación en una proporción de 1:1. Esto se aplica al retiro de ganancias y depósitos realizados por el Cliente.<br> Por ejemplo: si un Cliente deposita 200 USD en su cuenta del programa de bonificación aprobada, recibirá un crédito de bonificación del 100 % de 200 USD. Si luego el Cliente retira 100 USD, la misma cantidad se eliminará del Bono recibido por el Cliente.</li><li> La Compañía no será responsable de ninguna pérdida en la que pueda incurrir el Cliente como resultado de la eliminación total o parcial del Programa de bonificación recibido por un Cliente debido a un retiro.</li><li> Cualquier monto del Plan de bonificación recibido y/o eliminado cuenta para el monto máximo acumulativo del Plan de bonificación.</li><li> El Programa de bonificación solo se puede aplicar a la Cuenta para la cual se ha aprobado y los montos recibidos no se pueden transferir entre las Cuentas comerciales de un Cliente.</li></ol></li><li class="ttl"> Terminación del plan de bonificación<ol><li> La Compañía se reserva el derecho, a su absoluta discreción, de modificar o rescindir unilateralmente este Programa de bonificación o cualquiera de los Términos y condiciones incluidos en este documento, en cualquier momento, sin el consentimiento del Cliente.</li><li> La Compañía se reserva el derecho de negarse a ofrecer este Programa de bonificación a su entera discreción sin necesidad de proporcionar una justificación. La Compañía no será responsable de ninguna interrupción ni de ninguna otra consecuencia que resulte de la cancelación y/o eliminación de un Bono.</li><li> Si la Compañía sospecha o tiene motivos para creer que un Cliente ha abusado y/o manipulado los Términos y Condiciones de este Programa de Bonificación al cubrir sus posiciones internamente (usando otras cuentas comerciales mantenidas con la Compañía) o externamente (usando otras cuentas comerciales mantenidas con otros corredores) y/o no ha actuado de buena fe, la Compañía se reserva el derecho, a su absoluta discreción y sin obtener el consentimiento del Cliente, de eliminar el Programa de bonificación de la(s) cuenta(s) comercial(es) del Cliente o de sus Cuentas cubiertas ganadoras con inmediata efecto.</li><li> Si la Compañía sospecha o tiene motivos para creer que un Cliente tiene más de una cuenta bajo este Programa de bonificación, la Compañía se reserva el derecho, a su absoluta discreción y sin obtener el consentimiento del Cliente, de eliminar el Programa de bonificación de la(s) cuenta(s) de operaciones del Cliente. ) con efecto inmediato. La Compañía no acepta responsabilidad alguna por cualquier pérdida resultante del Stop Out de posiciones abiertas después de cualquier eliminación de Bonificación de acuerdo con estos Términos y Condiciones.</li></ol></li><li class="ttl"> Disputas<ol><li> Cualquier disputa o situación no cubierta por estos Términos será resuelta por la Gerencia de la Compañía de manera justa.</li></ol></li><li class="ttl"> Declaraciones<ol><li> El Cliente reconoce que Forex y CFD son productos apalancados que implican un alto nivel de riesgo. Al operar con dichos productos, es posible que los Clientes pierdan todo su capital invertido. Es posible que estos productos no sean adecuados para todos y los Clientes deben asegurarse de comprender los riesgos involucrados. Los clientes deben buscar asesoramiento independiente si es necesario.</li><li> Estos Términos y condiciones están redactados en el idioma inglés. Cualquier traducción a otro idioma se proporciona únicamente para su conveniencia. En caso de cualquier inconsistencia o discrepancia entre los textos originales en inglés y su traducción a cualquier otro idioma, según sea el caso, prevalecerán las versiones originales en inglés.</li></ol></li></ol></div></div></div> 	</div>
+			<div class="page-contacts page-bonus mt100"><div class="intro" style="background-image:url(/images/contacts/bg-contacts.jpg)"><div class="wrapper"><h1 class="title mb0"> Bono de crédito del 100% </h1></div></div><div class="terms-section address-section"><div class="wrapper"><div class="title centered"> Términos y condiciones</div><p> ZerahFX (en adelante, la “Compañía”) ofrece el bono de crédito del 100 % para sus clientes (en adelante, Clientes). Esta oferta está disponible para Clientes que abran una cuenta de bonificación real en Zerah Markets (San Vicente y las Granadinas), según los siguientes términos.</p><ol class="terms-list credit"><li class="ttl"> Introducción<ol><li> El Bono de Crédito del 100% (en adelante, el “Programa de Bonificación”) está disponible para todos los Clientes de la Compañía que hayan cumplido los Criterios de este Programa de Bonificación.</li><li> Por la presente, el Cliente reconoce, confirma y acepta estar legalmente vinculado por los Términos y condiciones establecidos en este Programa de bonificación y/o cualquier otro Acuerdo legalmente vinculante entre él y la Compañía.</li><li> Los clientes pueden aumentar su apalancamiento al recibir créditos de bonificación del 100 % por cada depósito calificado que realicen en una cuenta aprobada.</li></ol></li><li class="ttl"> Términos y condiciones<ol><li> El programa de bonificación se puede aplicar únicamente a la cuenta de bonificación.</li><li> Prevalecerá el apalancamiento de la Cuenta subyacente.</li><li> El Plan de bonificación se aplicará automáticamente al depósito mínimo inicial del Cliente de 500 USD o más y a los depósitos posteriores de 500 USD o más en la cuenta comercial real a la que se aplicó el Plan de bonificación.<br> Por ejemplo: si un Cliente deposita 1000 USD en una cuenta real aprobada a la que se ha aplicado el Plan de bonificación, se acreditará en la cuenta un crédito de bonificación del 100% de 1000 USD, duplicando efectivamente el capital del Cliente.</li><li> El Plan de bonificación se puede aplicar a transferencias internas a la cuenta comercial real a la que se ha aplicado el Plan de bonificación.</li><li> El Programa de bonificación se puede aplicar a una (1) Cuenta por Cliente y por dirección IP únicamente. Si un Cliente ya ha aplicado el Programa de bonificación a una Cuenta real, no se podrá abrir ninguna otra Cuenta bajo ninguna circunstancia con este Programa de bonificación.</li><li> El importe máximo acumulativo del crédito del Programa de bonificación que puede obtener un Cliente es de 25 000 USD.</li><li> El crédito del Plan de bonificación se puede utilizar para aumentar el apalancamiento de un Cliente, pero no se puede perder.</li><li> En el caso de que un cliente deposite más de USD 25.000, podrá mantener un bono de crédito de USD 25.000.</li><li> El programa de bonificación tiene fines comerciales y puede retirarse según la cláusula 2.14.</li><li> No hay alerta de llamada de margen mientras se aplica el programa de bonificación.</li><li> Los clientes no pueden cambiar entre los programas de bonificación ofrecidos por la Compañía. Si ya no desea utilizar una cuenta comercial con bonificación, envíe un correo electrónico a support@tradewithzerah.com solicitando archivar la cuenta de bonificación.</li><li> El bono de crédito del 100% se depositará en la cuenta comercial del cliente dentro de las 24 horas posteriores a la aprobación y acreditación del depósito real en la cuenta comercial.</li><li> Se permiten asesores expertos (EA), sin embargo, deben cumplir con las políticas de la Compañía.</li><li> El bono se puede retirar si:<ul><li> Dentro de los 2 meses siguientes a la fecha de acreditación del bono, el cliente completó el 20% del monto del bono en lotes de divisas FX y materias primas.</li><li> O bien, dentro de 1 mes a partir de la fecha de acreditación del bono, el cliente completó el 10% del monto del bono en lotes de divisas y materias primas FX.</li></ul> <b>Ejemplo:</b><br> El cliente recibió un bono de 1000$. Dentro de 1 mes tiene que completar el 10% del monto del bono en lotes, que son 100 lotes. O dentro de los 2 meses tiene que completar el monto del 20% en lotes, que son 200 lotes.</li><li> El nivel de Stop Out es del 30%. Margin Call está al 50% del nivel de margen.</li></ol></li><li class="ttl"> Términos operativos<ol><li> Cualquier retiro realizado desde la Cuenta del Cliente resultará en una reducción del Programa de Bonificación en una proporción de 1:1. Esto se aplica al retiro de ganancias y depósitos realizados por el Cliente.<br> Por ejemplo: si un Cliente deposita 200 USD en su cuenta del programa de bonificación aprobada, recibirá un crédito de bonificación del 100 % de 200 USD. Si luego el Cliente retira 100 USD, la misma cantidad se eliminará del Bono recibido por el Cliente.</li><li> La Compañía no será responsable de ninguna pérdida en la que pueda incurrir el Cliente como resultado de la eliminación total o parcial del Programa de bonificación recibido por un Cliente debido a un retiro.</li><li> Cualquier monto del Plan de bonificación recibido y/o eliminado cuenta para el monto máximo acumulativo del Plan de bonificación.</li><li> El Programa de bonificación solo se puede aplicar a la Cuenta para la cual se ha aprobado y los montos recibidos no se pueden transferir entre las Cuentas comerciales de un Cliente.</li></ol></li><li class="ttl"> Terminación del plan de bonificación<ol><li> La Compañía se reserva el derecho, a su absoluta discreción, de modificar o rescindir unilateralmente este Programa de bonificación o cualquiera de los Términos y condiciones incluidos en este documento, en cualquier momento, sin el consentimiento del Cliente.</li><li> La Compañía se reserva el derecho de negarse a ofrecer este Programa de bonificación a su entera discreción sin necesidad de proporcionar una justificación. La Compañía no será responsable de ninguna interrupción ni de ninguna otra consecuencia que resulte de la cancelación y/o eliminación de un Bono.</li><li> Si la Compañía sospecha o tiene motivos para creer que un Cliente ha abusado y/o manipulado los Términos y Condiciones de este Programa de Bonificación al cubrir sus posiciones internamente (usando otras cuentas comerciales mantenidas con la Compañía) o externamente (usando otras cuentas comerciales mantenidas con otros corredores) y/o no ha actuado de buena fe, la Compañía se reserva el derecho, a su absoluta discreción y sin obtener el consentimiento del Cliente, de eliminar el Programa de bonificación de la(s) cuenta(s) comercial(es) del Cliente o de sus Cuentas cubiertas ganadoras con inmediata efecto.</li><li> Si la Compañía sospecha o tiene motivos para creer que un Cliente tiene más de una cuenta bajo este Programa de bonificación, la Compañía se reserva el derecho, a su absoluta discreción y sin obtener el consentimiento del Cliente, de eliminar el Programa de bonificación de la(s) cuenta(s) de operaciones del Cliente. ) con efecto inmediato. La Compañía no acepta responsabilidad alguna por cualquier pérdida resultante del Stop Out de posiciones abiertas después de cualquier eliminación de Bonificación de acuerdo con estos Términos y Condiciones.</li></ol></li><li class="ttl"> Disputas<ol><li> Cualquier disputa o situación no cubierta por estos Términos será resuelta por la Gerencia de la Compañía de manera justa.</li></ol></li><li class="ttl"> Declaraciones<ol><li> El Cliente reconoce que Forex y CFD son productos apalancados que implican un alto nivel de riesgo. Al operar con dichos productos, es posible que los Clientes pierdan todo su capital invertido. Es posible que estos productos no sean adecuados para todos y los Clientes deben asegurarse de comprender los riesgos involucrados. Los clientes deben buscar asesoramiento independiente si es necesario.</li><li> Estos Términos y condiciones están redactados en el idioma inglés. Cualquier traducción a otro idioma se proporciona únicamente para su conveniencia. En caso de cualquier inconsistencia o discrepancia entre los textos originales en inglés y su traducción a cualquier otro idioma, según sea el caso, prevalecerán las versiones originales en inglés.</li></ol></li></ol></div></div></div> 	</div>
 
 </main>
 
 <section class="section above-footer">
   <div class="wrapper">
     <a href="/" class="logo-link">
-      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <img src="/../images/icon/logo-white.svg" alt="logo: BelleoFx icon" class="logo">
+      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <img src="/../images/icon/logo-white.png" alt="logo: ZerahFX icon" class="logo">
     </a>
     <div class="above-footer__container">
       <div class="item-contacts">
@@ -353,11 +310,11 @@ jQuery(window).on('load',  function() {
             </svg> 
             <span class="dir-ltr">+971 4 541 7900</span>
           </a>
-          <a href="email:support@belleofx.com" class="email-link">
+          <a href="email:support@tradewithzerah.com" class="email-link">
             <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.625 11.5L10.6429 7M6.35714 7L1.37503 11.5M1 3.25L7.12369 7.53658C7.61957 7.8837 7.86751 8.05726 8.1372 8.12448C8.37542 8.18386 8.62458 8.18386 8.8628 8.12448C9.13249 8.05726 9.38043 7.8837 9.87631 7.53658L16 3.25M4.6 13H12.4C13.6601 13 14.2902 13 14.7715 12.7548C15.1948 12.539 15.539 12.1948 15.7548 11.7715C16 11.2902 16 10.6601 16 9.4V4.6C16 3.33988 16 2.70982 15.7548 2.22852C15.539 1.80516 15.1948 1.46095 14.7715 1.24524C14.2902 1 13.6601 1 12.4 1H4.6C3.33988 1 2.70982 1 2.22852 1.24524C1.80516 1.46095 1.46095 1.80516 1.24524 2.22852C1 2.70982 1 3.33988 1 4.6V9.4C1 10.6601 1 11.2902 1.24524 11.7715C1.46095 12.1948 1.80516 12.539 2.22852 12.7548C2.70982 13 3.33988 13 4.6 13Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            support@belleofx.com
+            support@tradewithzerah.com
           </a>
           <p class="address">
             <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -373,34 +330,34 @@ jQuery(window).on('load',  function() {
 
 <div class="custom"  >
 	<div class="socials">
-  <a href="https://www.facebook.com/belleofx/" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#facebook"></use>
     </svg>
   </a>
-  <!--<a href="https://www.quora.com/profile/BelleoFX-1?q=belleo58" target="_blank" class="socials__link">
+  <!--<a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#quora"></use>
     </svg>
   </a>-->
-  <a href="https://www.instagram.com/belleo_fx/?hl=en" target="_blank" class="socials__link">
+  <a href="https://instagram.com/zerah_fx?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#instagram"></use>
     </svg>
   </a>
-  <a href="https://www.linkedin.com/company/belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#linkedin"></use>
     </svg>
   </a>
   
-  <a href="https://twitter.com/Belleofx1" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
         <svg class="icon">
       <use xlink:href="/images/sprite.svg#twitter"></use>
     </svg>
   </a>
   
-  <a href="https://www.youtube.com/@belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#youtube"></use>
     </svg>
@@ -412,17 +369,17 @@ jQuery(window).on('load',  function() {
       <div class="item-menu">
         <nav class="nav">
             <ul class="nav menu mod-list">
-<li class="item-263 deeper parent"><a href="/es/" >Compañía</a><ul class="nav-child unstyled small"><li class="item-264"><a href="/es/company/about" >Acerca de BelleoFX</a></li><li class="item-265"><a href="/es/company/account-types" >Tipos de cuentas</a></li><li class="item-266"><a href="/es/company/careers" >Carreras</a></li><li class="item-268"><a href="/es/company/faq" >Preguntas frecuentes</a></li><li class="item-267"><a href="/es/company/contact-us" >Contáctenos</a></li></ul></li><li class="item-279 deeper parent"><a href="/es/" >Mercados</a><ul class="nav-child unstyled small"><li class="item-283"><a href="/es/markets/online-forex-trading-platform" >Forex</a></li><li class="item-284"><a href="/es/markets/stocks" >Cepo</a></li><li class="item-282"><a href="/es/markets/indices-trading-system" >Índices</a></li><li class="item-280"><a href="/es/markets/commodities" >Materias primas</a></li></ul></li><li class="item-295 deeper parent"><a href="/es/trading/trading-platform" >Comercio</a><ul class="nav-child unstyled small"><li class="item-297"><a href="/es/trading/trading-platform" >Plataforma de negocios</a></li><li class="item-296"><a href="/es/trading/economic-calendar" >Calendario económico</a></li></ul></li><li class="item-276"><a href="/es/funding" >Fondos</a></li><li class="item-286 deeper parent"><a href="/es/" >Camaradería</a><ul class="nav-child unstyled small"><li class="item-288"><a href="/es/partnership/white-label" >Etiqueta blanca</a></li><li class="item-287"><a href="/es/partnership/introducing-broker-ib" >Corredor Introductor (IB)</a></li></ul></li><li class="item-290 active deeper parent"><a href="#" >Promociones</a><ul class="nav-child unstyled small"><li class="item-291 current active"><a href="/es/promotions/100-credit-bonus" >Bono de crédito del 100%</a></li></ul></li></ul>
+<li class="item-263 deeper parent"><a href="/es/" >Compañía</a><ul class="nav-child unstyled small"><li class="item-264"><a href="/es/company/about" >Acerca de ZerahFX</a></li><li class="item-265"><a href="/es/company/account-types" >Tipos de cuentas</a></li><li class="item-266"><a href="/es/company/careers" >Carreras</a></li><li class="item-268"><a href="/es/company/faq" >Preguntas frecuentes</a></li><li class="item-267"><a href="/es/company/contact-us" >Contáctenos</a></li></ul></li><li class="item-279 deeper parent"><a href="/es/" >Mercados</a><ul class="nav-child unstyled small"><li class="item-283"><a href="/es/markets/online-forex-trading-platform" >Forex</a></li><li class="item-284"><a href="/es/markets/stocks" >Cepo</a></li><li class="item-282"><a href="/es/markets/indices-trading-system" >Índices</a></li><li class="item-280"><a href="/es/markets/commodities" >Materias primas</a></li></ul></li><li class="item-295 deeper parent"><a href="/es/trading/trading-platform" >Comercio</a><ul class="nav-child unstyled small"><li class="item-297"><a href="/es/trading/trading-platform" >Plataforma de negocios</a></li><li class="item-296"><a href="/es/trading/economic-calendar" >Calendario económico</a></li></ul></li><li class="item-276"><a href="/es/funding" >Fondos</a></li><li class="item-286 deeper parent"><a href="/es/" >Camaradería</a><ul class="nav-child unstyled small"><li class="item-288"><a href="/es/partnership/white-label" >Etiqueta blanca</a></li><li class="item-287"><a href="/es/partnership/introducing-broker-ib" >Corredor Introductor (IB)</a></li></ul></li><li class="item-290 active deeper parent"><a href="#" >Promociones</a><ul class="nav-child unstyled small"><li class="item-291 current active"><a href="/es/promotions/100-credit-bonus" >Bono de crédito del 100%</a></li></ul></li></ul>
   
         </nav>
       </div>
       <div class="item-description">
                 <p class="text">
-            BelleoFX es una marca de Belleo Markets (Mauricio), BelleoFX (San Vicente y las Granadinas) y Belleo Markets - Rep.Office (EAU).<br><br>
-                                       Belleo Markets (MU) constituida en la República de Mauricio con número de registro 186405 GBC. La empresa está regulada por la Comisión de Servicios Financieros (FSC) de Mauricio como agente de inversiones (corredor), con número de licencia GB21027167.<br><br>
-                                       BelleoFX (SVG) está registrada por la Autoridad de Servicios Financieros (FSA) de San Vicente y las Granadinas como una empresa comercial internacional con el número de registro 2584 LLC 2022.<br><br>
-                                       Belleo Markets - Rep. Office (EAU) es una sucursal de una empresa extranjera (Belleo Markets Mauritius), registrada y regulada por DET con un número de licencia 1074850.<br><br>
-                                       BelleoFX no trabaja con clientes de países sancionados por la OFAC y en la lista negra del GAFI.        </p>
+            ZerahFX es una marca de Zerah Markets (Mauricio), ZerahFX (San Vicente y las Granadinas) y Zerah Markets - Rep.Office (EAU).<br><br>
+                                       Zerah Markets (MU) constituida en la República de Mauricio con número de registro 186405 GBC. La empresa está regulada por la Comisión de Servicios Financieros (FSC) de Mauricio como agente de inversiones (corredor), con número de licencia GB21027167.<br><br>
+                                       ZerahFX (SVG) está registrada por la Autoridad de Servicios Financieros (FSA) de San Vicente y las Granadinas como una empresa comercial internacional con el número de registro 2584 LLC 2022.<br><br>
+                                       Zerah Markets - Rep. Office (EAU) es una sucursal de una empresa extranjera (Zerah Markets Mauritius), registrada y regulada por DET con un número de licencia 1074850.<br><br>
+                                       ZerahFX no trabaja con clientes de países sancionados por la OFAC y en la lista negra del GAFI.        </p>
       </div>
     </div>
   </div>
@@ -463,7 +420,7 @@ jQuery(window).on('load',  function() {
               </ul>
             </nav>
             <strong class="copyright">
-                © 2020-2023                BelleoFX | Todos los derechos reservados            </strong>
+                © 2020-2023                ZerahFX | Todos los derechos reservados            </strong>
         </div>
     </div>
 </footer>
@@ -541,7 +498,7 @@ jQuery(window).on('load',  function() {
         }, 8000);
     </script> -->
     <!--End of Tawk.to Script (0.7.1)-->
-    <!-- Start of belleofx Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of belleofx Zendesk Widget script -->
+    <!-- Start of ZerahFX Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of ZerahFX Zendesk Widget script -->
 
     <div class="sliding-enquiry"><div class="enquiry-wrap">
         </div>
@@ -553,7 +510,7 @@ jQuery(window).on('load',  function() {
                     <hr/>
                     <div id="enquiryform" style="">
                         <form action="" id="sliding-form" name="sliding-form" method="post" style="margin: 0 0 0em;">
-                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@belleofx.com"/>
+                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@tradewithzerah.com"/>
                             <ul>
                                 <li>
                                     <input type="text" name="name"  id="name" placeholder="Nombre" class="textbox_popup" value="">

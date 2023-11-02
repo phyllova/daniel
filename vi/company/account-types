@@ -15,12 +15,12 @@
 
     <link rel="preload" href="/templates/custom/fonts/Effra-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/templates/custom/fonts/Effra-Bold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="alternate" href="https://belleofx.com" hreflang="en-ae" />
+    <link rel="alternate" href="https://tradewithzerah.com" hreflang="en-ae" />
     <meta charset="utf-8" />
 	<base href="/vi/company/account-types" />
-	<meta name="keywords" content="Các loại tài khoản BelleoFX, Tài khoản giao dịch BelleoFX, Tài khoản BelleoFX" />
-	<meta name="description" content="BelleoFX cung cấp các loại tài khoản giao dịch cho cả nhà giao dịch mới làm quen và chuyên nghiệp. Chọn tài khoản giao dịch của bạn và bắt đầu giao dịch trực tuyến ngay hôm nay!" />
-	<title>BelleoFX	provide	4	different	account	types	from	novice	to	pros</title>
+	<meta name="keywords" content="Các loại tài khoản ZerahFX, Tài khoản giao dịch ZerahFX, Tài khoản ZerahFX" />
+	<meta name="description" content="ZerahFX cung cấp các loại tài khoản giao dịch cho cả nhà giao dịch mới làm quen và chuyên nghiệp. Chọn tài khoản giao dịch của bạn và bắt đầu giao dịch trực tuyến ngay hôm nay!" />
+	<title>ZerahFX	provide	4	different	account	types	from	novice	to	pros</title>
 	<link href="/fa/company/account-types" rel="alternate" hreflang="fa-IR" />
 	<link href="/es/company/account-types" rel="alternate" hreflang="es-ES" />
 	<link href="/zh/company/account-types" rel="alternate" hreflang="zh-TW" />
@@ -39,57 +39,14 @@
 	<script src="/media/jui/js/jquery-migrate.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/jui/js/bootstrap.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/system/js/caption.js?21b43949eb00c2dc28868a748e2b361a"></script>
-	<script>
-jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
-jQuery(window).on('load',  function() {
-				new JCaption('img.caption');
-			});
-	</script>
+	
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WXNKPTL3B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-5WXNKPTL3B');
-    </script>
-    <!-- End Google tag (gtag.js) -->
-    <!-- Google Tag Manager -->
-    <script>
 
-        setTimeout(() => {
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-KNGN98Q');
-        }, 8000);
-        var phone = countryCode['']
-        var country = ''
-        var phonePrefix = '123';
-        document.addEventListener('DOMContentLoaded', function() {
-            country = countryCode.find(el => el.name === "Nigeria");
-            console.log(countryCode);
-            document.getElementById("uForm__tel_1").placeholder = country.dial_code;
-        }, false);
-        document.getElementById("uForm__tel_1").onclick = (e) =>{
-            let tel = jQuery("#uForm__tel_1");
-            console.log(tel.val());
-            if(tel.val() !== '+__ ___-___-____') return
-            tel.val( country.dial_code.slice(1) ).trigger('input');
-
-        }
-
-    </script>
-    <!-- End Google Tag Manager -->
+    
 </head>
 
 <body class="">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNGN98Q"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <!-- <div class="preloader-dots">
     <div></div>
     <div></div>
@@ -176,7 +133,7 @@ jQuery(window).on('load',  function() {
                         <div class="mobile-menu__top">
 
                             <a href="/vi/" class="logo-link">
-                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: BelleoFx icon" class="logo">
+                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: ZerahFX icon" class="logo">
                             </a>
                             <button class="btn-reset btn-menu-close">
                                 <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -186,7 +143,7 @@ jQuery(window).on('load',  function() {
                         </div>
                         <nav class="nav">
                             <ul class="nav menu mod-list">
-<li class="item-374 active deeper parent"><a href="/vi/" >Công ty</a><ul class="nav-child unstyled small"><li class="item-375"><a href="/vi/company/about" >Giới thiệu về BelleoFX</a></li><li class="item-376 current active"><a href="/vi/company/account-types" >Loại tài khoản</a></li><li class="item-377"><a href="/vi/company/careers" >Nghề nghiệp</a></li><li class="item-379"><a href="/vi/company/faq" >Câu hỏi thường gặp</a></li><li class="item-378"><a href="/vi/company/contact-us" >Liên hệ chúng tôi</a></li></ul></li><li class="item-390 deeper parent"><a href="/vi/" >Thị trường</a><ul class="nav-child unstyled small"><li class="item-394"><a href="/vi/markets/online-forex-trading-platform" >Ngoại hối</a></li><li class="item-395"><a href="/vi/markets/stocks" >Cổ phiếu</a></li><li class="item-393"><a href="/vi/markets/indices-trading-system" >Chỉ số</a></li><li class="item-391"><a href="/vi/markets/commodities" >Hàng hóa</a></li></ul></li><li class="item-406 deeper parent"><a href="/vi/trading/trading-platform" >Thương mại</a><ul class="nav-child unstyled small"><li class="item-408"><a href="/vi/trading/trading-platform" >Sàn giao dịch</a></li><li class="item-407"><a href="/vi/trading/economic-calendar" >Lịch kinh tế</a></li></ul></li><li class="item-387"><a href="/vi/funding" >Kinh phí</a></li><li class="item-397 deeper parent"><a href="/vi/" >quan hệ đối tác</a><ul class="nav-child unstyled small"><li class="item-399"><a href="/vi/partnership/white-label" >Nhãn trắng</a></li><li class="item-398"><a href="/vi/partnership/introducing-broker-ib" >Nhà môi giới giới thiệu (IB)</a></li></ul></li><li class="item-401 deeper parent"><a href="#" >Khuyến mãi</a><ul class="nav-child unstyled small"><li class="item-402"><a href="/vi/promotions/100-credit-bonus" >Tiền thưởng tín dụng 100%</a></li></ul></li></ul>
+<li class="item-374 active deeper parent"><a href="/vi/" >Công ty</a><ul class="nav-child unstyled small"><li class="item-375"><a href="/vi/company/about" >Giới thiệu về ZerahFX</a></li><li class="item-376 current active"><a href="/vi/company/account-types" >Loại tài khoản</a></li><li class="item-377"><a href="/vi/company/careers" >Nghề nghiệp</a></li><li class="item-379"><a href="/vi/company/faq" >Câu hỏi thường gặp</a></li><li class="item-378"><a href="/vi/company/contact-us" >Liên hệ chúng tôi</a></li></ul></li><li class="item-390 deeper parent"><a href="/vi/" >Thị trường</a><ul class="nav-child unstyled small"><li class="item-394"><a href="/vi/markets/online-forex-trading-platform" >Ngoại hối</a></li><li class="item-395"><a href="/vi/markets/stocks" >Cổ phiếu</a></li><li class="item-393"><a href="/vi/markets/indices-trading-system" >Chỉ số</a></li><li class="item-391"><a href="/vi/markets/commodities" >Hàng hóa</a></li></ul></li><li class="item-406 deeper parent"><a href="/vi/trading/trading-platform" >Thương mại</a><ul class="nav-child unstyled small"><li class="item-408"><a href="/vi/trading/trading-platform" >Sàn giao dịch</a></li><li class="item-407"><a href="/vi/trading/economic-calendar" >Lịch kinh tế</a></li></ul></li><li class="item-387"><a href="/vi/funding" >Kinh phí</a></li><li class="item-397 deeper parent"><a href="/vi/" >quan hệ đối tác</a><ul class="nav-child unstyled small"><li class="item-399"><a href="/vi/partnership/white-label" >Nhãn trắng</a></li><li class="item-398"><a href="/vi/partnership/introducing-broker-ib" >Nhà môi giới giới thiệu (IB)</a></li></ul></li><li class="item-401 deeper parent"><a href="#" >Khuyến mãi</a><ul class="nav-child unstyled small"><li class="item-402"><a href="/vi/promotions/100-credit-bonus" >Tiền thưởng tín dụng 100%</a></li></ul></li></ul>
 
                             <div class="lang_block ">
     <div>
@@ -246,7 +203,7 @@ jQuery(window).on('load',  function() {
 
                         </nav>
                         <div class="header__right">
-                            <a href="https://pa.belleofx.com/vi/signup" class="btn-reset btn-main btn-main--white">
+                            <a href="https://pa.tradewithzerah.com/vi/signup" class="btn-reset btn-main btn-main--white">
                                 Tham gia ngay                            </a>
                             <a href="/vi/demo" class="btn-reset btn-main btn-main--black">
                                 Thử tài khoản Demo                            </a>
@@ -256,18 +213,18 @@ jQuery(window).on('load',  function() {
             </div>
             <a href="/vi/" class="logo-link">
                                                
-                <img src="/templates/custom/images/icon/logo.svg" alt="logo: BelleoFx icon" class="logo">
-                <img src="/templates/custom/images/icon/logo-icon.svg" alt="logo: BelleoFx icon" class="logo logo--mob">
+                <img src="/templates/custom/images/icon/logo.png" alt="logo: ZerahFX icon" class="logo">
+                <img src="/templates/custom/images/icon/logo-icon.png" alt="logo: ZerahFX icon" class="logo logo--mob">
             </a>
             <nav class="nav">
                 <ul class="nav menu mod-list">
-<li class="item-374 active deeper parent"><a href="/vi/" >Công ty</a><ul class="nav-child unstyled small"><li class="item-375"><a href="/vi/company/about" >Giới thiệu về BelleoFX</a></li><li class="item-376 current active"><a href="/vi/company/account-types" >Loại tài khoản</a></li><li class="item-377"><a href="/vi/company/careers" >Nghề nghiệp</a></li><li class="item-379"><a href="/vi/company/faq" >Câu hỏi thường gặp</a></li><li class="item-378"><a href="/vi/company/contact-us" >Liên hệ chúng tôi</a></li></ul></li><li class="item-390 deeper parent"><a href="/vi/" >Thị trường</a><ul class="nav-child unstyled small"><li class="item-394"><a href="/vi/markets/online-forex-trading-platform" >Ngoại hối</a></li><li class="item-395"><a href="/vi/markets/stocks" >Cổ phiếu</a></li><li class="item-393"><a href="/vi/markets/indices-trading-system" >Chỉ số</a></li><li class="item-391"><a href="/vi/markets/commodities" >Hàng hóa</a></li></ul></li><li class="item-406 deeper parent"><a href="/vi/trading/trading-platform" >Thương mại</a><ul class="nav-child unstyled small"><li class="item-408"><a href="/vi/trading/trading-platform" >Sàn giao dịch</a></li><li class="item-407"><a href="/vi/trading/economic-calendar" >Lịch kinh tế</a></li></ul></li><li class="item-387"><a href="/vi/funding" >Kinh phí</a></li><li class="item-397 deeper parent"><a href="/vi/" >quan hệ đối tác</a><ul class="nav-child unstyled small"><li class="item-399"><a href="/vi/partnership/white-label" >Nhãn trắng</a></li><li class="item-398"><a href="/vi/partnership/introducing-broker-ib" >Nhà môi giới giới thiệu (IB)</a></li></ul></li><li class="item-401 deeper parent"><a href="#" >Khuyến mãi</a><ul class="nav-child unstyled small"><li class="item-402"><a href="/vi/promotions/100-credit-bonus" >Tiền thưởng tín dụng 100%</a></li></ul></li></ul>
+<li class="item-374 active deeper parent"><a href="/vi/" >Công ty</a><ul class="nav-child unstyled small"><li class="item-375"><a href="/vi/company/about" >Giới thiệu về ZerahFX</a></li><li class="item-376 current active"><a href="/vi/company/account-types" >Loại tài khoản</a></li><li class="item-377"><a href="/vi/company/careers" >Nghề nghiệp</a></li><li class="item-379"><a href="/vi/company/faq" >Câu hỏi thường gặp</a></li><li class="item-378"><a href="/vi/company/contact-us" >Liên hệ chúng tôi</a></li></ul></li><li class="item-390 deeper parent"><a href="/vi/" >Thị trường</a><ul class="nav-child unstyled small"><li class="item-394"><a href="/vi/markets/online-forex-trading-platform" >Ngoại hối</a></li><li class="item-395"><a href="/vi/markets/stocks" >Cổ phiếu</a></li><li class="item-393"><a href="/vi/markets/indices-trading-system" >Chỉ số</a></li><li class="item-391"><a href="/vi/markets/commodities" >Hàng hóa</a></li></ul></li><li class="item-406 deeper parent"><a href="/vi/trading/trading-platform" >Thương mại</a><ul class="nav-child unstyled small"><li class="item-408"><a href="/vi/trading/trading-platform" >Sàn giao dịch</a></li><li class="item-407"><a href="/vi/trading/economic-calendar" >Lịch kinh tế</a></li></ul></li><li class="item-387"><a href="/vi/funding" >Kinh phí</a></li><li class="item-397 deeper parent"><a href="/vi/" >quan hệ đối tác</a><ul class="nav-child unstyled small"><li class="item-399"><a href="/vi/partnership/white-label" >Nhãn trắng</a></li><li class="item-398"><a href="/vi/partnership/introducing-broker-ib" >Nhà môi giới giới thiệu (IB)</a></li></ul></li><li class="item-401 deeper parent"><a href="#" >Khuyến mãi</a><ul class="nav-child unstyled small"><li class="item-402"><a href="/vi/promotions/100-credit-bonus" >Tiền thưởng tín dụng 100%</a></li></ul></li></ul>
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.belleofx.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
                     Đăng nhập                </a>
-                <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
                     Đăng ký                </a>
                                 <div class="lang_block ">
     <div>
@@ -332,16 +289,16 @@ jQuery(window).on('load',  function() {
 <main class="main">
     <div class="item-page" itemscope itemtype="https://schema.org/Article">
 	<meta itemprop="inLanguage" content="vi-VN" />
-			<div class="page-accounts mt100"><div class="intro" style="background-image:url(/images/accounts/bg-accounts.jpg);"><div class="wrapper"><h1 class="title centered"> Loại tài khoản</h1><div class="text centered"> BelleoFX cung cấp các loại tài khoản giao dịch cho cả nhà giao dịch mới làm quen và chuyên nghiệp.<br> Chọn tài khoản giao dịch của bạn và bắt đầu giao dịch trực tuyến ngay hôm nay!</div></div></div><div class="acc-types"><div class="wrapper"><div class="title centered"> Loại tài khoản</div><div class="table-wrap"><table><tr><th></th><td> <span class="ttl">Tiêu chuẩn</span> tài khoản</td><td> <span class="ttl">Miễn phí trao đổi</span> tài khoản</td><td> Tài khoản <span class="ttl">không có chênh lệch</span></td><td> Tài khoản <span class="ttl">PRO</span> </td><!--<td>Promo Account<span class="ttl">20% Bonus</span></td>--><td> Tài khoản khuyến mãi <span class="ttl">Tiền thưởng 100%</span></td><td> Tài khoản <span class="ttl">PAMM</span></td></tr><tr><th> Sàn giao dịch</th><td> MetaTrader 5</td><td> MetaTrader 5</td><td> MetaTrader 5</td><td> MetaTrader 5 </td><!--<td>MetaTrader 5</td>--><td> MetaTrader 5</td><td> MetaTrader 5</td></tr><tr><th> Tiền gửi tối thiểu</th><td> 50$</td><td> 1000$</td><td> 1000$</td><td> 10.000$ </td><!--<td>1000$</td>--><td> 500$</td><td> 2000$</td></tr><tr><th> Kiểu lây lan</th><td> nổi</td><td> nổi</td><td> nổi</td><td> nổi </td><!--<td>floating</td>--><td> nổi</td><td> nổi</td></tr><tr><th> Lan truyền từ</th><td> 1,2 pip</td><td> 1,5 pip</td><td> 0 pip</td><td> 0 pip </td><!--<td>1.8 pips</td>--><td> 1,8 pip</td><td> 1 pip</td></tr><tr><th> Nhiệm vụ</th><td> KHÔNG</td><td> KHÔNG</td><td> Từ 15$/lô</td><td> 5$/lô </td><!--<td>No</td>--><td> KHÔNG</td><td> KHÔNG</td></tr><tr><th> Hoán đổi</th><td> Đúng</td><td> KHÔNG</td><td> Đúng</td><td> Đúng </td><!--<td>Yes</td>--><td> Đúng</td><td> Đúng</td></tr><tr><th> Tận dụng</th><td> 1:500 cho tiền tệ<br> (1:100 cho ZARJPY)<br> 1:200 đối với kim loại<br> 1:100 cho năng lượng<br> 1:50 cho chỉ số<br> 1:25 đối với tiền điện tử</td><td> 1:500 cho tiền tệ<br> (1:100 cho ZARJPY)<br> 1:200 đối với kim loại<br> 1:100 cho năng lượng<br> 1:50 cho chỉ số<br> 1:25 đối với tiền điện tử</td><td> 1:500 cho tiền tệ<br> (1:100 cho ZARJPY)<br> 1:200 đối với kim loại<br> 1:100 cho năng lượng<br> 1:50 cho chỉ số<br> 1:25 đối với tiền điện tử</td><td> 1:200 cho tiền tệ<br> (1:100 cho ZARJPY)<br> 1:100 đối với kim loại<br> 1:100 cho năng lượng<br> 1:50 cho chỉ số<br> 1:25 đối với tiền điện tử </td><!--<td>1:200 for currencies <br>(1:100 for ZARJPY)<br>1:100 for metals <br>1:100 for energies <br>1:50 for indices <br>1:25 for cryptocurrencies</td> --><td> 1:200 cho tiền tệ<br> (1:100 cho ZARJPY)<br> 1:100 đối với kim loại<br> 1:100 cho năng lượng<br> 1:50 cho chỉ số<br> 1:25 đối với tiền điện tử</td><td> 1:200 cho tiền tệ<br> (1:100 cho ZARJPY)<br> 1:100 đối với kim loại<br> 1:100 cho năng lượng<br> 1:50 cho chỉ số<br> 1:25 đối với tiền điện tử</td></tr><tr><th> Khối lượng tối thiểu</th><td> 0,01 lô</td><td> 0,01 lô</td><td> 0,01 lô</td><td> 0,01 lô </td><!--<td>0.01 lot</td>--><td> 0,01 lô</td><td> 0,01 lô</td></tr><tr><th> Mức dừng</th><td> 30%</td><td> 30%</td><td> 30%</td><td> 30% </td><!--<td>30%</td>--><td> 30%</td><td> 30%</td></tr><tr><th> Lệnh gọi ký quỹ</th><td> 50%</td><td> 50%</td><td> 50%</td><td> 50% </td><!--<td>50%</td>--><td> 50%</td><td> 50%</td></tr><tr><th> Chuyên gia tư vấn</th><td> Đúng</td><td> Đúng</td><td> Đúng</td><td> Đúng </td><!--<td>Yes</td>--><td> Đúng</td><td> Đúng </td></tr></table></div></div><div class="table-btns-control"><path d="M25 22L31 28L25 34" stroke="url(#paint0_linear_1301_10759)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="28" cy="28" r="26.5" transform="rotate(-180 28 28)" stroke="url(#paint1_linear_1301_10759)" stroke-width="3"/><path d="M25 22L31 28L25 34" stroke="url(#paint0_linear_1301_10759)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="28" cy="28" r="26.5" transform="rotate(-180 28 28)" stroke="url(#paint1_linear_1301_10759)" stroke-width="3"/></div></div><div class="subscribe"><div class="wrapper"><div class="ttl"> Sẵn sàng để bắt đầu?</div><div class="text"> Hãy mở tài khoản giao dịch của bạn ngay hôm nay!</div> <a href="https://pa.belleofx.com/en/signup" class="btn-main">Mở tài khoản trực tiếp</a> </div></div><section class="section request"><div class="wrapper"><div class="request__container"><h2 class="title"> Muốn nói chuyện không?<div class="accent"> Yêu cầu gọi lại! </div></h2><div class="request__form"><form action="#" id="uForm_1" class="uForm form" enctype="multipart/form-data" method="POST"><input class="uForm__extended" name="nospam" type="text" value="uform-empty" required=""><input id="uForm__name_1" type="text" name="name" class="form__input" placeholder="Your name" oninput="this.value=this.value.replace(/[^A-Za-zА-Яа-я\s]/g,'');" required><input id="uForm__tel_1" type="tel" name="phone" class="form__input" placeholder="Phone number" required> <button type="submit" class="btn-main btn-main--black form__btn">Làm ơn gọi cho mình <div id="uForm__preload_1" class="uForm__preload"></div><input type="hidden" data-graph-path="modalCallback"></button> <p id="uForm__error-msg_1" class="uForm__error-msg"></p></form></div></div></div></section></div> 	</div>
+			<div class="page-accounts mt100"><div class="intro" style="background-image:url(/images/accounts/bg-accounts.jpg);"><div class="wrapper"><h1 class="title centered"> Loại tài khoản</h1><div class="text centered"> ZerahFX cung cấp các loại tài khoản giao dịch cho cả nhà giao dịch mới làm quen và chuyên nghiệp.<br> Chọn tài khoản giao dịch của bạn và bắt đầu giao dịch trực tuyến ngay hôm nay!</div></div></div><div class="acc-types"><div class="wrapper"><div class="title centered"> Loại tài khoản</div><div class="table-wrap"><table><tr><th></th><td> <span class="ttl">Tiêu chuẩn</span> tài khoản</td><td> <span class="ttl">Miễn phí trao đổi</span> tài khoản</td><td> Tài khoản <span class="ttl">không có chênh lệch</span></td><td> Tài khoản <span class="ttl">PRO</span> </td><!--<td>Promo Account<span class="ttl">20% Bonus</span></td>--><td> Tài khoản khuyến mãi <span class="ttl">Tiền thưởng 100%</span></td><td> Tài khoản <span class="ttl">PAMM</span></td></tr><tr><th> Sàn giao dịch</th><td> MetaTrader 5</td><td> MetaTrader 5</td><td> MetaTrader 5</td><td> MetaTrader 5 </td><!--<td>MetaTrader 5</td>--><td> MetaTrader 5</td><td> MetaTrader 5</td></tr><tr><th> Tiền gửi tối thiểu</th><td> 50$</td><td> 1000$</td><td> 1000$</td><td> 10.000$ </td><!--<td>1000$</td>--><td> 500$</td><td> 2000$</td></tr><tr><th> Kiểu lây lan</th><td> nổi</td><td> nổi</td><td> nổi</td><td> nổi </td><!--<td>floating</td>--><td> nổi</td><td> nổi</td></tr><tr><th> Lan truyền từ</th><td> 1,2 pip</td><td> 1,5 pip</td><td> 0 pip</td><td> 0 pip </td><!--<td>1.8 pips</td>--><td> 1,8 pip</td><td> 1 pip</td></tr><tr><th> Nhiệm vụ</th><td> KHÔNG</td><td> KHÔNG</td><td> Từ 15$/lô</td><td> 5$/lô </td><!--<td>No</td>--><td> KHÔNG</td><td> KHÔNG</td></tr><tr><th> Hoán đổi</th><td> Đúng</td><td> KHÔNG</td><td> Đúng</td><td> Đúng </td><!--<td>Yes</td>--><td> Đúng</td><td> Đúng</td></tr><tr><th> Tận dụng</th><td> 1:500 cho tiền tệ<br> (1:100 cho ZARJPY)<br> 1:200 đối với kim loại<br> 1:100 cho năng lượng<br> 1:50 cho chỉ số<br> 1:25 đối với tiền điện tử</td><td> 1:500 cho tiền tệ<br> (1:100 cho ZARJPY)<br> 1:200 đối với kim loại<br> 1:100 cho năng lượng<br> 1:50 cho chỉ số<br> 1:25 đối với tiền điện tử</td><td> 1:500 cho tiền tệ<br> (1:100 cho ZARJPY)<br> 1:200 đối với kim loại<br> 1:100 cho năng lượng<br> 1:50 cho chỉ số<br> 1:25 đối với tiền điện tử</td><td> 1:200 cho tiền tệ<br> (1:100 cho ZARJPY)<br> 1:100 đối với kim loại<br> 1:100 cho năng lượng<br> 1:50 cho chỉ số<br> 1:25 đối với tiền điện tử </td><!--<td>1:200 for currencies <br>(1:100 for ZARJPY)<br>1:100 for metals <br>1:100 for energies <br>1:50 for indices <br>1:25 for cryptocurrencies</td> --><td> 1:200 cho tiền tệ<br> (1:100 cho ZARJPY)<br> 1:100 đối với kim loại<br> 1:100 cho năng lượng<br> 1:50 cho chỉ số<br> 1:25 đối với tiền điện tử</td><td> 1:200 cho tiền tệ<br> (1:100 cho ZARJPY)<br> 1:100 đối với kim loại<br> 1:100 cho năng lượng<br> 1:50 cho chỉ số<br> 1:25 đối với tiền điện tử</td></tr><tr><th> Khối lượng tối thiểu</th><td> 0,01 lô</td><td> 0,01 lô</td><td> 0,01 lô</td><td> 0,01 lô </td><!--<td>0.01 lot</td>--><td> 0,01 lô</td><td> 0,01 lô</td></tr><tr><th> Mức dừng</th><td> 30%</td><td> 30%</td><td> 30%</td><td> 30% </td><!--<td>30%</td>--><td> 30%</td><td> 30%</td></tr><tr><th> Lệnh gọi ký quỹ</th><td> 50%</td><td> 50%</td><td> 50%</td><td> 50% </td><!--<td>50%</td>--><td> 50%</td><td> 50%</td></tr><tr><th> Chuyên gia tư vấn</th><td> Đúng</td><td> Đúng</td><td> Đúng</td><td> Đúng </td><!--<td>Yes</td>--><td> Đúng</td><td> Đúng </td></tr></table></div></div><div class="table-btns-control"><path d="M25 22L31 28L25 34" stroke="url(#paint0_linear_1301_10759)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="28" cy="28" r="26.5" transform="rotate(-180 28 28)" stroke="url(#paint1_linear_1301_10759)" stroke-width="3"/><path d="M25 22L31 28L25 34" stroke="url(#paint0_linear_1301_10759)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="28" cy="28" r="26.5" transform="rotate(-180 28 28)" stroke="url(#paint1_linear_1301_10759)" stroke-width="3"/></div></div><div class="subscribe"><div class="wrapper"><div class="ttl"> Sẵn sàng để bắt đầu?</div><div class="text"> Hãy mở tài khoản giao dịch của bạn ngay hôm nay!</div> <a href="https://pa.tradewithzerah.com/en/signup" class="btn-main">Mở tài khoản trực tiếp</a> </div></div><section class="section request"><div class="wrapper"><div class="request__container"><h2 class="title"> Muốn nói chuyện không?<div class="accent"> Yêu cầu gọi lại! </div></h2><div class="request__form"><form action="#" id="uForm_1" class="uForm form" enctype="multipart/form-data" method="POST"><input class="uForm__extended" name="nospam" type="text" value="uform-empty" required=""><input id="uForm__name_1" type="text" name="name" class="form__input" placeholder="Your name" oninput="this.value=this.value.replace(/[^A-Za-zА-Яа-я\s]/g,'');" required><input id="uForm__tel_1" type="tel" name="phone" class="form__input" placeholder="Phone number" required> <button type="submit" class="btn-main btn-main--black form__btn">Làm ơn gọi cho mình <div id="uForm__preload_1" class="uForm__preload"></div><input type="hidden" data-graph-path="modalCallback"></button> <p id="uForm__error-msg_1" class="uForm__error-msg"></p></form></div></div></div></section></div> 	</div>
 
 </main>
 
 <section class="section above-footer">
   <div class="wrapper">
     <a href="/" class="logo-link">
-      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <img src="/../images/icon/logo-white.svg" alt="logo: BelleoFx icon" class="logo">
+      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <img src="/../images/icon/logo-white.png" alt="logo: ZerahFX icon" class="logo">
     </a>
     <div class="above-footer__container">
       <div class="item-contacts">
@@ -355,11 +312,11 @@ jQuery(window).on('load',  function() {
             </svg> 
             <span class="dir-ltr">+971 4 541 7900</span>
           </a>
-          <a href="email:support@belleofx.com" class="email-link">
+          <a href="email:support@tradewithzerah.com" class="email-link">
             <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.625 11.5L10.6429 7M6.35714 7L1.37503 11.5M1 3.25L7.12369 7.53658C7.61957 7.8837 7.86751 8.05726 8.1372 8.12448C8.37542 8.18386 8.62458 8.18386 8.8628 8.12448C9.13249 8.05726 9.38043 7.8837 9.87631 7.53658L16 3.25M4.6 13H12.4C13.6601 13 14.2902 13 14.7715 12.7548C15.1948 12.539 15.539 12.1948 15.7548 11.7715C16 11.2902 16 10.6601 16 9.4V4.6C16 3.33988 16 2.70982 15.7548 2.22852C15.539 1.80516 15.1948 1.46095 14.7715 1.24524C14.2902 1 13.6601 1 12.4 1H4.6C3.33988 1 2.70982 1 2.22852 1.24524C1.80516 1.46095 1.46095 1.80516 1.24524 2.22852C1 2.70982 1 3.33988 1 4.6V9.4C1 10.6601 1 11.2902 1.24524 11.7715C1.46095 12.1948 1.80516 12.539 2.22852 12.7548C2.70982 13 3.33988 13 4.6 13Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            support@belleofx.com
+            support@tradewithzerah.com
           </a>
           <p class="address">
             <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -375,34 +332,34 @@ jQuery(window).on('load',  function() {
 
 <div class="custom"  >
 	<div class="socials">
-  <a href="https://www.facebook.com/belleofx/" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#facebook"></use>
     </svg>
   </a>
-  <!--<a href="https://www.quora.com/profile/BelleoFX-1?q=belleo58" target="_blank" class="socials__link">
+  <!--<a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#quora"></use>
     </svg>
   </a>-->
-  <a href="https://www.instagram.com/belleo_fx/?hl=en" target="_blank" class="socials__link">
+  <a href="https://instagram.com/zerah_fx?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#instagram"></use>
     </svg>
   </a>
-  <a href="https://www.linkedin.com/company/belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#linkedin"></use>
     </svg>
   </a>
   
-  <a href="https://twitter.com/Belleofx1" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
         <svg class="icon">
       <use xlink:href="/images/sprite.svg#twitter"></use>
     </svg>
   </a>
   
-  <a href="https://www.youtube.com/@belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#youtube"></use>
     </svg>
@@ -414,17 +371,17 @@ jQuery(window).on('load',  function() {
       <div class="item-menu">
         <nav class="nav">
             <ul class="nav menu mod-list">
-<li class="item-374 active deeper parent"><a href="/vi/" >Công ty</a><ul class="nav-child unstyled small"><li class="item-375"><a href="/vi/company/about" >Giới thiệu về BelleoFX</a></li><li class="item-376 current active"><a href="/vi/company/account-types" >Loại tài khoản</a></li><li class="item-377"><a href="/vi/company/careers" >Nghề nghiệp</a></li><li class="item-379"><a href="/vi/company/faq" >Câu hỏi thường gặp</a></li><li class="item-378"><a href="/vi/company/contact-us" >Liên hệ chúng tôi</a></li></ul></li><li class="item-390 deeper parent"><a href="/vi/" >Thị trường</a><ul class="nav-child unstyled small"><li class="item-394"><a href="/vi/markets/online-forex-trading-platform" >Ngoại hối</a></li><li class="item-395"><a href="/vi/markets/stocks" >Cổ phiếu</a></li><li class="item-393"><a href="/vi/markets/indices-trading-system" >Chỉ số</a></li><li class="item-391"><a href="/vi/markets/commodities" >Hàng hóa</a></li></ul></li><li class="item-406 deeper parent"><a href="/vi/trading/trading-platform" >Thương mại</a><ul class="nav-child unstyled small"><li class="item-408"><a href="/vi/trading/trading-platform" >Sàn giao dịch</a></li><li class="item-407"><a href="/vi/trading/economic-calendar" >Lịch kinh tế</a></li></ul></li><li class="item-387"><a href="/vi/funding" >Kinh phí</a></li><li class="item-397 deeper parent"><a href="/vi/" >quan hệ đối tác</a><ul class="nav-child unstyled small"><li class="item-399"><a href="/vi/partnership/white-label" >Nhãn trắng</a></li><li class="item-398"><a href="/vi/partnership/introducing-broker-ib" >Nhà môi giới giới thiệu (IB)</a></li></ul></li><li class="item-401 deeper parent"><a href="#" >Khuyến mãi</a><ul class="nav-child unstyled small"><li class="item-402"><a href="/vi/promotions/100-credit-bonus" >Tiền thưởng tín dụng 100%</a></li></ul></li></ul>
+<li class="item-374 active deeper parent"><a href="/vi/" >Công ty</a><ul class="nav-child unstyled small"><li class="item-375"><a href="/vi/company/about" >Giới thiệu về ZerahFX</a></li><li class="item-376 current active"><a href="/vi/company/account-types" >Loại tài khoản</a></li><li class="item-377"><a href="/vi/company/careers" >Nghề nghiệp</a></li><li class="item-379"><a href="/vi/company/faq" >Câu hỏi thường gặp</a></li><li class="item-378"><a href="/vi/company/contact-us" >Liên hệ chúng tôi</a></li></ul></li><li class="item-390 deeper parent"><a href="/vi/" >Thị trường</a><ul class="nav-child unstyled small"><li class="item-394"><a href="/vi/markets/online-forex-trading-platform" >Ngoại hối</a></li><li class="item-395"><a href="/vi/markets/stocks" >Cổ phiếu</a></li><li class="item-393"><a href="/vi/markets/indices-trading-system" >Chỉ số</a></li><li class="item-391"><a href="/vi/markets/commodities" >Hàng hóa</a></li></ul></li><li class="item-406 deeper parent"><a href="/vi/trading/trading-platform" >Thương mại</a><ul class="nav-child unstyled small"><li class="item-408"><a href="/vi/trading/trading-platform" >Sàn giao dịch</a></li><li class="item-407"><a href="/vi/trading/economic-calendar" >Lịch kinh tế</a></li></ul></li><li class="item-387"><a href="/vi/funding" >Kinh phí</a></li><li class="item-397 deeper parent"><a href="/vi/" >quan hệ đối tác</a><ul class="nav-child unstyled small"><li class="item-399"><a href="/vi/partnership/white-label" >Nhãn trắng</a></li><li class="item-398"><a href="/vi/partnership/introducing-broker-ib" >Nhà môi giới giới thiệu (IB)</a></li></ul></li><li class="item-401 deeper parent"><a href="#" >Khuyến mãi</a><ul class="nav-child unstyled small"><li class="item-402"><a href="/vi/promotions/100-credit-bonus" >Tiền thưởng tín dụng 100%</a></li></ul></li></ul>
   
         </nav>
       </div>
       <div class="item-description">
                 <p class="text">
-            BelleoFX là tên thương hiệu của Belleo Markets (Mauritius), BelleoFX (St. Vincent and The Grenadines) và Belleo Markets - Rep.Office (UAE).<br><br>
-                                       Belleo Markets (MU) được thành lập tại Cộng hòa Mauritius với số đăng ký 186405 GBC. Công ty được Ủy ban Dịch vụ Tài chính (FSC) của Mauritius quản lý với tư cách là Đại lý Đầu tư (Nhà môi giới), với số giấy phép GB21027167.<br><br>
-                                       BelleoFX (SVG) được Cơ quan Dịch vụ Tài chính (FSA) của St. Vincent & Grenadines đăng ký là Công ty Kinh doanh Quốc tế với số đăng ký 2584 LLC 2022.<br><br>
-                                       Belleo Markets - Rep. Office (UAE) là chi nhánh của công ty nước ngoài (Belleo Markets Mauritius), được đăng ký và quản lý bởi DET với số giấy phép 1074850.<br><br>
-                                       BelleoFX không làm việc với khách hàng từ các quốc gia bị OFAC trừng phạt và nằm trong danh sách đen của FATF.        </p>
+            ZerahFX là tên thương hiệu của Zerah Markets (Mauritius), ZerahFX (St. Vincent and The Grenadines) và Zerah Markets - Rep.Office (UAE).<br><br>
+                                       Zerah Markets (MU) được thành lập tại Cộng hòa Mauritius với số đăng ký 186405 GBC. Công ty được Ủy ban Dịch vụ Tài chính (FSC) của Mauritius quản lý với tư cách là Đại lý Đầu tư (Nhà môi giới), với số giấy phép GB21027167.<br><br>
+                                       ZerahFX (SVG) được Cơ quan Dịch vụ Tài chính (FSA) của St. Vincent & Grenadines đăng ký là Công ty Kinh doanh Quốc tế với số đăng ký 2584 LLC 2022.<br><br>
+                                       Zerah Markets - Rep. Office (UAE) là chi nhánh của công ty nước ngoài (Zerah Markets Mauritius), được đăng ký và quản lý bởi DET với số giấy phép 1074850.<br><br>
+                                       ZerahFX không làm việc với khách hàng từ các quốc gia bị OFAC trừng phạt và nằm trong danh sách đen của FATF.        </p>
       </div>
     </div>
   </div>
@@ -465,7 +422,7 @@ jQuery(window).on('load',  function() {
               </ul>
             </nav>
             <strong class="copyright">
-                © 2020-2023                BelleoFX | Mọi quyền được bảo lưu            </strong>
+                © 2020-2023                ZerahFX | Mọi quyền được bảo lưu            </strong>
         </div>
     </div>
 </footer>
@@ -543,7 +500,7 @@ jQuery(window).on('load',  function() {
         }, 8000);
     </script> -->
     <!--End of Tawk.to Script (0.7.1)-->
-    <!-- Start of belleofx Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of belleofx Zendesk Widget script -->
+    <!-- Start of ZerahFX Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of ZerahFX Zendesk Widget script -->
 
     <div class="sliding-enquiry"><div class="enquiry-wrap">
         </div>
@@ -555,7 +512,7 @@ jQuery(window).on('load',  function() {
                     <hr/>
                     <div id="enquiryform" style="">
                         <form action="" id="sliding-form" name="sliding-form" method="post" style="margin: 0 0 0em;">
-                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@belleofx.com"/>
+                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@tradewithzerah.com"/>
                             <ul>
                                 <li>
                                     <input type="text" name="name"  id="name" placeholder="Tên" class="textbox_popup" value="">

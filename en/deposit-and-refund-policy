@@ -15,7 +15,7 @@
 
     <link rel="preload" href="/templates/custom/fonts/Effra-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/templates/custom/fonts/Effra-Bold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="alternate" href="https://belleofx.com" hreflang="en-ae" />
+    <link rel="alternate" href="https://tradewithzerah.com" hreflang="en-ae" />
     <meta charset="utf-8" />
 	<base href="/deposit-and-refund-policy" />
 	<title>DEPOSIT AND REFUND POLICY</title>
@@ -37,57 +37,14 @@
 	<script src="/media/jui/js/jquery-migrate.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/jui/js/bootstrap.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/system/js/caption.js?21b43949eb00c2dc28868a748e2b361a"></script>
-	<script>
-jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
-jQuery(window).on('load',  function() {
-				new JCaption('img.caption');
-			});
-	</script>
+	
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WXNKPTL3B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-5WXNKPTL3B');
-    </script>
-    <!-- End Google tag (gtag.js) -->
-    <!-- Google Tag Manager -->
-    <script>
 
-        setTimeout(() => {
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-KNGN98Q');
-        }, 8000);
-        var phone = countryCode['']
-        var country = ''
-        var phonePrefix = '123';
-        document.addEventListener('DOMContentLoaded', function() {
-            country = countryCode.find(el => el.name === "Nigeria");
-            console.log(countryCode);
-            document.getElementById("uForm__tel_1").placeholder = country.dial_code;
-        }, false);
-        document.getElementById("uForm__tel_1").onclick = (e) =>{
-            let tel = jQuery("#uForm__tel_1");
-            console.log(tel.val());
-            if(tel.val() !== '+__ ___-___-____') return
-            tel.val( country.dial_code.slice(1) ).trigger('input');
-
-        }
-
-    </script>
-    <!-- End Google Tag Manager -->
+    
 </head>
 
 <body class="">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNGN98Q"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <!-- <div class="preloader-dots">
     <div></div>
     <div></div>
@@ -174,7 +131,7 @@ jQuery(window).on('load',  function() {
                         <div class="mobile-menu__top">
 
                             <a href="/en/" class="logo-link">
-                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: BelleoFx icon" class="logo">
+                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: ZerahFX icon" class="logo">
                             </a>
                             <button class="btn-reset btn-menu-close">
                                 <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -184,7 +141,7 @@ jQuery(window).on('load',  function() {
                         </div>
                         <nav class="nav">
                             <ul class="nav menu mod-list">
-<li class="item-148 deeper parent"><a href="/" >Company</a><ul class="nav-child unstyled small"><li class="item-149"><a href="/company/about" >About BelleoFX</a></li><li class="item-137"><a href="/company/account-types" >Account Types</a></li><li class="item-150"><a href="/company/careers" >Careers</a></li><li class="item-152"><a href="/company/faq" >FAQs</a></li><li class="item-151"><a href="/company/contact-us" >Contact Us</a></li></ul></li><li class="item-123 deeper parent"><a href="/" >Markets</a><ul class="nav-child unstyled small"><li class="item-124"><a href="/markets/online-forex-trading-platform" >Forex</a></li><li class="item-162"><a href="/markets/stocks" >Stocks</a></li><li class="item-126"><a href="/markets/indices-trading-system" >Indices</a></li><li class="item-164"><a href="/markets/commodities" >Commodities</a></li></ul></li><li class="item-182 deeper parent"><a href="/trading/trading-platform" >Trading</a><ul class="nav-child unstyled small"><li class="item-129"><a href="/trading/trading-platform" >Trading Platform</a></li><li class="item-183"><a href="/trading/economic-calendar" >Economic calendar</a></li></ul></li><li class="item-135"><a href="/funding" >Funding</a></li><li class="item-142 deeper parent"><a href="/" >Partnership</a><ul class="nav-child unstyled small"><li class="item-143"><a href="/partnership/white-label" >White-label</a></li><li class="item-144"><a href="/partnership/introducing-broker-ib" >Introducing Broker (IB)</a></li></ul></li><li class="item-172 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-175"><a href="/promotions/100-credit-bonus" >100% Credit Bonus</a></li></ul></li></ul>
+<li class="item-148 deeper parent"><a href="/" >Company</a><ul class="nav-child unstyled small"><li class="item-149"><a href="/company/about" >About ZerahFX</a></li><li class="item-137"><a href="/company/account-types" >Account Types</a></li><li class="item-150"><a href="/company/careers" >Careers</a></li><li class="item-152"><a href="/company/faq" >FAQs</a></li><li class="item-151"><a href="/company/contact-us" >Contact Us</a></li></ul></li><li class="item-123 deeper parent"><a href="/" >Markets</a><ul class="nav-child unstyled small"><li class="item-124"><a href="/markets/online-forex-trading-platform" >Forex</a></li><li class="item-162"><a href="/markets/stocks" >Stocks</a></li><li class="item-126"><a href="/markets/indices-trading-system" >Indices</a></li><li class="item-164"><a href="/markets/commodities" >Commodities</a></li></ul></li><li class="item-182 deeper parent"><a href="/trading/trading-platform" >Trading</a><ul class="nav-child unstyled small"><li class="item-129"><a href="/trading/trading-platform" >Trading Platform</a></li><li class="item-183"><a href="/trading/economic-calendar" >Economic calendar</a></li></ul></li><li class="item-135"><a href="/funding" >Funding</a></li><li class="item-142 deeper parent"><a href="/" >Partnership</a><ul class="nav-child unstyled small"><li class="item-143"><a href="/partnership/white-label" >White-label</a></li><li class="item-144"><a href="/partnership/introducing-broker-ib" >Introducing Broker (IB)</a></li></ul></li><li class="item-172 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-175"><a href="/promotions/100-credit-bonus" >100% Credit Bonus</a></li></ul></li></ul>
 
                             <div class="lang_block ">
     <div>
@@ -244,7 +201,7 @@ jQuery(window).on('load',  function() {
 
                         </nav>
                         <div class="header__right">
-                            <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main btn-main--white">
+                            <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main btn-main--white">
                                 Join Now                            </a>
                             <a href="/en/demo" class="btn-reset btn-main btn-main--black">
                                 Try Demo Account                            </a>
@@ -254,18 +211,18 @@ jQuery(window).on('load',  function() {
             </div>
             <a href="/en/" class="logo-link">
                                                
-                <img src="/templates/custom/images/icon/logo.svg" alt="logo: BelleoFx icon" class="logo">
-                <img src="/templates/custom/images/icon/logo-icon.svg" alt="logo: BelleoFx icon" class="logo logo--mob">
+                <img src="/templates/custom/images/icon/logo.png" alt="logo: ZerahFX icon" class="logo">
+                <img src="/templates/custom/images/icon/logo-icon.png" alt="logo: ZerahFX icon" class="logo logo--mob">
             </a>
             <nav class="nav">
                 <ul class="nav menu mod-list">
-<li class="item-148 deeper parent"><a href="/" >Company</a><ul class="nav-child unstyled small"><li class="item-149"><a href="/company/about" >About BelleoFX</a></li><li class="item-137"><a href="/company/account-types" >Account Types</a></li><li class="item-150"><a href="/company/careers" >Careers</a></li><li class="item-152"><a href="/company/faq" >FAQs</a></li><li class="item-151"><a href="/company/contact-us" >Contact Us</a></li></ul></li><li class="item-123 deeper parent"><a href="/" >Markets</a><ul class="nav-child unstyled small"><li class="item-124"><a href="/markets/online-forex-trading-platform" >Forex</a></li><li class="item-162"><a href="/markets/stocks" >Stocks</a></li><li class="item-126"><a href="/markets/indices-trading-system" >Indices</a></li><li class="item-164"><a href="/markets/commodities" >Commodities</a></li></ul></li><li class="item-182 deeper parent"><a href="/trading/trading-platform" >Trading</a><ul class="nav-child unstyled small"><li class="item-129"><a href="/trading/trading-platform" >Trading Platform</a></li><li class="item-183"><a href="/trading/economic-calendar" >Economic calendar</a></li></ul></li><li class="item-135"><a href="/funding" >Funding</a></li><li class="item-142 deeper parent"><a href="/" >Partnership</a><ul class="nav-child unstyled small"><li class="item-143"><a href="/partnership/white-label" >White-label</a></li><li class="item-144"><a href="/partnership/introducing-broker-ib" >Introducing Broker (IB)</a></li></ul></li><li class="item-172 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-175"><a href="/promotions/100-credit-bonus" >100% Credit Bonus</a></li></ul></li></ul>
+<li class="item-148 deeper parent"><a href="/" >Company</a><ul class="nav-child unstyled small"><li class="item-149"><a href="/company/about" >About ZerahFX</a></li><li class="item-137"><a href="/company/account-types" >Account Types</a></li><li class="item-150"><a href="/company/careers" >Careers</a></li><li class="item-152"><a href="/company/faq" >FAQs</a></li><li class="item-151"><a href="/company/contact-us" >Contact Us</a></li></ul></li><li class="item-123 deeper parent"><a href="/" >Markets</a><ul class="nav-child unstyled small"><li class="item-124"><a href="/markets/online-forex-trading-platform" >Forex</a></li><li class="item-162"><a href="/markets/stocks" >Stocks</a></li><li class="item-126"><a href="/markets/indices-trading-system" >Indices</a></li><li class="item-164"><a href="/markets/commodities" >Commodities</a></li></ul></li><li class="item-182 deeper parent"><a href="/trading/trading-platform" >Trading</a><ul class="nav-child unstyled small"><li class="item-129"><a href="/trading/trading-platform" >Trading Platform</a></li><li class="item-183"><a href="/trading/economic-calendar" >Economic calendar</a></li></ul></li><li class="item-135"><a href="/funding" >Funding</a></li><li class="item-142 deeper parent"><a href="/" >Partnership</a><ul class="nav-child unstyled small"><li class="item-143"><a href="/partnership/white-label" >White-label</a></li><li class="item-144"><a href="/partnership/introducing-broker-ib" >Introducing Broker (IB)</a></li></ul></li><li class="item-172 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-175"><a href="/promotions/100-credit-bonus" >100% Credit Bonus</a></li></ul></li></ul>
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.belleofx.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
                     Login                </a>
-                <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
                     Register                </a>
                                 <div class="lang_block ">
     <div>
@@ -339,7 +296,7 @@ jQuery(window).on('load',  function() {
     <div class="terms-section address-section">
         <div class="wrapper">
           <div class="title centered">Introduction</div>
-          <p>BelleoFX is a brand name of Belleo Markets, (“The Company”) regulated by the
+          <p>ZerahFX is a brand name of Zerah Markets, (“The Company”) regulated by the
             Financial Services Commission of the Republic of Mauritius with an Investment
             Dealer license GB21027167, having its registered office at Level 6, Ken Lee Building,
             20 Edith Cavell St, Port Louis, Mauritius.</p>
@@ -350,11 +307,11 @@ jQuery(window).on('load',  function() {
           <p>The Client acknowledges that he has read, understood and accepted the Deposit
             and Withdrawal policy as amended and reviewed on a regular and ongoing
             basis, in addition to any other information and/or policy and/or agreements
-            available on the Company’s website: <a href="/www.BelleoFX.com">(www.BelleoFX.com)</a> <a href="https://belleofx.com">(https://betleofx.com)</a></p>
+            available on the Company’s website: <a href="/www.tradewithzerah.com">(www.tradewithzerah.com)</a> <a href="https://tradewithzerah.com">(https://betleofx.com)</a></p>
           <div class="title grad">General information</div>
           <p>
             Funds deposit and withdrawal is only available for clients who have been
-            identified and verified by BelleoFX. For the Verification of your account it is
+            identified and verified by ZerahFX. For the Verification of your account it is
             mandatory to upload the supporting documents to your Client Portal, such as:
           </p>
           <ul>
@@ -375,7 +332,7 @@ jQuery(window).on('load',  function() {
               clearly visible.</li><br>
             <li>5. Copies must be in high quality.</li><br>
             <li>6. The name in your document must be identical to your account name
-              with BelleoFX.</li><br>
+              with ZerahFX.</li><br>
             <li>7. Documents in the national language must be translated into English
               and notarized.</li><br>
             <li>8. Accepted file types are: .png, .jpg, .gif, .pdf.</li><br>
@@ -391,48 +348,48 @@ jQuery(window).on('load',  function() {
             provide the additional documents confirming the source of funds. In case of
             withdrawals through Bank Transfers or Credit/ Debit card transfers, it is
             mandatory to provide a latest Bank Statement or Credit/ Debit card statement
-            accordingly, if not provided earlier, BelleoFX may request you to provide the latest
+            accordingly, if not provided earlier, ZerahFX may request you to provide the latest
             Bank or Credit/ Debit card Statement anytime.<br><br>
-            BelleoFX cannot accommodate withdrawal requests for floating trading profits. A
+            ZerahFX cannot accommodate withdrawal requests for floating trading profits. A
             trading position will need to be closed before any profits attributed to it may be
-            withdrawn. BelleoFX reserves the right to impose withdrawal limits and withdrawal
+            withdrawn. ZerahFX reserves the right to impose withdrawal limits and withdrawal
             fees in its system.<br><br>
             No Third Party Payments are allowed under any circumstances. This policy
-            protects both us, and our clients against fraud and money laundering as BelleoFX
+            protects both us, and our clients against fraud and money laundering as ZerahFX
             only transfers funds back to the source of the original deposit. We reserve the
             right to apply a penalty processing fee if a third-party payment is made<br><br>
-            BelleoFX does not charge any additional fees for deposits. You should however be
+            ZerahFX does not charge any additional fees for deposits. You should however be
             aware that you may incur fees on payments to some international banking
-            institutions. BelleoFX accepts no responsibility for any such deposit fees.<br><br>
+            institutions. ZerahFX accepts no responsibility for any such deposit fees.<br><br>
             All deposits and withdrawals are processed during standard business hours, i.e. 10
             am - 7 pm (GMT+4), Monday to Friday.<br><br>
             All transaction requests in your Client Portal(deposit, withdrawal, internal transfer)
-            are subject to approval by BelleoFX. In your Client Portal you can track the status
+            are subject to approval by ZerahFX. In your Client Portal you can track the status
             of each transaction as well as receive notifications on its updates.<br><br>
-            BelleoFX, at its sole discretion, may execute withdrawals to a facility other than the
+            ZerahFX, at its sole discretion, may execute withdrawals to a facility other than the
             facility used for the original deposit by requesting a Client to provide the details
             for payment acceptance.<br><br>
             In case of successful deposit but no trading activity, or if any form of abuse is
-            found relating to BelleoFX's Deposit and Withdrawal Policy, we reserve the right to
+            found relating to ZerahFX's Deposit and Withdrawal Policy, we reserve the right to
             reclaim any reimbursement fees. The minimum volume requirement for each USD
             1,000 deposit will be 2 Lots if you request a withdrawal after no trading activity or
-            not meeting the required volume of trades. BelleoFX reserves the right to charge
+            not meeting the required volume of trades. ZerahFX reserves the right to charge
             you the equivalent amount of any banking fees incurred or 3% of the total
             withdrawal amount. In case of Debit/Credit card withdrawal method, the
             minimum volume requirement for each USD 1,000 deposit will be 5 Lots if you
             request a withdrawal after no trading activity or not meeting the required volume
             of trades the fee would be 6% for withdrawal of funds.<br><br>
             Any dispute arising with or in connection to any of the terms and conditions of the
-            Deposit and Withdrawal Policy must be in writing and addressed to BelleoFX
-            support team via email at <a href="mailto:support@belleofx.com" target="_blank">support@belleofx.com</a> or by creating a ticket via Client
+            Deposit and Withdrawal Policy must be in writing and addressed to ZerahFX
+            support team via email at <a href="mailto:support@tradewithzerah.com" target="_blank">support@tradewithzerah.com</a> or by creating a ticket via Client
             Portal within 24 hours after the transaction has been Executed.<br><br>
             <b>Bank Wire Transfers:</b> When depositing by a Bank Transfer, you are required to use
             only a bank account, which is in your name and matching the name of your
             trading account. An authentic SWIFT confirmation or Transfer Confirmation,
-            showing the origin of the funds, must be sent to BelleoFX if requested. Failure to
+            showing the origin of the funds, must be sent to ZerahFX if requested. Failure to
             provide such SWIFT/Confirmation upon request may result in the return of the
             deposited amount, hence preventing the deposit of such pending amounts to
-            your BelleoFX account.<br><br>
+            your ZerahFX account.<br><br>
             Please note that we do not accept cash deposits in our bank accounts. If we find
             such transactions on the part of the client, we will be forced to initiate an
             investigation with the help of the bank. In this case, a bank penalty will be charged
@@ -449,19 +406,19 @@ jQuery(window).on('load',  function() {
             funds to be credited to your bank account within 1 to 6 business days, depending
             on the above.<br><br>
             You should be aware that you may incur fees on payments to some international
-            banking institutions. BelleoFX accepts no responsibility for any such deposit fees.<br><br>
+            banking institutions. ZerahFX accepts no responsibility for any such deposit fees.<br><br>
             <b>Credit/Debit Cards:</b> Credit/Debit card deposits may be performed, according to
             the credit/debit card companies' regulations and when a withdrawal is
             performed returned to the same card from which the funds were deposited.
-            BelleoFX is not able to process withdrawals to a card number from which you
+            ZerahFX is not able to process withdrawals to a card number from which you
             didn’t deposit before. As soon as all previous deposits by card have been
             withdrawn back to the card used for the deposit, transfer to a bank account may
             be offered to the client for withdrawal of profits.<br><br>
-            BelleoFX reserves the right to ask you to provide a scanned color copy or photos
+            ZerahFX reserves the right to ask you to provide a scanned color copy or photos
             of both the front and back pages of your card. It is advised that you only leave the
             first and last 4 digits of your card number visible in the image, and cover the CVV
             number from the back of your card. Please note that for cards that don’t show
-            cardholder name, BelleoFX may require from a Client documental proof of card
+            cardholder name, ZerahFX may require from a Client documental proof of card
             ownership, such as a confirmation letter or statement by the card’s issuer.<br><br>
             The company takes extreme precautions when dealing with security alerts for
             credit card payments in order to protect our and our clients' financial integrity. For
@@ -472,15 +429,15 @@ jQuery(window).on('load',  function() {
             instant, but it may take up to 24 hours to process your request.<br><br>
             You should be aware that you may incur fees of payment processors while
             depositing or withdrawing funds through Credit/ Debit cards. Commissions may
-            apply based on some service providers. BelleoFX accepts no responsibility for any
+            apply based on some service providers. ZerahFX accepts no responsibility for any
             deposit or withdrawal fees of 3rd parties you may face.<br><br>
             In some rare cases if your card does not belong to CFT/OCT programs, by which
             your card issuer allows withdrawals above the deposited amount, we will not be
             able to process the transaction. In this case you may withdraw your funds via
-            bank transfer instead. BelleoFX cannot determine if your card belongs to this
+            bank transfer instead. ZerahFX cannot determine if your card belongs to this
             program and accepts such transactions until we receive your withdrawal request.
             You should consult with your card issuer for any further information.<br><br>
-            BelleoFX enforces a limitation of up to 3 (three) cards per client. Clients need to
+            ZerahFX enforces a limitation of up to 3 (three) cards per client. Clients need to
             refrain from using prepaid and travel cards or any method of payments which
             does not allow refunds to be processed.<br><br>
             Maximum Deposit limit per transaction by debit/credit card is USD 15,000 and USD
@@ -490,11 +447,11 @@ jQuery(window).on('load',  function() {
             number, CVV code, 3D secure code, PIN code etc. If the Client received any kind of
             suspicious request for any sensitive details from an unclear source, the Client
             should contact the Company’s compliance department for investigation at
-            <a href="mailto:support@belleofx.com" target="_blank">support@belleofx.com</a>
+            <a href="mailto:support@tradewithzerah.com" target="_blank">support@tradewithzerah.com</a>
           </p>
           <div class="title centered">Refund conditions</div>
           <p>
-            BelleoFX provides clients with a clear and transparent refund policy. In cases that
+            ZerahFX provides clients with a clear and transparent refund policy. In cases that
             the Clients are not satisfied with the Company’s service level and did not make
             trading, investing, conversion transactions, the Client can Request a refund. The
             Company offers a 100% refund within 1 working day of the original service deposit.
@@ -547,18 +504,18 @@ jQuery(window).on('load',  function() {
             Deposit and Refund Policy shall be dealt by the Company as per the Company’s
             Complaint handling policy.<br><br>
             All complaints must be in writing and addressed to the Customer Support team
-            of the Company via email at <a href="mailto:support@belleofx.com" target="_blank">(support@Belleofx.com)</a><br><br>
+            of the Company via email at <a href="mailto:support@tradewithzerah.com" target="_blank">(support@tradewithzerah.com)</a><br><br>
             Please note that this policy cannot be exhaustive, and additional conditions or
             requirements may apply at any time due to regulations and policies, including
             those set-in order to prevent money laundering. All usage of the site and services
             is subject to the Terms and Conditions, as may be amended from time to time by
-            BelleoFX, at its sole discretion.</p>
+            ZerahFX, at its sole discretion.</p>
           <div class="title centered">Electronic Payment Methods</div>
           <p>
-            BelleoFX currently offers the following electronic payment options (Our PSP’s):
+            ZerahFX currently offers the following electronic payment options (Our PSP’s):
             Perfect Money, FasaPay, PayOp, PlusDebit, Hayvn, BTC, USDT, and ERC. Using these
             facilities as a means of transferring funds is at the discretion of each client and
-            BelleoFX recommends that all policies and procedures regarding transfer,
+            ZerahFX recommends that all policies and procedures regarding transfer,
             transaction limits, fees, etc. are clearly understood by the client prior to opening
             an account or using their services.<br><br>
             When depositing funds using Electronic Payment facilities, you agree to, and
@@ -569,7 +526,7 @@ jQuery(window).on('load',  function() {
             When a withdrawal is requested, this may be performed only via the same
             payment method used when initially depositing to your trading account.<br><br>
             All transaction (deposit, withdrawal, internal transfer) requests in your Client
-            Portal are subject to approval by BelleoFX, and can take up to 24 working hours. In
+            Portal are subject to approval by ZerahFX, and can take up to 24 working hours. In
             the Client Portal, clients can track the status of each transaction as well as receive
             notifications to the registered email.
         </div>
@@ -581,9 +538,9 @@ jQuery(window).on('load',  function() {
 <section class="section above-footer">
   <div class="wrapper">
     <a href="/" class="logo-link">
-      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <img src="/../images/icon/logo-white.svg" alt="logo: BelleoFx icon" class="logo">
+      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <img src="/../images/icon/logo-white.png" alt="logo: ZerahFX icon" class="logo">
     </a>
     <div class="above-footer__container">
       <div class="item-contacts">
@@ -597,11 +554,11 @@ jQuery(window).on('load',  function() {
             </svg> 
             <span class="dir-ltr">+971 4 541 7900</span>
           </a>
-          <a href="email:support@belleofx.com" class="email-link">
+          <a href="email:support@tradewithzerah.com" class="email-link">
             <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.625 11.5L10.6429 7M6.35714 7L1.37503 11.5M1 3.25L7.12369 7.53658C7.61957 7.8837 7.86751 8.05726 8.1372 8.12448C8.37542 8.18386 8.62458 8.18386 8.8628 8.12448C9.13249 8.05726 9.38043 7.8837 9.87631 7.53658L16 3.25M4.6 13H12.4C13.6601 13 14.2902 13 14.7715 12.7548C15.1948 12.539 15.539 12.1948 15.7548 11.7715C16 11.2902 16 10.6601 16 9.4V4.6C16 3.33988 16 2.70982 15.7548 2.22852C15.539 1.80516 15.1948 1.46095 14.7715 1.24524C14.2902 1 13.6601 1 12.4 1H4.6C3.33988 1 2.70982 1 2.22852 1.24524C1.80516 1.46095 1.46095 1.80516 1.24524 2.22852C1 2.70982 1 3.33988 1 4.6V9.4C1 10.6601 1 11.2902 1.24524 11.7715C1.46095 12.1948 1.80516 12.539 2.22852 12.7548C2.70982 13 3.33988 13 4.6 13Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            support@belleofx.com
+            support@tradewithzerah.com
           </a>
           <p class="address">
             <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -617,34 +574,34 @@ jQuery(window).on('load',  function() {
 
 <div class="custom"  >
 	<div class="socials">
-  <a href="https://www.facebook.com/belleofx/" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#facebook"></use>
     </svg>
   </a>
-  <!--<a href="https://www.quora.com/profile/BelleoFX-1?q=belleo58" target="_blank" class="socials__link">
+  <!--<a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#quora"></use>
     </svg>
   </a>-->
-  <a href="https://www.instagram.com/belleo_fx/?hl=en" target="_blank" class="socials__link">
+  <a href="https://instagram.com/zerah_fx?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#instagram"></use>
     </svg>
   </a>
-  <a href="https://www.linkedin.com/company/belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#linkedin"></use>
     </svg>
   </a>
   
-  <a href="https://twitter.com/Belleofx1" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
         <svg class="icon">
       <use xlink:href="/images/sprite.svg#twitter"></use>
     </svg>
   </a>
   
-  <a href="https://www.youtube.com/@belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#youtube"></use>
     </svg>
@@ -656,17 +613,17 @@ jQuery(window).on('load',  function() {
       <div class="item-menu">
         <nav class="nav">
             <ul class="nav menu mod-list">
-<li class="item-148 deeper parent"><a href="/" >Company</a><ul class="nav-child unstyled small"><li class="item-149"><a href="/company/about" >About BelleoFX</a></li><li class="item-137"><a href="/company/account-types" >Account Types</a></li><li class="item-150"><a href="/company/careers" >Careers</a></li><li class="item-152"><a href="/company/faq" >FAQs</a></li><li class="item-151"><a href="/company/contact-us" >Contact Us</a></li></ul></li><li class="item-123 deeper parent"><a href="/" >Markets</a><ul class="nav-child unstyled small"><li class="item-124"><a href="/markets/online-forex-trading-platform" >Forex</a></li><li class="item-162"><a href="/markets/stocks" >Stocks</a></li><li class="item-126"><a href="/markets/indices-trading-system" >Indices</a></li><li class="item-164"><a href="/markets/commodities" >Commodities</a></li></ul></li><li class="item-182 deeper parent"><a href="/trading/trading-platform" >Trading</a><ul class="nav-child unstyled small"><li class="item-129"><a href="/trading/trading-platform" >Trading Platform</a></li><li class="item-183"><a href="/trading/economic-calendar" >Economic calendar</a></li></ul></li><li class="item-135"><a href="/funding" >Funding</a></li><li class="item-142 deeper parent"><a href="/" >Partnership</a><ul class="nav-child unstyled small"><li class="item-143"><a href="/partnership/white-label" >White-label</a></li><li class="item-144"><a href="/partnership/introducing-broker-ib" >Introducing Broker (IB)</a></li></ul></li><li class="item-172 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-175"><a href="/promotions/100-credit-bonus" >100% Credit Bonus</a></li></ul></li></ul>
+<li class="item-148 deeper parent"><a href="/" >Company</a><ul class="nav-child unstyled small"><li class="item-149"><a href="/company/about" >About ZerahFX</a></li><li class="item-137"><a href="/company/account-types" >Account Types</a></li><li class="item-150"><a href="/company/careers" >Careers</a></li><li class="item-152"><a href="/company/faq" >FAQs</a></li><li class="item-151"><a href="/company/contact-us" >Contact Us</a></li></ul></li><li class="item-123 deeper parent"><a href="/" >Markets</a><ul class="nav-child unstyled small"><li class="item-124"><a href="/markets/online-forex-trading-platform" >Forex</a></li><li class="item-162"><a href="/markets/stocks" >Stocks</a></li><li class="item-126"><a href="/markets/indices-trading-system" >Indices</a></li><li class="item-164"><a href="/markets/commodities" >Commodities</a></li></ul></li><li class="item-182 deeper parent"><a href="/trading/trading-platform" >Trading</a><ul class="nav-child unstyled small"><li class="item-129"><a href="/trading/trading-platform" >Trading Platform</a></li><li class="item-183"><a href="/trading/economic-calendar" >Economic calendar</a></li></ul></li><li class="item-135"><a href="/funding" >Funding</a></li><li class="item-142 deeper parent"><a href="/" >Partnership</a><ul class="nav-child unstyled small"><li class="item-143"><a href="/partnership/white-label" >White-label</a></li><li class="item-144"><a href="/partnership/introducing-broker-ib" >Introducing Broker (IB)</a></li></ul></li><li class="item-172 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-175"><a href="/promotions/100-credit-bonus" >100% Credit Bonus</a></li></ul></li></ul>
   
         </nav>
       </div>
       <div class="item-description">
                 <p class="text">
-            BelleoFX is a brand name of Belleo Markets (Mauritius), BelleoFX (St. Vincent and The Grenadines) and Belleo Markets - Rep.Office (UAE).<br><br>
-                                       Belleo Markets (MU) incorporated in the Republic of Mauritius with registration number 186405 GBC. Company is regulated by the Financial Services Commission (FSC) of Mauritius as an Investment Dealer (Broker), with a license number GB21027167.<br><br>
-                                       BelleoFX (SVG) is registered by Financial Services Authority (FSA) of St. Vincent & The Grenadines as an International Business Company with registration number 2584 LLC 2022.<br><br>
-                                       Belleo Markets - Rep. Office (UAE) is a branch of foreign company (Belleo Markets Mauritius), registered and regulated by DET with a license number 1074850.<br><br>
-                                       BelleoFX doesn't work with clients from OFAC sanctioned and FATF blacklisted countries.        </p>
+            ZerahFX is a brand name of Zerah Markets (Mauritius), ZerahFX (St. Vincent and The Grenadines) and Zerah Markets - Rep.Office (UAE).<br><br>
+                                       Zerah Markets (MU) incorporated in the Republic of Mauritius with registration number 186405 GBC. Company is regulated by the Financial Services Commission (FSC) of Mauritius as an Investment Dealer (Broker), with a license number GB21027167.<br><br>
+                                       ZerahFX (SVG) is registered by Financial Services Authority (FSA) of St. Vincent & The Grenadines as an International Business Company with registration number 2584 LLC 2022.<br><br>
+                                       Zerah Markets - Rep. Office (UAE) is a branch of foreign company (Zerah Markets Mauritius), registered and regulated by DET with a license number 1074850.<br><br>
+                                       ZerahFX doesn't work with clients from OFAC sanctioned and FATF blacklisted countries.        </p>
       </div>
     </div>
   </div>
@@ -707,7 +664,7 @@ jQuery(window).on('load',  function() {
               </ul>
             </nav>
             <strong class="copyright">
-                © 2020-2023                BelleoFX | All Rights Reserved            </strong>
+                © 2020-2023                ZerahFX | All Rights Reserved            </strong>
         </div>
     </div>
 </footer>
@@ -785,7 +742,7 @@ jQuery(window).on('load',  function() {
         }, 8000);
     </script> -->
     <!--End of Tawk.to Script (0.7.1)-->
-    <!-- Start of belleofx Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of belleofx Zendesk Widget script -->
+    <!-- Start of ZerahFX Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of ZerahFX Zendesk Widget script -->
 
     <div class="sliding-enquiry"><div class="enquiry-wrap">
         </div>
@@ -797,7 +754,7 @@ jQuery(window).on('load',  function() {
                     <hr/>
                     <div id="enquiryform" style="">
                         <form action="" id="sliding-form" name="sliding-form" method="post" style="margin: 0 0 0em;">
-                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@belleofx.com"/>
+                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@tradewithzerah.com"/>
                             <ul>
                                 <li>
                                     <input type="text" name="name"  id="name" placeholder="Name" class="textbox_popup" value="">

@@ -15,12 +15,12 @@
 
     <link rel="preload" href="/templates/custom/fonts/Effra-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/templates/custom/fonts/Effra-Bold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="alternate" href="https://belleofx.com" hreflang="en-ae" />
+    <link rel="alternate" href="https://tradewithzerah.com" hreflang="en-ae" />
     <meta charset="utf-8" />
 	<base href="/es/markets/indices-trading-system" />
-	<meta name="keywords" content="Negociación de índices, Negociación de índices BelleoFX, Corredor de negociación de índices en línea" />
+	<meta name="keywords" content="Negociación de índices, Negociación de índices ZerahFX, Corredor de negociación de índices en línea" />
 	<meta name="description" content="Amplíe sus inversiones operando en los mejores índices. Opere en segmentos de acciones destacados en los mercados americanos, europeos y asiáticos con una cuenta real o demo" />
-	<title>BelloFX	Indices	Trading	|	Online	Index	Trading	Broker</title>
+	<title>ZerahFX	Indices	Trading	|	Online	Index	Trading	Broker</title>
 	<link href="/fa/markets/indices-trading-system" rel="alternate" hreflang="fa-IR" />
 	<link href="/es/markets/indices-trading-system" rel="alternate" hreflang="es-ES" />
 	<link href="/zh/markets/indices-trading-system" rel="alternate" hreflang="zh-TW" />
@@ -39,57 +39,14 @@
 	<script src="/media/jui/js/jquery-migrate.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/jui/js/bootstrap.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/system/js/caption.js?21b43949eb00c2dc28868a748e2b361a"></script>
-	<script>
-jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
-jQuery(window).on('load',  function() {
-				new JCaption('img.caption');
-			});
-	</script>
+	
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WXNKPTL3B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-5WXNKPTL3B');
-    </script>
-    <!-- End Google tag (gtag.js) -->
-    <!-- Google Tag Manager -->
-    <script>
 
-        setTimeout(() => {
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-KNGN98Q');
-        }, 8000);
-        var phone = countryCode['']
-        var country = ''
-        var phonePrefix = '123';
-        document.addEventListener('DOMContentLoaded', function() {
-            country = countryCode.find(el => el.name === "Nigeria");
-            console.log(countryCode);
-            document.getElementById("uForm__tel_1").placeholder = country.dial_code;
-        }, false);
-        document.getElementById("uForm__tel_1").onclick = (e) =>{
-            let tel = jQuery("#uForm__tel_1");
-            console.log(tel.val());
-            if(tel.val() !== '+__ ___-___-____') return
-            tel.val( country.dial_code.slice(1) ).trigger('input');
-
-        }
-
-    </script>
-    <!-- End Google Tag Manager -->
+    
 </head>
 
 <body class="">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNGN98Q"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <!-- <div class="preloader-dots">
     <div></div>
     <div></div>
@@ -176,7 +133,7 @@ jQuery(window).on('load',  function() {
                         <div class="mobile-menu__top">
 
                             <a href="/es/" class="logo-link">
-                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: BelleoFx icon" class="logo">
+                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: ZerahFX icon" class="logo">
                             </a>
                             <button class="btn-reset btn-menu-close">
                                 <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -186,7 +143,7 @@ jQuery(window).on('load',  function() {
                         </div>
                         <nav class="nav">
                             <ul class="nav menu mod-list">
-<li class="item-263 deeper parent"><a href="/es/" >Compañía</a><ul class="nav-child unstyled small"><li class="item-264"><a href="/es/company/about" >Acerca de BelleoFX</a></li><li class="item-265"><a href="/es/company/account-types" >Tipos de cuentas</a></li><li class="item-266"><a href="/es/company/careers" >Carreras</a></li><li class="item-268"><a href="/es/company/faq" >Preguntas frecuentes</a></li><li class="item-267"><a href="/es/company/contact-us" >Contáctenos</a></li></ul></li><li class="item-279 active deeper parent"><a href="/es/" >Mercados</a><ul class="nav-child unstyled small"><li class="item-283"><a href="/es/markets/online-forex-trading-platform" >Forex</a></li><li class="item-284"><a href="/es/markets/stocks" >Cepo</a></li><li class="item-282 current active"><a href="/es/markets/indices-trading-system" >Índices</a></li><li class="item-280"><a href="/es/markets/commodities" >Materias primas</a></li></ul></li><li class="item-295 deeper parent"><a href="/es/trading/trading-platform" >Comercio</a><ul class="nav-child unstyled small"><li class="item-297"><a href="/es/trading/trading-platform" >Plataforma de negocios</a></li><li class="item-296"><a href="/es/trading/economic-calendar" >Calendario económico</a></li></ul></li><li class="item-276"><a href="/es/funding" >Fondos</a></li><li class="item-286 deeper parent"><a href="/es/" >Camaradería</a><ul class="nav-child unstyled small"><li class="item-288"><a href="/es/partnership/white-label" >Etiqueta blanca</a></li><li class="item-287"><a href="/es/partnership/introducing-broker-ib" >Corredor Introductor (IB)</a></li></ul></li><li class="item-290 deeper parent"><a href="#" >Promociones</a><ul class="nav-child unstyled small"><li class="item-291"><a href="/es/promotions/100-credit-bonus" >Bono de crédito del 100%</a></li></ul></li></ul>
+<li class="item-263 deeper parent"><a href="/es/" >Compañía</a><ul class="nav-child unstyled small"><li class="item-264"><a href="/es/company/about" >Acerca de ZerahFX</a></li><li class="item-265"><a href="/es/company/account-types" >Tipos de cuentas</a></li><li class="item-266"><a href="/es/company/careers" >Carreras</a></li><li class="item-268"><a href="/es/company/faq" >Preguntas frecuentes</a></li><li class="item-267"><a href="/es/company/contact-us" >Contáctenos</a></li></ul></li><li class="item-279 active deeper parent"><a href="/es/" >Mercados</a><ul class="nav-child unstyled small"><li class="item-283"><a href="/es/markets/online-forex-trading-platform" >Forex</a></li><li class="item-284"><a href="/es/markets/stocks" >Cepo</a></li><li class="item-282 current active"><a href="/es/markets/indices-trading-system" >Índices</a></li><li class="item-280"><a href="/es/markets/commodities" >Materias primas</a></li></ul></li><li class="item-295 deeper parent"><a href="/es/trading/trading-platform" >Comercio</a><ul class="nav-child unstyled small"><li class="item-297"><a href="/es/trading/trading-platform" >Plataforma de negocios</a></li><li class="item-296"><a href="/es/trading/economic-calendar" >Calendario económico</a></li></ul></li><li class="item-276"><a href="/es/funding" >Fondos</a></li><li class="item-286 deeper parent"><a href="/es/" >Camaradería</a><ul class="nav-child unstyled small"><li class="item-288"><a href="/es/partnership/white-label" >Etiqueta blanca</a></li><li class="item-287"><a href="/es/partnership/introducing-broker-ib" >Corredor Introductor (IB)</a></li></ul></li><li class="item-290 deeper parent"><a href="#" >Promociones</a><ul class="nav-child unstyled small"><li class="item-291"><a href="/es/promotions/100-credit-bonus" >Bono de crédito del 100%</a></li></ul></li></ul>
 
                             <div class="lang_block ">
     <div>
@@ -246,7 +203,7 @@ jQuery(window).on('load',  function() {
 
                         </nav>
                         <div class="header__right">
-                            <a href="https://pa.belleofx.com/es/signup" class="btn-reset btn-main btn-main--white">
+                            <a href="https://pa.tradewithzerah.com/es/signup" class="btn-reset btn-main btn-main--white">
                                 Únete ahora                            </a>
                             <a href="/es/demo" class="btn-reset btn-main btn-main--black">
                                 Pruebe la cuenta de demostración                            </a>
@@ -256,18 +213,18 @@ jQuery(window).on('load',  function() {
             </div>
             <a href="/es/" class="logo-link">
                                                
-                <img src="/templates/custom/images/icon/logo.svg" alt="logo: BelleoFx icon" class="logo">
-                <img src="/templates/custom/images/icon/logo-icon.svg" alt="logo: BelleoFx icon" class="logo logo--mob">
+                <img src="/templates/custom/images/icon/logo.png" alt="logo: ZerahFX icon" class="logo">
+                <img src="/templates/custom/images/icon/logo-icon.png" alt="logo: ZerahFX icon" class="logo logo--mob">
             </a>
             <nav class="nav">
                 <ul class="nav menu mod-list">
-<li class="item-263 deeper parent"><a href="/es/" >Compañía</a><ul class="nav-child unstyled small"><li class="item-264"><a href="/es/company/about" >Acerca de BelleoFX</a></li><li class="item-265"><a href="/es/company/account-types" >Tipos de cuentas</a></li><li class="item-266"><a href="/es/company/careers" >Carreras</a></li><li class="item-268"><a href="/es/company/faq" >Preguntas frecuentes</a></li><li class="item-267"><a href="/es/company/contact-us" >Contáctenos</a></li></ul></li><li class="item-279 active deeper parent"><a href="/es/" >Mercados</a><ul class="nav-child unstyled small"><li class="item-283"><a href="/es/markets/online-forex-trading-platform" >Forex</a></li><li class="item-284"><a href="/es/markets/stocks" >Cepo</a></li><li class="item-282 current active"><a href="/es/markets/indices-trading-system" >Índices</a></li><li class="item-280"><a href="/es/markets/commodities" >Materias primas</a></li></ul></li><li class="item-295 deeper parent"><a href="/es/trading/trading-platform" >Comercio</a><ul class="nav-child unstyled small"><li class="item-297"><a href="/es/trading/trading-platform" >Plataforma de negocios</a></li><li class="item-296"><a href="/es/trading/economic-calendar" >Calendario económico</a></li></ul></li><li class="item-276"><a href="/es/funding" >Fondos</a></li><li class="item-286 deeper parent"><a href="/es/" >Camaradería</a><ul class="nav-child unstyled small"><li class="item-288"><a href="/es/partnership/white-label" >Etiqueta blanca</a></li><li class="item-287"><a href="/es/partnership/introducing-broker-ib" >Corredor Introductor (IB)</a></li></ul></li><li class="item-290 deeper parent"><a href="#" >Promociones</a><ul class="nav-child unstyled small"><li class="item-291"><a href="/es/promotions/100-credit-bonus" >Bono de crédito del 100%</a></li></ul></li></ul>
+<li class="item-263 deeper parent"><a href="/es/" >Compañía</a><ul class="nav-child unstyled small"><li class="item-264"><a href="/es/company/about" >Acerca de ZerahFX</a></li><li class="item-265"><a href="/es/company/account-types" >Tipos de cuentas</a></li><li class="item-266"><a href="/es/company/careers" >Carreras</a></li><li class="item-268"><a href="/es/company/faq" >Preguntas frecuentes</a></li><li class="item-267"><a href="/es/company/contact-us" >Contáctenos</a></li></ul></li><li class="item-279 active deeper parent"><a href="/es/" >Mercados</a><ul class="nav-child unstyled small"><li class="item-283"><a href="/es/markets/online-forex-trading-platform" >Forex</a></li><li class="item-284"><a href="/es/markets/stocks" >Cepo</a></li><li class="item-282 current active"><a href="/es/markets/indices-trading-system" >Índices</a></li><li class="item-280"><a href="/es/markets/commodities" >Materias primas</a></li></ul></li><li class="item-295 deeper parent"><a href="/es/trading/trading-platform" >Comercio</a><ul class="nav-child unstyled small"><li class="item-297"><a href="/es/trading/trading-platform" >Plataforma de negocios</a></li><li class="item-296"><a href="/es/trading/economic-calendar" >Calendario económico</a></li></ul></li><li class="item-276"><a href="/es/funding" >Fondos</a></li><li class="item-286 deeper parent"><a href="/es/" >Camaradería</a><ul class="nav-child unstyled small"><li class="item-288"><a href="/es/partnership/white-label" >Etiqueta blanca</a></li><li class="item-287"><a href="/es/partnership/introducing-broker-ib" >Corredor Introductor (IB)</a></li></ul></li><li class="item-290 deeper parent"><a href="#" >Promociones</a><ul class="nav-child unstyled small"><li class="item-291"><a href="/es/promotions/100-credit-bonus" >Bono de crédito del 100%</a></li></ul></li></ul>
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.belleofx.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
                     Iniciar sesión                </a>
-                <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
                     Registrarse                </a>
                                 <div class="lang_block ">
     <div>
@@ -352,18 +309,18 @@ jQuery(window).on('load',  function() {
 				</li>
 				</ul>
 </div>
- </div></section><section><div class="container"><div class="row"><div class="col-md-12"><div class="new-detail-warp text-center"><h1> Negociación de índices </h1><div class="feature-img-deital"><img src="/images/old/used_project/indices/indices-img-1.png" class="img-responsive" alt="sistema de comercio de índices"></div><p class="edit_demo-sub-about-text-2 text-center"> Opere con CFD que ofrecen más de 55 pares de divisas: principales, cruces y exóticos. Spreads ajustados y SIN recotizaciones</p> <a href="https://pa.belleofx.com/en/signup" class="center_button">Negocia ahora</a></div></div></div><div class="row"><div class="col-md-12"><div class="strategy-warp-h4 whyus-about"><div class="about-icon-warp"><div class="col-md-4"><div class="iconbox text-center"><span class="icon "><i class="fa fa-tachometer" aria-hidden="true"></i></span><h4 class="color_h4"> Opere con un apalancamiento de hasta 1:30</h4></div></div><div class="col-md-4"><div class="iconbox text-center"><span class="icon"><i class="fa fa-first-order" aria-hidden="true"></i></span><h4 class="color_h4"> Spreads tan bajos como 0,6 pips</h4></div></div><div class="col-md-4"><div class="iconbox text-center"><span class="icon"><i class="fa fa-database" aria-hidden="true"></i></span><h4 class="color_h4"> 1.000 operaciones de órdenes ejecutadas por segundo</h4></div></div></div></div></div></div></div></section> 
+ </div></section><section><div class="container"><div class="row"><div class="col-md-12"><div class="new-detail-warp text-center"><h1> Negociación de índices </h1><div class="feature-img-deital"><img src="/images/old/used_project/indices/indices-img-1.png" class="img-responsive" alt="sistema de comercio de índices"></div><p class="edit_demo-sub-about-text-2 text-center"> Opere con CFD que ofrecen más de 55 pares de divisas: principales, cruces y exóticos. Spreads ajustados y SIN recotizaciones</p> <a href="https://pa.tradewithzerah.com/en/signup" class="center_button">Negocia ahora</a></div></div></div><div class="row"><div class="col-md-12"><div class="strategy-warp-h4 whyus-about"><div class="about-icon-warp"><div class="col-md-4"><div class="iconbox text-center"><span class="icon "><i class="fa fa-tachometer" aria-hidden="true"></i></span><h4 class="color_h4"> Opere con un apalancamiento de hasta 1:30</h4></div></div><div class="col-md-4"><div class="iconbox text-center"><span class="icon"><i class="fa fa-first-order" aria-hidden="true"></i></span><h4 class="color_h4"> Spreads tan bajos como 0,6 pips</h4></div></div><div class="col-md-4"><div class="iconbox text-center"><span class="icon"><i class="fa fa-database" aria-hidden="true"></i></span><h4 class="color_h4"> 1.000 operaciones de órdenes ejecutadas por segundo</h4></div></div></div></div></div></div></div></section> 
 
 <div class="custom"  >
 	<section class="bg-light-grey"><div class="container"><div class="row"><div class="col-md-12"><div class="title-block text-center"><span class="top-title "></span><h2> Otros mercados comerciales</h2><p class="sub-title"> Es hora de probarnos. Disfrute de diferenciales competitivos y un alto apalancamiento. </p><span class="bottom-title"></span></div><div class="about-icon-warp"><div class="col-md-1"></div><div class="col-md-2"><div class="iconbox text-center"><span class="icon icon-power"></span><h4> <a class="color_h4" href="/en/?Itemid=128">Energías</a> </h4></div></div><div class="col-md-2"><div class="iconbox text-center"><span class="icon icon-shield"></span><h4> <a class="color_h4" href="/en/?Itemid=127">Rieles</a> </h4></div></div><div class="col-md-2"><div class="iconbox text-center"><span class="icon icon-stats-bars2"></span><h4> <a class="color_h4" href="/en/markets/indices-trading-system">Índices</a> </h4></div></div><div class="col-md-2"><div class="iconbox text-center"><span class="icon icon-library"></span><h4> <a class="color_h4" href="/en/?Itemid=125">Futuros</a> </h4></div></div><div class="col-md-2"><div class="iconbox text-center"><span class="icon icon-library"></span><h4> <a class="color_h4" href="/en/markets/online-forex-trading-platform">Forex</a></h4></div></div><div class="col-md-1"></div></div></div></div></div></section></div>
  <section><div class="container"><div class="row"><div class="title-block text-center"><span class="top-title "></span><h2> Ventajas del comercio de índices</h2><p class="sub-title"> Benefíciate con nosotros. </p><span class="bottom-title"></span></div><div class="feature-img-deital img_border_color"><img src="/images/old/used_project/indices/indices_advantage.PNG" class="img-responsive img_border" alt="sistema de comercio de índices"></div></div></div></section> 
 
 <div class="custom"  >
-	<section><div class="container"><div class="row"><div class="title-block text-center"><span class="top-title "></span><h2> ¿Por qué comerciar con Belleofx?</h2><p class="sub-title"> Benefíciate con nosotros. </p><span class="bottom-title"></span></div><div class="whyus-warp-h3"><div class="col-md-4"><div class="iconbox-inline"><span class="icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span><h4> Más de 8 años de excelencia</h4><p> Elija un corredor de confianza que atienda a clientes en más de 120 países y la marca más valiosa del mundo</p></div><div class="iconbox-inline"><span class="icon icon-user-check"></span><h4> Plataformas comerciales</h4><p> Elija plataformas de negociación de Forex, incluida Belleofx MT5</p></div><div class="iconbox-inline"><span class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></span><h4> Reconocido mundialmente</h4><p> Nuestra dirección ha visitado más de 500 ciudades en todo el mundo para comprender las necesidades de los clientes y socios para impulsar los servicios. </p></div></div><div class="col-md-4"><div class="iconbox-inline"><span class="icon icon-shield"></span><h4> Expertos</h4><p> Dedicados a brindar asistencia para discapacitados o personas mayores a nuestros pacientes. Con más de 8 años</p></div><div class="iconbox-inline"><span class="icon icon-stats-bars2"></span><h4> Opere con más de 1000 instrumentos</h4><p> Opere CFD sobre Forex, futuros, índices, metales y energías.</p></div><div class="iconbox-inline"><span class="icon"><i class="fa fa-trophy" aria-hidden="true"></i></span><h4> Ganador de premios internacionales</h4><p> Mejor premiado | El corredor más confiable</p></div></div><div class="col-md-4"><div class="iconbox-inline"><span class="icon"><i class="fa fa-bolt" aria-hidden="true"></i></span><h4> Energía</h4><p> Energetic Services es la empresa unipersonal líder, dedicada al comercio y el suministro.</p></div><div class="iconbox-inline"><span class="icon icon-key"></span><h4> Honestidad</h4><p> Generamos confianza con tus clientes, podrás solucionar cualquier problema que tengan sin ningún problema.</p></div><div class="iconbox-inline"><span class="icon"><i class="fa fa-language" aria-hidden="true"></i></span><h4> Atención al cliente 24 horas al día, 7 días a la semana</h4><p> Acceda a nuestro soporte al cliente global 24 horas al día, 5 días a la semana.</p></div></div></div></div></div></section></div>
+	<section><div class="container"><div class="row"><div class="title-block text-center"><span class="top-title "></span><h2> ¿Por qué comerciar con ZerahFX?</h2><p class="sub-title"> Benefíciate con nosotros. </p><span class="bottom-title"></span></div><div class="whyus-warp-h3"><div class="col-md-4"><div class="iconbox-inline"><span class="icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span><h4> Más de 8 años de excelencia</h4><p> Elija un corredor de confianza que atienda a clientes en más de 120 países y la marca más valiosa del mundo</p></div><div class="iconbox-inline"><span class="icon icon-user-check"></span><h4> Plataformas comerciales</h4><p> Elija plataformas de negociación de Forex, incluida ZerahFX MT5</p></div><div class="iconbox-inline"><span class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></span><h4> Reconocido mundialmente</h4><p> Nuestra dirección ha visitado más de 500 ciudades en todo el mundo para comprender las necesidades de los clientes y socios para impulsar los servicios. </p></div></div><div class="col-md-4"><div class="iconbox-inline"><span class="icon icon-shield"></span><h4> Expertos</h4><p> Dedicados a brindar asistencia para discapacitados o personas mayores a nuestros pacientes. Con más de 8 años</p></div><div class="iconbox-inline"><span class="icon icon-stats-bars2"></span><h4> Opere con más de 1000 instrumentos</h4><p> Opere CFD sobre Forex, futuros, índices, metales y energías.</p></div><div class="iconbox-inline"><span class="icon"><i class="fa fa-trophy" aria-hidden="true"></i></span><h4> Ganador de premios internacionales</h4><p> Mejor premiado | El corredor más confiable</p></div></div><div class="col-md-4"><div class="iconbox-inline"><span class="icon"><i class="fa fa-bolt" aria-hidden="true"></i></span><h4> Energía</h4><p> Energetic Services es la empresa unipersonal líder, dedicada al comercio y el suministro.</p></div><div class="iconbox-inline"><span class="icon icon-key"></span><h4> Honestidad</h4><p> Generamos confianza con tus clientes, podrás solucionar cualquier problema que tengan sin ningún problema.</p></div><div class="iconbox-inline"><span class="icon"><i class="fa fa-language" aria-hidden="true"></i></span><h4> Atención al cliente 24 horas al día, 7 días a la semana</h4><p> Acceda a nuestro soporte al cliente global 24 horas al día, 5 días a la semana.</p></div></div></div></div></div></section></div>
  
 
 <div class="custom"  >
-	<section id="about"><div class="container"><div class="row"><div class="col-md-12"><div class="demo-about-h1"><div class="col-md-6"><div class="left-about-h1"><div class="iconbox-warp "><div class="title-block "><h2> Elige tu plataforma</h2></div><h6 class="ch_title-mix"> Comience a operar con los instrumentos de su elección en <span class="common_span_color"><a  href="https://download.mql5.com/cdn/web/belleo.markets.pvt/mt5/belleomarkets5setup.exe">Descargar MT5</a></span> , disponible tanto para <span class="common_span_color"><a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=BelleoMarkets-Server">Descargar la APLICACIÓN IOS</a> como <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=BelleoMarkets-Server">para Descargar la APLICACIÓN Andriod</a></span> , o en una variedad de dispositivos móviles. Alternativamente, es posible que también desee probar Belleofx WebTrader, al que se puede acceder instantáneamente desde su navegador.</h6><ul class="common_span_ul_forex"><li> <a style="color:#209de2" href="/en/trading/trading-platform"><i class="fa fa-th-large" aria-hidden="true"></i>Belleofx MetaTrader 5</a></li><li> <a style="color:#209de2" href="https://download.mql5.com/cdn/web/belleo.markets.pvt/mt5/belleomarkets5setup.exe"><i class="fa fa-th-large" aria-hidden="true"></i>Descargar MetaTrader 5</a></li></ul> <a href="https://pa.belleofx.com/en/signup"><button type="button" style="font-size: 17px !important;font-weight: bolder !important;" class="btn-sub-color">Comience a operar ahora<br> <small>El corredor de más rápido crecimiento</small></button></a> </div></div></div><div class="col-md-6"><div style="margin-top: 20px;" class="ch_right-about-h1"><img src="/images/old/used_project/home_slider/devices.png" class="img-responsive" alt="Imagen"></div></div></div></div></div></div></section></div>
+	<section id="about"><div class="container"><div class="row"><div class="col-md-12"><div class="demo-about-h1"><div class="col-md-6"><div class="left-about-h1"><div class="iconbox-warp "><div class="title-block "><h2> Elige tu plataforma</h2></div><h6 class="ch_title-mix"> Comience a operar con los instrumentos de su elección en <span class="common_span_color"><a  href="https://download.mql5.com/cdn/web/belleo.markets.pvt/mt5/belleomarkets5setup.exe">Descargar MT5</a></span> , disponible tanto para <span class="common_span_color"><a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=BelleoMarkets-Server">Descargar la APLICACIÓN IOS</a> como <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=BelleoMarkets-Server">para Descargar la APLICACIÓN Andriod</a></span> , o en una variedad de dispositivos móviles. Alternativamente, es posible que también desee probar ZerahFX WebTrader, al que se puede acceder instantáneamente desde su navegador.</h6><ul class="common_span_ul_forex"><li> <a style="color:#209de2" href="/en/trading/trading-platform"><i class="fa fa-th-large" aria-hidden="true"></i>ZerahFX MetaTrader 5</a></li><li> <a style="color:#209de2" href="https://download.mql5.com/cdn/web/belleo.markets.pvt/mt5/belleomarkets5setup.exe"><i class="fa fa-th-large" aria-hidden="true"></i>Descargar MetaTrader 5</a></li></ul> <a href="https://pa.tradewithzerah.com/en/signup"><button type="button" style="font-size: 17px !important;font-weight: bolder !important;" class="btn-sub-color">Comience a operar ahora<br> <small>El corredor de más rápido crecimiento</small></button></a> </div></div></div><div class="col-md-6"><div style="margin-top: 20px;" class="ch_right-about-h1"><img src="/images/old/used_project/home_slider/devices.png" class="img-responsive" alt="Imagen"></div></div></div></div></div></div></section></div>
  <section class="no-padding"><div class="container"><div class="row"><div class="col-md-12"><div class="title-block text-center title-pd"><span class="top-title"></span><h2> Acerca del comercio de índices bursátiles</h2><span class="bottom-title"></span></div></div><div class="col-md-12"><p> Los índices bursátiles, o índices bursátiles, como también se los conoce comúnmente, son índices bursátiles reales que miden el valor de una sección específica de un mercado de valores. Se calculan a partir de una media ponderada de los precios de las acciones seleccionadas, que pertenecen a la categoría real que representan. Los índices bursátiles pueden representar un mercado de valores específico, como el NASDAQ, o pueden representar un conjunto específico de las empresas más grandes de una nación, como el S&amp;P 500 estadounidense, el FTSE 100 británico o el Nikkei 225 japonés. El propósito de los índices es para mostrar la dirección general de un mercado de valores específico o de la economía general de una nación. Sin embargo, dado que los índices bursátiles se componen de una cesta de empresas, pueden verse muy afectados por un gran movimiento de una empresa específica o por un gran movimiento de un sector comercial específico. El peso real otorgado a un índice bursátil de la cesta de acciones subyacente varía entre los distintos índices, lo que significa que no todos utilizan los mismos criterios para obtener el resultado final. Las dos formas principales de calcular el peso real que una acción subyacente específica produce en el propio índice son la ponderación del precio y la ponderación de la capitalización. A continuación puede ver la categoría a la que pertenecen algunos de los índices más populares: 1. Dow Jones (US30) y Nikkei 225 (Japan225) son índices ponderados por precio. 2. FTSE 100 (UK 100), ASX200 (Australia 200), Hang Seng Index (Hong Kong 50, DAX (Alemania 30), CAC 40 (Francia 40) e IBEX35 (España 35) son algunos de los principales índices bursátiles que ponderada por capitalización.</p></div></div><div class="col-md-12"><div class="new-detail-warp text-center"> <a href="/es/company/faq" class="center_button_help">Más Pregunte ¡Visite la sección de preguntas frecuentes!</a></div></div></div></section> 
 
 <div class="custom"  >
@@ -400,9 +357,9 @@ jQuery(window).on('load',  function() {
 <section class="section above-footer">
   <div class="wrapper">
     <a href="/" class="logo-link">
-      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <img src="/../images/icon/logo-white.svg" alt="logo: BelleoFx icon" class="logo">
+      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <img src="/../images/icon/logo-white.png" alt="logo: ZerahFX icon" class="logo">
     </a>
     <div class="above-footer__container">
       <div class="item-contacts">
@@ -416,11 +373,11 @@ jQuery(window).on('load',  function() {
             </svg> 
             <span class="dir-ltr">+971 4 541 7900</span>
           </a>
-          <a href="email:support@belleofx.com" class="email-link">
+          <a href="email:support@tradewithzerah.com" class="email-link">
             <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.625 11.5L10.6429 7M6.35714 7L1.37503 11.5M1 3.25L7.12369 7.53658C7.61957 7.8837 7.86751 8.05726 8.1372 8.12448C8.37542 8.18386 8.62458 8.18386 8.8628 8.12448C9.13249 8.05726 9.38043 7.8837 9.87631 7.53658L16 3.25M4.6 13H12.4C13.6601 13 14.2902 13 14.7715 12.7548C15.1948 12.539 15.539 12.1948 15.7548 11.7715C16 11.2902 16 10.6601 16 9.4V4.6C16 3.33988 16 2.70982 15.7548 2.22852C15.539 1.80516 15.1948 1.46095 14.7715 1.24524C14.2902 1 13.6601 1 12.4 1H4.6C3.33988 1 2.70982 1 2.22852 1.24524C1.80516 1.46095 1.46095 1.80516 1.24524 2.22852C1 2.70982 1 3.33988 1 4.6V9.4C1 10.6601 1 11.2902 1.24524 11.7715C1.46095 12.1948 1.80516 12.539 2.22852 12.7548C2.70982 13 3.33988 13 4.6 13Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            support@belleofx.com
+            support@tradewithzerah.com
           </a>
           <p class="address">
             <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -436,34 +393,34 @@ jQuery(window).on('load',  function() {
 
 <div class="custom"  >
 	<div class="socials">
-  <a href="https://www.facebook.com/belleofx/" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#facebook"></use>
     </svg>
   </a>
-  <!--<a href="https://www.quora.com/profile/BelleoFX-1?q=belleo58" target="_blank" class="socials__link">
+  <!--<a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#quora"></use>
     </svg>
   </a>-->
-  <a href="https://www.instagram.com/belleo_fx/?hl=en" target="_blank" class="socials__link">
+  <a href="https://instagram.com/zerah_fx?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#instagram"></use>
     </svg>
   </a>
-  <a href="https://www.linkedin.com/company/belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#linkedin"></use>
     </svg>
   </a>
   
-  <a href="https://twitter.com/Belleofx1" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
         <svg class="icon">
       <use xlink:href="/images/sprite.svg#twitter"></use>
     </svg>
   </a>
   
-  <a href="https://www.youtube.com/@belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#youtube"></use>
     </svg>
@@ -475,17 +432,17 @@ jQuery(window).on('load',  function() {
       <div class="item-menu">
         <nav class="nav">
             <ul class="nav menu mod-list">
-<li class="item-263 deeper parent"><a href="/es/" >Compañía</a><ul class="nav-child unstyled small"><li class="item-264"><a href="/es/company/about" >Acerca de BelleoFX</a></li><li class="item-265"><a href="/es/company/account-types" >Tipos de cuentas</a></li><li class="item-266"><a href="/es/company/careers" >Carreras</a></li><li class="item-268"><a href="/es/company/faq" >Preguntas frecuentes</a></li><li class="item-267"><a href="/es/company/contact-us" >Contáctenos</a></li></ul></li><li class="item-279 active deeper parent"><a href="/es/" >Mercados</a><ul class="nav-child unstyled small"><li class="item-283"><a href="/es/markets/online-forex-trading-platform" >Forex</a></li><li class="item-284"><a href="/es/markets/stocks" >Cepo</a></li><li class="item-282 current active"><a href="/es/markets/indices-trading-system" >Índices</a></li><li class="item-280"><a href="/es/markets/commodities" >Materias primas</a></li></ul></li><li class="item-295 deeper parent"><a href="/es/trading/trading-platform" >Comercio</a><ul class="nav-child unstyled small"><li class="item-297"><a href="/es/trading/trading-platform" >Plataforma de negocios</a></li><li class="item-296"><a href="/es/trading/economic-calendar" >Calendario económico</a></li></ul></li><li class="item-276"><a href="/es/funding" >Fondos</a></li><li class="item-286 deeper parent"><a href="/es/" >Camaradería</a><ul class="nav-child unstyled small"><li class="item-288"><a href="/es/partnership/white-label" >Etiqueta blanca</a></li><li class="item-287"><a href="/es/partnership/introducing-broker-ib" >Corredor Introductor (IB)</a></li></ul></li><li class="item-290 deeper parent"><a href="#" >Promociones</a><ul class="nav-child unstyled small"><li class="item-291"><a href="/es/promotions/100-credit-bonus" >Bono de crédito del 100%</a></li></ul></li></ul>
+<li class="item-263 deeper parent"><a href="/es/" >Compañía</a><ul class="nav-child unstyled small"><li class="item-264"><a href="/es/company/about" >Acerca de ZerahFX</a></li><li class="item-265"><a href="/es/company/account-types" >Tipos de cuentas</a></li><li class="item-266"><a href="/es/company/careers" >Carreras</a></li><li class="item-268"><a href="/es/company/faq" >Preguntas frecuentes</a></li><li class="item-267"><a href="/es/company/contact-us" >Contáctenos</a></li></ul></li><li class="item-279 active deeper parent"><a href="/es/" >Mercados</a><ul class="nav-child unstyled small"><li class="item-283"><a href="/es/markets/online-forex-trading-platform" >Forex</a></li><li class="item-284"><a href="/es/markets/stocks" >Cepo</a></li><li class="item-282 current active"><a href="/es/markets/indices-trading-system" >Índices</a></li><li class="item-280"><a href="/es/markets/commodities" >Materias primas</a></li></ul></li><li class="item-295 deeper parent"><a href="/es/trading/trading-platform" >Comercio</a><ul class="nav-child unstyled small"><li class="item-297"><a href="/es/trading/trading-platform" >Plataforma de negocios</a></li><li class="item-296"><a href="/es/trading/economic-calendar" >Calendario económico</a></li></ul></li><li class="item-276"><a href="/es/funding" >Fondos</a></li><li class="item-286 deeper parent"><a href="/es/" >Camaradería</a><ul class="nav-child unstyled small"><li class="item-288"><a href="/es/partnership/white-label" >Etiqueta blanca</a></li><li class="item-287"><a href="/es/partnership/introducing-broker-ib" >Corredor Introductor (IB)</a></li></ul></li><li class="item-290 deeper parent"><a href="#" >Promociones</a><ul class="nav-child unstyled small"><li class="item-291"><a href="/es/promotions/100-credit-bonus" >Bono de crédito del 100%</a></li></ul></li></ul>
   
         </nav>
       </div>
       <div class="item-description">
                 <p class="text">
-            BelleoFX es una marca de Belleo Markets (Mauricio), BelleoFX (San Vicente y las Granadinas) y Belleo Markets - Rep.Office (EAU).<br><br>
-                                       Belleo Markets (MU) constituida en la República de Mauricio con número de registro 186405 GBC. La empresa está regulada por la Comisión de Servicios Financieros (FSC) de Mauricio como agente de inversiones (corredor), con número de licencia GB21027167.<br><br>
-                                       BelleoFX (SVG) está registrada por la Autoridad de Servicios Financieros (FSA) de San Vicente y las Granadinas como una empresa comercial internacional con el número de registro 2584 LLC 2022.<br><br>
-                                       Belleo Markets - Rep. Office (EAU) es una sucursal de una empresa extranjera (Belleo Markets Mauritius), registrada y regulada por DET con un número de licencia 1074850.<br><br>
-                                       BelleoFX no trabaja con clientes de países sancionados por la OFAC y en la lista negra del GAFI.        </p>
+            ZerahFX es una marca de Zerah Markets (Mauricio), ZerahFX (San Vicente y las Granadinas) y Zerah Markets - Rep.Office (EAU).<br><br>
+                                       Zerah Markets (MU) constituida en la República de Mauricio con número de registro 186405 GBC. La empresa está regulada por la Comisión de Servicios Financieros (FSC) de Mauricio como agente de inversiones (corredor), con número de licencia GB21027167.<br><br>
+                                       ZerahFX (SVG) está registrada por la Autoridad de Servicios Financieros (FSA) de San Vicente y las Granadinas como una empresa comercial internacional con el número de registro 2584 LLC 2022.<br><br>
+                                       Zerah Markets - Rep. Office (EAU) es una sucursal de una empresa extranjera (Zerah Markets Mauritius), registrada y regulada por DET con un número de licencia 1074850.<br><br>
+                                       ZerahFX no trabaja con clientes de países sancionados por la OFAC y en la lista negra del GAFI.        </p>
       </div>
     </div>
   </div>
@@ -526,7 +483,7 @@ jQuery(window).on('load',  function() {
               </ul>
             </nav>
             <strong class="copyright">
-                © 2020-2023                BelleoFX | Todos los derechos reservados            </strong>
+                © 2020-2023                ZerahFX | Todos los derechos reservados            </strong>
         </div>
     </div>
 </footer>
@@ -604,7 +561,7 @@ jQuery(window).on('load',  function() {
         }, 8000);
     </script> -->
     <!--End of Tawk.to Script (0.7.1)-->
-    <!-- Start of belleofx Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of belleofx Zendesk Widget script -->
+    <!-- Start of ZerahFX Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of ZerahFX Zendesk Widget script -->
 
     <div class="sliding-enquiry"><div class="enquiry-wrap">
         </div>
@@ -616,7 +573,7 @@ jQuery(window).on('load',  function() {
                     <hr/>
                     <div id="enquiryform" style="">
                         <form action="" id="sliding-form" name="sliding-form" method="post" style="margin: 0 0 0em;">
-                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@belleofx.com"/>
+                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@tradewithzerah.com"/>
                             <ul>
                                 <li>
                                     <input type="text" name="name"  id="name" placeholder="Nombre" class="textbox_popup" value="">

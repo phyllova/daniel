@@ -2567,7 +2567,7 @@ div#wmn-fx {
 .main-screen.fifth::after {
     content: "";
     position: absolute;
-    background-image: url('/images/home/main-screen/forex-expo-logo.svg');
+    background-image: url('/images/home/main-screen/forex-expo-logo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

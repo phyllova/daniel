@@ -15,7 +15,7 @@
 
     <link rel="preload" href="/templates/custom/fonts/Effra-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/templates/custom/fonts/Effra-Bold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="alternate" href="https://belleofx.com" hreflang="en-ae" />
+    <link rel="alternate" href="https://tradewithzerah.com" hreflang="en-ae" />
     <meta charset="utf-8" />
 	<base href="/ar/promotions/100-credit-bonus" />
 	<title>مكافأة ائتمانية بنسبة 100%</title>
@@ -38,57 +38,14 @@
 	<script src="/media/jui/js/jquery-migrate.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/jui/js/bootstrap.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/system/js/caption.js?21b43949eb00c2dc28868a748e2b361a"></script>
-	<script>
-jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
-jQuery(window).on('load',  function() {
-				new JCaption('img.caption');
-			});
-	</script>
+	
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WXNKPTL3B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-5WXNKPTL3B');
-    </script>
-    <!-- End Google tag (gtag.js) -->
-    <!-- Google Tag Manager -->
-    <script>
 
-        setTimeout(() => {
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-KNGN98Q');
-        }, 8000);
-        var phone = countryCode['']
-        var country = ''
-        var phonePrefix = '123';
-        document.addEventListener('DOMContentLoaded', function() {
-            country = countryCode.find(el => el.name === "Nigeria");
-            console.log(countryCode);
-            document.getElementById("uForm__tel_1").placeholder = country.dial_code;
-        }, false);
-        document.getElementById("uForm__tel_1").onclick = (e) =>{
-            let tel = jQuery("#uForm__tel_1");
-            console.log(tel.val());
-            if(tel.val() !== '+__ ___-___-____') return
-            tel.val( country.dial_code.slice(1) ).trigger('input');
-
-        }
-
-    </script>
-    <!-- End Google Tag Manager -->
+    
 </head>
 
 <body class="">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNGN98Q"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <!-- <div class="preloader-dots">
     <div></div>
     <div></div>
@@ -175,7 +132,7 @@ jQuery(window).on('load',  function() {
                         <div class="mobile-menu__top">
 
                             <a href="/ar/" class="logo-link">
-                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: BelleoFx icon" class="logo">
+                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: ZerahFX icon" class="logo">
                             </a>
                             <button class="btn-reset btn-menu-close">
                                 <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -245,7 +202,7 @@ jQuery(window).on('load',  function() {
 
                         </nav>
                         <div class="header__right">
-                            <a href="https://pa.belleofx.com/ar/signup" class="btn-reset btn-main btn-main--white">
+                            <a href="https://pa.tradewithzerah.com/ar/signup" class="btn-reset btn-main btn-main--white">
                                 انضم الآن                            </a>
                             <a href="/ar/demo" class="btn-reset btn-main btn-main--black">
                                 جرب الحساب التجريبي                            </a>
@@ -255,8 +212,8 @@ jQuery(window).on('load',  function() {
             </div>
             <a href="/ar/" class="logo-link">
                                                
-                <img src="/templates/custom/images/icon/logo.svg" alt="logo: BelleoFx icon" class="logo">
-                <img src="/templates/custom/images/icon/logo-icon.svg" alt="logo: BelleoFx icon" class="logo logo--mob">
+                <img src="/templates/custom/images/icon/logo.png" alt="logo: ZerahFX icon" class="logo">
+                <img src="/templates/custom/images/icon/logo-icon.png" alt="logo: ZerahFX icon" class="logo logo--mob">
             </a>
             <nav class="nav">
                 <ul class="nav menu mod-list">
@@ -264,9 +221,9 @@ jQuery(window).on('load',  function() {
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.belleofx.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
                     تسجيل الدخول                </a>
-                <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
                     التسجيل                </a>
                                 <div class="lang_block ">
     <div>
@@ -331,16 +288,16 @@ jQuery(window).on('load',  function() {
 <main class="main">
     <div class="item-page" itemscope itemtype="https://schema.org/Article">
 	<meta itemprop="inLanguage" content="ar-AA" />
-			<div class="page-contacts page-bonus mt100" ><div class="intro" style="background-image:url(/images/contacts/bg-contacts.jpg);text-align:right;direction:rtl"><div class="wrapper" ><h1 class="title mb0" > مكافأة ائتمانية بنسبة 100% </h1></div></div><div class="terms-section address-section" ><div class="wrapper" ><div class="title centered" > الأحكام والشروط</div><p > يتم تقديم مكافأة الائتمان بنسبة 100% بواسطة BelleoFX (المشار إليها هنا باسم &quot;الشركة&quot;) لعملائها (المشار إليها هنا باسم العملاء). هذا العرض متاح للعملاء الذين يفتحون حساب مكافأة حقيقي مع Belleo Markets (سانت فنسنت وجزر غرينادين)، بموجب الشروط التالية.</p><ol class="terms-list credit" ><li class="ttl" > مقدمة<ol ><li > إن مكافأة الائتمان بنسبة 100% (المشار إليها فيما بعد باسم &quot;برنامج المكافآت&quot;) متاحة لجميع عملاء الشركة الذين استوفوا معايير برنامج المكافآت هذا.</li><li > بموجب هذا يقر العميل ويؤكد ويوافق على الالتزام قانونًا بالشروط والأحكام كما هو منصوص عليه في نظام المكافآت هذا و/أو أي اتفاقية أخرى ملزمة قانونًا بينه وبين الشركة.</li><li > يمكن للعملاء زيادة الرافعة المالية الخاصة بهم من خلال الحصول على رصيد إضافي بنسبة 100% على كل إيداع مؤهل يقومون به في حساب معتمد.</li></ol></li><li class="ttl" > الأحكام والشروط<ol ><li > يمكن تطبيق نظام المكافأة على حساب المكافأة فقط.</li><li > سوف تسود الرافعة المالية للحساب الأساسي.</li><li > سيتم تطبيق نظام المكافآت تلقائيًا على الحد الأدنى للإيداع الأولي للعميل وهو 500 دولار أمريكي أو أكثر والإيداعات اللاحقة بقيمة 500 دولار أمريكي أو أكثر في حساب التداول الحقيقي الذي تم تطبيق نظام المكافآت عليه.<br> على سبيل المثال: إذا قام العميل بإيداع مبلغ 1000 دولار أمريكي في حساب حقيقي معتمد تم تطبيق نظام المكافآت عليه، فسيتم إضافة رصيد مكافأة بنسبة 100% بقيمة 1000 دولار أمريكي إلى الحساب، مما يضاعف رصيد العميل بشكل فعال.</li><li > يمكن تطبيق نظام المكافآت على التحويلات الداخلية إلى حساب التداول الحقيقي الذي تم تطبيق نظام المكافآت عليه.</li><li > يمكن تطبيق نظام المكافآت على حساب واحد (1) لكل عميل ولكل عنوان IP فقط. إذا قام العميل بالفعل بتطبيق نظام المكافآت على حساب حقيقي، فلا يجوز فتح أي حساب آخر تحت أي ظرف من الظروف باستخدام نظام المكافآت هذا.</li><li > الحد الأقصى لمبلغ الائتمان التراكمي لبرنامج المكافآت الذي يمكن أن يحصل عليه العميل هو 25000 دولار أمريكي.</li><li > يمكن استخدام رصيد برنامج المكافآت لزيادة الرافعة المالية للعميل ولكن لا يمكن خسارته.</li><li > في حالة قيام العميل بإيداع أكثر من 25,000 دولار أمريكي، فإنه سيكون قادرًا على الاحتفاظ بمكافأة ائتمانية بقيمة 25,000 دولار أمريكي.</li><li > برنامج المكافأة مخصص لأغراض التداول ويمكن سحبه وفقًا للفقرة 2.14.</li><li > لا يوجد تنبيه لنداء الهامش أثناء تطبيق نظام المكافأة.</li><li > لا يمكن للعملاء التبديل بين برامج المكافآت التي تقدمها الشركة. إذا لم تعد ترغب في استخدام حساب تداول به مكافأة، يرجى إرسال بريد إلكتروني إلى support@belleofx.com لطلب أرشفة حساب المكافأة.</li><li > سيتم إيداع مكافأة الائتمان بنسبة 100% في حساب التداول الخاص بالعميل خلال 24 ساعة منذ الموافقة على الإيداع الفعلي وإضافته إلى حساب التداول.</li><li > يُسمح بالمستشارين الخبراء (EAs)، ولكن يجب عليهم الالتزام بسياسات الشركة.</li><li > المكافأة قابلة للسحب إذا:<ul ><li > في غضون شهرين من تاريخ إضافة المكافأة، أكمل العميل 20% من مبلغ المكافأة في شكل عقود من العملات الأجنبية والسلع.</li><li > أو، خلال شهر واحد من تاريخ إضافة المكافأة، أكمل العميل 10% من مبلغ المكافأة على شكل لوتات من العملات الأجنبية والسلع.</li></ul> <b>مثال:</b><br> حصل العميل على مكافأة قدرها 1000 دولار. في غضون شهر واحد، يجب عليه إكمال 10% من مبلغ المكافأة باللوت، وهو 100 لوت. أو خلال الشهرين يجب عليه إكمال مبلغ 20% بالعقود، وهو 200 عقد.</li><li > مستوى التوقف هو 30%. نداء الهامش عند 50% من مستوى الهامش.</li></ol></li><li class="ttl" > شروط التشغيل<ol ><li > سيؤدي أي سحب يتم إجراؤه من حساب العميل إلى تخفيض برنامج المكافآت على أساس 1:1. وينطبق هذا على سحب الأرباح والودائع التي قام بها العميل.<br> على سبيل المثال: إذا قام العميل بإيداع مبلغ 200 دولار أمريكي في حساب برنامج المكافآت المعتمد الخاص به، فسوف يحصل على رصيد إضافي بنسبة 100% بقيمة 200 دولار أمريكي. إذا قام العميل بعد ذلك بسحب 100 دولار أمريكي، فسيتم إزالة نفس المبلغ من المكافأة التي حصل عليها العميل.</li><li > لن تكون الشركة مسؤولة عن أي خسائر قد يتكبدها العميل نتيجة لإزالة كل أو جزء من نظام المكافآت الذي يتلقاه العميل بسبب الانسحاب.</li><li > يتم احتساب أي مبلغ يتم استلامه و/أو إزالته في برنامج المكافآت ضمن الحد الأقصى لمبلغ نظام المكافآت التراكمي.</li><li > لا يمكن تطبيق نظام المكافآت إلا على الحساب الذي تمت الموافقة على نظام المكافآت له ولا يمكن تحويل المبالغ المستلمة بين حسابات التداول الخاصة بالعميل.</li></ol></li><li class="ttl" > إنهاء نظام المكافآت<ol ><li > تحتفظ الشركة بالحق، وفقًا لتقديرها المطلق، في تعديل أو إنهاء برنامج المكافآت هذا أو أي من الشروط والأحكام الواردة فيه من جانب واحد، في أي وقت، دون موافقة العميل.</li><li > تحتفظ الشركة بالحق في رفض تقديم برنامج المكافآت هذا وفقًا لتقديرها الخاص دون الحاجة إلى تقديم مبرر. لن تكون الشركة مسؤولة عن أي توقفات أو أي عواقب أخرى تنتج عن إلغاء و/أو إزالة المكافأة.</li><li > إذا اشتبهت الشركة أو كان لديها سبب للاعتقاد بأن العميل قد أساء استخدام و/أو تلاعب بشروط وأحكام برنامج المكافآت هذا عن طريق التحوط لمراكزه داخليًا (باستخدام حسابات تداول أخرى مملوكة للشركة) أو خارجيًا (باستخدام حسابات تداول أخرى مملوكة لدى شركات أخرى). الوسطاء) و/أو لم يتصرفوا بحسن نية، تحتفظ الشركة بالحق، وفقًا لتقديرها المطلق ودون الحصول على موافقة العميل، في إزالة نظام المكافآت من حساب (حسابات) التداول الخاص بالعميل أو من حساباته المغطاة الفائزة مع إمكانية الحصول على مكافآت فورية. تأثير.</li><li > إذا اشتبهت الشركة أو كان لديها سبب للاعتقاد بأن العميل لديه أكثر من حساب واحد بموجب برنامج المكافآت هذا، فإن الشركة تحتفظ بالحق، وفقًا لتقديرها المطلق ودون الحصول على موافقة العميل، في إزالة نظام المكافأة من حساب (حسابات) التداول الخاص بالعميل. ) بتاثير فوري. لا تتحمل الشركة أي مسؤولية مهما كانت عن أي خسارة ناتجة عن إيقاف المراكز المفتوحة بعد إزالة أي مكافأة وفقًا لهذه الشروط والأحكام.</li></ol></li><li class="ttl" > النزاعات<ol ><li > سيتم حل أي نزاع أو موقف لا تغطيه هذه الشروط من قبل إدارة الشركة بطريقة عادلة.</li></ol></li><li class="ttl" > تصريحات<ol ><li > يقر العميل بأن الفوركس وعقود الفروقات هي منتجات ذات رافعة مالية وتنطوي على مستوى عالٍ من المخاطر. عند التداول في مثل هذه المنتجات، من الممكن أن يخسر العملاء كل رؤوس أموالهم المستثمرة. قد لا تكون هذه المنتجات مناسبة للجميع ويجب على العملاء التأكد من فهمهم للمخاطر التي تنطوي عليها. يجب على العملاء طلب المشورة المستقلة إذا لزم الأمر.</li><li > تم إعداد هذه الشروط والأحكام باللغة الإنجليزية. يتم توفير أي ترجمة لغة أخرى كوسيلة للراحة فقط. في حالة وجود أي تعارض أو تناقض بين النصوص الإنجليزية الأصلية وترجمتها إلى أي لغة أخرى، حسب الحالة، تسود النسخ الأصلية من اللغة الإنجليزية.</li></ol></li></ol></div></div></div> 	</div>
+			<div class="page-contacts page-bonus mt100" ><div class="intro" style="background-image:url(/images/contacts/bg-contacts.jpg);text-align:right;direction:rtl"><div class="wrapper" ><h1 class="title mb0" > مكافأة ائتمانية بنسبة 100% </h1></div></div><div class="terms-section address-section" ><div class="wrapper" ><div class="title centered" > الأحكام والشروط</div><p > يتم تقديم مكافأة الائتمان بنسبة 100% بواسطة ZerahFX (المشار إليها هنا باسم &quot;الشركة&quot;) لعملائها (المشار إليها هنا باسم العملاء). هذا العرض متاح للعملاء الذين يفتحون حساب مكافأة حقيقي مع Zerah Markets (سانت فنسنت وجزر غرينادين)، بموجب الشروط التالية.</p><ol class="terms-list credit" ><li class="ttl" > مقدمة<ol ><li > إن مكافأة الائتمان بنسبة 100% (المشار إليها فيما بعد باسم &quot;برنامج المكافآت&quot;) متاحة لجميع عملاء الشركة الذين استوفوا معايير برنامج المكافآت هذا.</li><li > بموجب هذا يقر العميل ويؤكد ويوافق على الالتزام قانونًا بالشروط والأحكام كما هو منصوص عليه في نظام المكافآت هذا و/أو أي اتفاقية أخرى ملزمة قانونًا بينه وبين الشركة.</li><li > يمكن للعملاء زيادة الرافعة المالية الخاصة بهم من خلال الحصول على رصيد إضافي بنسبة 100% على كل إيداع مؤهل يقومون به في حساب معتمد.</li></ol></li><li class="ttl" > الأحكام والشروط<ol ><li > يمكن تطبيق نظام المكافأة على حساب المكافأة فقط.</li><li > سوف تسود الرافعة المالية للحساب الأساسي.</li><li > سيتم تطبيق نظام المكافآت تلقائيًا على الحد الأدنى للإيداع الأولي للعميل وهو 500 دولار أمريكي أو أكثر والإيداعات اللاحقة بقيمة 500 دولار أمريكي أو أكثر في حساب التداول الحقيقي الذي تم تطبيق نظام المكافآت عليه.<br> على سبيل المثال: إذا قام العميل بإيداع مبلغ 1000 دولار أمريكي في حساب حقيقي معتمد تم تطبيق نظام المكافآت عليه، فسيتم إضافة رصيد مكافأة بنسبة 100% بقيمة 1000 دولار أمريكي إلى الحساب، مما يضاعف رصيد العميل بشكل فعال.</li><li > يمكن تطبيق نظام المكافآت على التحويلات الداخلية إلى حساب التداول الحقيقي الذي تم تطبيق نظام المكافآت عليه.</li><li > يمكن تطبيق نظام المكافآت على حساب واحد (1) لكل عميل ولكل عنوان IP فقط. إذا قام العميل بالفعل بتطبيق نظام المكافآت على حساب حقيقي، فلا يجوز فتح أي حساب آخر تحت أي ظرف من الظروف باستخدام نظام المكافآت هذا.</li><li > الحد الأقصى لمبلغ الائتمان التراكمي لبرنامج المكافآت الذي يمكن أن يحصل عليه العميل هو 25000 دولار أمريكي.</li><li > يمكن استخدام رصيد برنامج المكافآت لزيادة الرافعة المالية للعميل ولكن لا يمكن خسارته.</li><li > في حالة قيام العميل بإيداع أكثر من 25,000 دولار أمريكي، فإنه سيكون قادرًا على الاحتفاظ بمكافأة ائتمانية بقيمة 25,000 دولار أمريكي.</li><li > برنامج المكافأة مخصص لأغراض التداول ويمكن سحبه وفقًا للفقرة 2.14.</li><li > لا يوجد تنبيه لنداء الهامش أثناء تطبيق نظام المكافأة.</li><li > لا يمكن للعملاء التبديل بين برامج المكافآت التي تقدمها الشركة. إذا لم تعد ترغب في استخدام حساب تداول به مكافأة، يرجى إرسال بريد إلكتروني إلى support@tradewithzerah.com لطلب أرشفة حساب المكافأة.</li><li > سيتم إيداع مكافأة الائتمان بنسبة 100% في حساب التداول الخاص بالعميل خلال 24 ساعة منذ الموافقة على الإيداع الفعلي وإضافته إلى حساب التداول.</li><li > يُسمح بالمستشارين الخبراء (EAs)، ولكن يجب عليهم الالتزام بسياسات الشركة.</li><li > المكافأة قابلة للسحب إذا:<ul ><li > في غضون شهرين من تاريخ إضافة المكافأة، أكمل العميل 20% من مبلغ المكافأة في شكل عقود من العملات الأجنبية والسلع.</li><li > أو، خلال شهر واحد من تاريخ إضافة المكافأة، أكمل العميل 10% من مبلغ المكافأة على شكل لوتات من العملات الأجنبية والسلع.</li></ul> <b>مثال:</b><br> حصل العميل على مكافأة قدرها 1000 دولار. في غضون شهر واحد، يجب عليه إكمال 10% من مبلغ المكافأة باللوت، وهو 100 لوت. أو خلال الشهرين يجب عليه إكمال مبلغ 20% بالعقود، وهو 200 عقد.</li><li > مستوى التوقف هو 30%. نداء الهامش عند 50% من مستوى الهامش.</li></ol></li><li class="ttl" > شروط التشغيل<ol ><li > سيؤدي أي سحب يتم إجراؤه من حساب العميل إلى تخفيض برنامج المكافآت على أساس 1:1. وينطبق هذا على سحب الأرباح والودائع التي قام بها العميل.<br> على سبيل المثال: إذا قام العميل بإيداع مبلغ 200 دولار أمريكي في حساب برنامج المكافآت المعتمد الخاص به، فسوف يحصل على رصيد إضافي بنسبة 100% بقيمة 200 دولار أمريكي. إذا قام العميل بعد ذلك بسحب 100 دولار أمريكي، فسيتم إزالة نفس المبلغ من المكافأة التي حصل عليها العميل.</li><li > لن تكون الشركة مسؤولة عن أي خسائر قد يتكبدها العميل نتيجة لإزالة كل أو جزء من نظام المكافآت الذي يتلقاه العميل بسبب الانسحاب.</li><li > يتم احتساب أي مبلغ يتم استلامه و/أو إزالته في برنامج المكافآت ضمن الحد الأقصى لمبلغ نظام المكافآت التراكمي.</li><li > لا يمكن تطبيق نظام المكافآت إلا على الحساب الذي تمت الموافقة على نظام المكافآت له ولا يمكن تحويل المبالغ المستلمة بين حسابات التداول الخاصة بالعميل.</li></ol></li><li class="ttl" > إنهاء نظام المكافآت<ol ><li > تحتفظ الشركة بالحق، وفقًا لتقديرها المطلق، في تعديل أو إنهاء برنامج المكافآت هذا أو أي من الشروط والأحكام الواردة فيه من جانب واحد، في أي وقت، دون موافقة العميل.</li><li > تحتفظ الشركة بالحق في رفض تقديم برنامج المكافآت هذا وفقًا لتقديرها الخاص دون الحاجة إلى تقديم مبرر. لن تكون الشركة مسؤولة عن أي توقفات أو أي عواقب أخرى تنتج عن إلغاء و/أو إزالة المكافأة.</li><li > إذا اشتبهت الشركة أو كان لديها سبب للاعتقاد بأن العميل قد أساء استخدام و/أو تلاعب بشروط وأحكام برنامج المكافآت هذا عن طريق التحوط لمراكزه داخليًا (باستخدام حسابات تداول أخرى مملوكة للشركة) أو خارجيًا (باستخدام حسابات تداول أخرى مملوكة لدى شركات أخرى). الوسطاء) و/أو لم يتصرفوا بحسن نية، تحتفظ الشركة بالحق، وفقًا لتقديرها المطلق ودون الحصول على موافقة العميل، في إزالة نظام المكافآت من حساب (حسابات) التداول الخاص بالعميل أو من حساباته المغطاة الفائزة مع إمكانية الحصول على مكافآت فورية. تأثير.</li><li > إذا اشتبهت الشركة أو كان لديها سبب للاعتقاد بأن العميل لديه أكثر من حساب واحد بموجب برنامج المكافآت هذا، فإن الشركة تحتفظ بالحق، وفقًا لتقديرها المطلق ودون الحصول على موافقة العميل، في إزالة نظام المكافأة من حساب (حسابات) التداول الخاص بالعميل. ) بتاثير فوري. لا تتحمل الشركة أي مسؤولية مهما كانت عن أي خسارة ناتجة عن إيقاف المراكز المفتوحة بعد إزالة أي مكافأة وفقًا لهذه الشروط والأحكام.</li></ol></li><li class="ttl" > النزاعات<ol ><li > سيتم حل أي نزاع أو موقف لا تغطيه هذه الشروط من قبل إدارة الشركة بطريقة عادلة.</li></ol></li><li class="ttl" > تصريحات<ol ><li > يقر العميل بأن الفوركس وعقود الفروقات هي منتجات ذات رافعة مالية وتنطوي على مستوى عالٍ من المخاطر. عند التداول في مثل هذه المنتجات، من الممكن أن يخسر العملاء كل رؤوس أموالهم المستثمرة. قد لا تكون هذه المنتجات مناسبة للجميع ويجب على العملاء التأكد من فهمهم للمخاطر التي تنطوي عليها. يجب على العملاء طلب المشورة المستقلة إذا لزم الأمر.</li><li > تم إعداد هذه الشروط والأحكام باللغة الإنجليزية. يتم توفير أي ترجمة لغة أخرى كوسيلة للراحة فقط. في حالة وجود أي تعارض أو تناقض بين النصوص الإنجليزية الأصلية وترجمتها إلى أي لغة أخرى، حسب الحالة، تسود النسخ الأصلية من اللغة الإنجليزية.</li></ol></li></ol></div></div></div> 	</div>
 
 </main>
 
 <section class="section above-footer">
   <div class="wrapper">
     <a href="/" class="logo-link">
-      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <img src="/../images/icon/logo-white.svg" alt="logo: BelleoFx icon" class="logo">
+      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <img src="/../images/icon/logo-white.png" alt="logo: ZerahFX icon" class="logo">
     </a>
     <div class="above-footer__container">
       <div class="item-contacts">
@@ -354,11 +311,11 @@ jQuery(window).on('load',  function() {
             </svg> 
             <span class="dir-ltr">+971 4 541 7900</span>
           </a>
-          <a href="email:support@belleofx.com" class="email-link">
+          <a href="email:support@tradewithzerah.com" class="email-link">
             <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.625 11.5L10.6429 7M6.35714 7L1.37503 11.5M1 3.25L7.12369 7.53658C7.61957 7.8837 7.86751 8.05726 8.1372 8.12448C8.37542 8.18386 8.62458 8.18386 8.8628 8.12448C9.13249 8.05726 9.38043 7.8837 9.87631 7.53658L16 3.25M4.6 13H12.4C13.6601 13 14.2902 13 14.7715 12.7548C15.1948 12.539 15.539 12.1948 15.7548 11.7715C16 11.2902 16 10.6601 16 9.4V4.6C16 3.33988 16 2.70982 15.7548 2.22852C15.539 1.80516 15.1948 1.46095 14.7715 1.24524C14.2902 1 13.6601 1 12.4 1H4.6C3.33988 1 2.70982 1 2.22852 1.24524C1.80516 1.46095 1.46095 1.80516 1.24524 2.22852C1 2.70982 1 3.33988 1 4.6V9.4C1 10.6601 1 11.2902 1.24524 11.7715C1.46095 12.1948 1.80516 12.539 2.22852 12.7548C2.70982 13 3.33988 13 4.6 13Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            support@belleofx.com
+            support@tradewithzerah.com
           </a>
           <p class="address">
             <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -374,34 +331,34 @@ jQuery(window).on('load',  function() {
 
 <div class="custom"  >
 	<div class="socials">
-  <a href="https://www.facebook.com/belleofx/" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#facebook"></use>
     </svg>
   </a>
-  <!--<a href="https://www.quora.com/profile/BelleoFX-1?q=belleo58" target="_blank" class="socials__link">
+  <!--<a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#quora"></use>
     </svg>
   </a>-->
-  <a href="https://www.instagram.com/belleo_fx/?hl=en" target="_blank" class="socials__link">
+  <a href="https://instagram.com/zerah_fx?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#instagram"></use>
     </svg>
   </a>
-  <a href="https://www.linkedin.com/company/belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#linkedin"></use>
     </svg>
   </a>
   
-  <a href="https://twitter.com/Belleofx1" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
         <svg class="icon">
       <use xlink:href="/images/sprite.svg#twitter"></use>
     </svg>
   </a>
   
-  <a href="https://www.youtube.com/@belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#youtube"></use>
     </svg>
@@ -419,11 +376,11 @@ jQuery(window).on('load',  function() {
       </div>
       <div class="item-description">
                 <p class="text">
-            BelleoFX هو اسم تجاري لشركة Belleo Markets (موريشيوس)، وBelleoFX (سانت فنسنت وجزر غرينادين) وBelleo Markets - Rep.Office (الإمارات العربية المتحدة).<br><br>
-                                       تأسست شركة Belleo Markets (MU) في جمهورية موريشيوس برقم التسجيل 186405 GBC. تخضع الشركة للتنظيم من قبل لجنة الخدمات المالية (FSC) في موريشيوس باعتبارها تاجر استثمار (وسيط)، برقم ترخيص GB21027167.<br><br>
-                                       تم تسجيل BelleoFX (SVG) من قبل هيئة الخدمات المالية (FSA) في سانت فنسنت وجزر غرينادين كشركة أعمال دولية برقم تسجيل 2584 LLC 2022.<br><br>
-                                       Belleo Markets - المكتب التمثيلي (الإمارات العربية المتحدة) هو فرع لشركة أجنبية (Belleo Markets Mauritius)، مسجلة ومنظمة من قبل DET برقم ترخيص 1074850.<br><br>
-                                       لا تعمل BelleoFX مع العملاء من الدول الخاضعة لعقوبات OFAC والدول المدرجة في القائمة السوداء لمجموعة العمل المالي.        </p>
+            ZerahFX هو اسم تجاري لشركة Zerah Markets (موريشيوس)، وBelleoFX (سانت فنسنت وجزر غرينادين) وBelleo Markets - Rep.Office (الإمارات العربية المتحدة).<br><br>
+                                       تأسست شركة Zerah Markets (MU) في جمهورية موريشيوس برقم التسجيل 186405 GBC. تخضع الشركة للتنظيم من قبل لجنة الخدمات المالية (FSC) في موريشيوس باعتبارها تاجر استثمار (وسيط)، برقم ترخيص GB21027167.<br><br>
+                                       تم تسجيل ZerahFX (SVG) من قبل هيئة الخدمات المالية (FSA) في سانت فنسنت وجزر غرينادين كشركة أعمال دولية برقم تسجيل 2584 LLC 2022.<br><br>
+                                       Zerah Markets - المكتب التمثيلي (الإمارات العربية المتحدة) هو فرع لشركة أجنبية (Zerah Markets Mauritius)، مسجلة ومنظمة من قبل DET برقم ترخيص 1074850.<br><br>
+                                       لا تعمل ZerahFX مع العملاء من الدول الخاضعة لعقوبات OFAC والدول المدرجة في القائمة السوداء لمجموعة العمل المالي.        </p>
       </div>
     </div>
   </div>
@@ -464,7 +421,7 @@ jQuery(window).on('load',  function() {
               </ul>
             </nav>
             <strong class="copyright">
-                © 2020-2023                BelleoFX | جميع الحقوق محفوظة            </strong>
+                © 2020-2023                ZerahFX | جميع الحقوق محفوظة            </strong>
         </div>
     </div>
 </footer>
@@ -542,7 +499,7 @@ jQuery(window).on('load',  function() {
         }, 8000);
     </script> -->
     <!--End of Tawk.to Script (0.7.1)-->
-    <!-- Start of belleofx Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of belleofx Zendesk Widget script -->
+    <!-- Start of ZerahFX Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of ZerahFX Zendesk Widget script -->
 
     <div class="sliding-enquiry"><div class="enquiry-wrap">
         </div>
@@ -554,7 +511,7 @@ jQuery(window).on('load',  function() {
                     <hr/>
                     <div id="enquiryform" style="">
                         <form action="" id="sliding-form" name="sliding-form" method="post" style="margin: 0 0 0em;">
-                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@belleofx.com"/>
+                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@tradewithzerah.com"/>
                             <ul>
                                 <li>
                                     <input type="text" name="name"  id="name" placeholder="الاسم" class="textbox_popup" value="">

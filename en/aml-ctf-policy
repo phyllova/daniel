@@ -15,7 +15,7 @@
 
     <link rel="preload" href="/templates/custom/fonts/Effra-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/templates/custom/fonts/Effra-Bold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="alternate" href="https://belleofx.com" hreflang="en-ae" />
+    <link rel="alternate" href="https://tradewithzerah.com" hreflang="en-ae" />
     <meta charset="utf-8" />
 	<base href="/aml-ctf-policy" />
 	<title>AML &amp; CTF Policy</title>
@@ -37,57 +37,14 @@
 	<script src="/media/jui/js/jquery-migrate.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/jui/js/bootstrap.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/system/js/caption.js?21b43949eb00c2dc28868a748e2b361a"></script>
-	<script>
-jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
-jQuery(window).on('load',  function() {
-				new JCaption('img.caption');
-			});
-	</script>
+	
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WXNKPTL3B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-5WXNKPTL3B');
-    </script>
-    <!-- End Google tag (gtag.js) -->
-    <!-- Google Tag Manager -->
-    <script>
 
-        setTimeout(() => {
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-KNGN98Q');
-        }, 8000);
-        var phone = countryCode['']
-        var country = ''
-        var phonePrefix = '123';
-        document.addEventListener('DOMContentLoaded', function() {
-            country = countryCode.find(el => el.name === "Nigeria");
-            console.log(countryCode);
-            document.getElementById("uForm__tel_1").placeholder = country.dial_code;
-        }, false);
-        document.getElementById("uForm__tel_1").onclick = (e) =>{
-            let tel = jQuery("#uForm__tel_1");
-            console.log(tel.val());
-            if(tel.val() !== '+__ ___-___-____') return
-            tel.val( country.dial_code.slice(1) ).trigger('input');
-
-        }
-
-    </script>
-    <!-- End Google Tag Manager -->
+    
 </head>
 
 <body class="">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNGN98Q"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <!-- <div class="preloader-dots">
     <div></div>
     <div></div>
@@ -174,7 +131,7 @@ jQuery(window).on('load',  function() {
                         <div class="mobile-menu__top">
 
                             <a href="/en/" class="logo-link">
-                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: BelleoFx icon" class="logo">
+                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: ZerahFX icon" class="logo">
                             </a>
                             <button class="btn-reset btn-menu-close">
                                 <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -184,7 +141,7 @@ jQuery(window).on('load',  function() {
                         </div>
                         <nav class="nav">
                             <ul class="nav menu mod-list">
-<li class="item-148 deeper parent"><a href="/" >Company</a><ul class="nav-child unstyled small"><li class="item-149"><a href="/company/about" >About BelleoFX</a></li><li class="item-137"><a href="/company/account-types" >Account Types</a></li><li class="item-150"><a href="/company/careers" >Careers</a></li><li class="item-152"><a href="/company/faq" >FAQs</a></li><li class="item-151"><a href="/company/contact-us" >Contact Us</a></li></ul></li><li class="item-123 deeper parent"><a href="/" >Markets</a><ul class="nav-child unstyled small"><li class="item-124"><a href="/markets/online-forex-trading-platform" >Forex</a></li><li class="item-162"><a href="/markets/stocks" >Stocks</a></li><li class="item-126"><a href="/markets/indices-trading-system" >Indices</a></li><li class="item-164"><a href="/markets/commodities" >Commodities</a></li></ul></li><li class="item-182 deeper parent"><a href="/trading/trading-platform" >Trading</a><ul class="nav-child unstyled small"><li class="item-129"><a href="/trading/trading-platform" >Trading Platform</a></li><li class="item-183"><a href="/trading/economic-calendar" >Economic calendar</a></li></ul></li><li class="item-135"><a href="/funding" >Funding</a></li><li class="item-142 deeper parent"><a href="/" >Partnership</a><ul class="nav-child unstyled small"><li class="item-143"><a href="/partnership/white-label" >White-label</a></li><li class="item-144"><a href="/partnership/introducing-broker-ib" >Introducing Broker (IB)</a></li></ul></li><li class="item-172 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-175"><a href="/promotions/100-credit-bonus" >100% Credit Bonus</a></li></ul></li></ul>
+<li class="item-148 deeper parent"><a href="/" >Company</a><ul class="nav-child unstyled small"><li class="item-149"><a href="/company/about" >About ZerahFX</a></li><li class="item-137"><a href="/company/account-types" >Account Types</a></li><li class="item-150"><a href="/company/careers" >Careers</a></li><li class="item-152"><a href="/company/faq" >FAQs</a></li><li class="item-151"><a href="/company/contact-us" >Contact Us</a></li></ul></li><li class="item-123 deeper parent"><a href="/" >Markets</a><ul class="nav-child unstyled small"><li class="item-124"><a href="/markets/online-forex-trading-platform" >Forex</a></li><li class="item-162"><a href="/markets/stocks" >Stocks</a></li><li class="item-126"><a href="/markets/indices-trading-system" >Indices</a></li><li class="item-164"><a href="/markets/commodities" >Commodities</a></li></ul></li><li class="item-182 deeper parent"><a href="/trading/trading-platform" >Trading</a><ul class="nav-child unstyled small"><li class="item-129"><a href="/trading/trading-platform" >Trading Platform</a></li><li class="item-183"><a href="/trading/economic-calendar" >Economic calendar</a></li></ul></li><li class="item-135"><a href="/funding" >Funding</a></li><li class="item-142 deeper parent"><a href="/" >Partnership</a><ul class="nav-child unstyled small"><li class="item-143"><a href="/partnership/white-label" >White-label</a></li><li class="item-144"><a href="/partnership/introducing-broker-ib" >Introducing Broker (IB)</a></li></ul></li><li class="item-172 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-175"><a href="/promotions/100-credit-bonus" >100% Credit Bonus</a></li></ul></li></ul>
 
                             <div class="lang_block ">
     <div>
@@ -244,7 +201,7 @@ jQuery(window).on('load',  function() {
 
                         </nav>
                         <div class="header__right">
-                            <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main btn-main--white">
+                            <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main btn-main--white">
                                 Join Now                            </a>
                             <a href="/en/demo" class="btn-reset btn-main btn-main--black">
                                 Try Demo Account                            </a>
@@ -254,18 +211,18 @@ jQuery(window).on('load',  function() {
             </div>
             <a href="/en/" class="logo-link">
                                                
-                <img src="/templates/custom/images/icon/logo.svg" alt="logo: BelleoFx icon" class="logo">
-                <img src="/templates/custom/images/icon/logo-icon.svg" alt="logo: BelleoFx icon" class="logo logo--mob">
+                <img src="/templates/custom/images/icon/logo.png" alt="logo: ZerahFX icon" class="logo">
+                <img src="/templates/custom/images/icon/logo-icon.png" alt="logo: ZerahFX icon" class="logo logo--mob">
             </a>
             <nav class="nav">
                 <ul class="nav menu mod-list">
-<li class="item-148 deeper parent"><a href="/" >Company</a><ul class="nav-child unstyled small"><li class="item-149"><a href="/company/about" >About BelleoFX</a></li><li class="item-137"><a href="/company/account-types" >Account Types</a></li><li class="item-150"><a href="/company/careers" >Careers</a></li><li class="item-152"><a href="/company/faq" >FAQs</a></li><li class="item-151"><a href="/company/contact-us" >Contact Us</a></li></ul></li><li class="item-123 deeper parent"><a href="/" >Markets</a><ul class="nav-child unstyled small"><li class="item-124"><a href="/markets/online-forex-trading-platform" >Forex</a></li><li class="item-162"><a href="/markets/stocks" >Stocks</a></li><li class="item-126"><a href="/markets/indices-trading-system" >Indices</a></li><li class="item-164"><a href="/markets/commodities" >Commodities</a></li></ul></li><li class="item-182 deeper parent"><a href="/trading/trading-platform" >Trading</a><ul class="nav-child unstyled small"><li class="item-129"><a href="/trading/trading-platform" >Trading Platform</a></li><li class="item-183"><a href="/trading/economic-calendar" >Economic calendar</a></li></ul></li><li class="item-135"><a href="/funding" >Funding</a></li><li class="item-142 deeper parent"><a href="/" >Partnership</a><ul class="nav-child unstyled small"><li class="item-143"><a href="/partnership/white-label" >White-label</a></li><li class="item-144"><a href="/partnership/introducing-broker-ib" >Introducing Broker (IB)</a></li></ul></li><li class="item-172 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-175"><a href="/promotions/100-credit-bonus" >100% Credit Bonus</a></li></ul></li></ul>
+<li class="item-148 deeper parent"><a href="/" >Company</a><ul class="nav-child unstyled small"><li class="item-149"><a href="/company/about" >About ZerahFX</a></li><li class="item-137"><a href="/company/account-types" >Account Types</a></li><li class="item-150"><a href="/company/careers" >Careers</a></li><li class="item-152"><a href="/company/faq" >FAQs</a></li><li class="item-151"><a href="/company/contact-us" >Contact Us</a></li></ul></li><li class="item-123 deeper parent"><a href="/" >Markets</a><ul class="nav-child unstyled small"><li class="item-124"><a href="/markets/online-forex-trading-platform" >Forex</a></li><li class="item-162"><a href="/markets/stocks" >Stocks</a></li><li class="item-126"><a href="/markets/indices-trading-system" >Indices</a></li><li class="item-164"><a href="/markets/commodities" >Commodities</a></li></ul></li><li class="item-182 deeper parent"><a href="/trading/trading-platform" >Trading</a><ul class="nav-child unstyled small"><li class="item-129"><a href="/trading/trading-platform" >Trading Platform</a></li><li class="item-183"><a href="/trading/economic-calendar" >Economic calendar</a></li></ul></li><li class="item-135"><a href="/funding" >Funding</a></li><li class="item-142 deeper parent"><a href="/" >Partnership</a><ul class="nav-child unstyled small"><li class="item-143"><a href="/partnership/white-label" >White-label</a></li><li class="item-144"><a href="/partnership/introducing-broker-ib" >Introducing Broker (IB)</a></li></ul></li><li class="item-172 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-175"><a href="/promotions/100-credit-bonus" >100% Credit Bonus</a></li></ul></li></ul>
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.belleofx.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
                     Login                </a>
-                <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
                     Register                </a>
                                 <div class="lang_block ">
     <div>
@@ -340,35 +297,35 @@ jQuery(window).on('load',  function() {
         <div class="wrapper">
           <div class="title grad">1. Purpose</div>
           <p>
-            The purpose of this AML & CTF Policy is to ensure that BelleoFX and its staff are able to
+            The purpose of this AML & CTF Policy is to ensure that ZerahFX and its staff are able to
             comply with all legal and regulatory requirements relevant to the prevention of
             money laundering and financial crime.<br><br>
             The Policy aims to encourage staff to think about potential financial crime risks as
             they carry out their duties and to be fully aware of the firm’s internal procedures to
-            deter the potential use of BelleoFX for financial crime.<br><br>
+            deter the potential use of ZerahFX for financial crime.<br><br>
             Being used in connection with financial crime involves firms in reputational, legal and
-            regulatory risks. This Policy supports BelleoFX’s Code of Conduct which places
+            regulatory risks. This Policy supports ZerahFX’s Code of Conduct which places
             emphasis on both the reputation of the firm and the importance of compliance with
             all applicable laws, rules and regulations in each jurisdiction in which it does
             business.<br><br>
-            This Policy is approved and endorsed by the Board of BelleoFX. It will be reviewed at
+            This Policy is approved and endorsed by the Board of ZerahFX. It will be reviewed at
             least annually, in line with the Annual Risk Assessment and Group requirements, to
             ensure that it continues to drive effective financial crime risk management.<br><br>
             This policy should be read in conjunction with:<br><br>
-            <b>A.</b> The BelleoFX KYC and Due Diligence procedures<br>
-            <b>B.</b> The BelleoFX on-boarding and Customer Risk Assessment procedures (including
+            <b>A.</b> The ZerahFX KYC and Due Diligence procedures<br>
+            <b>B.</b> The ZerahFX on-boarding and Customer Risk Assessment procedures (including
             PEPs and Sanctions)<br>
-            <b>C.</b> The BelleoFX Compliance Monitoring procedures
+            <b>C.</b> The ZerahFX Compliance Monitoring procedures
           </p>
           <div class="title grad">2. Anti-Money Laundering (AML) – the requirements</div>
           <p>Globally, there has been a long-standing obligation to have effective procedures in
-            place to detect and prevent money laundering. Specifically, BelleoFX is registered
-            Belleo Markets (MU) incorporated in the Republic of Mauritius with registration
+            place to detect and prevent money laundering. Specifically, ZerahFX is registered
+            Zerah Markets (MU) incorporated in the Republic of Mauritius with registration
             number 186405 GBC. Company is regulated by the Financial Services Commission
             (FSC) of Mauritius as an Investment Dealer (Broker), with a license number
-            GB21027167. BelleoFX (SVG) is registered by Financial Services Authority (FSA) of St.
+            GB21027167. ZerahFX (SVG) is registered by Financial Services Authority (FSA) of St.
             Vincent & The Grenadines as an International Business Company with registration
-            number 26000 BC 2020. Firm to adopt suitable AML policies and procedures. BelleoFX
+            number 26000 BC 2020. Firm to adopt suitable AML policies and procedures. ZerahFX
             is committed to following all global standards and applicable legislation and has
             implemented the policies and procedures referred to in the document to ensure we
             are able to detect and prevent money laundering taking place through the Firm.</p>
@@ -401,13 +358,13 @@ jQuery(window).on('load',  function() {
             selling one investment and reinvesting in another; moving the money between
             different institutions or jurisdictions; and setting up vehicles such as companies and
             trusts so as to change the apparent ownership of the assets.<br><br>
-            It is at the layering stage that BelleoFX is most exposed.<br><br>
+            It is at the layering stage that ZerahFX is most exposed.<br><br>
             <b>Integration:</b> is is the point at which the funds have been sufficiently distanced
             from their origin to have achieved the appearance of legitimacy and the money is
             integrated into the economy
           </p>
           <div class="title grad">2.3 Suspicious Activity</div>
-          <p>It is at the layering stage that BelleoFX is most at risk although employees should be
+          <p>It is at the layering stage that ZerahFX is most at risk although employees should be
             vigilant for any suspicious behavior by clients. For example:</p>
             <ul>
               <li>trying to make cash payments into their account</li>
@@ -441,7 +398,7 @@ regard to the customer's identity, type of business or source of assets</li>
           </ul>
           <p>
             Any suspicions must be reported to Momin Shaikh, the Head of Compliance. It is his
-            duty as AML/CTF reporting officer of BelleoFX to investigate all suspicions and decide
+            duty as AML/CTF reporting officer of ZerahFX to investigate all suspicions and decide
             whether to escalate the details to external agencies and regulators where
             applicable.
           </p>
@@ -453,17 +410,17 @@ regard to the customer's identity, type of business or source of assets</li>
             customer and verifying their identity on the basis of documents and/or data from a
             reliable source. All natural persons and legal entities will be identified and verified as
             part of the on-boarding process.<br><br>
-            BelleoFX has adopted a risk based approach and the important factors that have
+            ZerahFX has adopted a risk based approach and the important factors that have
             been considered include the business undertaken along with relevant delivery
             channels, the customer base and the geographic location of clients.<br><br>
-            In addition to AML issues, BelleoFX must also check clients against PEP and Sanction
+            In addition to AML issues, ZerahFX must also check clients against PEP and Sanction
             databases, this will be carried out by using relevant on-line systems at the
             on-boarding stage. Any hits should be referred to Compliance immediately.
           </p>
           <div class="title grad">2.5 Training</div>
           <p>The firm must ensure that systems and controls include appropriate training for its
             employees in relation to money laundering.<br><br>
-            At BelleoFX all new starters are required to attend an introductory financial crime
+            At ZerahFX all new starters are required to attend an introductory financial crime
             presentation provided by the Compliance department. In addition, regular refresher
             training is provided for existing employees, usually in the form of computer based
             testing. Ad-hoc training will take place whenever the Compliance Department
@@ -521,7 +478,7 @@ such property. It is defined as:
             resource their infrastructure. They often control property and funds from a variety of
             sources and employ modern techniques to manage these funds, and to move them
             between jurisdictions.<br><br>
-            In combating terrorist financing, the obligation on BelleoFX is to report any suspicious
+            In combating terrorist financing, the obligation on ZerahFX is to report any suspicious
             activity to the authorities. This supports the aims of the law enforcement agencies in
             relation to the financing of terrorism by allowing the freezing of property where there
             are reasonable grounds for suspecting that such property could be used to finance
@@ -532,10 +489,10 @@ such property. It is defined as:
           <p><b>Fraud is defined as:</b><br>
             “Any attempt, whether successful or not, to secure an unfair or unlawful gain through
             deliberate misrepresentation of material facts, or deliberate omission of such facts.”<br><br>
-            This wide definition includes fraud committed by clients against BelleoFX, by BelleoFX
+            This wide definition includes fraud committed by clients against ZerahFX, by ZerahFX
             employees against the firm or against clients, or fraud committed by third parties
             against clients or the business.<br><br>
-            BelleoFX provides its financial services via the internet, with no face to face contact
+            ZerahFX provides its financial services via the internet, with no face to face contact
             with clients. Its client base extends across many countries, and this increases the
             complexity of identity fraud and impersonation threats. A large proportion of clients
             reside in high risk jurisdictions* where anti-fraud regulations are not robust.<br><br>
@@ -545,9 +502,9 @@ such property. It is defined as:
           </p>
           <div class="title grad">4.2 Fraud Prevention</div>
           <p>
-            There are various safeguards in place to prevent fraud occurring at BelleoFX. These
+            There are various safeguards in place to prevent fraud occurring at ZerahFX. These
             include:<br><br>
-            <b>Code of Conduct:</b> copy of the Code is included in all new employees BelleoFX
+            <b>Code of Conduct:</b> copy of the Code is included in all new employees ZerahFX
             Induction Packs. Employees are made fully aware that disciplinary action may be
             taken if they fail to act “honestly, fairly and with integrity when dealing with clients,
             customers, counterparties and colleagues.” The Code makes it clear that the
@@ -591,7 +548,7 @@ such property. It is defined as:
           </p>
           <div class="title grad">5.2 Procedures to combat Bribery</div>
           <p>
-            The following procedures are in place at BelleoFX to combat bribery and corruption:<br><br>
+            The following procedures are in place at ZerahFX to combat bribery and corruption:<br><br>
             <b>(1)</b> A Whistleblowing Policy which allows employees to report any concerns
             anonymously<br><br>
             <b>(2)</b> A Gifts and Inducement Policy. At present, all employees should simply follow the
@@ -617,9 +574,9 @@ such property. It is defined as:
             Market abuse relates to “behavior” (action or inaction) by a person acting alone or in
             a concert party, which occurs in relation to qualifying investments traded on, or
             admitted to trade on a prescribed market. There are 7 types of abusive behavior.<br><br>
-            Although BelleoFX only offers OTC investment instruments and not exchange traded
+            Although ZerahFX only offers OTC investment instruments and not exchange traded
             products, the act of market abuse also covers any relevant product of an investment
-            traded in any of the above. As BelleoFX’s prices are derived from the movements in
+            traded in any of the above. As ZerahFX’s prices are derived from the movements in
             the underlying market, CFDs are caught within the market abuse regime.
           </p>
           <div class="title grad">6.2 The 7 Types of Market Abuse</div>
@@ -676,14 +633,14 @@ such property. It is defined as:
           </p>
           <div class="title grad">7.2 The AML/CTF REPORTING OFFICER</div>
           <p>
-            BelleoFX has designated a senior employee as the AML/CTF reporting office<br><br>
+            ZerahFX has designated a senior employee as the AML/CTF reporting office<br><br>
             The AML/CTF reporting officer must<br><br>
           </p>
           <ul>
             <li>Provide the Board with an annual report on the firm’s systems and controls in
               place to prevent money laundering</li>
             <li>Provide the Board with an annual ‘AML Risk Assessment’. This provides an
-              outline of the major AML and financial crime risks posed to BelleoFX and how
+              outline of the major AML and financial crime risks posed to ZerahFX and how
               they are being managed</li>
             <li>Receive internal suspicion reports concerning AML, Terrorist Financing or
               financial crime</li>
@@ -694,27 +651,27 @@ such property. It is defined as:
           </ul>
           <div class="title grad">7.3 On-going monitoring</div>
           <p>
-            With regard to BelleoFX being used in connection with financial crime, the
+            With regard to ZerahFX being used in connection with financial crime, the
             Compliance department undertakes a variety of monitoring programmes to prevent
             this to as great an extent as possible.<br><br>
             This includes taking a weekly sample of client accounts that have been opened and
             a daily check of funds paid into client accounts over qualifying thresholds for
             anything suspicious.<br><br>
             The department also exists to provide advice and guidance to the business. Further
-            details of on-going monitoring are included with the BelleoFX Compliance
+            details of on-going monitoring are included with the ZerahFX Compliance
             monitoring procedures<br><br>
-            BelleoFX does not accept third-party deposits of any kind.<br>
-            BelleoFX matches each deposit to the account name on file for that customer.
-            BelleoFX reserves the right to refuse processing a transaction at any stage where it
+            ZerahFX does not accept third-party deposits of any kind.<br>
+            ZerahFX matches each deposit to the account name on file for that customer.
+            ZerahFX reserves the right to refuse processing a transaction at any stage where it
             believes the transaction to be connected in any way to money laundering or criminal
-            activity. In accordance with international law, BelleoFX is not obligated to inform the
+            activity. In accordance with international law, ZerahFX is not obligated to inform the
             client if suspicious activity is reported to any corresponding regulatory or legal
             Bodies.
           </p>
           <div class="title grad">8 Declaration</div>
           <p>
             You must sign the declaration below, indicating that you have read and agreed to
-            comply with the policies and procedures at BelleoFX to prevent money laundering,
+            comply with the policies and procedures at ZerahFX to prevent money laundering,
             terrorist financing and financial crime. Please return this to Compliance.
           </p>
         </div>
@@ -726,9 +683,9 @@ such property. It is defined as:
 <section class="section above-footer">
   <div class="wrapper">
     <a href="/" class="logo-link">
-      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <img src="/../images/icon/logo-white.svg" alt="logo: BelleoFx icon" class="logo">
+      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <img src="/../images/icon/logo-white.png" alt="logo: ZerahFX icon" class="logo">
     </a>
     <div class="above-footer__container">
       <div class="item-contacts">
@@ -742,11 +699,11 @@ such property. It is defined as:
             </svg> 
             <span class="dir-ltr">+971 4 541 7900</span>
           </a>
-          <a href="email:support@belleofx.com" class="email-link">
+          <a href="email:support@tradewithzerah.com" class="email-link">
             <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.625 11.5L10.6429 7M6.35714 7L1.37503 11.5M1 3.25L7.12369 7.53658C7.61957 7.8837 7.86751 8.05726 8.1372 8.12448C8.37542 8.18386 8.62458 8.18386 8.8628 8.12448C9.13249 8.05726 9.38043 7.8837 9.87631 7.53658L16 3.25M4.6 13H12.4C13.6601 13 14.2902 13 14.7715 12.7548C15.1948 12.539 15.539 12.1948 15.7548 11.7715C16 11.2902 16 10.6601 16 9.4V4.6C16 3.33988 16 2.70982 15.7548 2.22852C15.539 1.80516 15.1948 1.46095 14.7715 1.24524C14.2902 1 13.6601 1 12.4 1H4.6C3.33988 1 2.70982 1 2.22852 1.24524C1.80516 1.46095 1.46095 1.80516 1.24524 2.22852C1 2.70982 1 3.33988 1 4.6V9.4C1 10.6601 1 11.2902 1.24524 11.7715C1.46095 12.1948 1.80516 12.539 2.22852 12.7548C2.70982 13 3.33988 13 4.6 13Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            support@belleofx.com
+            support@tradewithzerah.com
           </a>
           <p class="address">
             <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -762,34 +719,34 @@ such property. It is defined as:
 
 <div class="custom"  >
 	<div class="socials">
-  <a href="https://www.facebook.com/belleofx/" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#facebook"></use>
     </svg>
   </a>
-  <!--<a href="https://www.quora.com/profile/BelleoFX-1?q=belleo58" target="_blank" class="socials__link">
+  <!--<a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#quora"></use>
     </svg>
   </a>-->
-  <a href="https://www.instagram.com/belleo_fx/?hl=en" target="_blank" class="socials__link">
+  <a href="https://instagram.com/zerah_fx?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#instagram"></use>
     </svg>
   </a>
-  <a href="https://www.linkedin.com/company/belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#linkedin"></use>
     </svg>
   </a>
   
-  <a href="https://twitter.com/Belleofx1" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
         <svg class="icon">
       <use xlink:href="/images/sprite.svg#twitter"></use>
     </svg>
   </a>
   
-  <a href="https://www.youtube.com/@belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#youtube"></use>
     </svg>
@@ -801,17 +758,17 @@ such property. It is defined as:
       <div class="item-menu">
         <nav class="nav">
             <ul class="nav menu mod-list">
-<li class="item-148 deeper parent"><a href="/" >Company</a><ul class="nav-child unstyled small"><li class="item-149"><a href="/company/about" >About BelleoFX</a></li><li class="item-137"><a href="/company/account-types" >Account Types</a></li><li class="item-150"><a href="/company/careers" >Careers</a></li><li class="item-152"><a href="/company/faq" >FAQs</a></li><li class="item-151"><a href="/company/contact-us" >Contact Us</a></li></ul></li><li class="item-123 deeper parent"><a href="/" >Markets</a><ul class="nav-child unstyled small"><li class="item-124"><a href="/markets/online-forex-trading-platform" >Forex</a></li><li class="item-162"><a href="/markets/stocks" >Stocks</a></li><li class="item-126"><a href="/markets/indices-trading-system" >Indices</a></li><li class="item-164"><a href="/markets/commodities" >Commodities</a></li></ul></li><li class="item-182 deeper parent"><a href="/trading/trading-platform" >Trading</a><ul class="nav-child unstyled small"><li class="item-129"><a href="/trading/trading-platform" >Trading Platform</a></li><li class="item-183"><a href="/trading/economic-calendar" >Economic calendar</a></li></ul></li><li class="item-135"><a href="/funding" >Funding</a></li><li class="item-142 deeper parent"><a href="/" >Partnership</a><ul class="nav-child unstyled small"><li class="item-143"><a href="/partnership/white-label" >White-label</a></li><li class="item-144"><a href="/partnership/introducing-broker-ib" >Introducing Broker (IB)</a></li></ul></li><li class="item-172 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-175"><a href="/promotions/100-credit-bonus" >100% Credit Bonus</a></li></ul></li></ul>
+<li class="item-148 deeper parent"><a href="/" >Company</a><ul class="nav-child unstyled small"><li class="item-149"><a href="/company/about" >About ZerahFX</a></li><li class="item-137"><a href="/company/account-types" >Account Types</a></li><li class="item-150"><a href="/company/careers" >Careers</a></li><li class="item-152"><a href="/company/faq" >FAQs</a></li><li class="item-151"><a href="/company/contact-us" >Contact Us</a></li></ul></li><li class="item-123 deeper parent"><a href="/" >Markets</a><ul class="nav-child unstyled small"><li class="item-124"><a href="/markets/online-forex-trading-platform" >Forex</a></li><li class="item-162"><a href="/markets/stocks" >Stocks</a></li><li class="item-126"><a href="/markets/indices-trading-system" >Indices</a></li><li class="item-164"><a href="/markets/commodities" >Commodities</a></li></ul></li><li class="item-182 deeper parent"><a href="/trading/trading-platform" >Trading</a><ul class="nav-child unstyled small"><li class="item-129"><a href="/trading/trading-platform" >Trading Platform</a></li><li class="item-183"><a href="/trading/economic-calendar" >Economic calendar</a></li></ul></li><li class="item-135"><a href="/funding" >Funding</a></li><li class="item-142 deeper parent"><a href="/" >Partnership</a><ul class="nav-child unstyled small"><li class="item-143"><a href="/partnership/white-label" >White-label</a></li><li class="item-144"><a href="/partnership/introducing-broker-ib" >Introducing Broker (IB)</a></li></ul></li><li class="item-172 deeper parent"><a href="#" >Promotions</a><ul class="nav-child unstyled small"><li class="item-175"><a href="/promotions/100-credit-bonus" >100% Credit Bonus</a></li></ul></li></ul>
   
         </nav>
       </div>
       <div class="item-description">
                 <p class="text">
-            BelleoFX is a brand name of Belleo Markets (Mauritius), BelleoFX (St. Vincent and The Grenadines) and Belleo Markets - Rep.Office (UAE).<br><br>
-                                       Belleo Markets (MU) incorporated in the Republic of Mauritius with registration number 186405 GBC. Company is regulated by the Financial Services Commission (FSC) of Mauritius as an Investment Dealer (Broker), with a license number GB21027167.<br><br>
-                                       BelleoFX (SVG) is registered by Financial Services Authority (FSA) of St. Vincent & The Grenadines as an International Business Company with registration number 2584 LLC 2022.<br><br>
-                                       Belleo Markets - Rep. Office (UAE) is a branch of foreign company (Belleo Markets Mauritius), registered and regulated by DET with a license number 1074850.<br><br>
-                                       BelleoFX doesn't work with clients from OFAC sanctioned and FATF blacklisted countries.        </p>
+            ZerahFX is a brand name of Zerah Markets (Mauritius), ZerahFX (St. Vincent and The Grenadines) and Zerah Markets - Rep.Office (UAE).<br><br>
+                                       Zerah Markets (MU) incorporated in the Republic of Mauritius with registration number 186405 GBC. Company is regulated by the Financial Services Commission (FSC) of Mauritius as an Investment Dealer (Broker), with a license number GB21027167.<br><br>
+                                       ZerahFX (SVG) is registered by Financial Services Authority (FSA) of St. Vincent & The Grenadines as an International Business Company with registration number 2584 LLC 2022.<br><br>
+                                       Zerah Markets - Rep. Office (UAE) is a branch of foreign company (Zerah Markets Mauritius), registered and regulated by DET with a license number 1074850.<br><br>
+                                       ZerahFX doesn't work with clients from OFAC sanctioned and FATF blacklisted countries.        </p>
       </div>
     </div>
   </div>
@@ -852,7 +809,7 @@ such property. It is defined as:
               </ul>
             </nav>
             <strong class="copyright">
-                © 2020-2023                BelleoFX | All Rights Reserved            </strong>
+                © 2020-2023                ZerahFX | All Rights Reserved            </strong>
         </div>
     </div>
 </footer>
@@ -930,7 +887,7 @@ such property. It is defined as:
         }, 8000);
     </script> -->
     <!--End of Tawk.to Script (0.7.1)-->
-    <!-- Start of belleofx Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of belleofx Zendesk Widget script -->
+    <!-- Start of ZerahFX Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of ZerahFX Zendesk Widget script -->
 
     <div class="sliding-enquiry"><div class="enquiry-wrap">
         </div>
@@ -942,7 +899,7 @@ such property. It is defined as:
                     <hr/>
                     <div id="enquiryform" style="">
                         <form action="" id="sliding-form" name="sliding-form" method="post" style="margin: 0 0 0em;">
-                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@belleofx.com"/>
+                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@tradewithzerah.com"/>
                             <ul>
                                 <li>
                                     <input type="text" name="name"  id="name" placeholder="Name" class="textbox_popup" value="">

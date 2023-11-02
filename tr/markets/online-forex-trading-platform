@@ -15,12 +15,12 @@
 
     <link rel="preload" href="/templates/custom/fonts/Effra-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/templates/custom/fonts/Effra-Bold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="alternate" href="https://belleofx.com" hreflang="en-ae" />
+    <link rel="alternate" href="https://tradewithzerah.com" hreflang="en-ae" />
     <meta charset="utf-8" />
 	<base href="/tr/markets/online-forex-trading-platform" />
-	<meta name="keywords" content="Forex Ticareti, BelleoFX Forex Ticareti, BelleoFX Döviz Ticareti" />
-	<meta name="description" content="Forex dünyanın en hızlı hareket eden finansal piyasalarından biridir. BelleoFX ile forex ticareti ve günün her saatinde nasıl döviz ticareti yapılacağı hakkında daha fazlasını keşfedin" />
-	<title>BelloFX	Forex	Trading	|	Currency	Trading	with	Lowest	Spread</title>
+	<meta name="keywords" content="Forex Ticareti, ZerahFX Forex Ticareti, ZerahFX Döviz Ticareti" />
+	<meta name="description" content="Forex dünyanın en hızlı hareket eden finansal piyasalarından biridir. ZerahFX ile forex ticareti ve günün her saatinde nasıl döviz ticareti yapılacağı hakkında daha fazlasını keşfedin" />
+	<title>ZerahFX	Forex	Trading	|	Currency	Trading	with	Lowest	Spread</title>
 	<link href="/fa/markets/online-forex-trading-platform" rel="alternate" hreflang="fa-IR" />
 	<link href="/es/markets/online-forex-trading-platform" rel="alternate" hreflang="es-ES" />
 	<link href="/zh/markets/online-forex-trading-platform" rel="alternate" hreflang="zh-TW" />
@@ -39,57 +39,14 @@
 	<script src="/media/jui/js/jquery-migrate.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/jui/js/bootstrap.min.js?21b43949eb00c2dc28868a748e2b361a"></script>
 	<script src="/media/system/js/caption.js?21b43949eb00c2dc28868a748e2b361a"></script>
-	<script>
-jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
-jQuery(window).on('load',  function() {
-				new JCaption('img.caption');
-			});
-	</script>
+	
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5WXNKPTL3B"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-5WXNKPTL3B');
-    </script>
-    <!-- End Google tag (gtag.js) -->
-    <!-- Google Tag Manager -->
-    <script>
 
-        setTimeout(() => {
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-KNGN98Q');
-        }, 8000);
-        var phone = countryCode['']
-        var country = ''
-        var phonePrefix = '123';
-        document.addEventListener('DOMContentLoaded', function() {
-            country = countryCode.find(el => el.name === "Nigeria");
-            console.log(countryCode);
-            document.getElementById("uForm__tel_1").placeholder = country.dial_code;
-        }, false);
-        document.getElementById("uForm__tel_1").onclick = (e) =>{
-            let tel = jQuery("#uForm__tel_1");
-            console.log(tel.val());
-            if(tel.val() !== '+__ ___-___-____') return
-            tel.val( country.dial_code.slice(1) ).trigger('input');
-
-        }
-
-    </script>
-    <!-- End Google Tag Manager -->
+    
 </head>
 
 <body class="">
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNGN98Q"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <!-- <div class="preloader-dots">
     <div></div>
     <div></div>
@@ -176,7 +133,7 @@ jQuery(window).on('load',  function() {
                         <div class="mobile-menu__top">
 
                             <a href="/tr/" class="logo-link">
-                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: BelleoFx icon" class="logo">
+                                                                <img src="/templates/custom/images/icon/logo-icon-white.svg" alt="logo: ZerahFX icon" class="logo">
                             </a>
                             <button class="btn-reset btn-menu-close">
                                 <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -186,7 +143,7 @@ jQuery(window).on('load',  function() {
                         </div>
                         <nav class="nav">
                             <ul class="nav menu mod-list">
-<li class="item-337 deeper parent"><a href="/tr/" >Şirket</a><ul class="nav-child unstyled small"><li class="item-338"><a href="/tr/company/about" >BelleoFX Hakkında</a></li><li class="item-339"><a href="/tr/company/account-types" >Hesap Türleri</a></li><li class="item-340"><a href="/tr/company/careers" >Kariyer</a></li><li class="item-342"><a href="/tr/company/faq" >SSS</a></li><li class="item-341"><a href="/tr/company/contact-us" >Bize Ulaşın</a></li></ul></li><li class="item-353 active deeper parent"><a href="/tr/" >Piyasalar</a><ul class="nav-child unstyled small"><li class="item-357 current active"><a href="/tr/markets/online-forex-trading-platform" >Forex</a></li><li class="item-358"><a href="/tr/markets/stocks" >Hisse senetleri</a></li><li class="item-356"><a href="/tr/markets/indices-trading-system" >Endeksler</a></li><li class="item-354"><a href="/tr/markets/commodities" >Emtialar</a></li></ul></li><li class="item-369 deeper parent"><a href="/tr/trading/trading-platform" >Ticaret</a><ul class="nav-child unstyled small"><li class="item-371"><a href="/tr/trading/trading-platform" >Ticaret platformu</a></li><li class="item-370"><a href="/tr/trading/economic-calendar" >Ekonomik takvim</a></li></ul></li><li class="item-350"><a href="/tr/funding" >Finansman</a></li><li class="item-360 deeper parent"><a href="/tr/" >ortaklık</a><ul class="nav-child unstyled small"><li class="item-362"><a href="/tr/partnership/white-label" >Beyaz etiket</a></li><li class="item-361"><a href="/tr/partnership/introducing-broker-ib" >Broker&#39;ın (IB) Tanıtılması</a></li></ul></li><li class="item-364 deeper parent"><a href="#" >Promosyonlar</a><ul class="nav-child unstyled small"><li class="item-365"><a href="/tr/promotions/100-credit-bonus" >%100 Kredi Bonusu</a></li></ul></li></ul>
+<li class="item-337 deeper parent"><a href="/tr/" >Şirket</a><ul class="nav-child unstyled small"><li class="item-338"><a href="/tr/company/about" >ZerahFX Hakkında</a></li><li class="item-339"><a href="/tr/company/account-types" >Hesap Türleri</a></li><li class="item-340"><a href="/tr/company/careers" >Kariyer</a></li><li class="item-342"><a href="/tr/company/faq" >SSS</a></li><li class="item-341"><a href="/tr/company/contact-us" >Bize Ulaşın</a></li></ul></li><li class="item-353 active deeper parent"><a href="/tr/" >Piyasalar</a><ul class="nav-child unstyled small"><li class="item-357 current active"><a href="/tr/markets/online-forex-trading-platform" >Forex</a></li><li class="item-358"><a href="/tr/markets/stocks" >Hisse senetleri</a></li><li class="item-356"><a href="/tr/markets/indices-trading-system" >Endeksler</a></li><li class="item-354"><a href="/tr/markets/commodities" >Emtialar</a></li></ul></li><li class="item-369 deeper parent"><a href="/tr/trading/trading-platform" >Ticaret</a><ul class="nav-child unstyled small"><li class="item-371"><a href="/tr/trading/trading-platform" >Ticaret platformu</a></li><li class="item-370"><a href="/tr/trading/economic-calendar" >Ekonomik takvim</a></li></ul></li><li class="item-350"><a href="/tr/funding" >Finansman</a></li><li class="item-360 deeper parent"><a href="/tr/" >ortaklık</a><ul class="nav-child unstyled small"><li class="item-362"><a href="/tr/partnership/white-label" >Beyaz etiket</a></li><li class="item-361"><a href="/tr/partnership/introducing-broker-ib" >Broker&#39;ın (IB) Tanıtılması</a></li></ul></li><li class="item-364 deeper parent"><a href="#" >Promosyonlar</a><ul class="nav-child unstyled small"><li class="item-365"><a href="/tr/promotions/100-credit-bonus" >%100 Kredi Bonusu</a></li></ul></li></ul>
 
                             <div class="lang_block ">
     <div>
@@ -246,7 +203,7 @@ jQuery(window).on('load',  function() {
 
                         </nav>
                         <div class="header__right">
-                            <a href="https://pa.belleofx.com/tr/signup" class="btn-reset btn-main btn-main--white">
+                            <a href="https://pa.tradewithzerah.com/tr/signup" class="btn-reset btn-main btn-main--white">
                                 Şimdi Katılın                            </a>
                             <a href="/tr/demo" class="btn-reset btn-main btn-main--black">
                                 Demo Hesabını Deneyin                            </a>
@@ -256,18 +213,18 @@ jQuery(window).on('load',  function() {
             </div>
             <a href="/tr/" class="logo-link">
                                                
-                <img src="/templates/custom/images/icon/logo.svg" alt="logo: BelleoFx icon" class="logo">
-                <img src="/templates/custom/images/icon/logo-icon.svg" alt="logo: BelleoFx icon" class="logo logo--mob">
+                <img src="/templates/custom/images/icon/logo.png" alt="logo: ZerahFX icon" class="logo">
+                <img src="/templates/custom/images/icon/logo-icon.png" alt="logo: ZerahFX icon" class="logo logo--mob">
             </a>
             <nav class="nav">
                 <ul class="nav menu mod-list">
-<li class="item-337 deeper parent"><a href="/tr/" >Şirket</a><ul class="nav-child unstyled small"><li class="item-338"><a href="/tr/company/about" >BelleoFX Hakkında</a></li><li class="item-339"><a href="/tr/company/account-types" >Hesap Türleri</a></li><li class="item-340"><a href="/tr/company/careers" >Kariyer</a></li><li class="item-342"><a href="/tr/company/faq" >SSS</a></li><li class="item-341"><a href="/tr/company/contact-us" >Bize Ulaşın</a></li></ul></li><li class="item-353 active deeper parent"><a href="/tr/" >Piyasalar</a><ul class="nav-child unstyled small"><li class="item-357 current active"><a href="/tr/markets/online-forex-trading-platform" >Forex</a></li><li class="item-358"><a href="/tr/markets/stocks" >Hisse senetleri</a></li><li class="item-356"><a href="/tr/markets/indices-trading-system" >Endeksler</a></li><li class="item-354"><a href="/tr/markets/commodities" >Emtialar</a></li></ul></li><li class="item-369 deeper parent"><a href="/tr/trading/trading-platform" >Ticaret</a><ul class="nav-child unstyled small"><li class="item-371"><a href="/tr/trading/trading-platform" >Ticaret platformu</a></li><li class="item-370"><a href="/tr/trading/economic-calendar" >Ekonomik takvim</a></li></ul></li><li class="item-350"><a href="/tr/funding" >Finansman</a></li><li class="item-360 deeper parent"><a href="/tr/" >ortaklık</a><ul class="nav-child unstyled small"><li class="item-362"><a href="/tr/partnership/white-label" >Beyaz etiket</a></li><li class="item-361"><a href="/tr/partnership/introducing-broker-ib" >Broker&#39;ın (IB) Tanıtılması</a></li></ul></li><li class="item-364 deeper parent"><a href="#" >Promosyonlar</a><ul class="nav-child unstyled small"><li class="item-365"><a href="/tr/promotions/100-credit-bonus" >%100 Kredi Bonusu</a></li></ul></li></ul>
+<li class="item-337 deeper parent"><a href="/tr/" >Şirket</a><ul class="nav-child unstyled small"><li class="item-338"><a href="/tr/company/about" >ZerahFX Hakkında</a></li><li class="item-339"><a href="/tr/company/account-types" >Hesap Türleri</a></li><li class="item-340"><a href="/tr/company/careers" >Kariyer</a></li><li class="item-342"><a href="/tr/company/faq" >SSS</a></li><li class="item-341"><a href="/tr/company/contact-us" >Bize Ulaşın</a></li></ul></li><li class="item-353 active deeper parent"><a href="/tr/" >Piyasalar</a><ul class="nav-child unstyled small"><li class="item-357 current active"><a href="/tr/markets/online-forex-trading-platform" >Forex</a></li><li class="item-358"><a href="/tr/markets/stocks" >Hisse senetleri</a></li><li class="item-356"><a href="/tr/markets/indices-trading-system" >Endeksler</a></li><li class="item-354"><a href="/tr/markets/commodities" >Emtialar</a></li></ul></li><li class="item-369 deeper parent"><a href="/tr/trading/trading-platform" >Ticaret</a><ul class="nav-child unstyled small"><li class="item-371"><a href="/tr/trading/trading-platform" >Ticaret platformu</a></li><li class="item-370"><a href="/tr/trading/economic-calendar" >Ekonomik takvim</a></li></ul></li><li class="item-350"><a href="/tr/funding" >Finansman</a></li><li class="item-360 deeper parent"><a href="/tr/" >ortaklık</a><ul class="nav-child unstyled small"><li class="item-362"><a href="/tr/partnership/white-label" >Beyaz etiket</a></li><li class="item-361"><a href="/tr/partnership/introducing-broker-ib" >Broker&#39;ın (IB) Tanıtılması</a></li></ul></li><li class="item-364 deeper parent"><a href="#" >Promosyonlar</a><ul class="nav-child unstyled small"><li class="item-365"><a href="/tr/promotions/100-credit-bonus" >%100 Kredi Bonusu</a></li></ul></li></ul>
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.belleofx.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
                     Giriş Yap                </a>
-                <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
                     Kayıt ol                </a>
                                 <div class="lang_block ">
     <div>
@@ -334,16 +291,16 @@ jQuery(window).on('load',  function() {
 	<meta itemprop="inLanguage" content="tr-TR" />
 			<div class="forex-page"><section class="section forex"><div class="wrapper"><!-- <h1 class="title">
                 Forex Trading Platform
-            </h1> --><div class="forex__image"><img src="/images/forex/forex-heading-responsive-2.png" class="img-responsive" alt="döviz takası"></div><p class="text"> 55&#39;ten fazla döviz çiftinde (majörler, çaprazlar ve egzotikler) CFD ticareti yapın. Dar spreadler ve yeniden fiyat teklifi YOK</p> <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">Şimdi Ticaret Yapın</a> </div></section><section class="section pairs"><div class="wrapper"><div class="pairs__container"><div class="pairs__content"><h2 class="title"> Ticaret büyük, küçük<br> ve egzotik döviz çiftleri</h2><p class="text"> Döviz piyasası (FOREX veya FX), günlük 7 trilyon ABD dolarını aşan işlem hacimleriyle dünyanın en büyük merkezi olmayan finansal piyasasıdır. Bu, en büyük borsaların çoğunun toplamından daha büyük bir pazar ve en değişken olanıdır.<br><br> Haftanın 5 günü ve günün 24 saati işlem yaparken her zaman değişken para birimleri alma veya satma fırsatı vardır. İster deneyimli yatırımcı olun ister CFD ticaretinde yeni olun, FX piyasası BelleoFX ile en likit varlıklardan birinde fiyat hareketlerinden yararlanmanın bir yolunu temsil eder!</p> <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">Canlı Hesap Aç</a> </div><div class="pairs__images"><img class="img-responsive" src="/images/forex/currency-pairs.png" alt="Majör, minör ve egzotik döviz çiftleriyle işlem yapın"></div></div></div></section><section class="section currencies-info"><div class="wrapper"><div class="currencies-info__container"><div class="curr-info"><h2 class="title"> Neden BelleoFX ile Forex para birimleriyle işlem yapmalısınız? </h2><div class="curr-info__container"><div class="item"><img src="/images/forex/spreads.svg" alt="En düşük spreadler" class="item__img"><h4 class="item__title"> En düşük spreadler</h4><p class="item__text"> Forex döviz çiftlerindeki spreadler<br> tüm alım satım araçları arasında en düşük seviye olarak kabul edilir. </p></div><div class="item"><img src="/images/forex/volatility.svg" alt="En Yüksek Volatilite" class="item__img"><h4 class="item__title"> En Yüksek Volatilite</h4><p class="item__text"> Forex para birimleri ve forex piyasasının kendisi, tüm varlık sınıfları arasında en değişken olanıdır. </p></div><div class="item"><img src="/images/forex/leverage.svg" alt="Büyük kaldıraç" class="item__img"><h4 class="item__title"> Büyük kaldıraç</h4><p class="item__text"> Forex ticareti söz konusu olduğunda, büyük döviz çiftleri için kaldıraç en yüksek seviyededir (1:500). </p></div><div class="item"><img src="/images/forex/broker.svg" alt="Güvenilir komisyoncu" class="item__img"><h4 class="item__title"> Güvenilir komisyoncu</h4><p class="item__text"> Yanlış komisyoncuyla işlem yapıyorsanız, döviz ticareti yapmanın tüm avantajlarının bir anlamı yoktur. Bizim gibi güvenilir bir komisyoncu seçin. </p></div></div></div><div class="curr-info-images"><img src="/images/forex/devices.png" alt="Neden BelleoFX ile Forex para birimleriyle işlem yapmalısınız?" class="img-responsive img-desktop"><img src="/images/forex/devices-tablet.png" alt="Neden BelleoFX ile Forex para birimleriyle işlem yapmalısınız?" class="img-responsive img-tablet"><img src="/images/forex/devices-mob.png" alt="Neden BelleoFX ile Forex para birimleriyle işlem yapmalısınız?" class="img-responsive img-mob"></div></div></div></section><section class="section ready"><div class="wrapper"><h2 class="title"> Ticarete Hazır mısınız?</h2><p class="text"> Başvuru sürecini tamamlamak için yalnızca birkaç tıklama yeterli.</p><div class="btn-groups"> <a href="https://pa.belleofx.com/en/signup" class="btn-reset btn-main">Başlayın</a> <a href="/tr/demo" class="btn-reset btn-main btn-main--white">Demoyu Deneyin</a></div></div></section></div> 	</div>
+            </h1> --><div class="forex__image"><img src="/images/forex/forex-heading-responsive-2.png" class="img-responsive" alt="döviz takası"></div><p class="text"> 55&#39;ten fazla döviz çiftinde (majörler, çaprazlar ve egzotikler) CFD ticareti yapın. Dar spreadler ve yeniden fiyat teklifi YOK</p> <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">Şimdi Ticaret Yapın</a> </div></section><section class="section pairs"><div class="wrapper"><div class="pairs__container"><div class="pairs__content"><h2 class="title"> Ticaret büyük, küçük<br> ve egzotik döviz çiftleri</h2><p class="text"> Döviz piyasası (FOREX veya FX), günlük 7 trilyon ABD dolarını aşan işlem hacimleriyle dünyanın en büyük merkezi olmayan finansal piyasasıdır. Bu, en büyük borsaların çoğunun toplamından daha büyük bir pazar ve en değişken olanıdır.<br><br> Haftanın 5 günü ve günün 24 saati işlem yaparken her zaman değişken para birimleri alma veya satma fırsatı vardır. İster deneyimli yatırımcı olun ister CFD ticaretinde yeni olun, FX piyasası ZerahFX ile en likit varlıklardan birinde fiyat hareketlerinden yararlanmanın bir yolunu temsil eder!</p> <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">Canlı Hesap Aç</a> </div><div class="pairs__images"><img class="img-responsive" src="/images/forex/currency-pairs.png" alt="Majör, minör ve egzotik döviz çiftleriyle işlem yapın"></div></div></div></section><section class="section currencies-info"><div class="wrapper"><div class="currencies-info__container"><div class="curr-info"><h2 class="title"> Neden ZerahFX ile Forex para birimleriyle işlem yapmalısınız? </h2><div class="curr-info__container"><div class="item"><img src="/images/forex/spreads.svg" alt="En düşük spreadler" class="item__img"><h4 class="item__title"> En düşük spreadler</h4><p class="item__text"> Forex döviz çiftlerindeki spreadler<br> tüm alım satım araçları arasında en düşük seviye olarak kabul edilir. </p></div><div class="item"><img src="/images/forex/volatility.svg" alt="En Yüksek Volatilite" class="item__img"><h4 class="item__title"> En Yüksek Volatilite</h4><p class="item__text"> Forex para birimleri ve forex piyasasının kendisi, tüm varlık sınıfları arasında en değişken olanıdır. </p></div><div class="item"><img src="/images/forex/leverage.svg" alt="Büyük kaldıraç" class="item__img"><h4 class="item__title"> Büyük kaldıraç</h4><p class="item__text"> Forex ticareti söz konusu olduğunda, büyük döviz çiftleri için kaldıraç en yüksek seviyededir (1:500). </p></div><div class="item"><img src="/images/forex/broker.svg" alt="Güvenilir komisyoncu" class="item__img"><h4 class="item__title"> Güvenilir komisyoncu</h4><p class="item__text"> Yanlış komisyoncuyla işlem yapıyorsanız, döviz ticareti yapmanın tüm avantajlarının bir anlamı yoktur. Bizim gibi güvenilir bir komisyoncu seçin. </p></div></div></div><div class="curr-info-images"><img src="/images/forex/devices.png" alt="Neden ZerahFX ile Forex para birimleriyle işlem yapmalısınız?" class="img-responsive img-desktop"><img src="/images/forex/devices-tablet.png" alt="Neden ZerahFX ile Forex para birimleriyle işlem yapmalısınız?" class="img-responsive img-tablet"><img src="/images/forex/devices-mob.png" alt="Neden ZerahFX ile Forex para birimleriyle işlem yapmalısınız?" class="img-responsive img-mob"></div></div></div></section><section class="section ready"><div class="wrapper"><h2 class="title"> Ticarete Hazır mısınız?</h2><p class="text"> Başvuru sürecini tamamlamak için yalnızca birkaç tıklama yeterli.</p><div class="btn-groups"> <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">Başlayın</a> <a href="/tr/demo" class="btn-reset btn-main btn-main--white">Demoyu Deneyin</a></div></div></section></div> 	</div>
 
 </main>
 
 <section class="section above-footer">
   <div class="wrapper">
     <a href="/" class="logo-link">
-      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: BelleoFx icon" class="logo"> -->
-      <img src="/../images/icon/logo-white.svg" alt="logo: BelleoFx icon" class="logo">
+      <!-- <img src="/../images/icon/logo-white-ny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <!-- <img src="/../images/icon/logo-white-cny.svg" alt="logo: ZerahFX icon" class="logo"> -->
+      <img src="/../images/icon/logo-white.png" alt="logo: ZerahFX icon" class="logo">
     </a>
     <div class="above-footer__container">
       <div class="item-contacts">
@@ -357,11 +314,11 @@ jQuery(window).on('load',  function() {
             </svg> 
             <span class="dir-ltr">+971 4 541 7900</span>
           </a>
-          <a href="email:support@belleofx.com" class="email-link">
+          <a href="email:support@tradewithzerah.com" class="email-link">
             <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M15.625 11.5L10.6429 7M6.35714 7L1.37503 11.5M1 3.25L7.12369 7.53658C7.61957 7.8837 7.86751 8.05726 8.1372 8.12448C8.37542 8.18386 8.62458 8.18386 8.8628 8.12448C9.13249 8.05726 9.38043 7.8837 9.87631 7.53658L16 3.25M4.6 13H12.4C13.6601 13 14.2902 13 14.7715 12.7548C15.1948 12.539 15.539 12.1948 15.7548 11.7715C16 11.2902 16 10.6601 16 9.4V4.6C16 3.33988 16 2.70982 15.7548 2.22852C15.539 1.80516 15.1948 1.46095 14.7715 1.24524C14.2902 1 13.6601 1 12.4 1H4.6C3.33988 1 2.70982 1 2.22852 1.24524C1.80516 1.46095 1.46095 1.80516 1.24524 2.22852C1 2.70982 1 3.33988 1 4.6V9.4C1 10.6601 1 11.2902 1.24524 11.7715C1.46095 12.1948 1.80516 12.539 2.22852 12.7548C2.70982 13 3.33988 13 4.6 13Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
-            support@belleofx.com
+            support@tradewithzerah.com
           </a>
           <p class="address">
             <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -377,34 +334,34 @@ jQuery(window).on('load',  function() {
 
 <div class="custom"  >
 	<div class="socials">
-  <a href="https://www.facebook.com/belleofx/" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#facebook"></use>
     </svg>
   </a>
-  <!--<a href="https://www.quora.com/profile/BelleoFX-1?q=belleo58" target="_blank" class="socials__link">
+  <!--<a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#quora"></use>
     </svg>
   </a>-->
-  <a href="https://www.instagram.com/belleo_fx/?hl=en" target="_blank" class="socials__link">
+  <a href="https://instagram.com/zerah_fx?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#instagram"></use>
     </svg>
   </a>
-  <a href="https://www.linkedin.com/company/belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#linkedin"></use>
     </svg>
   </a>
   
-  <a href="https://twitter.com/Belleofx1" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
         <svg class="icon">
       <use xlink:href="/images/sprite.svg#twitter"></use>
     </svg>
   </a>
   
-  <a href="https://www.youtube.com/@belleofx" target="_blank" class="socials__link">
+  <a href="" target="_blank" class="socials__link">
     <svg class="icon">
       <use xlink:href="/images/sprite.svg#youtube"></use>
     </svg>
@@ -416,17 +373,17 @@ jQuery(window).on('load',  function() {
       <div class="item-menu">
         <nav class="nav">
             <ul class="nav menu mod-list">
-<li class="item-337 deeper parent"><a href="/tr/" >Şirket</a><ul class="nav-child unstyled small"><li class="item-338"><a href="/tr/company/about" >BelleoFX Hakkında</a></li><li class="item-339"><a href="/tr/company/account-types" >Hesap Türleri</a></li><li class="item-340"><a href="/tr/company/careers" >Kariyer</a></li><li class="item-342"><a href="/tr/company/faq" >SSS</a></li><li class="item-341"><a href="/tr/company/contact-us" >Bize Ulaşın</a></li></ul></li><li class="item-353 active deeper parent"><a href="/tr/" >Piyasalar</a><ul class="nav-child unstyled small"><li class="item-357 current active"><a href="/tr/markets/online-forex-trading-platform" >Forex</a></li><li class="item-358"><a href="/tr/markets/stocks" >Hisse senetleri</a></li><li class="item-356"><a href="/tr/markets/indices-trading-system" >Endeksler</a></li><li class="item-354"><a href="/tr/markets/commodities" >Emtialar</a></li></ul></li><li class="item-369 deeper parent"><a href="/tr/trading/trading-platform" >Ticaret</a><ul class="nav-child unstyled small"><li class="item-371"><a href="/tr/trading/trading-platform" >Ticaret platformu</a></li><li class="item-370"><a href="/tr/trading/economic-calendar" >Ekonomik takvim</a></li></ul></li><li class="item-350"><a href="/tr/funding" >Finansman</a></li><li class="item-360 deeper parent"><a href="/tr/" >ortaklık</a><ul class="nav-child unstyled small"><li class="item-362"><a href="/tr/partnership/white-label" >Beyaz etiket</a></li><li class="item-361"><a href="/tr/partnership/introducing-broker-ib" >Broker&#39;ın (IB) Tanıtılması</a></li></ul></li><li class="item-364 deeper parent"><a href="#" >Promosyonlar</a><ul class="nav-child unstyled small"><li class="item-365"><a href="/tr/promotions/100-credit-bonus" >%100 Kredi Bonusu</a></li></ul></li></ul>
+<li class="item-337 deeper parent"><a href="/tr/" >Şirket</a><ul class="nav-child unstyled small"><li class="item-338"><a href="/tr/company/about" >ZerahFX Hakkında</a></li><li class="item-339"><a href="/tr/company/account-types" >Hesap Türleri</a></li><li class="item-340"><a href="/tr/company/careers" >Kariyer</a></li><li class="item-342"><a href="/tr/company/faq" >SSS</a></li><li class="item-341"><a href="/tr/company/contact-us" >Bize Ulaşın</a></li></ul></li><li class="item-353 active deeper parent"><a href="/tr/" >Piyasalar</a><ul class="nav-child unstyled small"><li class="item-357 current active"><a href="/tr/markets/online-forex-trading-platform" >Forex</a></li><li class="item-358"><a href="/tr/markets/stocks" >Hisse senetleri</a></li><li class="item-356"><a href="/tr/markets/indices-trading-system" >Endeksler</a></li><li class="item-354"><a href="/tr/markets/commodities" >Emtialar</a></li></ul></li><li class="item-369 deeper parent"><a href="/tr/trading/trading-platform" >Ticaret</a><ul class="nav-child unstyled small"><li class="item-371"><a href="/tr/trading/trading-platform" >Ticaret platformu</a></li><li class="item-370"><a href="/tr/trading/economic-calendar" >Ekonomik takvim</a></li></ul></li><li class="item-350"><a href="/tr/funding" >Finansman</a></li><li class="item-360 deeper parent"><a href="/tr/" >ortaklık</a><ul class="nav-child unstyled small"><li class="item-362"><a href="/tr/partnership/white-label" >Beyaz etiket</a></li><li class="item-361"><a href="/tr/partnership/introducing-broker-ib" >Broker&#39;ın (IB) Tanıtılması</a></li></ul></li><li class="item-364 deeper parent"><a href="#" >Promosyonlar</a><ul class="nav-child unstyled small"><li class="item-365"><a href="/tr/promotions/100-credit-bonus" >%100 Kredi Bonusu</a></li></ul></li></ul>
   
         </nav>
       </div>
       <div class="item-description">
                 <p class="text">
-            BelleoFX, Belleo Markets (Mauritius), BelleoFX (St. Vincent ve Grenadinler) ve Belleo Markets - Rep.Office'in (BAE) markasıdır.<br><br>
-                                       Belleo Markets (MU), Mauritius Cumhuriyeti'nde 186405 GBC kayıt numarasıyla kurulmuştur. Şirket, GB21027167 lisans numarasıyla, Mauritius Finansal Hizmetler Komisyonu (FSC) tarafından Yatırım Satıcısı (Komisyoncu) olarak denetlenmektedir.<br><br>
-                                       BelleoFX (SVG), St. Vincent ve Grenadinler Finansal Hizmetler Otoritesi (FSA) tarafından, 2584 LLC 2022 kayıt numarasıyla Uluslararası İşletme Şirketi olarak tescil edilmiştir.<br><br>
-                                       Belleo Markets - Temsilcilik Ofisi (BAE), 1074850 lisans numarasıyla DET tarafından tescil edilen ve denetlenen yabancı bir şirketin (Belleo Markets Mauritius) bir şubesidir.<br><br>
-                                       BelleoFX, OFAC onaylı ve FATF kara listesindeki ülkelerdeki müşterilerle çalışmıyor.        </p>
+            ZerahFX, Zerah Markets (Mauritius), ZerahFX (St. Vincent ve Grenadinler) ve Zerah Markets - Rep.Office'in (BAE) markasıdır.<br><br>
+                                       Zerah Markets (MU), Mauritius Cumhuriyeti'nde 186405 GBC kayıt numarasıyla kurulmuştur. Şirket, GB21027167 lisans numarasıyla, Mauritius Finansal Hizmetler Komisyonu (FSC) tarafından Yatırım Satıcısı (Komisyoncu) olarak denetlenmektedir.<br><br>
+                                       ZerahFX (SVG), St. Vincent ve Grenadinler Finansal Hizmetler Otoritesi (FSA) tarafından, 2584 LLC 2022 kayıt numarasıyla Uluslararası İşletme Şirketi olarak tescil edilmiştir.<br><br>
+                                       Zerah Markets - Temsilcilik Ofisi (BAE), 1074850 lisans numarasıyla DET tarafından tescil edilen ve denetlenen yabancı bir şirketin (Zerah Markets Mauritius) bir şubesidir.<br><br>
+                                       ZerahFX, OFAC onaylı ve FATF kara listesindeki ülkelerdeki müşterilerle çalışmıyor.        </p>
       </div>
     </div>
   </div>
@@ -467,7 +424,7 @@ jQuery(window).on('load',  function() {
               </ul>
             </nav>
             <strong class="copyright">
-                © 2020-2023                BelleoFX | Tüm Hakları Saklıdır            </strong>
+                © 2020-2023                ZerahFX | Tüm Hakları Saklıdır            </strong>
         </div>
     </div>
 </footer>
@@ -545,7 +502,7 @@ jQuery(window).on('load',  function() {
         }, 8000);
     </script> -->
     <!--End of Tawk.to Script (0.7.1)-->
-    <!-- Start of belleofx Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of belleofx Zendesk Widget script -->
+    <!-- Start of ZerahFX Zendesk Widget script --><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=530ef9a9-8fbd-4927-99ca-458866619b1a"> </script><!-- End of ZerahFX Zendesk Widget script -->
 
     <div class="sliding-enquiry"><div class="enquiry-wrap">
         </div>
@@ -557,7 +514,7 @@ jQuery(window).on('load',  function() {
                     <hr/>
                     <div id="enquiryform" style="">
                         <form action="" id="sliding-form" name="sliding-form" method="post" style="margin: 0 0 0em;">
-                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@belleofx.com"/>
+                            <input type="hidden" name="serveremailid" id="serveremailid" value="support@tradewithzerah.com"/>
                             <ul>
                                 <li>
                                     <input type="text" name="name"  id="name" placeholder="Ad" class="textbox_popup" value="">
