@@ -1,0 +1,120 @@
+.has-error .form-control {
+    border-color: #dc3545;
+}
+
+.has-success .form-control {
+    border-color: #28a745;
+}
+
+.help-block-error {
+    text-align-last: left;
+}
+
+.select2-results__option img {
+    margin-right: 10px;
+}
+.verified-module_btn{
+	padding-top: 15px;
+}
+.header .dropdown_auth{
+	display: block !important;
+	text-align: right;
+	width: auto !important;
+}
+
+.header .dropdown_auth .dropdown-toggle {
+	line-height: 36px;
+}
+
+div.dropdown .dropdown-menu.dropdown-menu-right.account.animated.flipInY.show {
+	padding: 10px 20px;
+	left: auto !important;
+	right: 0;
+}
+
+.auth-page .select2-container--krajee .select2-selection--single .select2-selection__rendered {
+	padding: 0px;
+}
+
+.thanks-page .thanks-page_title{
+	font-size: 32px;
+	font-weight: 600;
+	font-family: Poppins;
+}
+.thanks-page__descript{
+	color: #5B6475;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+#form-signup .help-block,
+#form-company-signup .help-block{
+	display: block;
+}
+
+
+.dropdown_auth .dropdown-toggle  img{
+	 height: 20px;
+	 width: auto;
+	 object-fit: cover;
+	 border-radius: 1px;
+ }
+.dropdown_auth   li{
+	padding-bottom: 15px;
+}
+.dropdown_auth   img{
+	height: 20px;
+	width: auto;
+	object-fit: cover;
+	border-radius: 0px !important;
+}
+
+.dropdown_auth a:last-child {
+	display: none !important; 
+}
+
+#countryCodeList,
+#countryCodeList3{
+	height: 50px;
+	width: 60px;
+}
+
+body > .select2-container--open {
+	z-index: 1;
+}
+
+@media screen and ( max-width: 600px) {
+    .select2-selection__rendered .flag {
+        width: 30px;
+        padding-bottom: 6px;
+        margin-right: 5px;
+    }
+
+    .select2-container--krajee .select2-selection--single .select2-selection__rendered {
+        width: 260px;
+        text-align-last: left;
+    }
+
+    #signupcompanyform-phone1 {
+        width: calc(100% - 130px) !important;
+    }
+
+    .select2-results__option img {
+        width: 30px;
+    }
+
+    .logo-fon .wr-log {
+        margin-bottom: 0;
+    }
+
+    #mainBox .form-log {
+        padding-top: 10px;
+    }
+	.thanks-page_title{
+		font-size: 24px !important;
+	}
+	.thanks-page__descript{
+		font-size: 14px;
+	}
+
+}

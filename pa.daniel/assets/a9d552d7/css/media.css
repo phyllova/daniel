@@ -1,0 +1,517 @@
+@media (max-width: 1920px) {
+}
+
+@media (max-width: 1680px) {
+}
+
+@media (max-width: 1366px) {
+	.verification-step_item {
+		padding: 0 20px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.history .transfer-block {
+		padding: 32px 20px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.navbar-arr{
+		display: block;
+	}
+	.left-sidebar{
+		position: fixed;
+		z-index: 99;
+		left: -100%;
+		transition: all 0.4s;
+	}
+	.left-sidebar__open{
+		left: 0;
+	}
+}
+
+@media (max-width: 992px) {
+	.history .account-score_btn__block {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.history .account-score_info-score {
+		margin-top: 40px;
+		margin-bottom: 24px;
+	}
+}
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 768px) {
+	.navbar{
+		padding: 0 15px;
+	}
+	.navbar-nav{
+		flex: 0 0 100px;
+	}
+	.main {
+		display: block;
+	}
+	.dropdown_user-account{
+		border: none ;
+		padding: 0;
+	}
+	.dropdown-toggle::after{
+		display: none;
+	}
+	
+	.scroll_overflow{
+		display: block;
+	}
+	.type-checkbox_footer__checkbox {
+		width: 13px;
+		height: 13px;
+	}
+	.dashboard .h2{
+		font-style: 20px;
+		font-weight: 600;
+	}
+	.error_container {
+		margin-top: 130px;
+	}
+	.withdraw .form-control {
+		min-width: 150px;
+	}
+	.withdraw .btn.btn-usd {
+		min-width: 130px;
+	}
+	.history .history-table {
+		overflow: hidden;
+	}
+	.history .history-flex {
+		height: auto;
+		display: block;
+		flex-direction: inherit;
+	}
+	.tickets .blockNavigationTicket {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 20px;
+	}
+	.tickets .search_tables {
+		max-width: inherit;
+	}
+	.profile .profile__personal {
+		padding: 50px;
+	}
+}
+
+@media (max-width: 600px) {
+	.verification-step{
+		height: 80px;
+	}
+	.verification-step_item{
+		flex-direction: column;
+		padding: 10px 5px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.verification-step__title{
+		font-size: 10px;
+		margin-top: 10px;
+		text-align: center;
+		color: var(--background-color-dark) !important;
+		font-weight: 600 !important;
+	}
+	.verification-step_item::after {
+		top: 24px;
+	}
+	.dataTables_wrapper{
+		width: 10vw;
+		transition: all 0.4s;
+	}
+	.table-overflow {
+		position: relative;
+	}
+	.search_field{
+		min-width: auto;
+	}
+	.search_tables form{
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 533px) {
+	.navbar-brand .img-responsive {
+		max-width: 120px;
+	}
+	.user-account img,
+	.user.user__logout .h {
+		width: 30px;
+		height: 30px;
+	}
+	.user.user__logout .h {
+		background-size: 30px;
+	}
+	.burger_nav_span {
+		width: 30px;
+		height: 30px !important;
+	}
+	.verification-status_dashbord {
+		margin-bottom: 30px;
+	}
+	.verification-status_dashbord_header {
+		margin-inline-end: 0;
+		margin-right: 10px;
+	}
+	.verification-status__title {
+		font-size: 24px;
+	}
+	.verification-status_visual {
+		width: 75px;
+    	height: 75px;
+	}
+	.verification-status_visual__icon {
+		font-size: 20px;
+	}
+	.verification-status_visual__icon.text {
+		font-size: 12px;
+	}
+	.belleo-age .belleo-block {
+		padding: 20px;
+	}
+	.belleo-age .belleo-block .h2 {
+		font-size: 18px !important;
+		line-height: 22px;
+	}
+	.belleo-age .belleo-block .textDescriptionPageAge {
+		margin-top: 10px;
+		margin-bottom: 15px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.belleo-age .belleo-block .form-control {
+		height: 45px;
+		max-width: 250px;
+		min-width: 150px;
+	}
+	.belleo-age .belleo-block .blockBtnPageAge {
+		max-width: 140px;
+		min-width: 100px;
+		margin-left: 10px;
+	}
+	.belleo-age .belleo-block .btn-primary-main {
+		padding: 8px;
+	}
+	.belleo-age {
+		padding-top: 0;
+	}
+	.verification-step {
+		height: 65px;
+	}
+	.verification-step__img {
+		width: 25px;
+		height: 25px;
+		flex: 0 0 25px;
+		font-size: 12px;
+	}
+	.verification-step_item::after {
+		top: 20px;
+		left: calc(50% - -5px);
+	}
+	.dashboard .verif-card-account {
+		margin-top: 15px !important;
+		margin-bottom: 25px;
+	}
+	.dashboard .verif-card-account .card-account {
+		margin: 0;
+		min-height: auto;
+	}
+	.dashboard .verif-card-account .card-account:not(:last-child) {
+		margin-bottom: 20px;
+	}
+	.dashboard .verif-card-account .card-account__open-account .card-account_body {
+		padding: 0;
+	}
+	.verif-card-account .open-text {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		font-size: 18px;
+		line-height: 22px;
+	}
+	.dashboard .card-account__open-account .btn-primary_transparent-main {
+		font-size: 16px;
+		line-height: 21px;
+		padding: 10px;
+		max-width: 200px;
+	}
+	.dashboard .image-circle {
+		width: 75px;
+		height: 75px;
+	}
+	.dashboard .image-circle img {
+		max-width: 50px;
+	}
+	.dashboard .dashboard_btn {
+		padding: 10px;
+		max-width: 100px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.dashboard .dashboard_window {
+		padding: 0;
+	}
+	.dashboard .dashboard_window .dataTables_wrapper,
+	.history .account-score__tab-block,
+	.tickets .belleo-block {
+		padding: 10px 20px 20px 20px;
+	}
+	.dashboard .table thead th:not(:first-child) {
+		min-width: 100px;
+	}
+	.dashboard {
+		width: 98%;
+	}
+	.error_container {
+		padding: 20px;
+		margin-top: 50px;
+	}
+	.error_container .image-circle {
+		height: 75px;
+		width: 75px;
+	}
+	.error_container .image-circle img {
+		max-width: 50px;
+	}
+	.error_container h2 {
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.error_container .btn-primary {
+		padding: 10px;
+		max-width: 200px;
+	}
+	.withdraw .transfer_method_header .subtitle {
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+	.withdraw .transfer_method {
+		padding: 30px 20px;
+	}
+	.control-label {
+		padding: 10px;
+	}
+	.form-control {
+		height: 45px !important;
+	}
+	.btn-primary {
+		padding: 8px;
+	}
+	.withdraw,
+	.history,
+	.tickets {
+		margin-top: 25px;
+	}
+	.tickets .h2 {
+		margin-bottom: 20px;
+	}
+	.history .account-score_info-score {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.history .account-score_btn__block {
+		gap: 30px;
+	}
+	.tickets .btn-primary-main {
+		max-width: 200px;
+		margin-left: 0;
+	}
+	.tickets .search_tables form {
+		flex-wrap: nowrap;
+	}
+	.tickets .select2-container--krajee .select2-selection--single {
+		height: 45px;
+	}
+	.tickets .select2-container--krajee .select2-selection--single .select2-selection__rendered {
+		padding: 4px;
+	}
+	.tickets .footer-dropdown .btn.btn-outline-info {
+		height: 45px;
+	}
+	.profile .profile_nav {
+		width: inherit;
+		gap: 20px;
+		padding: 10px;
+	}
+	.profile .btn-primary-main {
+		max-width: inherit;
+	}
+	.profile .form-group_psevdo .form-control, 
+	.profile .form-control {
+		padding: 10px 16px;
+	}
+	.profile .profile__tabs {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.profile .profile__personal {
+		padding: 40px 20px;
+	}
+	.profile .profile__tabs .profile_nav a {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.profile .profile_user-view .name {
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	.profile .profile_user-view .circle-image {
+		width: 75px;
+		height: 75px;
+	}
+	.profile .profile_user-view .user-photo {
+		width: 80%;
+		height: auto;
+		top: 10px;
+		position: relative;
+	}
+	.profile .btn_loud-foto {
+		right: -10px;
+		bottom: -10px;
+		padding: 2px;
+	}
+	.upload-documents .upload-documents__container {
+		margin-top: 40px;
+	}
+	.upload-documents .upload-doc-top .account-score_btn__block {
+		margin-bottom: 20px;
+		gap: 10px;
+	}
+	.upload-documents .upload-doc-top .account-score_btn {
+		max-width: 160px;
+    	padding: 10px 5px;
+	}
+	.upload-documents .h2 {
+		margin-top: 0 !important;
+		margin-bottom: 12px;
+	}
+	.upload-documents .upload-doc-top .text {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.upload-documents .upload-choose-wrap .upload-documents_ind-verification_item {
+		padding: 12px;
+		height: 100px;
+		max-width: 125px;
+	}
+	.upload-documents .upload-documents_ind-verification_item__title {
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.upload-documents .upload-documents_ind-verification {
+		gap: 10px;
+		max-width: 400px;
+		justify-content: center;
+	}
+	.upload-documents .upload-documents_info-block {
+		padding: 10px;
+		margin-top: 12px;
+	}
+	.upload-documents .upload-documents_info-block .upload-doc-icon {
+		margin-bottom: 12px;
+	}
+	.upload-documents .upload-documents_info-block__list_outer {
+		margin: 0;
+	}
+	.upload-documents .upload-documents_info-block__list_outer b {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.upload-documents .upload-documents_info-block__list {
+		gap: 10px 20px;
+	}
+	.upload-documents .file-preview_upload-documents .file-drop-zone-title {
+		padding: 50px;
+	}
+	.upload-documents .btn_add-files {
+		flex-direction: column;
+		top: calc(50% - 57px);
+	}
+	.upload-documents .upload-documents_ind-verification_bnt_files {
+		margin-right: 0;
+		margin-bottom: 16px;
+	}
+	.upload-documents .upload-documents_info-block__list.identity-list {
+		grid-template-columns: 1fr 1fr;
+	}	
+}
+
+@media (max-width: 360px) {
+	.belleo-age .belleo-block .block_formPageAge {
+		flex-direction: column;
+	}
+	.belleo-age .belleo-block .form-control {
+		max-width: inherit;
+	}
+	.belleo-age .belleo-block .blockBtnPageAge {
+		margin-left: 0;
+		max-width: inherit;
+	}
+	.belleo-age .belleo-block .btn-primary-main {
+		max-width: inherit;
+		margin-top: 15px;
+	}
+	.tickets .users-bulk-actions {
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+	.tickets .footer-dropdown .btn.btn-outline-info {
+		margin-left: 0;
+		max-width: inherit;
+	}
+	.tickets .blockBtnTicket,
+	.tickets .btn-primary-main {
+		max-width: inherit;
+	}
+}
+@media (max-width: 320px) {
+}
+
+
+
+@media (min-width: 320px) {
+}
+
+@media (min-width: 360px) {
+}
+
+@media (min-width: 533px) {
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 768px) {
+	.fz-md-16{
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 800px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1366px) {
+}
+
+@media (min-width: 1680px) {
+}
+
+@media (min-width: 1920px) {
+}
