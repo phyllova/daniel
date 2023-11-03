@@ -6,7 +6,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="/favicon.ico"/>
-    <link rel="icon" type="image/png" href="/templates/custom/images/favicon_belleofx 32х32.png"/>
+    <link rel="icon" type="image/png" href="/templates/custom/images/favicon_ZerahFX 32х32.png"/>
             <link rel="stylesheet" href="/templates/custom/fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="/templates/custom/fonts/IcoMoon/icomoon.css">
     <link rel="stylesheet" href="/templates/custom/css/old/bootstrap.css">
@@ -702,7 +702,7 @@ demo	account" />
                       AML & CTF Policy                  </a>
                 </li>
                 <li>
-                  <!-- <a href="/files/risk_warning_mu_belleofx.pdf">Risk Warning</a> -->
+                  <!-- <a href="/files/risk_warning_mu_ZerahFX.pdf">Risk Warning</a> -->
                   <a href="/risk-warning">
                       Risk Warning                  </a>
                 </li>

@@ -6,7 +6,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="/favicon.ico"/>
-    <link rel="icon" type="image/png" href="/templates/custom/images/favicon_belleofx 32х32.png"/>
+    <link rel="icon" type="image/png" href="/templates/custom/images/favicon_ZerahFX 32х32.png"/>
             <link rel="stylesheet" href="/templates/custom/fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="/templates/custom/fonts/IcoMoon/icomoon.css">
     <link rel="stylesheet" href="/templates/custom/css/old/bootstrap.css">
@@ -574,7 +574,7 @@
       </div>
       <div class="item-description">
                 <p class="text">
-            ZerahFX هو اسم تجاري لشركة Zerah Markets (موريشيوس)، وBelleoFX (سانت فنسنت وجزر غرينادين) وBelleo Markets - Rep.Office (الإمارات العربية المتحدة).<br><br>
+            ZerahFX هو اسم تجاري لشركة Zerah Markets (موريشيوس)، وZerahFX (سانت فنسنت وجزر غرينادين) وZerah Markets - Rep.Office (الإمارات العربية المتحدة).<br><br>
                                        تأسست شركة Zerah Markets (MU) في جمهورية موريشيوس برقم التسجيل 186405 GBC. تخضع الشركة للتنظيم من قبل لجنة الخدمات المالية (FSC) في موريشيوس باعتبارها تاجر استثمار (وسيط)، برقم ترخيص GB21027167.<br><br>
                                        تم تسجيل ZerahFX (SVG) من قبل هيئة الخدمات المالية (FSA) في سانت فنسنت وجزر غرينادين كشركة أعمال دولية برقم تسجيل 2584 LLC 2022.<br><br>
                                        Zerah Markets - المكتب التمثيلي (الإمارات العربية المتحدة) هو فرع لشركة أجنبية (Zerah Markets Mauritius)، مسجلة ومنظمة من قبل DET برقم ترخيص 1074850.<br><br>
@@ -601,7 +601,7 @@
                       سياسة AML وCTF                  </a>
                 </li>
                 <li>
-                  <!-- <a href="/files/risk_warning_mu_belleofx.pdf">Risk Warning</a> -->
+                  <!-- <a href="/files/risk_warning_mu_ZerahFX.pdf">Risk Warning</a> -->
                   <a href="/ar/risk-warning">
                       تحذير من المخاطر                  </a>
                 </li>
