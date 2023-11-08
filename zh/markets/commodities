@@ -220,9 +220,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     登入                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     註冊                </a>
                                 <div class="lang_block ">
     <div>
@@ -287,7 +287,7 @@
 <main class="main">
     <div class="item-page" itemscope itemtype="https://schema.org/Article">
 	<meta itemprop="inLanguage" content="zh-TW" />
-			<div class="page-commodities mt100"><div class="intro" style="background-image:url(/images/commodities/intro-bg.jpg)"><div class="wrapper"><h1 class="title mb0">商品</h1></div></div><div class="trade"><div class="wrapper"><div class="flex between align-center"><div class="text-box"><div class="title mb20">交易商品差价合约</div><p class="mb20">我们为您提供独特的机会来交易黄金和白银等金属，或交易石油和天然气以及咖啡、可可、糖、棉花等。成为供应商、商家和大买家组成的巨大市场的一部分，他们通过锁定今天的价格来保护未来交货的价格。</p><p>当您交易大宗商品差价合约时，可以在上涨和下跌的市场之间进行选择 - 根据您的意愿做多或做空。立即开始交易商品差价合约并通过 ZerahFX 发掘新的交易机会！ </p></div><div class="img-box"><img src="/images/commodities/comm-img.png" alt="交易商品差价合约"></div></div></div></div><div class="advantages"><div class="wrapper"><div class="title centered mb40">为何与 ZerahFX 进行交易</div><ul class="advan-list flex between"><li><div class="text"><div class="ttl">优秀的用户体验</div><p>我们正在不断改善我们的用户体验。自己尝试一下。</p></div></li><li><div class="text"><div class="ttl">最佳交易平台</div><p>我们很荣幸为您提供市场上最好的交易平台 - MetaTrader5。</p></div></li><li><div class="text"><div class="ttl"> 1000+ 交易工具</div><p>5 个资产类别，甚至印度股市。我们都有。</p></div></li><li><div class="text"><div class="ttl"> 24/5 多语言支持</div><p>ZerahFX 团队随时为您服务。只需询问我们，剩下的就由我们来处理。</p></div></li><li><div class="text"><div class="ttl">一级银行的定价</div><p>获得实施您的交易策略的最佳价格。</p></div></li><li><div class="text"><div class="ttl">深度流动性</div><p>我们全面、快速地执行您的商品订单。</p></div></li></ul></div></div><div class="account"><div class="wrapper"><div class="title"><span class="purple">打开您的商品<br>交易账户</span></div><div class="text">在 10 分钟内完成简单的注册和入职流程。今天开始交易商品！</div><a href="https://pa.tradewithzerah.com/en/signup" class="btn-main">开设真实账户</a></div></div></div> 	</div>
+			<div class="page-commodities mt100"><div class="intro" style="background-image:url(/images/commodities/intro-bg.jpg)"><div class="wrapper"><h1 class="title mb0">商品</h1></div></div><div class="trade"><div class="wrapper"><div class="flex between align-center"><div class="text-box"><div class="title mb20">交易商品差价合约</div><p class="mb20">我们为您提供独特的机会来交易黄金和白银等金属，或交易石油和天然气以及咖啡、可可、糖、棉花等。成为供应商、商家和大买家组成的巨大市场的一部分，他们通过锁定今天的价格来保护未来交货的价格。</p><p>当您交易大宗商品差价合约时，可以在上涨和下跌的市场之间进行选择 - 根据您的意愿做多或做空。立即开始交易商品差价合约并通过 ZerahFX 发掘新的交易机会！ </p></div><div class="img-box"><img src="/images/commodities/comm-img.png" alt="交易商品差价合约"></div></div></div></div><div class="advantages"><div class="wrapper"><div class="title centered mb40">为何与 ZerahFX 进行交易</div><ul class="advan-list flex between"><li><div class="text"><div class="ttl">优秀的用户体验</div><p>我们正在不断改善我们的用户体验。自己尝试一下。</p></div></li><li><div class="text"><div class="ttl">最佳交易平台</div><p>我们很荣幸为您提供市场上最好的交易平台 - MetaTrader5。</p></div></li><li><div class="text"><div class="ttl"> 1000+ 交易工具</div><p>5 个资产类别，甚至印度股市。我们都有。</p></div></li><li><div class="text"><div class="ttl"> 24/5 多语言支持</div><p>ZerahFX 团队随时为您服务。只需询问我们，剩下的就由我们来处理。</p></div></li><li><div class="text"><div class="ttl">一级银行的定价</div><p>获得实施您的交易策略的最佳价格。</p></div></li><li><div class="text"><div class="ttl">深度流动性</div><p>我们全面、快速地执行您的商品订单。</p></div></li></ul></div></div><div class="account"><div class="wrapper"><div class="title"><span class="purple">打开您的商品<br>交易账户</span></div><div class="text">在 10 分钟内完成简单的注册和入职流程。今天开始交易商品！</div><a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-main">开设真实账户</a></div></div></div> 	</div>
 
 </main>
 

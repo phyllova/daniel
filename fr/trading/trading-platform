@@ -221,9 +221,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     Login                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     Register                </a>
                                 <div class="lang_block ">
     <div>
@@ -296,7 +296,7 @@
                 <div class="platforms__content"><h4 class="platforms__title"> Le seul et unique -<br> MétaTrader5</h4>
                     <p class="platforms__text"> Meilleure plateforme de trading primée à plusieurs reprises pour toutes
                         les classes d&#39;actifs disponibles pour les clients ZerahFX.</p>
-                    <div class="platforms__btns-group"><a href="https://pa.tradewithzerah.com/en/signup"
+                    <div class="platforms__btns-group"><a href="https://pa.tradewithzerah.com/users/form/signup.php"
                                                           class="btn-reset btn-main">Commencez à trader maintenant</a>
                         <a href="https://metatraderweb.app/trade" class="btn-reset btn-main btn-main--black">Ouvrez le
                             terminal Web</a></div>

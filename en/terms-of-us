@@ -201,7 +201,7 @@
 
                         </nav>
                         <div class="header__right">
-                            <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main btn-main--white">
+                            <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main btn-main--white">
                                 Join Now                            </a>
                             <a href="/en/demo" class="btn-reset btn-main btn-main--black">
                                 Try Demo Account                            </a>
@@ -220,9 +220,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     Login                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     Register                </a>
                                 <div class="lang_block ">
     <div>
@@ -565,7 +565,7 @@
             If you have any concerns about material which appears on our site, please contact
             <a href="mailto:support@tradewithzerah.com" target="_blank">support@tradewithzerah.com</a><br><br>
             By accessing the <a href="/www.tradewithzerah.com">www.tradewithzerah.com</a> website and any pages linked thereto
-            <a href="https://pa.tradewithzerah.com/en/login" target="_blank">(https://pa.tradewithzerah.com/en/login)</a> etc, I agree to be bound by the terms and conditions as described
+            <a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank">(https://pa.tradewithzerah.com/users/form/index.php)</a> etc, I agree to be bound by the terms and conditions as described
             above.
           </p>
         </div>

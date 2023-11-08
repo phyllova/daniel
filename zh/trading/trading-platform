@@ -221,9 +221,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     登入                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     註冊                </a>
                                 <div class="lang_block ">
     <div>
@@ -297,7 +297,7 @@
                     <h4 class="platforms__title">唯一的——<br>元交易者5</h4>
                     <p class="platforms__text">屡获殊荣的最佳交易平台，适用于所有资产类别，可供 ZerahFX 客户使用。</p>
                     <div class="platforms__btns-group">
-                        <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">立即开始交易</a>
+                        <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">立即开始交易</a>
                         <a href="https://metatraderweb.app/trade" class="btn-reset btn-main btn-main--black">打开网络终端</a>
                     </div>
                 </div>

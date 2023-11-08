@@ -201,7 +201,7 @@
 
                         </nav>
                         <div class="header__right">
-                            <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main btn-main--white">
+                            <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main btn-main--white">
                                 Join Now                            </a>
                             <a href="/en/demo" class="btn-reset btn-main btn-main--black">
                                 Try Demo Account                            </a>
@@ -220,9 +220,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     Login                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     Register                </a>
                                 <div class="lang_block ">
     <div>
@@ -352,7 +352,7 @@
         <div class="wrapper">
             <div class="title"><span class="purple">Open your commodity <br>trading account</span></div>
             <div class="text">Complete simple registration and onboarding process within 10 minutesof your time. Start trading commodities today!</div>
-            <a href="https://pa.tradewithzerah.com/en/signup" class="btn-main">Open Live Account</a>
+            <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-main">Open Live Account</a>
         </div>
     </div>
 

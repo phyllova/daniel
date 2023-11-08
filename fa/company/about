@@ -223,9 +223,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     ورود به سیستم                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     ثبت نام                </a>
                                 <div class="lang_block ">
     <div>
@@ -327,7 +327,7 @@
     </svg>
   </a>
 </div></div>
- </div></div></div></div><div class="steps" ><div class="wrapper" ><div class="flex between align-center" ><div class="ttl-box" ><div class="ttl mb40" > تجارت با ZerahFX را در 3 <span>مرحله آسان شروع کنید!</span></div> <a href="https://pa.tradewithzerah.com/en/signup" class="btn-main btn-main--black">اکنون تجارت را شروع کنید</a> </div><div class="steps__container" ><div class="step" ><div class="step__number" ></div><div class="step__text" ><div class="step__name" > <span>ثبت نام</span></div><div class="step__descript" > فرم ثبت نام ساده را پر کنید </div></div></div><div class="step step--dashed" ><div class="step__number" ></div><div class="step__text" ><div class="step__name" > <span>تأیید کنید</span></div><div class="step__descript" > مدارک شناسایی خود را آپلود کنید </div></div></div><div class="step" ><div class="step__number" ></div><div class="step__text" ><div class="step__name" > <span>صندوق و تجارت</span></div><div class="step__descript" > پس از تایید، حساب خود را سرمایه گذاری کنید و تجارت کنید</div></div></div></div></div> <a href="https://pa.tradewithzerah.com/en/signup" class="btn-main btn-main--mobile centered">اکنون تجارت را شروع کنید</a></div></div></div> 	</div>
+ </div></div></div></div><div class="steps" ><div class="wrapper" ><div class="flex between align-center" ><div class="ttl-box" ><div class="ttl mb40" > تجارت با ZerahFX را در 3 <span>مرحله آسان شروع کنید!</span></div> <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-main btn-main--black">اکنون تجارت را شروع کنید</a> </div><div class="steps__container" ><div class="step" ><div class="step__number" ></div><div class="step__text" ><div class="step__name" > <span>ثبت نام</span></div><div class="step__descript" > فرم ثبت نام ساده را پر کنید </div></div></div><div class="step step--dashed" ><div class="step__number" ></div><div class="step__text" ><div class="step__name" > <span>تأیید کنید</span></div><div class="step__descript" > مدارک شناسایی خود را آپلود کنید </div></div></div><div class="step" ><div class="step__number" ></div><div class="step__text" ><div class="step__name" > <span>صندوق و تجارت</span></div><div class="step__descript" > پس از تایید، حساب خود را سرمایه گذاری کنید و تجارت کنید</div></div></div></div></div> <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-main btn-main--mobile centered">اکنون تجارت را شروع کنید</a></div></div></div> 	</div>
 
 </main>
 

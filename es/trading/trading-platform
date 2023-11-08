@@ -221,9 +221,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     Iniciar sesión                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     Registrarse                </a>
                                 <div class="lang_block ">
     <div>
@@ -298,7 +298,7 @@
                     <p class="platforms__text"> La mejor plataforma comercial ganadora de múltiples premios para todas
                         las clases de activos disponibles para los clientes de ZerahFX.</p>
                     <div class="platforms__btns-group">
-                        <a href="https://pa.tradewithzerah.com/en/signup"
+                        <a href="https://pa.tradewithzerah.com/users/form/signup.php"
                            class="btn-reset btn-main">Comience a operar ahora</a> <a
                                 href="https://metatraderweb.app/trade" class="btn-reset btn-main btn-main--black">Abra
                             la terminal web</a>

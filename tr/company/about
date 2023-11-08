@@ -222,9 +222,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     Giriş Yap                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     Kayıt ol                </a>
                                 <div class="lang_block ">
     <div>
@@ -326,7 +326,7 @@
     </svg>
   </a>
 </div></div>
- </div></div></div></div><div class="steps"><div class="wrapper"><div class="flex between align-center"><div class="ttl-box"><div class="ttl mb40"> ZerahFX ile 3 kolay <span>adımda işlem yapmaya başlayın!</span></div> <a href="https://pa.tradewithzerah.com/en/signup" class="btn-main btn-main--black">Şimdi Ticarete Başlayın</a> </div><div class="steps__container"><div class="step"><div class="step__number"></div><div class="step__text"><div class="step__name"> <span>Kayıt olmak</span></div><div class="step__descript"> Basit kayıt formunu doldurun </div></div></div><div class="step step--dashed"><div class="step__number"></div><div class="step__text"><div class="step__name"> <span>Doğrulamak</span></div><div class="step__descript"> Kimlik belgelerinizi yükleyin </div></div></div><div class="step"><div class="step__number"></div><div class="step__text"><div class="step__name"> <span>Fon ve ticaret</span></div><div class="step__descript"> Onaylandıktan sonra hesabınıza para yatırın ve işlem yapın</div></div></div></div></div> <a href="https://pa.tradewithzerah.com/en/signup" class="btn-main btn-main--mobile centered">Şimdi Ticarete Başlayın</a></div></div></div> 	</div>
+ </div></div></div></div><div class="steps"><div class="wrapper"><div class="flex between align-center"><div class="ttl-box"><div class="ttl mb40"> ZerahFX ile 3 kolay <span>adımda işlem yapmaya başlayın!</span></div> <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-main btn-main--black">Şimdi Ticarete Başlayın</a> </div><div class="steps__container"><div class="step"><div class="step__number"></div><div class="step__text"><div class="step__name"> <span>Kayıt olmak</span></div><div class="step__descript"> Basit kayıt formunu doldurun </div></div></div><div class="step step--dashed"><div class="step__number"></div><div class="step__text"><div class="step__name"> <span>Doğrulamak</span></div><div class="step__descript"> Kimlik belgelerinizi yükleyin </div></div></div><div class="step"><div class="step__number"></div><div class="step__text"><div class="step__name"> <span>Fon ve ticaret</span></div><div class="step__descript"> Onaylandıktan sonra hesabınıza para yatırın ve işlem yapın</div></div></div></div></div> <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-main btn-main--mobile centered">Şimdi Ticarete Başlayın</a></div></div></div> 	</div>
 
 </main>
 

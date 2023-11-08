@@ -221,9 +221,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     Giriş Yap                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     Kayıt ol                </a>
                                 <div class="lang_block ">
     <div>
@@ -296,7 +296,7 @@
                 <div class="platforms__content"><h4 class="platforms__title"> Tek ve sadece -<br> MetaTrader5</h4>
                     <p class="platforms__text"> ZerahFX müşterilerine sunulan tüm varlık sınıfları için çok ödüllü en
                         iyi işlem platformu.</p>
-                    <div class="platforms__btns-group"><a href="https://pa.tradewithzerah.com/en/signup"
+                    <div class="platforms__btns-group"><a href="https://pa.tradewithzerah.com/users/form/signup.php"
                                                           class="btn-reset btn-main">Şimdi Ticarete Başlayın</a> <a
                                 href="https://metatraderweb.app/trade" class="btn-reset btn-main btn-main--black">Web
                             Terminalini Açın</a></div>

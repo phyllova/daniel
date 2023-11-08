@@ -223,9 +223,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     تسجيل الدخول                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     التسجيل                </a>
                                 <div class="lang_block ">
     <div>
@@ -310,7 +310,7 @@
 				</li>
 				</ul>
 </div>
- </div></section><section><div class="container" ><div class="row" ><div class="col-md-12" ><div class="new-detail-warp text-center" ><h1 > تداول المؤشرات </h1><div class="feature-img-deital" ><img src="/images/old/used_project/indices/indices-img-1.png" class="img-responsive" alt="نظام تداول المؤشرات"></div><p class="edit_demo-sub-about-text-2 text-center" > توفر عقود الفروقات التجارية أكثر من 55 زوجًا من العملات - العملات الرئيسية والتقاطعية والنادرة. فروق أسعار منخفضة ولا توجد إعادة تسعير</p> <a href="https://pa.tradewithzerah.com/en/signup" class="center_button">استبدل الان</a></div></div></div><div class="row" ><div class="col-md-12" ><div class="strategy-warp-h4 whyus-about" ><div class="about-icon-warp" ><div class="col-md-4" ><div class="iconbox text-center" ><span class="icon "><i class="fa fa-tachometer" aria-hidden="true"></i></span><h4 class="color_h4" > تداول برافعة مالية تصل إلى 1:30</h4></div></div><div class="col-md-4" ><div class="iconbox text-center" ><span class="icon"><i class="fa fa-first-order" aria-hidden="true"></i></span><h4 class="color_h4" > ينتشر منخفضة تصل إلى 0.6 نقطة</h4></div></div><div class="col-md-4" ><div class="iconbox text-center" ><span class="icon"><i class="fa fa-database" aria-hidden="true"></i></span><h4 class="color_h4" > يتم تنفيذ 1000 صفقة في الثانية</h4></div></div></div></div></div></div></div></section> 
+ </div></section><section><div class="container" ><div class="row" ><div class="col-md-12" ><div class="new-detail-warp text-center" ><h1 > تداول المؤشرات </h1><div class="feature-img-deital" ><img src="/images/old/used_project/indices/indices-img-1.png" class="img-responsive" alt="نظام تداول المؤشرات"></div><p class="edit_demo-sub-about-text-2 text-center" > توفر عقود الفروقات التجارية أكثر من 55 زوجًا من العملات - العملات الرئيسية والتقاطعية والنادرة. فروق أسعار منخفضة ولا توجد إعادة تسعير</p> <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="center_button">استبدل الان</a></div></div></div><div class="row" ><div class="col-md-12" ><div class="strategy-warp-h4 whyus-about" ><div class="about-icon-warp" ><div class="col-md-4" ><div class="iconbox text-center" ><span class="icon "><i class="fa fa-tachometer" aria-hidden="true"></i></span><h4 class="color_h4" > تداول برافعة مالية تصل إلى 1:30</h4></div></div><div class="col-md-4" ><div class="iconbox text-center" ><span class="icon"><i class="fa fa-first-order" aria-hidden="true"></i></span><h4 class="color_h4" > ينتشر منخفضة تصل إلى 0.6 نقطة</h4></div></div><div class="col-md-4" ><div class="iconbox text-center" ><span class="icon"><i class="fa fa-database" aria-hidden="true"></i></span><h4 class="color_h4" > يتم تنفيذ 1000 صفقة في الثانية</h4></div></div></div></div></div></div></div></section> 
 
 <div class="custom"  >
 	<section class="bg-light-grey">
@@ -388,7 +388,7 @@
                                                 class="fa fa-th-large" aria-hidden="true"></i>تحميل ميتاتريدر 5</a>
                                     </li>
                                 </ul>
-                                <a href="https://pa.tradewithzerah.com/en/signup">
+                                <a href="https://pa.tradewithzerah.com/users/form/signup.php">
                                     <button type="button"
                                             style="font-size: 17px !important;font-weight: bolder !important;"
                                             class="btn-sub-color">ابدأ التداول الآن<br> <small>أسرع وسيط نموا</small>

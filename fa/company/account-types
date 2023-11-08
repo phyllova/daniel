@@ -223,9 +223,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     ورود به سیستم                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     ثبت نام                </a>
                                 <div class="lang_block ">
     <div>
@@ -326,7 +326,7 @@
                 </svg>
             </button>
         </div>
-</div><div class="subscribe" ><div class="wrapper" ><div class="ttl" > آماده برای شروع؟</div><div class="text" > امروز حساب معاملاتی خود را باز کنید!</div> <a href="https://pa.tradewithzerah.com/en/signup" class="btn-main">حساب زنده را باز کنید</a> </div></div><section class="section request"><div class="wrapper" ><div class="request__container" ><h2 class="title" > می خواهم صحبت کنم؟<div class="accent" > درخواست تماس مجدد! </div></h2><div class="request__form" ><form action="#" id="uForm_1" class="uForm form" enctype="multipart/form-data" method="POST" ><input class="uForm__extended" name="nospam" type="text" value="uform-empty" required=""><input id="uForm__name_1" type="text" name="name" class="form__input" placeholder="اسم شما" oninput="this.value=this.value.replace(/[^A-Za-zА-Яа-я\s]/g,'');" required><input id="uForm__tel_1" type="tel" name="phone" class="form__input" placeholder="شماره تلفن" required> <button type="submit" class="btn-main btn-main--black form__btn">لطفا به من زنگ بزن <div id="uForm__preload_1" class="uForm__preload" ></div><input type="hidden" data-graph-path="modalCallback"></button> <p id="uForm__error-msg_1" class="uForm__error-msg" ></p></form></div></div></div></section></div> 	</div>
+</div><div class="subscribe" ><div class="wrapper" ><div class="ttl" > آماده برای شروع؟</div><div class="text" > امروز حساب معاملاتی خود را باز کنید!</div> <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-main">حساب زنده را باز کنید</a> </div></div><section class="section request"><div class="wrapper" ><div class="request__container" ><h2 class="title" > می خواهم صحبت کنم؟<div class="accent" > درخواست تماس مجدد! </div></h2><div class="request__form" ><form action="#" id="uForm_1" class="uForm form" enctype="multipart/form-data" method="POST" ><input class="uForm__extended" name="nospam" type="text" value="uform-empty" required=""><input id="uForm__name_1" type="text" name="name" class="form__input" placeholder="اسم شما" oninput="this.value=this.value.replace(/[^A-Za-zА-Яа-я\s]/g,'');" required><input id="uForm__tel_1" type="tel" name="phone" class="form__input" placeholder="شماره تلفن" required> <button type="submit" class="btn-main btn-main--black form__btn">لطفا به من زنگ بزن <div id="uForm__preload_1" class="uForm__preload" ></div><input type="hidden" data-graph-path="modalCallback"></button> <p id="uForm__error-msg_1" class="uForm__error-msg" ></p></form></div></div></div></section></div> 	</div>
 
 </main>
 

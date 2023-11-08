@@ -223,9 +223,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     ورود به سیستم                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     ثبت نام                </a>
                                 <div class="lang_block ">
     <div>
@@ -299,7 +299,7 @@
             <div class="forex__image" >
                 <img src="/images/forex/forex-heading-responsive-2.png" class="img-responsive" alt="تجارت فارکس">
             </div>
-            <p class="text" > CFD ها را با بیش از 55 جفت ارز - عمده، متقاطع و عجیب و غریب معامله کنید. اسپرد تنگ و بدون نقل قول مجدد</p> <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">اکنون تجارت کنید</a> </div>
+            <p class="text" > CFD ها را با بیش از 55 جفت ارز - عمده، متقاطع و عجیب و غریب معامله کنید. اسپرد تنگ و بدون نقل قول مجدد</p> <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">اکنون تجارت کنید</a> </div>
     </section>
     <section class="section pairs">
         <div class="wrapper" >
@@ -307,7 +307,7 @@
                 <div class="pairs__content" >
                     <h2 class="title" > تجارت عمده، جزئی<br> و جفت ارزهای عجیب و غریب</h2>
                     <p class="text" > بازار ارز (FOREX یا FX) بزرگترین بازار مالی غیرمتمرکز جهان است که حجم معاملات آن بیش از 7 تریلیون دلار در روز است. این بازار بزرگ‌تر از مجموع اکثر بازارهای سهام بزرگ است و بی‌ثبات‌ترین بازار است.<br>
-                        <br> در معاملات 24 ساعته و 5 روز هفته، همیشه فرصتی برای خرید یا فروش ارزهای بی ثبات وجود دارد. چه معامله گر باتجربه ای باشید و چه تازه کار در تجارت CFD، بازار FX راهی برای استفاده از تغییرات قیمت در یکی از نقدشونده ترین دارایی ها با ZerahFX است!</p> <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">حساب زنده را باز کنید</a> </div>
+                        <br> در معاملات 24 ساعته و 5 روز هفته، همیشه فرصتی برای خرید یا فروش ارزهای بی ثبات وجود دارد. چه معامله گر باتجربه ای باشید و چه تازه کار در تجارت CFD، بازار FX راهی برای استفاده از تغییرات قیمت در یکی از نقدشونده ترین دارایی ها با ZerahFX است!</p> <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">حساب زنده را باز کنید</a> </div>
                 <div class="pairs__images" >
                     <img class="img-responsive" src="/images/forex/currency-pairs.png" alt="تجارت جفت ارزهای اصلی، فرعی و عجیب و غریب">
                 </div>
@@ -354,7 +354,7 @@
         <div class="wrapper" >
             <h2 class="title" > آماده تجارت هستید؟</h2>
             <p class="text" > فقط چند کلیک در طول فرآیند برنامه برای تنظیم شما.</p>
-            <div class="btn-groups" > <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">شروع</a> <a href="/fa/demo" class="btn-reset btn-main btn-main--white">به آزمایش نسخه ی نمایشی</a> کنید</div>
+            <div class="btn-groups" > <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">شروع</a> <a href="/fa/demo" class="btn-reset btn-main btn-main--white">به آزمایش نسخه ی نمایشی</a> کنید</div>
         </div>
     </section>
 </div> 	</div>

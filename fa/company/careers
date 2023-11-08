@@ -222,9 +222,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     ورود به سیستم                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     ثبت نام                </a>
                                 <div class="lang_block ">
     <div>
@@ -295,7 +295,7 @@
         <div class="wrapper" >
             <div class="career-main__content" >
                 <h2 class="career-main__title" > ما Zerah <span class="accent">FX</span> هستیم</h2>
-                <div class="btn-groups" > <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main btn-main--black">به ما بپیوندید</a> <a href="/fa/company/about" class="btn-reset btn-main">درباره ما بیاموزید</a> </div>
+                <div class="btn-groups" > <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main btn-main--black">به ما بپیوندید</a> <a href="/fa/company/about" class="btn-reset btn-main">درباره ما بیاموزید</a> </div>
             </div>
         </div>
     </section>

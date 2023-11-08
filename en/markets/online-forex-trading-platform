@@ -205,7 +205,7 @@ ZerahFX" />
 
                         </nav>
                         <div class="header__right">
-                            <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main btn-main--white">
+                            <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main btn-main--white">
                                 Join Now                            </a>
                             <a href="/en/demo" class="btn-reset btn-main btn-main--black">
                                 Try Demo Account                            </a>
@@ -224,9 +224,9 @@ ZerahFX" />
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     Login                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     Register                </a>
                                 <div class="lang_block ">
     <div>
@@ -303,7 +303,7 @@ ZerahFX" />
             <p class="text">
                 Trade CFDs on 55+ currency pairs - majors, crosses and exotics. Tight spreads and NO re-quotes
             </p>
-            <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+            <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                 Trade Now
             </a>
         </div>
@@ -326,7 +326,7 @@ ZerahFX" />
                         represents a way to take advantage of price movements in one of the most liquid assets 
                         with ZerahFX!
                     </p>
-                    <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                    <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                         Open Live Account
                     </a>
                 </div>
@@ -405,7 +405,7 @@ ZerahFX" />
                 Just a few clicks through the application process to set you up.
             </p>
             <div class="btn-groups">
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     Get started 
                 </a>
                 <a href="/demo" class="btn-reset btn-main btn-main--white">

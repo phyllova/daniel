@@ -222,9 +222,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     ورود به سیستم                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     ثبت نام                </a>
                                 <div class="lang_block ">
     <div>
@@ -297,7 +297,7 @@
                 <div class="platforms__content" >
                     <h4 class="platforms__title" > یک و تنها -<br> متاتریدر5</h4>
                     <p class="platforms__text" > بهترین پلت فرم معاملاتی برنده جوایز چندگانه برای همه کلاس های دارایی موجود برای مشتریان ZerahFX.</p>
-                    <div class="platforms__btns-group" > <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">اکنون تجارت را شروع کنید</a> <a href="https://metatraderweb.app/trade" class="btn-reset btn-main btn-main--black">ترمینال وب را باز کنید</a> </div>
+                    <div class="platforms__btns-group" > <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">اکنون تجارت را شروع کنید</a> <a href="https://metatraderweb.app/trade" class="btn-reset btn-main btn-main--black">ترمینال وب را باز کنید</a> </div>
                 </div>
                 <div class="platforms__images" >
                     <img loading="lazy" src="/images/platforms/tablet.png" class="image" width="" height="" alt="تصاویر همه دستگاه ها">

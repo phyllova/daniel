@@ -223,9 +223,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     ورود به سیستم                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     ثبت نام                </a>
                                 <div class="lang_block ">
     <div>
@@ -317,7 +317,7 @@
                             <td> 500 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">1-5 روز کاری</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">واریز
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">واریز
                                     کنید</a></th>
                         </tr>
                         <tr class="line">
@@ -327,7 +327,7 @@
                             <td> 100 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">فوری</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">واریز
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">واریز
                                     کنید</a></th>
                         </tr>
                         <tr class="line">
@@ -337,7 +337,7 @@
                             <td> 100 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">فوری</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">واریز
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">واریز
                                     کنید</a></th>
                         </tr>
                         <tr class="line">
@@ -347,7 +347,7 @@
                             <td> 100 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">فوری</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">واریز
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">واریز
                                     کنید</a></th>
                         </tr>
                         <tr class="line">
@@ -357,7 +357,7 @@
                             <td> 100 دلار</td>
                             <td> 1%</td>
                             <td class="time-td"><span class="time">فوری</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">واریز
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">واریز
                                     کنید</a></th>
                         </tr>
                         <tr class="line">
@@ -367,7 +367,7 @@
                             <td> 100 دلار</td>
                             <td> 1%</td>
                             <td class="time-td"><span class="time">فوری</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">واریز
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">واریز
                                     کنید</a></th>
                         </tr>
                         <tr class="line">
@@ -377,7 +377,7 @@
                             <td> 100 دلار</td>
                             <td> از 3.5٪</td>
                             <td class="time-td"><span class="time">فوری</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">واریز
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">واریز
                                     کنید</a></th>
                         </tr>
                         <tr class="line">
@@ -387,7 +387,7 @@
                             <td> 100 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">فوری</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">واریز
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">واریز
                                     کنید</a></th>
                         </tr>
                         <tr class="line">
@@ -397,7 +397,7 @@
                             <td>100 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">فوری</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">واریز
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">واریز
                                     کنید</a></th>
                         </tr>
                         <tr class="line">
@@ -407,7 +407,7 @@
                             <td> 100 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">فوری</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">واریز
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">واریز
                                     کنید</a></th>
                         </tr>
                         </tbody>
@@ -448,7 +448,7 @@
                             <td> 100 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">1-24 ساعت برای تکمیل فرآیند</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">کنار
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">کنار
                                     کشیدن</a></th>
                         </tr>
                         <tr class="line">
@@ -458,7 +458,7 @@
                             <td> 10 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">1-24 ساعت برای تکمیل فرآیند</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">کنار
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">کنار
                                     کشیدن</a></th>
                         </tr>
                         <tr class="line">
@@ -468,7 +468,7 @@
                             <td> 10 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">1-24 ساعت برای تکمیل فرآیند</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">کنار
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">کنار
                                     کشیدن</a></th>
                         </tr>
                         <tr class="line">
@@ -478,7 +478,7 @@
                             <td> 10 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">1-24 ساعت برای تکمیل فرآیند</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">کنار
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">کنار
                                     کشیدن</a></th>
                         </tr>
                         <tr class="line">
@@ -488,7 +488,7 @@
                             <td> 10 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">1-24 ساعت برای تکمیل فرآیند</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">کنار
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">کنار
                                     کشیدن</a></th>
                         </tr>
                         <tr class="line">
@@ -498,7 +498,7 @@
                             <td> 10 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">1-24 ساعت برای تکمیل فرآیند</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">کنار
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">کنار
                                     کشیدن</a></th>
                         </tr>
                         <tr class="line">
@@ -508,7 +508,7 @@
                             <td> 10 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">1-24 ساعت برای تکمیل فرآیند</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">کنار
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">کنار
                                     کشیدن</a></th>
                         </tr>
                         <tr class="line">
@@ -518,7 +518,7 @@
                             <td> 10 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">1-24 ساعت برای تکمیل فرآیند</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">کنار
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">کنار
                                     کشیدن</a></th>
                         </tr>
                         <tr class="line">
@@ -528,7 +528,7 @@
                             <td>10 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">1-24 ساعت برای تکمیل فرآیند</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">کنار
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">کنار
                                     کشیدن</a></th>
                         </tr>
                         <tr class="line">
@@ -538,7 +538,7 @@
                             <td> 10 دلار</td>
                             <td> رایگان</td>
                             <td class="time-td"><span class="time">1-24 ساعت برای تکمیل فرآیند</span></td>
-                            <th><a href="https://pa.tradewithzerah.com/en/login" target="_blank" class="payment-link">کنار
+                            <th><a href="https://pa.tradewithzerah.com/users/form/index.php" target="_blank" class="payment-link">کنار
                                     کشیدن</a></th>
                         </tr>
                         </tbody>

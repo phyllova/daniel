@@ -204,7 +204,7 @@ Forex	trading.	Refer	client	and	earn	a	substantial, ongoing	commission	for	it." 
 
                         </nav>
                         <div class="header__right">
-                            <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main btn-main--white">
+                            <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main btn-main--white">
                                 Join Now                            </a>
                             <a href="/en/demo" class="btn-reset btn-main btn-main--black">
                                 Try Demo Account                            </a>
@@ -223,9 +223,9 @@ Forex	trading.	Refer	client	and	earn	a	substantial, ongoing	commission	for	it." 
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     Login                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     Register                </a>
                                 <div class="lang_block ">
     <div>

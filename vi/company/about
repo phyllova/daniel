@@ -222,9 +222,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     Đăng nhập                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     Đăng ký                </a>
                                 <div class="lang_block ">
     <div>
@@ -326,7 +326,7 @@
     </svg>
   </a>
 </div></div>
- </div></div></div></div><div class="steps"><div class="wrapper"><div class="flex between align-center"><div class="ttl-box"><div class="ttl mb40"> Bắt đầu giao dịch với ZerahFX trong 3 <span>bước đơn giản!</span></div> <a href="https://pa.tradewithzerah.com/en/signup" class="btn-main btn-main--black">Bắt đầu giao dịch ngay</a> </div><div class="steps__container"><div class="step"><div class="step__number"></div><div class="step__text"><div class="step__name"> <span>Đăng ký</span></div><div class="step__descript"> Điền vào mẫu đăng ký đơn giản </div></div></div><div class="step step--dashed"><div class="step__number"></div><div class="step__text"><div class="step__name"> <span>Xác minh</span></div><div class="step__descript"> Tải lên tài liệu ID của bạn </div></div></div><div class="step"><div class="step__number"></div><div class="step__text"><div class="step__name"> <span>Quỹ và giao dịch</span></div><div class="step__descript"> Sau khi được phê duyệt, hãy nạp tiền vào tài khoản của bạn và giao dịch</div></div></div></div></div> <a href="https://pa.tradewithzerah.com/en/signup" class="btn-main btn-main--mobile centered">Bắt đầu giao dịch ngay</a></div></div></div> 	</div>
+ </div></div></div></div><div class="steps"><div class="wrapper"><div class="flex between align-center"><div class="ttl-box"><div class="ttl mb40"> Bắt đầu giao dịch với ZerahFX trong 3 <span>bước đơn giản!</span></div> <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-main btn-main--black">Bắt đầu giao dịch ngay</a> </div><div class="steps__container"><div class="step"><div class="step__number"></div><div class="step__text"><div class="step__name"> <span>Đăng ký</span></div><div class="step__descript"> Điền vào mẫu đăng ký đơn giản </div></div></div><div class="step step--dashed"><div class="step__number"></div><div class="step__text"><div class="step__name"> <span>Xác minh</span></div><div class="step__descript"> Tải lên tài liệu ID của bạn </div></div></div><div class="step"><div class="step__number"></div><div class="step__text"><div class="step__name"> <span>Quỹ và giao dịch</span></div><div class="step__descript"> Sau khi được phê duyệt, hãy nạp tiền vào tài khoản của bạn và giao dịch</div></div></div></div></div> <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-main btn-main--mobile centered">Bắt đầu giao dịch ngay</a></div></div></div> 	</div>
 
 </main>
 

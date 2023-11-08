@@ -221,9 +221,9 @@
 
             </nav>
             <div class="header__right">
-                <a href="https://pa.tradewithzerah.com/en/login" class="btn-reset btn-transparent">
+                <a href="https://pa.tradewithzerah.com/users/form/index.php" class="btn-reset btn-transparent">
                     Đăng nhập                </a>
-                <a href="https://pa.tradewithzerah.com/en/signup" class="btn-reset btn-main">
+                <a href="https://pa.tradewithzerah.com/users/form/signup.php" class="btn-reset btn-main">
                     Đăng ký                </a>
                                 <div class="lang_block ">
     <div>
@@ -296,7 +296,7 @@
                 <div class="platforms__content"><h4 class="platforms__title"> Chỉ một và duy nhất -<br> MetaTrader5</h4>
                     <p class="platforms__text"> Nền tảng giao dịch tốt nhất đã giành được nhiều giải thưởng cho tất cả
                         các loại tài sản dành cho khách hàng ZerahFX.</p>
-                    <div class="platforms__btns-group"><a href="https://pa.tradewithzerah.com/en/signup"
+                    <div class="platforms__btns-group"><a href="https://pa.tradewithzerah.com/users/form/signup.php"
                                                           class="btn-reset btn-main">Bắt đầu giao dịch ngay Mở</a> <a
                                 href="https://metatraderweb.app/trade" class="btn-reset btn-main btn-main--black">Web
                             Terminal</a></div>

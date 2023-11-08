@@ -1,3 +1,83 @@
+<?php
+require __dir__ . '/sub-config.php';
+require __dir__ . '/control/for-signin.php';
+
+### start HTML 
+
+require __dir__ . '/form-header.php';
+
+?>
+	
+<section class="bg-light">
+	<div class="container-fluid h-custom py-5">
+		<div class="row">
+			
+			<div class='col-xl-4 col-lg-5 col-md-7 m-auto'>
+						
+					<div class="mb-4 text-center">
+						
+
+						<img src="<?php echo $settings['logourl']; ?>" class="img-fluid" alt="Site Icon">
+					</div>
+
+
+					<div class="my-4">
+						<div class='card'>
+							<div class='card-body'>
+
+								<?php sysfunc::html_notice( $temp->msg ); ?>
+								
+								<form action="<?php echo sysfunc::sanitize_input($_SERVER["PHP_SELF"]);?>"  method="POST" name="form1" id="form1">
+
+									<div class='mb-4'>
+
+										<!-- Email input -->
+										<div class="form-outline mb-3">
+											<input type="email" type="email" name="email" value="<?php echo $email; ?>" class="form-control form-control-lg" placeholder="Enter a valid email address" />
+											<span class="small help-block text-danger"><?php echo $email_err; ?></span>				  
+										</div>
+
+										<!-- Password input -->
+										<div class="form-outline mb-3">
+											<input type="password" name="password" class="form-control form-control-lg" placeholder="Enter password" />
+											<span class="help-block small text-danger mt-1"><?php echo $password_err; ?></span>
+										</div>
+					
+										<div class='form-check'>
+											<input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+											<label class="form-check-label" for="form2Example3">
+												Remember me
+											</label>
+										</div>
+										
+										<div class="text-center text-lg-start mt-4 pt-2">
+											<input name="submit" type="submit" class="btn btn-success btn-block" onclick="return validate();" value="Submit" class="button1">
+										</div>
+										
+									</div>
+								
+								</form>
+
+								<div class="d-flex justify-content-between align-items-center my-5">
+									<!-- Checkbox -->
+									<p class="small fw-bold mb-0">
+										Become a Share Holder?  <a href="<?php echo sysfunc::url( __users_register_page ); ?>" class="link-danger">Register</a>
+									</p>
+									<a href="<?php echo sysfunc::url( __users_reset_password_page ); ?>" class="text-body small">Forgot password?</a>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<?php include __dir__ . '/form-footer.php'; ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,9 +93,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="o2JhvSxGHuquXKyRzHMhFf4TqTrLu2wjqSF4MyCw5ljXPUzETwR0s51o6vOqGVd8knXKAqPZQUzbRTRgY-iHGg==">
-	<title>Request password reset</title>
-	<link href="/assets/a1cf238d/css/main.css" rel="stylesheet">
+<meta name="csrf-token" content="uq1I7uqQ_f3GpEf_z4t9HWbsEiCEK7jFEhJedl8fwKOCnhLehOnFn4D-KbONszRNA7x9U_5_945QIAcuAGWN0A==">
+	<title>Login to Your Online Trading Account with ZerahFX Forex Broker</title>
+	<meta name="description" content="ZerahFX is the best online broker which provides low spreads and no commissions for the online traders. ZerahFX provides Skrill deposits and low spreads. ">
+<meta name="keywords" content="bets online broker, no commissions for traders, skrill deposits">
+<link href="/assets/a1cf238d/css/main.css" rel="stylesheet">
 <link href="/assets/3fb5b007/css/auth.css" rel="stylesheet">
 <link href="/assets/a523bd58/toastr.min.css" rel="stylesheet">
 <link href="/assets/7548472b/css/poppins.css" rel="stylesheet">
@@ -90,29 +172,42 @@
 					<div id="login_box" class="login-wrapper">
 						<div class="auth-wrap">
 							<div class="userdata">
-																								
+																								  
 <div class="header">
-	<div class="logo-box_header">
-		<div class="logo-box_header_title">Recover <br>  <span class="accent">My password</span></div>
+	<div class="logo-box_header" >
+		<div class="logo-box_header_title">Log in and</div>
+		<div class="logo-box_header_description">Trade with ZerahFX</div>
 	</div>
 </div>
-<div class="body">
-    <p class="text-center grey-text">Please enter your email address below to receive instructions for resetting password.</p>
-    <form id="request-password-reset-form" class="form-auth-small" action="/en/request-password-reset" method="post">
-<input type="hidden" name="_csrf-frontend" value="o2JhvSxGHuquXKyRzHMhFf4TqTrLu2wjqSF4MyCw5ljXPUzETwR0s51o6vOqGVd8knXKAqPZQUzbRTRgY-iHGg==">
-    <div class="form-group field-passwordresetrequestform-email required">
-<label class="control-label sr-only" for="passwordresetrequestform-email">Email</label>
-<input type="text" id="passwordresetrequestform-email" class="form-control" name="PasswordResetRequestForm[email]" autofocus placeholder="Email" aria-required="true">
+<div class="body" >
+	<?php sysfunc::html_notice( $temp->msg ); ?>
+	<form id="login-form" class="form-auth-small" action="<?php echo sysfunc::sanitize_input($_SERVER["PHP_SELF"]);?>" method="post">
+<input type="hidden" name="_csrf-frontend" value="uq1I7uqQ_f3GpEf_z4t9HWbsEiCEK7jFEhJedl8fwKOCnhLehOnFn4D-KbONszRNA7x9U_5_945QIAcuAGWN0A==">	
+	<div class="form-group field-loginform-username required">
+<label class="control-label sr-only" for="loginform-username">Email</label>
+<input type="text" id="loginform-username" value="<?php echo $email; ?>" class="form-control" name="email" autofocus placeholder="Email" autocomplete="new-username" aria-required="true">
 
-<p class="help-block help-block-error"></p>
-</div>
-    <button type="submit" class="btn btn-primary btn-primary-main">Reset password</button>	
-	<div class="logo-box_footer">
-		<span>Know your password?</span>
-		<a href="/en/login" class="switchBox my_btn mrg_top30">
-			Login		</a>
+<p class="help-block help-block-error"><?php echo $email_err; ?></p>
+</div>	
+	<div class="form-group field-loginform-password required">
+<label class="control-label sr-only" for="loginform-password">Password</label>
+<input type="password" id="loginform-password" class="form-control" name="password" placeholder="Password" autocomplete="new-password" aria-required="true">
+
+<p class="help-block help-block-error"><?php echo $password_err; ?></p>
+</div>	
+	<div class="request-password__outer"><a href="/en/request-password-reset" class="request-password__link">Forgot password?</a></div>
+	
+	<div class=" field-loginform-rememberme">
+<label class="label_remember"><input type="hidden" name="LoginForm[rememberMe]" value="0"><input type="checkbox" id="loginform-rememberme" name="LoginForm[rememberMe]" value="1" checked><span class="label_remember__span">Stay signed in</span></label>
+</div>	
+	<button type="submit" class="btn btn-primary btn-primary-main" name="login-button">Login</button>	<div class="logo-box_footer mb-5">
+		<div class="">
+			<a href="/users/form/signup.php" class="">
+				Sign up			</a>
+		</div>
 	</div>
-    </form></div>
+	
+	</form></div>
 							</div>
 						</div>
 					</div>
@@ -124,7 +219,7 @@
 							<img src="/assets/db9042ed/en.png">
 						</a>
 						<ul class="dropdown-menu dropdown-menu-right account animated flipInY">
-															<a href="/en/request-password-reset"><li><img src="/assets/db9042ed/en.png">English</li> </a>													</ul>
+															<a href="/users/form/index.php"><li><img src="/assets/db9042ed/en.png">English</li> </a>													</ul>
 					</div>
 					<div class="mainLogoBox">
 						<a href="http://tradewithzerah.com/" class="wr-log">
@@ -135,18 +230,18 @@
 											<h3 class="auth-title auth-title__login">
 							Join us <span class="accent">Today!</span>
 							<div class="socials">
-								<a href="https://instagram.com/zerah_fx?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="socials__link">
+								<a href="https://www.facebook.com/ZerahFX/" target="_blank" class="socials__link">
 									<svg class="icon" width="48" height="49" viewBox="0 0 48 49" xmlns="http://www.w3.org/2000/svg">
 										<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24.7285C0 11.4737 10.7452 0.728516 24 0.728516C37.2548 0.728516 48 11.4737 48 24.7285C48 37.9833 37.2548 48.7285 24 48.7285C10.7452 48.7285 0 37.9833 0 24.7285ZM26.5016 38.84V25.7827H30.1059L30.5836 21.2831H26.5016L26.5077 19.031C26.5077 17.8574 26.6192 17.2286 28.3048 17.2286H30.5581V12.7285H26.9532C22.6231 12.7285 21.0991 14.9113 21.0991 18.5821V21.2836H18.4V25.7832H21.0991V38.84H26.5016Z"/>
 									</svg>
 								</a>
-								<a href="https://instagram.com/zerah_fx?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="socials__link">
+								<a href="https://www.quora.com/profile/ZerahFX-1?q=zerah58" target="_blank" class="socials__link">
 									<svg class="icon" width="48" height="49" viewBox="0 0 48 49" xmlns="http://www.w3.org/2000/svg">
 										<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24.7285C0 11.4737 10.7452 0.728516 24 0.728516C37.2548 0.728516 48 11.4737 48 24.7285C48 37.9833 37.2548 48.7285 24 48.7285C10.7452 48.7285 0 37.9833 0 24.7285ZM26.0301 35.7744L26.0264 35.7763C27.3194 37.9928 29.0465 39.8843 32.3066 39.8843C37.6947 39.8843 38.2913 34.921 38.1805 33.726H36.2521C36.1523 34.6237 35.5539 35.7652 34.0762 35.7652C32.7204 35.7652 31.7451 34.8232 30.8031 33.4064C33.7308 31.1381 35.7441 27.6305 35.7441 23.3137C35.7441 15.5522 29.3531 10.3285 22.6481 10.3285C16.0538 10.3285 9.6 15.5928 9.6 23.3137C9.6 30.9645 16.0557 36.2251 22.6499 36.2251C23.7914 36.2251 24.944 36.0644 26.0301 35.7744Z"/>
 										<path fill-rule="evenodd" clip-rule="evenodd" d="M24.8018 33.3731C23.7785 31.3597 22.5779 29.3223 20.2339 29.3223C19.7869 29.3223 19.338 29.3962 18.928 29.5809L18.1337 27.9924C19.1016 27.1575 20.6698 26.4962 22.685 26.4962C25.8196 26.4962 27.4284 28.0109 28.7066 29.9356C29.4639 28.2916 29.8223 26.0677 29.8223 23.3136C29.8223 16.435 27.6722 12.9033 22.648 12.9033C17.6978 12.9033 15.5551 16.435 15.5551 23.3136C15.5551 30.1554 17.6978 33.6501 22.648 33.6501C23.4349 33.6501 24.1479 33.5652 24.8018 33.3731Z"/>
 									</svg>
 								</a>
-								<a href="https://instagram.com/zerah_fx?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="socials__link">
+								<a href="https://www.linkedin.com/company/ZerahFX" target="_blank" class="socials__link">
 									<svg class="icon" width="48" height="49" viewBox="0 0 48 49" xmlns="http://www.w3.org/2000/svg">
 										<path fill-rule="evenodd" clip-rule="evenodd" d="M0 24.7285C0 11.4737 10.7452 0.728516 24 0.728516C37.2548 0.728516 48 11.4737 48 24.7285C48 37.9833 37.2548 48.7285 24 48.7285C10.7452 48.7285 0 37.9833 0 24.7285ZM16.9605 20.6063H11.5216V36.9481H16.9605V20.6063ZM17.3188 15.5512C17.2835 13.9489 16.1377 12.7285 14.277 12.7285C12.4164 12.7285 11.2 13.9489 11.2 15.5512C11.2 17.1203 12.3805 18.3758 14.2064 18.3758H14.2412C16.1377 18.3758 17.3188 17.1203 17.3188 15.5512ZM36.5754 27.5782C36.5754 22.5588 33.8922 20.2226 30.3131 20.2226C27.4254 20.2226 26.1325 21.8087 25.4107 22.9214V20.6068H19.9711C20.0428 22.1402 19.9711 36.9485 19.9711 36.9485H25.4107V27.8219C25.4107 27.3335 25.446 26.8463 25.5898 26.4967C25.9829 25.5209 26.8779 24.5107 28.3805 24.5107C30.3494 24.5107 31.1365 26.0092 31.1365 28.2052V36.9481H36.5752L36.5754 27.5782Z"/>
 									</svg>
@@ -177,7 +272,7 @@
 <script src="/assets/f351dc04/metis-menu.js"></script>
 <script src="/assets/a9d552d7/js/theme.js"></script>
 <script>jQuery(function ($) {
-jQuery('#request-password-reset-form').yiiActiveForm([{"id":"passwordresetrequestform-email","name":"email","container":".field-passwordresetrequestform-email","input":"#passwordresetrequestform-email","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {value = yii.validation.trim($form, attribute, [], value);yii.validation.required(value, messages, {"message":"Email cannot be blank."});yii.validation.email(value, messages, {"pattern":/^[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$/,"fullPattern":/^[^@]*<[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?>$/,"allowName":false,"message":"Email is not a valid email address.","enableIDN":false,"skipOnEmpty":1});}}], []);
+jQuery('#login-form').yiiActiveForm([{"id":"loginform-username","name":"username","container":".field-loginform-username","input":"#loginform-username","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Email cannot be blank."});}},{"id":"loginform-password","name":"password","container":".field-loginform-password","input":"#loginform-password","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Password cannot be blank."});}},{"id":"loginform-rememberme","name":"rememberMe","container":".field-loginform-rememberme","input":"#loginform-rememberme","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.boolean(value, messages, {"trueValue":"1","falseValue":"0","message":"Stay signed in must be either \"1\" or \"0\".","skipOnEmpty":1});}}], []);
 toastr.options = {
             "positionClass": "toast-top-center",
             "timeOut": "7000",
