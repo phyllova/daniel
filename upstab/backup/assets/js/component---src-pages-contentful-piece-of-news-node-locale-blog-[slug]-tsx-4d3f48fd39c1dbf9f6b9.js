@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_exness_public_website=self.webpackChunk_exness_public_website||[]).push([[2608],{19774:function(e,s,i){i.r(s);var n=i(31133),t=i(97995),c=i(1332),u=i(71615),r=i(58893);s.default=e=>{var s=(0,c.$W)().isStrapi?u.OJ:u.ex;return(0,r.jsx)(n.e,{client:t.Z,children:(0,r.jsx)(s,Object.assign({},e))})}}}]);
