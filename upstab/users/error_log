@@ -1,0 +1,12 @@
+[26-Feb-2024 12:40:56 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'luarywhitmer_rippletrust'@'localhost' (using password: YES) in /home/upstvdxr/public_html/config/db.php on line 16
+[26-Feb-2024 12:45:27 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/upstvdxr/public_html/config/include/settings.php on line 22
+[26-Feb-2024 13:05:42 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/upstvdxr/public_html/config/include/settings.php on line 22
+[26-Feb-2024 13:08:16 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/upstvdxr/public_html/config/include/settings.php on line 22
+[26-Feb-2024 13:14:41 America/New_York] PHP Deprecated:  Non-static method sysfunc::countries() should not be called statically in /home/upstvdxr/public_html/users/update.php on line 90
+[26-Feb-2024 13:27:15 America/New_York] PHP Notice:  Undefined variable: email in /home/upstvdxr/public_html/users/log-out.php on line 9
+[26-Feb-2024 13:34:07 America/New_York] PHP Notice:  Undefined variable: email in /home/upstvdxr/public_html/users/log-out.php on line 9
+[26-Feb-2024 13:59:47 America/New_York] PHP Notice:  Undefined variable: email in /home/upstvdxr/public_html/users/log-out.php on line 9
+[26-Feb-2024 16:25:35 America/New_York] PHP Notice:  Undefined variable: email in /home/upstvdxr/public_html/users/log-out.php on line 9
+[26-Feb-2024 16:37:30 America/New_York] PHP Notice:  Undefined variable: email in /home/upstvdxr/public_html/users/log-out.php on line 9
+[26-Feb-2024 17:04:06 America/New_York] PHP Notice:  Undefined variable: email in /home/upstvdxr/public_html/users/log-out.php on line 9
+[26-Feb-2024 17:05:07 America/New_York] PHP Notice:  Undefined variable: email in /home/upstvdxr/public_html/users/log-out.php on line 9
