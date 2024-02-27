@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_exness_public_website=self.webpackChunk_exness_public_website||[]).push([[2446],{76740:function(e,t,n){n.r(t),n.d(t,{default:function(){return r}});var a=n(67242),s=n(58893),u=e=>{var t=e.data.container;return(0,s.jsx)(a.Z,{document:t})},r=e=>{var t=e.data;return(0,s.jsx)(u,{data:t})}}}]);

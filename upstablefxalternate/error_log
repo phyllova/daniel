@@ -1,0 +1,48 @@
+[11-Feb-2024 18:56:04 America/New_York] PHP Warning:  Undefined array key "reg_name" in /home/upstvdxr/public_html/email.php on line 70
+[11-Feb-2024 18:56:04 America/New_York] PHP Warning:  Undefined array key "reg_client_id" in /home/upstvdxr/public_html/email.php on line 75
+[11-Feb-2024 18:56:04 America/New_York] PHP Warning:  Undefined array key "reg_token" in /home/upstvdxr/public_html/email.php on line 81
+[11-Feb-2024 18:56:31 America/New_York] PHP Warning:  Undefined array key "reg_name" in /home/upstvdxr/public_html/email.php on line 70
+[11-Feb-2024 18:56:31 America/New_York] PHP Warning:  Undefined array key "reg_client_id" in /home/upstvdxr/public_html/email.php on line 75
+[11-Feb-2024 18:56:31 America/New_York] PHP Warning:  Undefined array key "reg_token" in /home/upstvdxr/public_html/email.php on line 81
+[11-Feb-2024 18:57:11 America/New_York] PHP Warning:  Undefined array key "reg_name" in /home/upstvdxr/public_html/email.php on line 70
+[11-Feb-2024 18:57:11 America/New_York] PHP Warning:  Undefined array key "reg_client_id" in /home/upstvdxr/public_html/email.php on line 75
+[11-Feb-2024 18:57:11 America/New_York] PHP Warning:  Undefined array key "reg_token" in /home/upstvdxr/public_html/email.php on line 81
+[12-Feb-2024 11:37:44 America/New_York] PHP Warning:  Undefined array key "name" in /home/upstvdxr/public_html/reset_email.php on line 70
+[12-Feb-2024 11:37:44 America/New_York] PHP Warning:  Undefined variable $token in /home/upstvdxr/public_html/reset_email.php on line 82
+[17-Feb-2024 06:39:21 America/New_York] PHP Warning:  Undefined array key "reg_name" in /home/upstvdxr/public_html/successful_reg.php on line 50
+[17-Feb-2024 06:39:21 America/New_York] PHP Warning:  Undefined array key "reg_email" in /home/upstvdxr/public_html/successful_reg.php on line 53
+[17-Feb-2024 06:40:54 America/New_York] PHP Warning:  Undefined array key "reg_name" in /home/upstvdxr/public_html/successful_reg.php on line 50
+[17-Feb-2024 06:40:54 America/New_York] PHP Warning:  Undefined array key "reg_email" in /home/upstvdxr/public_html/successful_reg.php on line 53
+[17-Feb-2024 06:40:56 America/New_York] PHP Warning:  Undefined array key "reg_name" in /home/upstvdxr/public_html/successful_reg.php on line 50
+[17-Feb-2024 06:40:56 America/New_York] PHP Warning:  Undefined array key "reg_email" in /home/upstvdxr/public_html/successful_reg.php on line 53
+[17-Feb-2024 06:41:17 America/New_York] PHP Warning:  Undefined array key "reg_name" in /home/upstvdxr/public_html/successful_reg.php on line 50
+[17-Feb-2024 06:41:17 America/New_York] PHP Warning:  Undefined array key "reg_email" in /home/upstvdxr/public_html/successful_reg.php on line 53
+[17-Feb-2024 06:41:22 America/New_York] PHP Warning:  Undefined array key "reg_name" in /home/upstvdxr/public_html/successful_reg.php on line 50
+[17-Feb-2024 06:41:22 America/New_York] PHP Warning:  Undefined array key "reg_email" in /home/upstvdxr/public_html/successful_reg.php on line 53
+[17-Feb-2024 06:47:49 America/New_York] PHP Warning:  Undefined array key "reg_name" in /home/upstvdxr/public_html/email.php on line 70
+[17-Feb-2024 06:47:49 America/New_York] PHP Warning:  Undefined array key "reg_client_id" in /home/upstvdxr/public_html/email.php on line 75
+[17-Feb-2024 06:47:49 America/New_York] PHP Warning:  Undefined array key "reg_token" in /home/upstvdxr/public_html/email.php on line 81
+[17-Feb-2024 06:48:09 America/New_York] PHP Warning:  Undefined array key "reg_name" in /home/upstvdxr/public_html/email.php on line 70
+[17-Feb-2024 06:48:09 America/New_York] PHP Warning:  Undefined array key "reg_client_id" in /home/upstvdxr/public_html/email.php on line 75
+[17-Feb-2024 06:48:09 America/New_York] PHP Warning:  Undefined array key "reg_token" in /home/upstvdxr/public_html/email.php on line 81
+[17-Feb-2024 06:48:18 America/New_York] PHP Warning:  Undefined array key "reg_name" in /home/upstvdxr/public_html/email.php on line 70
+[17-Feb-2024 06:48:18 America/New_York] PHP Warning:  Undefined array key "reg_client_id" in /home/upstvdxr/public_html/email.php on line 75
+[17-Feb-2024 06:48:18 America/New_York] PHP Warning:  Undefined array key "reg_token" in /home/upstvdxr/public_html/email.php on line 81
+[17-Feb-2024 07:03:19 America/New_York] PHP Warning:  Undefined array key "reg_name" in /home/upstvdxr/public_html/email.php on line 70
+[17-Feb-2024 07:03:19 America/New_York] PHP Warning:  Undefined array key "reg_client_id" in /home/upstvdxr/public_html/email.php on line 75
+[17-Feb-2024 07:03:19 America/New_York] PHP Warning:  Undefined array key "reg_token" in /home/upstvdxr/public_html/email.php on line 81
+[17-Feb-2024 09:57:36 America/New_York] PHP Warning:  Undefined array key "name" in /home/upstvdxr/public_html/success_recovery.php on line 8
+[17-Feb-2024 09:57:36 America/New_York] PHP Warning:  Undefined array key "name" in /home/upstvdxr/public_html/success_recovery.php on line 50
+[17-Feb-2024 09:57:36 America/New_York] PHP Warning:  Undefined array key "email" in /home/upstvdxr/public_html/success_recovery.php on line 53
+[17-Feb-2024 10:28:03 America/New_York] PHP Warning:  Undefined array key "name" in /home/upstvdxr/public_html/success_recovery.php on line 8
+[17-Feb-2024 10:28:03 America/New_York] PHP Warning:  Undefined array key "name" in /home/upstvdxr/public_html/success_recovery.php on line 50
+[17-Feb-2024 10:28:03 America/New_York] PHP Warning:  Undefined array key "email" in /home/upstvdxr/public_html/success_recovery.php on line 53
+[17-Feb-2024 10:28:15 America/New_York] PHP Warning:  Undefined array key "name" in /home/upstvdxr/public_html/success_recovery.php on line 8
+[17-Feb-2024 10:28:15 America/New_York] PHP Warning:  Undefined array key "name" in /home/upstvdxr/public_html/success_recovery.php on line 50
+[17-Feb-2024 10:28:15 America/New_York] PHP Warning:  Undefined array key "email" in /home/upstvdxr/public_html/success_recovery.php on line 53
+[17-Feb-2024 13:13:31 America/New_York] PHP Warning:  Undefined array key "name" in /home/upstvdxr/public_html/success_recovery.php on line 8
+[17-Feb-2024 13:13:31 America/New_York] PHP Warning:  Undefined array key "name" in /home/upstvdxr/public_html/success_recovery.php on line 50
+[17-Feb-2024 13:13:31 America/New_York] PHP Warning:  Undefined array key "email" in /home/upstvdxr/public_html/success_recovery.php on line 53
+[26-Feb-2024 11:39:41 America/New_York] PHP Notice:  Undefined index: name in /home/upstvdxr/public_html/success_recovery.php on line 8
+[26-Feb-2024 11:39:41 America/New_York] PHP Notice:  Undefined index: name in /home/upstvdxr/public_html/success_recovery.php on line 50
+[26-Feb-2024 11:39:41 America/New_York] PHP Notice:  Undefined index: email in /home/upstvdxr/public_html/success_recovery.php on line 53
